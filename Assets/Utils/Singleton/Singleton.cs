@@ -26,9 +26,12 @@ namespace Utils.Singleton {
         /// Make sure to call base.Awake() in override if you need awake.
         /// </summary>
         protected virtual void Awake() {
+            transform.parent = null;
             InitializeSingleton();
         }
 
-        protected virtual void InitializeSingleton() => instance = this as T;
+        protected virtual void InitializeSingleton() {
+            instance = this as T;
+        }
     }
 }

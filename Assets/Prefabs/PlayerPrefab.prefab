@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: -4913135579417499507}
   - component: {fileID: 4492384674172777789}
   - component: {fileID: -4757234514076123474}
+  - component: {fileID: 4470638809927188861}
   m_Layer: 0
   m_Name: PlayerPrefab
   m_TagString: Untagged
@@ -28,13 +29,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3317056431651296453}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6378370115036818799
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -78,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 483dc60e9773fad49a4ce2874dbbcc84, type: 3}
+  m_Sprite: {fileID: 3844291984408005463, guid: d1eabce3e7eb0704391642027277a69b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -149,10 +150,6 @@ MonoBehaviour:
     m_ActionId: b8c53aa8-2b06-44e2-8889-1aa9dd5d52bc
     m_ActionName: 'Player/Sprint[/Keyboard/shift]'
   - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 7a510a0f-e3e9-413d-bcaf-3eee29bb6e7c
-    m_ActionName: 'Player/Interact[/Keyboard/e]'
-  - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: -4913135579417499507}
         m_TargetAssemblyTypeName: TestMove, Assembly-CSharp
@@ -172,6 +169,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: dee8eee3-022d-4eae-82d4-3564654b3564
     m_ActionName: 'Player/Pause[/Keyboard/escape]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 8d1be933-3991-4694-9dec-02eedf83ebc2
+    m_ActionName: 'PauseMenu/UnPause[/Keyboard/escape,/XInputControllerWindows/start]'
   m_NeverAutoSwitchControlSchemes: 1
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -203,3 +204,25 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 2.25, z: 0}
+--- !u!95 &4470638809927188861
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3317056431651296453}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7290411aa5163084da1af3582d40d344, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

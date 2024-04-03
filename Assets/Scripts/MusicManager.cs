@@ -1,24 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Utils.Singleton;
 
-public class MusicManager : MonoBehaviour {
+[RequireComponent(typeof(AudioSource))]
+public class MusicManager : PersistentSingleton<MusicManager> {
     [SerializeField] private List<AudioClip> audioClips;
     
     private AudioSource _audioSource;
-    private int _currentClipIndex;
     
-    private void Awake() {
-        if (GameObject.FindGameObjectsWithTag("MusicManager").Length > 1) {
-            Destroy(gameObject);
-        }
+    private int _currentClipIndex;
+
+    protected override void Awake() {
+        base.Awake();
+        _audioSource = gameObject.AddComponent<AudioSource>();
     }
     
     private void Start() {
-        _audioSource = gameObject.AddComponent<AudioSource>();
-        DontDestroyOnLoad(gameObject);
-        
-        PlayNextClip();
+        if (audioClips.Count > 0) {
+            PlayNextClip();
+        }
     }
     
     private void PlayNextClip() {
@@ -30,6 +31,8 @@ public class MusicManager : MonoBehaviour {
         }
         else {
             Debug.Log("All audio clips played.");
+            _currentClipIndex = 0;
+            PlayNextClip();
         }
     }
     

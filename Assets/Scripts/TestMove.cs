@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -11,23 +10,34 @@ public class TestMove : MonoBehaviour {
     
     private SpriteRenderer _spriteRenderer;
     private CharacterController _characterController;
+    private Animator _animator;
     
     private void Awake() {
         _spriteRenderer = GetComponent<SpriteRenderer>();
         _characterController = GetComponent<CharacterController>();
+        _animator = GetComponent<Animator>();
     }
     
     public void OnMove(InputAction.CallbackContext ctx) => _moveVector = ctx.ReadValue<Vector2>();
     public void OnJump(InputAction.CallbackContext ctx) => Jump();
+    public void OnPause(InputAction.CallbackContext ctx) {}
+    public void OnUnpause(InputAction.CallbackContext ctx) {}
     
     private void FixedUpdate() {
         var move = new Vector3(_moveVector.x, 0, _moveVector.y) * speed;
         move += _gravityVelocity * Time.deltaTime;
         
         _characterController.Move(move);
+
+        if (_moveVector.magnitude != 0) {
+            _animator.Play("Walk");
+        }
+        else {
+            _animator.Play("Idle");
+        }
         
-        if (_moveVector.x < 0) _spriteRenderer.flipX = false;
-        else if (_moveVector.x > 0) _spriteRenderer.flipX = true;
+        if (_moveVector.x < 0) _spriteRenderer.flipX = true;
+        else if (_moveVector.x > 0) _spriteRenderer.flipX = false;
     }
     
     private void Update() {
