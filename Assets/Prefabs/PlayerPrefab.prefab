@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -4757234514076123474}
   - component: {fileID: 4470638809927188861}
   - component: {fileID: -1172041960882562891}
+  - component: {fileID: -3339772536386654303}
   m_Layer: 0
   m_Name: PlayerPrefab
   m_TagString: Untagged
@@ -103,7 +104,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5dc7c2c3dc2603499ff32fc2e7fdb63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.15
+  speed: 0.1
   jumpSpeed: 1
 --- !u!114 &4492384674172777789
 MonoBehaviour:
@@ -174,6 +175,38 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 8d1be933-3991-4694-9dec-02eedf83ebc2
     m_ActionName: 'PauseMenu/UnPause[/Keyboard/escape,/XInputControllerWindows/start]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -4913135579417499507}
+        m_TargetAssemblyTypeName: TestMove, Assembly-CSharp
+        m_MethodName: OnLightAttack
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 453235d4-a781-467d-8c46-a11b0037f1e2
+    m_ActionName: 'Player/LightAttack[/Mouse/leftButton]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -4913135579417499507}
+        m_TargetAssemblyTypeName: TestMove, Assembly-CSharp
+        m_MethodName: OnHeavyAttack
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: c8f80272-ae1f-4a5d-9379-5be3bb481111
+    m_ActionName: 'Player/HeavyAttack[/Mouse/rightButton]'
   m_NeverAutoSwitchControlSchemes: 1
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -247,3 +280,16 @@ MonoBehaviour:
     minValue: 0
     maxValue: 0
     value: 0
+--- !u!114 &-3339772536386654303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3317056431651296453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5c7be274d6ab2c4191d0a1d0c5151c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inputBuffer: 0.25

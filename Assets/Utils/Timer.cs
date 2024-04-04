@@ -23,9 +23,9 @@ namespace Utils {
             }
         }
         
-        public Timer(float time) {
+        public Timer(float time, bool started = true) {
             _totalTime = time;
-            CoroutineRunner.instance.StartCoroutine(StartTimer(time));
+            if (started) StartTimer(time);
         }
         
         public void StopTimer() {
@@ -33,7 +33,11 @@ namespace Utils {
             OnStop?.Invoke();
         }
         
-        private IEnumerator StartTimer(float seconds) {
+        public void StartTimer(float time) {
+            CoroutineRunner.instance.StartCoroutine(TimerStart(time));
+        }
+        
+        private IEnumerator TimerStart(float seconds) {
             var progressTime = 0f;
             
             while (progressTime < seconds) {

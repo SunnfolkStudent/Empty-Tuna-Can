@@ -40,5 +40,9 @@ namespace Utils {
             var random = new System.Random();
             return list[random.Next(0, list.Count)];
         }
+
+        public static AnimationClip GetCurrentAnimationClip(this Animator animator) {
+            return animator.GetCurrentAnimatorClipInfo(0)[0].clip;
+        }
     }
 }

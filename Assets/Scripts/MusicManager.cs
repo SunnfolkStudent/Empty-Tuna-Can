@@ -10,7 +10,7 @@ public class MusicManager : PersistentSingleton<MusicManager> {
     private AudioSource _audioSource;
     
     private int _currentClipIndex;
-
+    
     protected override void Awake() {
         base.Awake();
         _audioSource = gameObject.AddComponent<AudioSource>();
