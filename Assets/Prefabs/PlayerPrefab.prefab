@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4492384674172777789}
   - component: {fileID: -4757234514076123474}
   - component: {fileID: 4470638809927188861}
+  - component: {fileID: -1172041960882562891}
   m_Layer: 0
   m_Name: PlayerPrefab
   m_TagString: Untagged
@@ -79,12 +80,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 3844291984408005463, guid: d1eabce3e7eb0704391642027277a69b, type: 3}
+  m_Sprite: {fileID: -1466782717, guid: 25d57b98b24425d42abb95cfa2a03b2d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.984375, y: 0.984375}
+  m_Size: {x: 4, y: 3.5416667}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -226,3 +227,23 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-1172041960882562891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3317056431651296453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ca42fb41161a7243836a94319132204, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health:
+    minValue: 0
+    maxValue: 10
+    value: 10
+  armor:
+    minValue: 0
+    maxValue: 0
+    value: 0
