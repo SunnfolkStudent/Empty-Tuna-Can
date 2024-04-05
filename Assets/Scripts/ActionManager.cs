@@ -7,6 +7,7 @@ using Utils;
 
 public class ActionManager : MonoBehaviour {
     [SerializeField] private float inputBuffer = 0.25f;
+    [SerializeField] private ComboAction nextComboAction;
     
     private List<InputAction.CallbackContext> _inputActions = new ();
     private Timer _timer;
@@ -15,9 +16,7 @@ public class ActionManager : MonoBehaviour {
     
     private ComboAction[] _allComboActions;
     private List<ComboAction> _availableCombos = new();
-
-    [SerializeField] private ComboAction nextComboAction;
-
+    
     private Animator _animator;
     private PlayerScript _playerScript;
     
@@ -29,14 +28,14 @@ public class ActionManager : MonoBehaviour {
         _animator = GetComponent<Animator>();
         _playerScript = GetComponent<PlayerScript>();
     }
-
+    
     private void Start() {
         ResetAvailableComboActions();
     }
-
+    
     public void ReceiveAction(InputAction.CallbackContext inputAction) {
         var combosToRemove = _availableCombos.Where(combo => combo.keyCombo[_currentIndex] != inputAction.action.name).ToArray();
-
+        
         foreach (var comboAction in combosToRemove) {
             RemoveComboAvailability(comboAction);
         }
@@ -57,22 +56,22 @@ public class ActionManager : MonoBehaviour {
             return;
         }
     }
-
+    
     private void ClearInputActions() {
         ResetAvailableComboActions();
         _inputActions.Clear();
         _timer.StopTimer();
         _currentIndex = 0;
     }
-
+    
     private void RemoveComboAvailability(ComboAction combo) {
         _availableCombos.Remove(combo);
     }
-
+    
     private void ResetAvailableComboActions() {
         _availableCombos = _allComboActions.ToList();
     }
-
+    
     private void ExecuteComboAction(ComboAction combo) {
         if (nextComboAction == null || nextComboAction.keyCombo.Length < combo.keyCombo.Length) {
             nextComboAction = combo;
@@ -92,7 +91,7 @@ public class ActionManager : MonoBehaviour {
             PlayNextComboAction();
         }
     }
-
+    
     private void PlayNextComboAction() {
         _animator.Play(nextComboAction.animation.name);
         _playerScript.movementEnabled = nextComboAction.canMoveDuring;
@@ -104,11 +103,15 @@ public class ActionManager : MonoBehaviour {
         
         if (nextComboAction != null) {
             PlayNextComboAction();
+            // TODO: Check if chain-attack
         }
         else {
             _animator.Play("Idle");
             _playerScript.movementEnabled = true;
         }
+    }
+    
+    public void ReceiveDirection(InputAction.CallbackContext inputAction) {
         
     }
 }

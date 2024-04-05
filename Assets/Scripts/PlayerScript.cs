@@ -108,7 +108,7 @@ public class PlayerScript : Damageable {
         _gravityVelocity += Physics.gravity * Time.deltaTime;
         if (_characterController.isGrounded) {
             _gravityVelocity = Physics.gravity.normalized * 2;
-        }   
+        }
         
         if (!movementEnabled) return;
         _animator.Play(_moveVector.magnitude != 0 ? "Walk" : "Idle");
