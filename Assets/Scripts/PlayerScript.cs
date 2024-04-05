@@ -1,10 +1,18 @@
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Utils;
+using Utils.Entity;
 
-public class TestMove : MonoBehaviour {
+public class PlayerScript : Damageable {
     [SerializeField] private float speed = 0.5f;
     [SerializeField] private float jumpSpeed = 1.0f;
+
+    [SerializeField] private Transform projectileSpawnPos;
+
+    public List<Item> item;
+    public Item selectedItem;
+    public int selectedItemIndex;
     
     private Vector2 _moveVector;
     private Vector3 _gravityVelocity;
@@ -22,7 +30,13 @@ public class TestMove : MonoBehaviour {
         _animator = GetComponent<Animator>();
         _actionManager = GetComponent<ActionManager>();
     }
-    
+
+    private void Start() {
+        item.Add(ScrubUtils.GetAllScrubsInResourceFolder<Item>("Items").GetByName("TunaCan"));
+        selectedItem = item[0];
+    }
+
+    #region OnInputAction
     public void OnMove(InputAction.CallbackContext ctx) {
         _moveVector = ctx.ReadValue<Vector2>();
     }
@@ -44,9 +58,33 @@ public class TestMove : MonoBehaviour {
     public void OnHeavyAttack(InputAction.CallbackContext ctx) {
         if (ctx.performed) _actionManager.ReceiveAction(ctx);
     }
+
+    public void OnUseItem(InputAction.CallbackContext ctx) {
+        if (ctx.performed && selectedItem != null) selectedItem.UseItem(this);
+    }
     
-    public void OnPause(InputAction.CallbackContext ctx) {}
-    public void OnUnpause(InputAction.CallbackContext ctx) {}
+    public void OnNextItem(InputAction.CallbackContext ctx) {
+        if (!ctx.performed) return;
+        if (selectedItemIndex == item.Count - 1) return;   
+        selectedItemIndex++;
+        
+        selectedItem = item[selectedItemIndex];
+    }
+
+    public void OnPreviousItem(InputAction.CallbackContext ctx) {
+        if (!ctx.performed) return;
+        if (selectedItemIndex == 0) return;
+        selectedItemIndex--;
+        
+        selectedItem = item[selectedItemIndex];
+    }
+
+    public void OnPause(InputAction.CallbackContext ctx) {
+    }
+
+    public void OnUnpause(InputAction.CallbackContext ctx) {
+    }
+    #endregion
     
     private void FixedUpdate() {
         if (!movementEnabled) return;
@@ -55,9 +93,6 @@ public class TestMove : MonoBehaviour {
         move += _gravityVelocity * Time.deltaTime;
         
         _characterController.Move(move);
-        
-        if (_moveVector.x < 0) _spriteRenderer.flipX = true;
-        else if (_moveVector.x > 0) _spriteRenderer.flipX = false;
     }
     
     private void Update() {
@@ -72,5 +107,17 @@ public class TestMove : MonoBehaviour {
         
         if (!movementEnabled) return;
         _animator.Play(_moveVector.magnitude != 0 ? "Walk" : "Idle");
+        
+        if (_moveVector.x < 0) _spriteRenderer.flipX = true;
+        else if (_moveVector.x > 0) _spriteRenderer.flipX = false;
+    }
+    
+    public void ThrowItem(Item item, float velocity) {
+        var facingDirection = _spriteRenderer.flipX ? new Vector2(-1,0) : new Vector2(1,0);
+        var o = Instantiate(item.itemPrefab, projectileSpawnPos.position, Quaternion.identity);
+        o.transform.Rotate(0, 0, Vector2.Angle(transform.up, facingDirection));
+            
+        var rb = o.GetComponent<Rigidbody>();
+        rb.velocity = facingDirection * velocity;
     }
 }

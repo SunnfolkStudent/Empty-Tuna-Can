@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 4492384674172777789}
   - component: {fileID: -4757234514076123474}
   - component: {fileID: 4470638809927188861}
-  - component: {fileID: -1172041960882562891}
   - component: {fileID: -3339772536386654303}
   m_Layer: 0
   m_Name: PlayerPrefab
@@ -35,7 +34,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
-  m_Children: []
+  m_Children:
+  - {fileID: 8351919836329771257}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &6378370115036818799
@@ -104,8 +104,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5dc7c2c3dc2603499ff32fc2e7fdb63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  health:
+    minValue: 0
+    maxValue: 20
+    value: 10
+  armor:
+    minValue: 0
+    maxValue: 0
+    value: 0
   speed: 0.1
   jumpSpeed: 1
+  projectileSpawnPos: {fileID: 8351919836329771257}
+  item: []
+  selectedItem: {fileID: 0}
+  selectedItemIndex: 0
+  movementEnabled: 1
 --- !u!114 &4492384674172777789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,11 +181,35 @@ MonoBehaviour:
     m_ActionId: 283a3761-2735-402e-b8f3-3224724223b7
     m_ActionName: 'Player/Jump[/Keyboard/space]'
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -4913135579417499507}
+        m_TargetAssemblyTypeName: PlayerScript, Assembly-CSharp
+        m_MethodName: OnPause
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: dee8eee3-022d-4eae-82d4-3564654b3564
     m_ActionName: 'Player/Pause[/Keyboard/escape]'
   - m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -4913135579417499507}
+        m_TargetAssemblyTypeName: PlayerScript, Assembly-CSharp
+        m_MethodName: OnUnpause
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_ActionId: 8d1be933-3991-4694-9dec-02eedf83ebc2
     m_ActionName: 'PauseMenu/UnPause[/Keyboard/escape,/XInputControllerWindows/start]'
   - m_PersistentCalls:
@@ -207,6 +244,54 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: c8f80272-ae1f-4a5d-9379-5be3bb481111
     m_ActionName: 'Player/HeavyAttack[/Mouse/rightButton]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -4913135579417499507}
+        m_TargetAssemblyTypeName: PlayerScript, Assembly-CSharp
+        m_MethodName: OnUseItem
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 8635e003-b4a6-47a9-a89b-38100574930a
+    m_ActionName: 'Player/UseItem[/Keyboard/r]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -4913135579417499507}
+        m_TargetAssemblyTypeName: PlayerScript, Assembly-CSharp
+        m_MethodName: OnNextItem
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: c6b92034-f28a-4b14-aeba-ece048a0cb24
+    m_ActionName: 'Player/NextItem[/Keyboard/e]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: -4913135579417499507}
+        m_TargetAssemblyTypeName: PlayerScript, Assembly-CSharp
+        m_MethodName: OnPreviousItem
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 16a4989b-c6cf-4117-b61e-8a2a12b29254
+    m_ActionName: 'Player/PreviousItem[/Keyboard/q]'
   m_NeverAutoSwitchControlSchemes: 1
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -260,26 +345,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &-1172041960882562891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3317056431651296453}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ca42fb41161a7243836a94319132204, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health:
-    minValue: 0
-    maxValue: 10
-    value: 10
-  armor:
-    minValue: 0
-    maxValue: 0
-    value: 0
 --- !u!114 &-3339772536386654303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -293,3 +358,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputBuffer: 0.25
+--- !u!1 &8510347440824244620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8351919836329771257}
+  m_Layer: 0
+  m_Name: ProjectileSpawnPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8351919836329771257
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8510347440824244620}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.62, y: 2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3452452498152934728}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

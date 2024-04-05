@@ -13,7 +13,7 @@ namespace Utils.CustomAttributes {
             EditorGUI.PropertyField(position, property, label);
             
             if (!IsValueNullOrEmpty(property)) return;
-            var width = position.width / 3;
+            var width = position.width / 2.5f;
             var rect = new Rect(position.x, position.y + EditorGUIUtility.singleLineHeight, width, EditorGUIUtility.singleLineHeight);
             
             GUILayout.Space(EditorGUIUtility.singleLineHeight);

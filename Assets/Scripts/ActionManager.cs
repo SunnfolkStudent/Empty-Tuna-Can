@@ -16,7 +16,7 @@ public class ActionManager : MonoBehaviour {
     private List<ComboAction> _availableCombos = new();
 
     private Animator _animator;
-    private TestMove _testMove;
+    private PlayerScript _playerScript;
     
     private void Awake() {
         _timer = new Timer(inputBuffer, false);
@@ -24,7 +24,7 @@ public class ActionManager : MonoBehaviour {
         _allComboActions = ScrubUtils.GetAllScrubsInResourceFolder<ComboAction>("ComboActions");
 
         _animator = GetComponent<Animator>();
-        _testMove = GetComponent<TestMove>();
+        _playerScript = GetComponent<PlayerScript>();
     }
 
     private void Start() {
@@ -78,7 +78,7 @@ public class ActionManager : MonoBehaviour {
 
     private void ExecuteComboAction(ComboAction combo) {
         _animator.Play(combo.animation.name);
-        _testMove.movementEnabled = false;
+        _playerScript.movementEnabled = false;
         Debug.Log("Combo Completed: " + combo.name + _inputActions.Aggregate("", (current, inputAction) => current +  " | " + inputAction.action.name));
         if (_currentIndex > 1) ClearInputActions();
         else RemoveComboAvailability(combo);
