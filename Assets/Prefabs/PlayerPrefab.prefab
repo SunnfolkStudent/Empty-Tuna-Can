@@ -119,6 +119,15 @@ MonoBehaviour:
   selectedItem: {fileID: 0}
   selectedItemIndex: 0
   movementEnabled: 1
+  testRebindAction:
+    m_Name: Test Rebind
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 18584c49-d0f9-4933-8295-6a0aba2da027
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
 --- !u!114 &4492384674172777789
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -357,7 +366,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5c7be274d6ab2c4191d0a1d0c5151c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputBuffer: 0.25
+  inputBuffer: 0.3
+  nextComboAction: {fileID: 0}
 --- !u!1 &8510347440824244620
 GameObject:
   m_ObjectHideFlags: 0

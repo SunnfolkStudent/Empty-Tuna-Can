@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Items;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Utils;
@@ -7,9 +8,9 @@ using Utils.Entity;
 public class PlayerScript : Damageable {
     [SerializeField] private float speed = 0.5f;
     [SerializeField] private float jumpSpeed = 1.0f;
-
+    
     [SerializeField] private Transform projectileSpawnPos;
-
+    
     public List<Item> item;
     public Item selectedItem;
     public int selectedItemIndex;
@@ -21,7 +22,7 @@ public class PlayerScript : Damageable {
     private CharacterController _characterController;
     private Animator _animator;
     private ActionManager _actionManager;
-
+    
     public bool movementEnabled = true;
     
     private void Awake() {
@@ -30,13 +31,14 @@ public class PlayerScript : Damageable {
         _animator = GetComponent<Animator>();
         _actionManager = GetComponent<ActionManager>();
     }
-
+    
     private void Start() {
         item.Add(ScrubUtils.GetAllScrubsInResourceFolder<Item>("Items").GetByName("TunaCan"));
         selectedItem = item[0];
     }
-
-    #region OnInputAction
+    
+    #region ---OnInputAction---
+    #region ***---Movement---
     public void OnMove(InputAction.CallbackContext ctx) {
         _moveVector = ctx.ReadValue<Vector2>();
     }
@@ -50,7 +52,9 @@ public class PlayerScript : Damageable {
             _characterController.Move(new Vector3(0, jumpSpeed, 0));
         }
     }
+    #endregion
 
+    #region ***---Attack---
     public void OnLightAttack(InputAction.CallbackContext ctx) {
         if (ctx.performed) _actionManager.ReceiveAction(ctx);
     }
@@ -58,7 +62,9 @@ public class PlayerScript : Damageable {
     public void OnHeavyAttack(InputAction.CallbackContext ctx) {
         if (ctx.performed) _actionManager.ReceiveAction(ctx);
     }
+    #endregion
 
+    #region ***---Item---
     public void OnUseItem(InputAction.CallbackContext ctx) {
         if (ctx.performed && selectedItem != null) selectedItem.UseItem(this);
     }
@@ -78,12 +84,15 @@ public class PlayerScript : Damageable {
         
         selectedItem = item[selectedItemIndex];
     }
+    #endregion
 
+    #region ***---Menu---
     public void OnPause(InputAction.CallbackContext ctx) {
     }
 
     public void OnUnpause(InputAction.CallbackContext ctx) {
     }
+    #endregion
     #endregion
     
     private void FixedUpdate() {
@@ -99,11 +108,7 @@ public class PlayerScript : Damageable {
         _gravityVelocity += Physics.gravity * Time.deltaTime;
         if (_characterController.isGrounded) {
             _gravityVelocity = Physics.gravity.normalized * 2;
-        }
-        
-        if (_animator.GetCurrentAnimationClip().name is "Idle") {
-            movementEnabled = true;
-        }
+        }   
         
         if (!movementEnabled) return;
         _animator.Play(_moveVector.magnitude != 0 ? "Walk" : "Idle");
@@ -112,12 +117,8 @@ public class PlayerScript : Damageable {
         else if (_moveVector.x > 0) _spriteRenderer.flipX = false;
     }
     
-    public void ThrowItem(Item item, float velocity) {
+    public void ThrowItem(ThrowableItem throwableItem) {
         var facingDirection = _spriteRenderer.flipX ? new Vector2(-1,0) : new Vector2(1,0);
-        var o = Instantiate(item.itemPrefab, projectileSpawnPos.position, Quaternion.identity);
-        o.transform.Rotate(0, 0, Vector2.Angle(transform.up, facingDirection));
-            
-        var rb = o.GetComponent<Rigidbody>();
-        rb.velocity = facingDirection * velocity;
+        ThrowableObject.CreateGameObject(throwableItem.itemPrefab, projectileSpawnPos.position, throwableItem.velocity, facingDirection);
     }
 }

@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -14,6 +15,8 @@ public class ActionManager : MonoBehaviour {
     
     private ComboAction[] _allComboActions;
     private List<ComboAction> _availableCombos = new();
+
+    [SerializeField] private ComboAction nextComboAction;
 
     private Animator _animator;
     private PlayerScript _playerScript;
@@ -66,21 +69,46 @@ public class ActionManager : MonoBehaviour {
         _availableCombos.Remove(combo);
     }
 
-    private void CheckIfComboComplete(ComboAction combo) {
-        if (combo.keyCombo.Length <= _currentIndex) {
-            ExecuteComboAction(combo);
-        }
-    }
-
     private void ResetAvailableComboActions() {
         _availableCombos = _allComboActions.ToList();
     }
 
     private void ExecuteComboAction(ComboAction combo) {
-        _animator.Play(combo.animation.name);
-        _playerScript.movementEnabled = false;
+        if (nextComboAction == null || nextComboAction.keyCombo.Length < combo.keyCombo.Length) {
+            nextComboAction = combo;
+            StartCoroutine(WaitTilCanAttack());
+        }
+        
         Debug.Log("Combo Completed: " + combo.name + _inputActions.Aggregate("", (current, inputAction) => current +  " | " + inputAction.action.name));
-        if (_currentIndex > 1) ClearInputActions();
-        else RemoveComboAvailability(combo);
+        RemoveComboAvailability(combo);
+    }
+    
+    private IEnumerator WaitTilCanAttack() {
+        while (_animator.GetCurrentAnimationClip().name is not ("Idle" or "Walk")) {
+            yield return null;
+        }
+        
+        if (nextComboAction != null) {
+            PlayNextComboAction();
+        }
+    }
+
+    private void PlayNextComboAction() {
+        _animator.Play(nextComboAction.animation.name);
+        _playerScript.movementEnabled = nextComboAction.canMoveDuring;
+        nextComboAction = null;
+    }
+    
+    private void AttackOver(string animationName) {
+        Debug.Log("Attack is over");
+        
+        if (nextComboAction != null) {
+            PlayNextComboAction();
+        }
+        else {
+            _animator.Play("Idle");
+            _playerScript.movementEnabled = true;
+        }
+        
     }
 }
