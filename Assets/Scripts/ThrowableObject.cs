@@ -1,13 +1,17 @@
-using Unity.Mathematics;
 using UnityEngine;
+using Utils.Entity;
 
-public static class ThrowableObject {
-    public static GameObject CreateGameObject(GameObject gameObject, Vector3 position, float velocity, Vector2 facingDirection) {
-        var o = Object.Instantiate(gameObject, position, quaternion.identity);
+public class ThrowableObject : MonoBehaviour {
+    public GameObject owner;
+    public float damage;
+    
+    private void OnTriggerStay(Collider other) {
+        if (other.gameObject == owner) return;
         
-        var rb = o.GetComponent<Rigidbody>();
-        rb.velocity = facingDirection * velocity;
+        if (other.TryGetComponent(out Damageable damageable)) {
+            damageable.HandleTakeDamage(damage);
+        }
         
-        return o;
+        Destroy(gameObject);
     }
 }

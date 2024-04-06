@@ -4,7 +4,7 @@ namespace Utils {
     public static class VectorExtensionMethods {
         #region ---Vector3---
         /// <summary>
-        /// Returns the same vector plus given x, y and/or z offset
+        /// Returns the same vector plus the given x, y and/or z offset
         /// </summary>
         /// <param name="x">Add offset in the X-axis</param>
         /// <param name="y">Add offset in the Y-axis</param>
@@ -32,7 +32,7 @@ namespace Utils {
         
         #region ---Vector2---
         /// <summary>
-        /// Returns the same vector plus given x and/or y offset
+        /// Returns the same vector plus the given x and/or y offset
         /// </summary>
         /// <param name="x">Add offset in the X-axis</param>
         /// <param name="y">Add offset in the Y-axis</param>

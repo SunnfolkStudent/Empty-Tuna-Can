@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc81723ebe4d82c49ac822bb17511d15, type: 3}
   m_Name: TunaCan
   m_EditorClassIdentifier: Assembly-CSharp::HealingItem
-  itemPrefab: {fileID: -2253911629886400664, guid: 9925861354dab704bb2858ec3c71d35e, type: 3}
+  itemSprite: {fileID: -3448690325822707676, guid: 9925861354dab704bb2858ec3c71d35e, type: 3}
   getItemsOnUse:
   - {fileID: 11400000, guid: a250b1afc26518c4ba109da846c4bc3f, type: 2}
   healingAmount: 10

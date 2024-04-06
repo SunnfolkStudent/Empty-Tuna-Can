@@ -1,5 +1,5 @@
 using System;
-using Unity.Mathematics;
+using System.Collections;
 using UnityEngine;
 
 namespace Utils.Entity {
@@ -7,22 +7,36 @@ namespace Utils.Entity {
         public event Action OnDying;
         
         public ClampedFloat health = new(minValue: 0, maxValue: 0);
-        public ClampedFloat armor = new (minValue: 0, maxValue: 0);
         
-        public void SetInitialValues(float healthValue, float armorValue = 0) {
+        [SerializeField] private float invincibilityFrames = 0.5f;
+        
+        private bool _canTakeDamage = true;
+        
+        public void SetInitialValues(float healthValue) {
             health.maxValue = healthValue;
             health.Value = healthValue;
-            
-            armor.maxValue = armorValue;
-            armor.Value = armorValue;
         }
         
-        public void HandleTakeDamage(float damage, float piercingValue) {
-            var armorDamageReduction = math.max(0, (armor.Value - piercingValue));
-            var modifiedDamage = math.max(0, damage - armorDamageReduction);
-            Debug.Log($"damage: {damage}, piercingValue: {piercingValue}, modifiedDamage: {modifiedDamage}");
-            health.Value -= modifiedDamage;
+        public void HandleTakeDamage(float damage) {
+            if (!_canTakeDamage) {
+                Debug.Log("IFrame");
+                return;
+            }
+            
+            Debug.Log("takeDamage: " + damage);
+            
+            health.Value -= damage;
             if (health.Value <= 0) OnDying?.Invoke();
+            
+            _canTakeDamage = false;
+
+            StartCoroutine(BecomeTemporarilyInvincible());
+        }
+        
+        private IEnumerator BecomeTemporarilyInvincible() {
+            _canTakeDamage = false;
+            yield return new WaitForSeconds(invincibilityFrames);
+            _canTakeDamage = true;
         }
         
         public void HandleReceiveHealing(float amount) {

@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using Items;
 using UnityEngine;
@@ -12,13 +13,26 @@ public class PlayerScript : Damageable {
     [SerializeField] private Transform projectileSpawnPos;
     
     public List<Item> item;
-    public Item selectedItem;
+    
+    #region ---SelectedItem---
+    private Item _selectedItem;
+    
+    public Item SelectedItem {
+        set {
+            _selectedItem = value;
+            OnSelectItemChanged?.Invoke(_selectedItem != null ? _selectedItem : null);
+        }
+        get => _selectedItem;
+    }
+    
+    public event Action<Item> OnSelectItemChanged;
+    
     public int selectedItemIndex;
+    #endregion
     
     private Vector2 _moveVector;
     private Vector3 _gravityVelocity;
     
-    private SpriteRenderer _spriteRenderer;
     private CharacterController _characterController;
     private Animator _animator;
     private ActionManager _actionManager;
@@ -26,7 +40,6 @@ public class PlayerScript : Damageable {
     public bool movementEnabled = true;
     
     private void Awake() {
-        _spriteRenderer = GetComponent<SpriteRenderer>();
         _characterController = GetComponent<CharacterController>();
         _animator = GetComponent<Animator>();
         _actionManager = GetComponent<ActionManager>();
@@ -34,7 +47,11 @@ public class PlayerScript : Damageable {
     
     private void Start() {
         item.Add(ScrubUtils.GetAllScrubsInResourceFolder<Item>("Items").GetByName("TunaCan"));
-        selectedItem = item[0];
+        
+        SelectedItem = item[0];
+        OnDying += OnDeath;
+        
+        PlayerUIFactory.CreatePlayerUI(this);
     }
     
     #region ---OnInputAction---
@@ -66,7 +83,7 @@ public class PlayerScript : Damageable {
 
     #region ***---Item---
     public void OnUseItem(InputAction.CallbackContext ctx) {
-        if (ctx.performed && selectedItem != null) selectedItem.UseItem(this);
+        if (ctx.performed && SelectedItem != null) SelectedItem.UseItem(this);
     }
     
     public void OnNextItem(InputAction.CallbackContext ctx) {
@@ -74,7 +91,7 @@ public class PlayerScript : Damageable {
         if (selectedItemIndex == item.Count - 1) return;   
         selectedItemIndex++;
         
-        selectedItem = item[selectedItemIndex];
+        SelectedItem = item[selectedItemIndex];
     }
 
     public void OnPreviousItem(InputAction.CallbackContext ctx) {
@@ -82,7 +99,7 @@ public class PlayerScript : Damageable {
         if (selectedItemIndex == 0) return;
         selectedItemIndex--;
         
-        selectedItem = item[selectedItemIndex];
+        SelectedItem = item[selectedItemIndex];
     }
     #endregion
 
@@ -113,12 +130,17 @@ public class PlayerScript : Damageable {
         if (!movementEnabled) return;
         _animator.Play(_moveVector.magnitude != 0 ? "Walk" : "Idle");
         
-        if (_moveVector.x < 0) _spriteRenderer.flipX = true;
-        else if (_moveVector.x > 0) _spriteRenderer.flipX = false;
+        var transform1 = transform;
+        if (_moveVector.x < 0) transform1.localScale = transform1.localScale.With(x: -1);
+        else if (_moveVector.x > 0) transform1.localScale = transform1.localScale.With(x: 1);
     }
     
     public void ThrowItem(ThrowableItem throwableItem) {
-        var facingDirection = _spriteRenderer.flipX ? new Vector2(-1,0) : new Vector2(1,0);
-        ThrowableObject.CreateGameObject(throwableItem.itemPrefab, projectileSpawnPos.position, throwableItem.velocity, facingDirection);
+        var facingDirection = new Vector2(transform.localScale.x,0);
+        ThrowableObjectFactory.CreateGameObject(throwableItem, projectileSpawnPos.position, facingDirection, gameObject);
+    }
+
+    private void OnDeath() {
+        movementEnabled = false;
     }
 }

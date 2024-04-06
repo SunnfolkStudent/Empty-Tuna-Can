@@ -78,10 +78,14 @@ public class ActionManager : MonoBehaviour {
             StartCoroutine(WaitTilCanAttack());
         }
         
-        Debug.Log("Combo Completed: " + combo.name + _inputActions.Aggregate("", (current, inputAction) => current +  " | " + inputAction.action.name));
+        // Debug.Log("Combo Completed: " + combo.name + _inputActions.Aggregate("", (current, inputAction) => current +  " | " + inputAction.action.name));
         RemoveComboAvailability(combo);
     }
-    
+
+    private bool CanAttack() {
+        return _animator.GetCurrentAnimationClip().name is not ("Idle" or "Walk") && nextComboAction != null;
+    }
+
     private IEnumerator WaitTilCanAttack() {
         while (_animator.GetCurrentAnimationClip().name is not ("Idle" or "Walk")) {
             yield return null;
@@ -93,17 +97,16 @@ public class ActionManager : MonoBehaviour {
     }
     
     private void PlayNextComboAction() {
+        _playerScript.movementEnabled = false;
+        // Debug.Log("Play Animation: " + nextComboAction.animation.name);
         _animator.Play(nextComboAction.animation.name);
-        _playerScript.movementEnabled = nextComboAction.canMoveDuring;
         nextComboAction = null;
     }
     
     private void AttackOver(string animationName) {
-        Debug.Log("Attack is over");
-        
         if (nextComboAction != null) {
-            PlayNextComboAction();
             // TODO: Check if chain-attack
+            PlayNextComboAction();
         }
         else {
             _animator.Play("Idle");
@@ -112,6 +115,6 @@ public class ActionManager : MonoBehaviour {
     }
     
     public void ReceiveDirection(InputAction.CallbackContext inputAction) {
-        
+        // TODO: remember direction input and set available combos that require direction before executing
     }
 }
