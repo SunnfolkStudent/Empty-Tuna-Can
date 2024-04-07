@@ -34,7 +34,7 @@ public class ActionManager : MonoBehaviour {
     }
     
     public void ReceiveAction(InputAction.CallbackContext inputAction) {
-        var combosToRemove = _availableCombos.Where(combo => combo.keyCombo[_currentIndex] != inputAction.action.name).ToArray();
+        var combosToRemove = _availableCombos.Where(combo => combo.keyCombo.Length >= _currentIndex && combo.keyCombo[_currentIndex] != inputAction.action.name).ToArray();
         
         foreach (var comboAction in combosToRemove) {
             RemoveComboAvailability(comboAction);
@@ -45,11 +45,12 @@ public class ActionManager : MonoBehaviour {
             return;
         }
         
+        _timer.StopTimer();
+        _timer.StartTimer(inputBuffer);
+        
         _currentIndex++;
         
         _inputActions.Add(inputAction);
-        _timer.StopTimer();
-        _timer.StartTimer(inputBuffer);
         
         foreach (var combo in _availableCombos.Where(combo => combo.keyCombo.Length <= _currentIndex)) {
             ExecuteComboAction(combo);
@@ -78,12 +79,7 @@ public class ActionManager : MonoBehaviour {
             StartCoroutine(WaitTilCanAttack());
         }
         
-        // Debug.Log("Combo Completed: " + combo.name + _inputActions.Aggregate("", (current, inputAction) => current +  " | " + inputAction.action.name));
         RemoveComboAvailability(combo);
-    }
-
-    private bool CanAttack() {
-        return _animator.GetCurrentAnimationClip().name is not ("Idle" or "Walk") && nextComboAction != null;
     }
 
     private IEnumerator WaitTilCanAttack() {
@@ -98,14 +94,17 @@ public class ActionManager : MonoBehaviour {
     
     private void PlayNextComboAction() {
         _playerScript.movementEnabled = false;
-        // Debug.Log("Play Animation: " + nextComboAction.animation.name);
         _animator.Play(nextComboAction.animation.name);
         nextComboAction = null;
     }
     
     private void AttackOver(string animationName) {
         if (nextComboAction != null) {
-            // TODO: Check if chain-attack
+            foreach (var comboAction in _allComboActions) {
+                if (comboAction.previousActionInChain != null && comboAction.previousActionInChain.animation.name == animationName) {
+                    nextComboAction = comboAction;
+                }
+            }
             PlayNextComboAction();
         }
         else {

@@ -1,0 +1,1214 @@
+fileFormatVersion: 2
+guid: 96d1b5a6abb631f4b94821a41c1cb798
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 24
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Granite_25_Block_0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1917
+        width: 62
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78da46bf7db08fd4f8eee2ff0c9499b9
+      internalID: -1591963081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_1
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1917
+        width: 62
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb85a60ad99688f49801be290b4af71c
+      internalID: -516323212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_2
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1917
+        width: 62
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843aae2bc2366b14db399c25dc5966b1
+      internalID: 1795380792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_3
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1917
+        width: 63
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f12e150d3477e4f81a102d52e935fa
+      internalID: 80529060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_4
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1917
+        width: 63
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a80ec68868a17b4d8deb91fbddff6a4
+      internalID: 1831146454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_5
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1917
+        width: 62
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fcb8dae4aee3d49ad295d304626fa6
+      internalID: 46842618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_6
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1917
+        width: 62
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb604e8a250197458ee0f380d11f39e
+      internalID: -1249953599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_7
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 1917
+        width: 62
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39d802ad39da064488d24dbea89e148
+      internalID: 584027825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_8
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1661
+        width: 62
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809ffd0ef91dc3842a03ddd7ff1af3c1
+      internalID: -1588590358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_9
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1661
+        width: 62
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8793f826c799d5a4d8529a1902fa0225
+      internalID: 1161455205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_10
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1661
+        width: 62
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066564280698bd8499c378c310f87e79
+      internalID: 1092125892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_11
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1661
+        width: 62
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e3ec307906a06449926396553c2e87
+      internalID: 231974499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_12
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1661
+        width: 62
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d75bf239f683a904c9a88fcd6ee9daee
+      internalID: 170313692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_13
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1661
+        width: 61
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28f45c2a384024c43ae9e1cff8059412
+      internalID: -154992991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_14
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1661
+        width: 61
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e9ab7f3e4bc404eade112f6bcd27db
+      internalID: -1023993667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_15
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 1661
+        width: 62
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1c296805071a04f82957f372cb11fa
+      internalID: -46398868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_16
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1405
+        width: 62
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f74134febf30d4bb6b1184a5a5bc7b
+      internalID: -1922780847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_17
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1405
+        width: 62
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3dbc3d71f5bb864da2608f53410f348
+      internalID: 1296656833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_18
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1405
+        width: 62
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7ac9b908b48c347bb86570e5105e76
+      internalID: 744702464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_19
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1405
+        width: 62
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8546f730097cfe9449a5dfb537b4222e
+      internalID: 612495839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_20
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1405
+        width: 61
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5725e8da22281354f8d46fc0d661f62b
+      internalID: 1894493365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_21
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1405
+        width: 61
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68eb76779f5ff504585334cde5a7980b
+      internalID: -1413356248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_22
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1405
+        width: 61
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efdbca102bdf9945b6e7262075bd068
+      internalID: -945883004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_23
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 1405
+        width: 61
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99cbe617465585d47a1a3e19a7b219bd
+      internalID: -1125619848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_24
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1149
+        width: 61
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 888e4da4af449c942b292313b0a964bc
+      internalID: 1921959283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_25
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1149
+        width: 61
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bceb2df782742c34799e9fa62bb1296d
+      internalID: 1795156238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_26
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1149
+        width: 61
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b297abf795dfe08408521e8bb2f2db4e
+      internalID: -1863039795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_27
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1149
+        width: 61
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bcfea6a776f9bf40bd0bc6cd26eb790
+      internalID: -2048225034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_28
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1149
+        width: 61
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b2a3f8fc1dd604595c1b63e79887af
+      internalID: 537843632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_29
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1149
+        width: 61
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2120feddf9161a4586424aca9345835
+      internalID: -1794308040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_30
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1149
+        width: 62
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca7593f202387a4687455472278dd21
+      internalID: -2046374311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_31
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 1149
+        width: 62
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2485be46cf188e4ab41db092ecc08fa
+      internalID: -1033371980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_32
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 893
+        width: 62
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2743dcbb31728a489ebe46838a0c0d6
+      internalID: -719276817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_33
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 893
+        width: 62
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b007d3c95685c42ab6d6d1c568d242
+      internalID: -972941258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_34
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 893
+        width: 62
+        height: 84
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6b72fe960116f4d9303591473ac91a
+      internalID: 530129720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_35
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 893
+        width: 61
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7343b10a4627e47bfa2678cab8304d
+      internalID: 1396187173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_36
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 893
+        width: 61
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40c0bf3df29607459e2e7ff06008373
+      internalID: 1272519095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_37
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 893
+        width: 62
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2477165555fc53d47a4e9970861622ab
+      internalID: 1514440700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_38
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 893
+        width: 62
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b2fcca29a3e104896d5aa550e88480
+      internalID: 1320520780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_39
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 893
+        width: 62
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142cc06132f555c4ca6f3ab596d79c98
+      internalID: 135681307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_40
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 637
+        width: 62
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420adbc029a9ae24c80603f4fc50d4eb
+      internalID: 318124501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_41
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 637
+        width: 62
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1270e0a984ea44db134616cbbc93d3
+      internalID: -995107406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_42
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 637
+        width: 62
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa8fcbcb32279042b28c7d698f7dd62
+      internalID: 363970115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_43
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 637
+        width: 62
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24a3576b5bcff3647aa2e3e080ce9968
+      internalID: -851513796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_44
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 637
+        width: 62
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b4b8800eb9c2a140aa1d45411588dcf
+      internalID: 2087368330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_45
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 637
+        width: 63
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad0b2284fe543644b41c3dcc2aef008
+      internalID: 1654739277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_46
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 637
+        width: 63
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db591a9b189af24081987fc476e2b79
+      internalID: -1947417352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_47
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 637
+        width: 62
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40e27bfe51e74246907b26a4948e958
+      internalID: -1870054053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_48
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 381
+        width: 62
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bc220934b994043818a3d0f2e0f832
+      internalID: -752961346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Granite_25_Block_49
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 381
+        width: 62
+        height: 85
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca468ac5dd67fd646a05d8a9a14a1382
+      internalID: 64476373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1c501cbb6c1a36442b955fc23a0700af
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Granite_25_Block_0: -1591963081
+      Granite_25_Block_1: -516323212
+      Granite_25_Block_10: 1092125892
+      Granite_25_Block_11: 231974499
+      Granite_25_Block_12: 170313692
+      Granite_25_Block_13: -154992991
+      Granite_25_Block_14: -1023993667
+      Granite_25_Block_15: -46398868
+      Granite_25_Block_16: -1922780847
+      Granite_25_Block_17: 1296656833
+      Granite_25_Block_18: 744702464
+      Granite_25_Block_19: 612495839
+      Granite_25_Block_2: 1795380792
+      Granite_25_Block_20: 1894493365
+      Granite_25_Block_21: -1413356248
+      Granite_25_Block_22: -945883004
+      Granite_25_Block_23: -1125619848
+      Granite_25_Block_24: 1921959283
+      Granite_25_Block_25: 1795156238
+      Granite_25_Block_26: -1863039795
+      Granite_25_Block_27: -2048225034
+      Granite_25_Block_28: 537843632
+      Granite_25_Block_29: -1794308040
+      Granite_25_Block_3: 80529060
+      Granite_25_Block_30: -2046374311
+      Granite_25_Block_31: -1033371980
+      Granite_25_Block_32: -719276817
+      Granite_25_Block_33: -972941258
+      Granite_25_Block_34: 530129720
+      Granite_25_Block_35: 1396187173
+      Granite_25_Block_36: 1272519095
+      Granite_25_Block_37: 1514440700
+      Granite_25_Block_38: 1320520780
+      Granite_25_Block_39: 135681307
+      Granite_25_Block_4: 1831146454
+      Granite_25_Block_40: 318124501
+      Granite_25_Block_41: -995107406
+      Granite_25_Block_42: 363970115
+      Granite_25_Block_43: -851513796
+      Granite_25_Block_44: 2087368330
+      Granite_25_Block_45: 1654739277
+      Granite_25_Block_46: -1947417352
+      Granite_25_Block_47: -1870054053
+      Granite_25_Block_48: -752961346
+      Granite_25_Block_49: 64476373
+      Granite_25_Block_5: 46842618
+      Granite_25_Block_6: -1249953599
+      Granite_25_Block_7: 584027825
+      Granite_25_Block_8: -1588590358
+      Granite_25_Block_9: 1161455205
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

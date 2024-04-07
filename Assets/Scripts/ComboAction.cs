@@ -4,9 +4,17 @@ using UnityEngine;
 [Serializable]
 [CreateAssetMenu(fileName = "ComboAction", menuName = "Combo/new ComboAction")]
 public class ComboAction : ScriptableObject {
-    public AnimationClip animation;
-    public bool canMoveDuring;
+    [Header("Prerequisites")]
+    public InputDirections[] inputDirections;
+    
+    public ComboAction previousActionInChain;
+    public bool grounded = true;
+    
+    [Header("Execution")]
     public string[] keyCombo;
-
-    public void Execute() {}
+    
+    [Header("Animation")]
+    public AnimationClip animation;
 }
+
+public enum InputDirections { Up, Down, Left, Right }

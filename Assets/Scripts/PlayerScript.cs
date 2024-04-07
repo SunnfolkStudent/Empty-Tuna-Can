@@ -88,7 +88,7 @@ public class PlayerScript : Damageable {
     
     public void OnNextItem(InputAction.CallbackContext ctx) {
         if (!ctx.performed) return;
-        if (selectedItemIndex == item.Count - 1) return;   
+        if (item.Count != 0 && selectedItemIndex == item.Count - 1) return;   
         selectedItemIndex++;
         
         SelectedItem = item[selectedItemIndex];
@@ -96,7 +96,7 @@ public class PlayerScript : Damageable {
 
     public void OnPreviousItem(InputAction.CallbackContext ctx) {
         if (!ctx.performed) return;
-        if (selectedItemIndex == 0) return;
+        if (item.Count != 0 && selectedItemIndex == 0) return;
         selectedItemIndex--;
         
         SelectedItem = item[selectedItemIndex];
@@ -106,7 +106,7 @@ public class PlayerScript : Damageable {
     #region ***---Menu---
     public void OnPause(InputAction.CallbackContext ctx) {
     }
-
+    
     public void OnUnpause(InputAction.CallbackContext ctx) {
     }
     #endregion

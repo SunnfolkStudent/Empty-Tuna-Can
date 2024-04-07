@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 468e0a617138a234ba441e01e9368517, type: 3}
-  m_Name: HeavyAttack
+  m_Name: B
   m_EditorClassIdentifier: 
   inputDirections: 
-  previousActionInChain: {fileID: 0}
+  previousActionInChain: {fileID: 11400000, guid: a37abf505a408284d90ea4f1d96161e7, type: 2}
   grounded: 1
   keyCombo:
   - HeavyAttack
-  animation: {fileID: 7400000, guid: b82e0ebea97ee5a4d84fe3475303f252, type: 2}
+  animation: {fileID: 7400000, guid: 7a947134678cf4d438f4cc8d8a22972f, type: 2}
