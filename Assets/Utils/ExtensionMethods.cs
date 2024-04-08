@@ -9,7 +9,7 @@ namespace Utils {
         /// </summary>
         /// <param name="parent">The parent Transform from which to get the immediate children.</param>
         /// <returns>An array of GameObjects that are the immediate children of the specified parent Transform.</returns>
-        public static GameObject[] GetImmediateChildren(this Transform parent) {
+        public static IEnumerable<GameObject> GetImmediateChildren(this Transform parent) {
             var childCount = parent.childCount;
             var children = new GameObject[childCount];
         

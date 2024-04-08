@@ -15,8 +15,10 @@ MonoBehaviour:
   inputDirections: 
   previousActionInChain: {fileID: 0}
   grounded: 1
+  index: 0
   keyCombo:
   - LightAttack
   - LightAttack
   - HeavyAttack
+  combatInputs: 000000000000000001000000
   animation: {fileID: 7400000, guid: 8dcf2361d91b892479de60cfdab10b49, type: 2}

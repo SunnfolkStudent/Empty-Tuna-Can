@@ -115,7 +115,6 @@ MonoBehaviour:
   jumpSpeed: 1
   projectileSpawnPos: {fileID: 8351919836329771257}
   item: []
-  selectedItem: {fileID: 0}
   selectedItemIndex: 0
   movementEnabled: 1
 --- !u!114 &4492384674172777789

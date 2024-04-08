@@ -31,6 +31,7 @@ public class PlayerScript : Damageable {
     #endregion
     
     private Vector2 _moveVector;
+    private DirectionalInputManager.Direction _currentDirection;
     private Vector3 _gravityVelocity;
     
     private CharacterController _characterController;
@@ -47,6 +48,7 @@ public class PlayerScript : Damageable {
     
     private void Start() {
         item.Add(ScrubUtils.GetAllScrubsInResourceFolder<Item>("Items").GetByName("TunaCan"));
+        item.Add(ScrubUtils.GetAllScrubsInResourceFolder<Item>("Items").GetByName("EmptyTunaCan"));
         
         SelectedItem = item[0];
         OnDying += OnDeath;
@@ -58,12 +60,20 @@ public class PlayerScript : Damageable {
     #region ***---Movement---
     public void OnMove(InputAction.CallbackContext ctx) {
         _moveVector = ctx.ReadValue<Vector2>();
+
+        if (_moveVector == Vector2.zero) {
+            _currentDirection = DirectionalInputManager.Direction.None;
+        }
+        else {
+            var o = DirectionalInputManager.DirectionFormVector2(_moveVector);
+            if (_currentDirection == o) return;
+            _currentDirection = o;
+            _actionManager.ReceiveDirection(_currentDirection);
+        }
     }
 
     public void OnJump(InputAction.CallbackContext ctx) {
         if (!ctx.performed) return;
-        
-        _actionManager.ReceiveAction(ctx);
 
         if (_characterController.isGrounded) {
             _characterController.Move(new Vector3(0, jumpSpeed, 0));
@@ -73,11 +83,15 @@ public class PlayerScript : Damageable {
 
     #region ***---Attack---
     public void OnLightAttack(InputAction.CallbackContext ctx) {
-        if (ctx.performed) _actionManager.ReceiveAction(ctx);
+        if (ctx.performed) {
+            _actionManager.ReceiveCombatInput(CombatInput.LightAttack);
+        }
     }
     
     public void OnHeavyAttack(InputAction.CallbackContext ctx) {
-        if (ctx.performed) _actionManager.ReceiveAction(ctx);
+        if (ctx.performed) {
+            _actionManager.ReceiveCombatInput(CombatInput.HeavyAttack);
+        }
     }
     #endregion
 

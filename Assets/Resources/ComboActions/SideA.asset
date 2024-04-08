@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: SideA
   m_EditorClassIdentifier: 
   inputDirections: 
-  previousActionInChain: {fileID: 11400000, guid: 090c244ae972c6f44b56648c216f0517, type: 2}
+  previousActionInChain: {fileID: 0}
   grounded: 1
-  keyCombo:
-  - LightAttack
+  index: 0
+  keyCombo: []
+  combatInputs: 0300000000000000
   animation: {fileID: 7400000, guid: 430515b0f52bab0459a40c12893150be, type: 2}
