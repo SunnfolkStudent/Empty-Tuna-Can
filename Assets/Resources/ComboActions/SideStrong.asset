@@ -12,13 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468e0a617138a234ba441e01e9368517, type: 3}
   m_Name: SideStrong
   m_EditorClassIdentifier: 
-  inputDirections: 
-  previousActionInChain: {fileID: 0}
-  grounded: 1
-  index: 0
-  keyCombo:
-  - LightAttack
-  - LightAttack
-  - HeavyAttack
-  combatInputs: 000000000000000001000000
+  combatInputs: 010000000100000002000000
   animation: {fileID: 7400000, guid: 8dcf2361d91b892479de60cfdab10b49, type: 2}
+  chainActions: []

@@ -2,8 +2,8 @@ using System;
 using UnityEngine;
 
 [Serializable]
-[CreateAssetMenu(fileName = "ComboAction", menuName = "Combat/new ComboAction")]
-public class ComboAction : ScriptableObject {
+[CreateAssetMenu(fileName = "CombatAction", menuName = "Combat/new CombatAction")]
+public class CombatAction : ScriptableObject {
     [Header("Execution")]
     public CombatInput[] combatInputs;
     

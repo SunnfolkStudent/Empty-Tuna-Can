@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468e0a617138a234ba441e01e9368517, type: 3}
   m_Name: B
   m_EditorClassIdentifier: 
-  combatInputs: 0500000000000000
+  combatInputs: 06000000070000000300000001000000
   animation: {fileID: 7400000, guid: 7a947134678cf4d438f4cc8d8a22972f, type: 2}

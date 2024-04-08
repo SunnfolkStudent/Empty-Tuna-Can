@@ -111,7 +111,9 @@ MonoBehaviour:
     maxValue: 20
     value: 10
   invincibilityFrames: 0.75
-  speed: 0.1
+  movementSpeed: 1
+  staggerResistance: 0
+  moveVector: {x: 0, y: 0}
   jumpSpeed: 1
   projectileSpawnPos: {fileID: 8351919836329771257}
   item: []
@@ -355,8 +357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5c7be274d6ab2c4191d0a1d0c5151c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputBuffer: 0.3
-  nextComboAction: {fileID: 0}
+  inputBuffer: 0.35
 --- !u!65 &7536923664438077771
 BoxCollider:
   m_ObjectHideFlags: 0

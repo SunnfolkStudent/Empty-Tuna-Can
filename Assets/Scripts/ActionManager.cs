@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Linq;
 using JetBrains.Annotations;
 using UnityEngine;
@@ -8,13 +9,21 @@ public class ActionManager : MonoBehaviour {
     [SerializeField] private float inputBuffer = 0.25f;
     
     private Timer _combatInputTimer;
-    private int _currentIndex;
     private CombatActionInstance[] _allCombatActions;
+    private List<CombatActionInstance> _availableCombatActions;
     [CanBeNull] private CombatActionInstance _nextCombatAction;
     
-    private Timer _directionInputTimer;
-    private DirectionActionInstance[] _allDirectionActions;
-    [CanBeNull] private DirectionActionInstance _nextDirectionAction;
+    [Serializable] private class CombatActionInstance {
+        internal readonly CombatInput[] CombatInputs;
+        internal readonly AnimationClip Animation;
+        internal int Index;
+        
+        public CombatActionInstance(CombatAction combatAction) {
+            CombatInputs = combatAction.combatInputs;
+            Animation = combatAction.animation;
+            Index = 0;
+        }
+    }
     
     private Animator _animator;
     private PlayerScript _playerScript;
@@ -24,22 +33,22 @@ public class ActionManager : MonoBehaviour {
         _playerScript = GetComponent<PlayerScript>();
         
         _combatInputTimer = new Timer(inputBuffer, false);
-        _combatInputTimer.OnComplete += ClearInputActions;
-        _allCombatActions = ScrubUtils.GetAllScrubsInResourceFolder<ComboAction>("ComboActions")
+        _combatInputTimer.OnComplete += ResetCombatActions;
+        _allCombatActions = ScrubUtils.GetAllScrubsInResourceFolder<CombatAction>("ComboActions")
             .Select(combatAction => new CombatActionInstance(combatAction)).ToArray();
-        
-        _directionInputTimer = new Timer(inputBuffer, false);
-        _directionInputTimer.OnComplete += ResetDirectionActions;
-        _allDirectionActions = ScrubUtils.GetAllScrubsInResourceFolder<DirectionAction>("DirectionalAction")
-            .Select(directionAction => new DirectionActionInstance(directionAction)).ToArray();
+
+        _availableCombatActions = _allCombatActions.ToList();
     }
     
     public void ReceiveCombatInput(CombatInput combatInput) {
-        Debug.Log($"ReceiveCombatInput: {combatInput}");
+        if (combatInput == CombatInput.None) return;
+        
+        // Debug.Log($"ReceiveCombatInput: {combatInput}");
+        
         _combatInputTimer.StopTimer();
         _combatInputTimer.StartTimer(inputBuffer);
         
-        foreach (var combatAction in _allCombatActions) {
+        foreach (var combatAction in _availableCombatActions) {
             if (combatAction.CombatInputs.Length == 0) continue;
             if (combatAction.CombatInputs[combatAction.Index] != combatInput) continue;
             combatAction.Index++;
@@ -49,19 +58,7 @@ public class ActionManager : MonoBehaviour {
         }
     }
     
-    [Serializable] private class CombatActionInstance {
-        internal readonly CombatInput[] CombatInputs;
-        internal readonly  AnimationClip Animation;
-        internal int Index;
-        
-        public CombatActionInstance(ComboAction comboAction) {
-            CombatInputs = comboAction.combatInputs;
-            Animation = comboAction.animation;
-            Index = 0;
-        }
-    }
-    
-    private void ClearInputActions() {
+    private void ResetCombatActions() {
         foreach (var combatAction in _allCombatActions) {
             combatAction.Index = 0;
         }
@@ -80,12 +77,17 @@ public class ActionManager : MonoBehaviour {
     private void PlayNextCombatAction() {
         if (_nextCombatAction == null) return;
         
+        Debug.Log("Executing combat action " + _nextCombatAction.Animation.name);
+        
         _playerScript.movementEnabled = false;
         _animator.Play(_nextCombatAction.Animation.name);
+
+        // _availableCombatActions = _nextCombatAction.ChainActions.ToList();
+            
         _nextCombatAction = null;
     }
     
-    private void AttackOver(string animationName) {
+    private void OnAttackOver() {
         if (_nextCombatAction != null) {
             PlayNextCombatAction();
         }
@@ -94,53 +96,12 @@ public class ActionManager : MonoBehaviour {
             _playerScript.movementEnabled = true;
         }
     }
-    
-    #region ---Direction---
-    private class DirectionActionInstance {
-        internal readonly DirectionalInputManager.Direction[] DirectionInputs;
-        internal readonly CombatInput CombatInput;
-        internal int Index;
-        
-        public DirectionActionInstance(DirectionAction directionAction) {
-            DirectionInputs = directionAction.directionInputs;
-            CombatInput = directionAction.combatInput;
-            Index = 0;
-        }
-    }
-    
-    public void ReceiveDirection(DirectionalInputManager.Direction direction) {
-        _directionInputTimer.StopTimer();
-        _directionInputTimer.StartTimer(inputBuffer);
-        
-        
-        foreach (var directionAction in _allDirectionActions) {
-            if (directionAction.DirectionInputs.Length == 0) continue;
-            if (directionAction.DirectionInputs[directionAction.Index] != direction) continue;
-            directionAction.Index++;
-            
-            if (directionAction.Index < directionAction.DirectionInputs.Length) continue;
-            directionAction.Index = 0;
-
-            if (_nextDirectionAction != null && _nextDirectionAction.DirectionInputs.Length >= directionAction.DirectionInputs.Length) continue;
-            _nextDirectionAction = directionAction;
-        }
-
-        if (_nextDirectionAction == null) return;
-        ReceiveCombatInput(_nextDirectionAction.CombatInput);
-        _nextDirectionAction = null;
-    }
-
-    private void ResetDirectionActions() {
-        foreach (var directionAction in _allDirectionActions) {
-            directionAction.Index = 0;
-        }
-    }
-    #endregion
 }
 
 public enum CombatInput {
+    None,
     LightAttack, HeavyAttack,
-    Forward, Up, 
-    Down, DownDiagonal,
-    QuarterCircle
+    Forward,
+    Up, UpDiagonal,
+    Down, DownDiagonal
 }

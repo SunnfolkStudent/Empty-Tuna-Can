@@ -4,10 +4,8 @@ using Items;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Utils;
-using Utils.Entity;
 
-public class PlayerScript : Damageable {
-    [SerializeField] private float speed = 0.5f;
+public class PlayerScript : Entity {
     [SerializeField] private float jumpSpeed = 1.0f;
     
     [SerializeField] private Transform projectileSpawnPos;
@@ -30,18 +28,12 @@ public class PlayerScript : Damageable {
     public int selectedItemIndex;
     #endregion
     
-    private Vector2 _moveVector;
-    private DirectionalInputManager.Direction _currentDirection;
-    private Vector3 _gravityVelocity;
-    
-    private CharacterController _characterController;
+    private CombatInput _currentDirection;
     private Animator _animator;
     private ActionManager _actionManager;
     
-    public bool movementEnabled = true;
-    
-    private void Awake() {
-        _characterController = GetComponent<CharacterController>();
+    private new void Awake() {
+        base.Awake();
         _animator = GetComponent<Animator>();
         _actionManager = GetComponent<ActionManager>();
     }
@@ -59,24 +51,24 @@ public class PlayerScript : Damageable {
     #region ---OnInputAction---
     #region ***---Movement---
     public void OnMove(InputAction.CallbackContext ctx) {
-        _moveVector = ctx.ReadValue<Vector2>();
+        moveVector = ctx.ReadValue<Vector2>();
 
-        if (_moveVector == Vector2.zero) {
-            _currentDirection = DirectionalInputManager.Direction.None;
+        if (moveVector == Vector2.zero) {
+            _currentDirection = CombatInput.None;
         }
         else {
-            var o = DirectionalInputManager.DirectionFormVector2(_moveVector);
+            var o = DirectionalInputManager.DirectionFormVector2(moveVector);
             if (_currentDirection == o) return;
             _currentDirection = o;
-            _actionManager.ReceiveDirection(_currentDirection);
+            _actionManager.ReceiveCombatInput(_currentDirection);
         }
     }
 
     public void OnJump(InputAction.CallbackContext ctx) {
         if (!ctx.performed) return;
-
-        if (_characterController.isGrounded) {
-            _characterController.Move(new Vector3(0, jumpSpeed, 0));
+        
+        if (CharacterController.isGrounded) {
+            CharacterController.Move(new Vector3(0, jumpSpeed, 0));
         }
     }
     #endregion
@@ -126,34 +118,25 @@ public class PlayerScript : Damageable {
     #endregion
     #endregion
     
-    private void FixedUpdate() {
-        if (!movementEnabled) return;
-        
-        var move = new Vector3(_moveVector.x, 0, _moveVector.y) * speed;
-        move += _gravityVelocity * Time.deltaTime;
-        
-        _characterController.Move(move);
-    }
-    
     private void Update() {
-        _gravityVelocity += Physics.gravity * Time.deltaTime;
-        if (_characterController.isGrounded) {
-            _gravityVelocity = Physics.gravity.normalized * 2;
+        GravityVelocity += Physics.gravity * Time.deltaTime;
+        if (CharacterController.isGrounded) {
+            GravityVelocity = Physics.gravity.normalized * 2;
         }
         
         if (!movementEnabled) return;
-        _animator.Play(_moveVector.magnitude != 0 ? "Walk" : "Idle");
+        _animator.Play(moveVector.magnitude != 0 ? "Walk" : "Idle");
         
         var transform1 = transform;
-        if (_moveVector.x < 0) transform1.localScale = transform1.localScale.With(x: -1);
-        else if (_moveVector.x > 0) transform1.localScale = transform1.localScale.With(x: 1);
+        if (moveVector.x < 0) transform1.localScale = transform1.localScale.With(x: -1);
+        else if (moveVector.x > 0) transform1.localScale = transform1.localScale.With(x: 1);
     }
     
     public void ThrowItem(ThrowableItem throwableItem) {
         var facingDirection = new Vector2(transform.localScale.x,0);
         ThrowableObjectFactory.CreateGameObject(throwableItem, projectileSpawnPos.position, facingDirection, gameObject);
     }
-
+    
     private void OnDeath() {
         movementEnabled = false;
     }
