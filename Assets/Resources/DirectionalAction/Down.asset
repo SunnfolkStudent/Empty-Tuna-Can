@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Down
   m_EditorClassIdentifier: 
   directionInputs: 03000000
-  combatInput: 5
+  combatInput: 4

@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: QuarterCircle
   m_EditorClassIdentifier: 
   directionInputs: 030000000400000000000000
-  combatInput: 6
+  combatInput: 5

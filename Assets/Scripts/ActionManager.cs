@@ -140,6 +140,7 @@ public class ActionManager : MonoBehaviour {
 
 public enum CombatInput {
     LightAttack, HeavyAttack,
-    Forward, Up, Down,
-    QuarterCircle,
+    Forward, Up, 
+    Down, DownDiagonal,
+    QuarterCircle
 }

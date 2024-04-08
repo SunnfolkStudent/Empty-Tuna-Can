@@ -13,5 +13,4 @@ MonoBehaviour:
   m_Name: Right
   m_EditorClassIdentifier: 
   directionInputs: 00000000
-  combatInput: 3
-  index: 0
+  combatInput: 2
