@@ -4,13 +4,14 @@ using Items;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Utils;
+using Utils.Entity;
 
-public class PlayerScript : Entity {
-    [SerializeField] private float jumpSpeed = 1.0f;
+public class PlayerScript : Damageable {
+    [HideInInspector] public Vector2 moveVector;
+    [HideInInspector] public bool movementEnabled = true;
+    [HideInInspector] public bool isInAction;
     
-    [SerializeField] private Transform projectileSpawnPos;
-    
-    public List<Item> item;
+    public List<Item> itemInventory;
     
     #region ---SelectedItem---
     private Item _selectedItem;
@@ -25,34 +26,36 @@ public class PlayerScript : Entity {
     
     public event Action<Item> OnSelectItemChanged;
     
-    public int selectedItemIndex;
+    private int _selectedItemIndex;
     #endregion
     
-    private CombatInput _currentDirection;
-    private Animator _animator;
-    private ActionManager _actionManager;
+    [Header("Script References")]
+    [SerializeField] private Animator animator;
+    [SerializeField] private ActionManager actionManager;
+    [SerializeField] private EntityMovement entityMovement;
     
-    private new void Awake() {
-        base.Awake();
-        _animator = GetComponent<Animator>();
-        _actionManager = GetComponent<ActionManager>();
+    private CombatInput _currentDirection;
+
+    private void Awake() {
+        entityMovement = GetComponent<EntityMovement>();
     }
     
     private void Start() {
-        item.Add(ScrubUtils.GetAllScrubsInResourceFolder<Item>("Items").GetByName("TunaCan"));
-        item.Add(ScrubUtils.GetAllScrubsInResourceFolder<Item>("Items").GetByName("EmptyTunaCan"));
-        
-        SelectedItem = item[0];
+        SelectedItem = itemInventory[0];
         OnDying += OnDeath;
         
         PlayerUIFactory.CreatePlayerUI(this);
+        
+        teamNumber = FindObjectsByType<PlayerScript>(FindObjectsSortMode.None).Length;
+        
+        hitbox.teamNumber = teamNumber;
     }
     
     #region ---OnInputAction---
     #region ***---Movement---
     public void OnMove(InputAction.CallbackContext ctx) {
         moveVector = ctx.ReadValue<Vector2>();
-
+        
         if (moveVector == Vector2.zero) {
             _currentDirection = CombatInput.None;
         }
@@ -60,30 +63,26 @@ public class PlayerScript : Entity {
             var o = DirectionalInputManager.DirectionFormVector2(moveVector);
             if (_currentDirection == o) return;
             _currentDirection = o;
-            _actionManager.ReceiveCombatInput(_currentDirection);
+            actionManager.ReceiveCombatInput(_currentDirection);
         }
     }
 
     public void OnJump(InputAction.CallbackContext ctx) {
         if (!ctx.performed) return;
+        actionManager.ReceiveCombatInput(CombatInput.Jump);
         
-        if (CharacterController.isGrounded) {
-            CharacterController.Move(new Vector3(0, jumpSpeed, 0));
-        }
     }
     #endregion
 
     #region ***---Attack---
     public void OnLightAttack(InputAction.CallbackContext ctx) {
-        if (ctx.performed) {
-            _actionManager.ReceiveCombatInput(CombatInput.LightAttack);
-        }
+        if (!ctx.performed) return;
+        actionManager.ReceiveCombatInput(CombatInput.LightAttack);
     }
     
     public void OnHeavyAttack(InputAction.CallbackContext ctx) {
-        if (ctx.performed) {
-            _actionManager.ReceiveCombatInput(CombatInput.HeavyAttack);
-        }
+        if (!ctx.performed) return;
+        actionManager.ReceiveCombatInput(CombatInput.HeavyAttack);
     }
     #endregion
 
@@ -94,18 +93,18 @@ public class PlayerScript : Entity {
     
     public void OnNextItem(InputAction.CallbackContext ctx) {
         if (!ctx.performed) return;
-        if (item.Count != 0 && selectedItemIndex == item.Count - 1) return;   
-        selectedItemIndex++;
+        if (itemInventory.Count != 0 && _selectedItemIndex == itemInventory.Count - 1) return;   
+        _selectedItemIndex++;
         
-        SelectedItem = item[selectedItemIndex];
+        SelectedItem = itemInventory[_selectedItemIndex];
     }
 
     public void OnPreviousItem(InputAction.CallbackContext ctx) {
         if (!ctx.performed) return;
-        if (item.Count != 0 && selectedItemIndex == 0) return;
-        selectedItemIndex--;
+        if (itemInventory.Count != 0 && _selectedItemIndex == 0) return;
+        _selectedItemIndex--;
         
-        SelectedItem = item[selectedItemIndex];
+        SelectedItem = itemInventory[_selectedItemIndex];
     }
     #endregion
 
@@ -119,22 +118,25 @@ public class PlayerScript : Entity {
     #endregion
     
     private void Update() {
-        GravityVelocity += Physics.gravity * Time.deltaTime;
-        if (CharacterController.isGrounded) {
-            GravityVelocity = Physics.gravity.normalized * 2;
-        }
-        
         if (!movementEnabled) return;
-        _animator.Play(moveVector.magnitude != 0 ? "Walk" : "Idle");
         
-        var transform1 = transform;
-        if (moveVector.x < 0) transform1.localScale = transform1.localScale.With(x: -1);
-        else if (moveVector.x > 0) transform1.localScale = transform1.localScale.With(x: 1);
+        entityMovement.MoveInDirection(Time.deltaTime, moveVector);
+        CheckIfFlipObject();
+        
+        if (!isInAction) {
+            animator.Play(moveVector.magnitude != 0 ? "Walk" : "Idle");
+        }
     }
     
     public void ThrowItem(ThrowableItem throwableItem) {
-        var facingDirection = new Vector2(transform.localScale.x,0);
-        ThrowableObjectFactory.CreateGameObject(throwableItem, projectileSpawnPos.position, facingDirection, gameObject);
+        // var facingDirection = new Vector2(transform.localScale.x,0);
+        // ThrowableObjectFactory.CreateGameObject(throwableItem, projectileSpawnPos.position, facingDirection, gameObject);
+    }
+    
+    public void CheckIfFlipObject() {
+        var transform1 = transform;
+        if (moveVector.x < 0) transform1.localScale = transform.localScale.With(x: -1);
+        else if (moveVector.x > 0) transform1.localScale = transform.localScale.With(x: 1);
     }
     
     private void OnDeath() {

@@ -9,4 +9,5 @@ public class CombatAction : ScriptableObject {
     
     [Header("Animation")]
     public AnimationClip animation;
+    public bool canMoveDuring;
 }

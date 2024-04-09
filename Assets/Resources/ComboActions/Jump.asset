@@ -10,9 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 468e0a617138a234ba441e01e9368517, type: 3}
-  m_Name: LightAttack
+  m_Name: Jump
   m_EditorClassIdentifier: 
-  combatInputs: 01000000
-  animation: {fileID: 7400000, guid: c8b4c653847d37640a9151b545e2ac5c, type: 2}
-  canMoveDuring: 0
-  overrideController: {fileID: 22100000, guid: 837a41c2cf24f4d4d9602c93c0d8a54a, type: 2}
+  combatInputs: 08000000
+  animation: {fileID: 7400000, guid: e119816fb72c815428104e072d6bae9c, type: 2}
+  canMoveDuring: 1

@@ -8,14 +8,14 @@ namespace Utils.Entity {
         
         public ClampedFloat health = new(minValue: 0, maxValue: 0);
         
+        public float staggerResistance;
+        public int heightIndex;
+        public int teamNumber;
+        [SerializeField] protected Hitbox hitbox;
+        
         [SerializeField] private float invincibilityFrames = 0.5f;
         
         private bool _canTakeDamage = true;
-        
-        public void SetInitialValues(float healthValue) {
-            health.maxValue = healthValue;
-            health.Value = healthValue;
-        }
         
         public void HandleTakeDamage(float damage) {
             if (!_canTakeDamage) {

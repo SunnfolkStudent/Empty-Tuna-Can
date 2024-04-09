@@ -9,18 +9,18 @@ namespace Items {
         public Item[] getItemsOnUse;
         
         public virtual void UseItem(PlayerScript playerScript) {
-            playerScript.item.Remove(playerScript.SelectedItem);
+            playerScript.itemInventory.Remove(playerScript.SelectedItem);
 
             foreach (var item in getItemsOnUse) {
-                playerScript.item.Add(item);
+                playerScript.itemInventory.Add(item);
             }
 
-            if (playerScript.item.Count == 0) {
+            if (playerScript.itemInventory.Count == 0) {
                 playerScript.SelectedItem = null;
                 return;
             }
 
-            playerScript.SelectedItem = playerScript.item[0];
+            playerScript.SelectedItem = playerScript.itemInventory[0];
         }
     }
 }
