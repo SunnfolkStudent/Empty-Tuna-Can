@@ -1946,6 +1946,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 7584138638207051588, guid: 6d2e888db3560cc4a893b5b803fcf8f6, type: 3}
+      propertyPath: defaultTextSpeed
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 9193679440825660848, guid: 6d2e888db3560cc4a893b5b803fcf8f6, type: 3}
       propertyPath: m_Pivot.x
       value: 0

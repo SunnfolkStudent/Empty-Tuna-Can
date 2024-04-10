@@ -146,16 +146,28 @@ public class PlayerScript : Damageable {
             animator.Play(moveVector.magnitude != 0 ? "Walk" : "Idle");
         }
         
-        if (Keyboard.current.oKey.wasPressedThisFrame) {
-            EventBus<DialogueEvent>.Raise(new TextEvent("Person", LoremIpsum));
-        }
-
-        if (Keyboard.current.pKey.wasPressedThisFrame) {
-            EventBus<DialogueEvent>.Raise(new SkipEvent());
-        }
-
         if (Keyboard.current.iKey.wasPressedThisFrame) {
-            EventBus<DialogueEvent>.Raise(new EndEvent());
+            if (DialogueUIManager.DialogIsPlaying) {
+                EventBus<DialogueEvent>.Raise(new SkipEvent());
+            }
+            else if (DialogueUIManager.InDialog) {
+                EventBus<DialogueEvent>.Raise(new EndEvent());
+            }
+            else {
+                EventBus<DialogueEvent>.Raise(new TextEvent("PersonI", LoremIpsum));
+            }
+        }
+        
+        if (Keyboard.current.oKey.wasPressedThisFrame) {
+            if (DialogueUIManager.DialogIsPlaying) {
+                EventBus<DialogueEvent>.Raise(new SkipEvent());
+            }
+            else if (DialogueUIManager.InDialog) {
+                EventBus<DialogueEvent>.Raise(new EndEvent());
+            }
+            else {
+                EventBus<DialogueEvent>.Raise(new TextEvent("PersonO", LoremIpsum));
+            }
         }
     }
     

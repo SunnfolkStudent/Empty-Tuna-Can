@@ -406,7 +406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41e786000f20b7849a5454446e6a3367, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textSpeed: 0.1
+  defaultTextSpeed: 2
   uiElement: {fileID: 5915392048682691613}
   nameField: {fileID: 1970490508913182444}
   textField: {fileID: 8374872867046171187}
