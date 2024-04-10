@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468e0a617138a234ba441e01e9368517, type: 3}
   m_Name: SideA
   m_EditorClassIdentifier: 
-  combatInputs: 0300000001000000
+  combatInputs: 030000000300000001000000
   animation: {fileID: 7400000, guid: 430515b0f52bab0459a40c12893150be, type: 2}
+  canMoveDuring: 0

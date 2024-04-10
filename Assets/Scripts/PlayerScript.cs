@@ -7,6 +7,8 @@ using Utils;
 using Utils.Entity;
 
 public class PlayerScript : Damageable {
+    [SerializeField] private Transform projectileSpawnPos;
+    
     [HideInInspector] public Vector2 moveVector;
     [HideInInspector] public bool movementEnabled = true;
     [HideInInspector] public bool isInAction;
@@ -33,10 +35,12 @@ public class PlayerScript : Damageable {
     [SerializeField] private Animator animator;
     [SerializeField] private ActionManager actionManager;
     [SerializeField] private EntityMovement entityMovement;
+    private Transform _transform;
     
     private CombatInput _currentDirection;
-
+    
     private void Awake() {
+        _transform = transform;
         entityMovement = GetComponent<EntityMovement>();
     }
     
@@ -129,14 +133,12 @@ public class PlayerScript : Damageable {
     }
     
     public void ThrowItem(ThrowableItem throwableItem) {
-        // var facingDirection = new Vector2(transform.localScale.x,0);
-        // ThrowableObjectFactory.CreateGameObject(throwableItem, projectileSpawnPos.position, facingDirection, gameObject);
+        ThrowableObjectFactory.CreateGameObject(throwableItem, projectileSpawnPos.position, this);
     }
     
     public void CheckIfFlipObject() {
-        var transform1 = transform;
-        if (moveVector.x < 0) transform1.localScale = transform.localScale.With(x: -1);
-        else if (moveVector.x > 0) transform1.localScale = transform.localScale.With(x: 1);
+        if (moveVector.x < 0) _transform.localScale = _transform.localScale.With(x: -1);
+        else if (moveVector.x > 0) _transform.localScale = _transform.localScale.With(x: 1);
     }
     
     private void OnDeath() {
