@@ -1,0 +1,664 @@
+fileFormatVersion: 2
+guid: 12fcd96bd8a92a64d97ce02540f09540
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8099688585156320342
+    second: Tate_26_Forward dodge_0
+  - first:
+      213: 8326395065858683575
+    second: Tate_26_Forward dodge_1
+  - first:
+      213: -4237306986961248474
+    second: Tate_26_Forward dodge_2
+  - first:
+      213: 5501303082298269188
+    second: Tate_26_Forward dodge_3
+  - first:
+      213: -2827005811733627720
+    second: Tate_26_Forward dodge_4
+  - first:
+      213: -8887085669241532833
+    second: Tate_26_Forward dodge_5
+  - first:
+      213: -3763930524366701506
+    second: Tate_26_Forward dodge_6
+  - first:
+      213: -9167528366533948865
+    second: Tate_26_Forward dodge_7
+  - first:
+      213: -8823292092857789981
+    second: Tate_26_Forward dodge_8
+  - first:
+      213: -7235844599781150981
+    second: Tate_26_Forward dodge_9
+  - first:
+      213: -2711618611234061538
+    second: Tate_26_Forward dodge_10
+  - first:
+      213: -858885976456137713
+    second: Tate_26_Forward dodge_11
+  - first:
+      213: -7788556049892108191
+    second: Tate_26_Forward dodge_12
+  - first:
+      213: 1186471456771133189
+    second: Tate_26_Forward dodge_13
+  - first:
+      213: 8449667707977312042
+    second: Tate_26_Forward dodge_14
+  - first:
+      213: -2407800632015182223
+    second: Tate_26_Forward dodge_15
+  - first:
+      213: -1721631215038088382
+    second: Tate_26_Forward dodge_16
+  - first:
+      213: -3154207291150811462
+    second: Tate_26_Forward dodge_17
+  - first:
+      213: 4038073348968516216
+    second: Tate_26_Forward dodge_18
+  - first:
+      213: 4818177103188013807
+    second: Tate_26_Forward dodge_19
+  - first:
+      213: 2495095956210031205
+    second: Tate_26_Forward dodge_20
+  - first:
+      213: -9112963565428236775
+    second: Tate_26_Forward dodge_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tate_26_Forward dodge_0
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1918
+        width: 68
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa3a8725520289f80800000000000000
+      internalID: -8099688585156320342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_26_Forward dodge_1
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1917
+        width: 70
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b27210823c4d8370800000000000000
+      internalID: 8326395065858683575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_26_Forward dodge_2
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1923
+        width: 69
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62fd4eddebf0235c0800000000000000
+      internalID: -4237306986961248474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_26_Forward dodge_3
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1923
+        width: 69
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e5626910e885c40800000000000000
+      internalID: 5501303082298269188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_26_Forward dodge_4
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1924
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bcf6ad313574c8d0800000000000000
+      internalID: -2827005811733627720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_26_Forward dodge_5
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1924
+        width: 70
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ec46c6baabaa480800000000000000
+      internalID: -8887085669241532833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_26_Forward dodge_6
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1925
+        width: 69
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c7fd75125d3cbc0800000000000000
+      internalID: -3763930524366701506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_26_Forward dodge_7
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 1924
+        width: 73
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a4d64b58566c080800000000000000
+      internalID: -9167528366533948865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_26_Forward dodge_8
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1668
+        width: 76
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1d2bfd69e5d8580800000000000000
+      internalID: -8823292092857789981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_26_Forward dodge_9
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1668
+        width: 77
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfead147cad159b90800000000000000
+      internalID: -7235844599781150981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_26_Forward dodge_10
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1667
+        width: 73
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e134e076d356e5ad0800000000000000
+      internalID: -2711618611234061538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_26_Forward dodge_11
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1663
+        width: 70
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0474c641cf9414f0800000000000000
+      internalID: -858885976456137713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_26_Forward dodge_12
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1662
+        width: 67
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16816f4c98d79e390800000000000000
+      internalID: -7788556049892108191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_26_Forward dodge_13
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1661
+        width: 64
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fcbf4f081377010800000000000000
+      internalID: 1186471456771133189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_26_Forward dodge_14
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 1657
+        width: 63
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27a31c1300434570800000000000000
+      internalID: 8449667707977312042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_26_Forward dodge_15
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 1658
+        width: 66
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17626ce0516c59ed0800000000000000
+      internalID: -2407800632015182223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_26_Forward dodge_16
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1402
+        width: 66
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b3e6118898b18e0800000000000000
+      internalID: -1721631215038088382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_26_Forward dodge_17
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1403
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe320f2e210a34d0800000000000000
+      internalID: -3154207291150811462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_26_Forward dodge_18
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1405
+        width: 60
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a8d36f05e1a0830800000000000000
+      internalID: 4038073348968516216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_26_Forward dodge_19
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1406
+        width: 61
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2317c2c8a9dd240800000000000000
+      internalID: 4818177103188013807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_26_Forward dodge_20
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1406
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a99667d8c50a220800000000000000
+      internalID: 2495095956210031205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_26_Forward dodge_21
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1406
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e92977bef388180800000000000000
+      internalID: -9112963565428236775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tate_26_Forward dodge_0: -8099688585156320342
+      Tate_26_Forward dodge_1: 8326395065858683575
+      Tate_26_Forward dodge_10: -2711618611234061538
+      Tate_26_Forward dodge_11: -858885976456137713
+      Tate_26_Forward dodge_12: -7788556049892108191
+      Tate_26_Forward dodge_13: 1186471456771133189
+      Tate_26_Forward dodge_14: 8449667707977312042
+      Tate_26_Forward dodge_15: -2407800632015182223
+      Tate_26_Forward dodge_16: -1721631215038088382
+      Tate_26_Forward dodge_17: -3154207291150811462
+      Tate_26_Forward dodge_18: 4038073348968516216
+      Tate_26_Forward dodge_19: 4818177103188013807
+      Tate_26_Forward dodge_2: -4237306986961248474
+      Tate_26_Forward dodge_20: 2495095956210031205
+      Tate_26_Forward dodge_21: -9112963565428236775
+      Tate_26_Forward dodge_3: 5501303082298269188
+      Tate_26_Forward dodge_4: -2827005811733627720
+      Tate_26_Forward dodge_5: -8887085669241532833
+      Tate_26_Forward dodge_6: -3763930524366701506
+      Tate_26_Forward dodge_7: -9167528366533948865
+      Tate_26_Forward dodge_8: -8823292092857789981
+      Tate_26_Forward dodge_9: -7235844599781150981
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -6,12 +6,12 @@ namespace Utils.Entity {
     public class Damageable : MonoBehaviour {
         public event Action OnDying;
         
+        [Header("Damageable")]
         public ClampedFloat health = new(minValue: 0, maxValue: 0);
         
         public float staggerResistance;
         public int heightIndex;
         public int teamNumber;
-        [SerializeField] protected Hitbox hitbox;
         
         [SerializeField] private float invincibilityFrames = 0.5f;
         

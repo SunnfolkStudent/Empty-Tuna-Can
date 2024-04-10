@@ -1,0 +1,889 @@
+fileFormatVersion: 2
+guid: 7b50cadffddfa794592d1394d553c13c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2149169033635338924
+    second: Tate_53_Forward throw_0
+  - first:
+      213: -458710871590081268
+    second: Tate_53_Forward throw_1
+  - first:
+      213: 5815230332747964054
+    second: Tate_53_Forward throw_2
+  - first:
+      213: 7790024614719821313
+    second: Tate_53_Forward throw_3
+  - first:
+      213: 866359679764795783
+    second: Tate_53_Forward throw_4
+  - first:
+      213: 6190388944584203773
+    second: Tate_53_Forward throw_5
+  - first:
+      213: 312704627917566189
+    second: Tate_53_Forward throw_6
+  - first:
+      213: -6662617310397470726
+    second: Tate_53_Forward throw_7
+  - first:
+      213: 810934220566031789
+    second: Tate_53_Forward throw_8
+  - first:
+      213: -257334249124405582
+    second: Tate_53_Forward throw_9
+  - first:
+      213: -5806268438160935384
+    second: Tate_53_Forward throw_10
+  - first:
+      213: -7685474872482388850
+    second: Tate_53_Forward throw_11
+  - first:
+      213: -5993296763384578814
+    second: Tate_53_Forward throw_12
+  - first:
+      213: 7219403397111275602
+    second: Tate_53_Forward throw_13
+  - first:
+      213: -5458198692161057533
+    second: Tate_53_Forward throw_14
+  - first:
+      213: 4516077916812614449
+    second: Tate_53_Forward throw_15
+  - first:
+      213: -2978789473156998344
+    second: Tate_53_Forward throw_16
+  - first:
+      213: 7214116814490349199
+    second: Tate_53_Forward throw_17
+  - first:
+      213: 7121448399475037721
+    second: Tate_53_Forward throw_18
+  - first:
+      213: -7176387471368442818
+    second: Tate_53_Forward throw_19
+  - first:
+      213: 7536768888952200891
+    second: Tate_53_Forward throw_20
+  - first:
+      213: -1772052752717054436
+    second: Tate_53_Forward throw_21
+  - first:
+      213: -6650547014192652971
+    second: Tate_53_Forward throw_22
+  - first:
+      213: 3857833437703713293
+    second: Tate_53_Forward throw_23
+  - first:
+      213: -8763711887491917224
+    second: Tate_53_Forward throw_24
+  - first:
+      213: 198063056194988101
+    second: Tate_53_Forward throw_25
+  - first:
+      213: -1761090037265743672
+    second: Tate_53_Forward throw_26
+  - first:
+      213: -820267261322421865
+    second: Tate_53_Forward throw_27
+  - first:
+      213: -8710726562210713943
+    second: Tate_53_Forward throw_28
+  - first:
+      213: 8448393495019987816
+    second: Tate_53_Forward throw_29
+  - first:
+      213: -9114710698626903260
+    second: Tate_53_Forward throw_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_0
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1917
+        width: 67
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45565e3962e9c22e0800000000000000
+      internalID: -2149169033635338924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_1
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1917
+        width: 69
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d634484e452a9f0800000000000000
+      internalID: -458710871590081268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_2
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1917
+        width: 69
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ed48e5d29d3b050800000000000000
+      internalID: 5815230332747964054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_3
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1918
+        width: 68
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1069cef1d1abb1c60800000000000000
+      internalID: 7790024614719821313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_4
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1918
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7811a10e98de50c00800000000000000
+      internalID: 866359679764795783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_5
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1918
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd527f62fda8e550800000000000000
+      internalID: 6190388944584203773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_6
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1918
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0b5aac333f65400800000000000000
+      internalID: 312704627917566189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_7
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1918
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7e3633bd0a983a0800000000000000
+      internalID: -6662617310397470726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_8
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1662
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dadeb098064014b00800000000000000
+      internalID: 810934220566031789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_9
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1661
+        width: 64
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bed5642dd3cd6cf0800000000000000
+      internalID: -257334249124405582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_10
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1661
+        width: 64
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826fad05e9dfb6fa0800000000000000
+      internalID: -5806268438160935384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_11
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1661
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e842f77a255b75590800000000000000
+      internalID: -7685474872482388850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_12
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1661
+        width: 70
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20db6f8f85883dca0800000000000000
+      internalID: -5993296763384578814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_13
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1661
+        width: 69
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250e01fb329703460800000000000000
+      internalID: 7219403397111275602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_14
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1661
+        width: 69
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d0d3055359044b0800000000000000
+      internalID: -5458198692161057533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_15
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 1661
+        width: 67
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b1a9920f45cae30800000000000000
+      internalID: 4516077916812614449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_16
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1406
+        width: 67
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83bddc7a1c639a6d0800000000000000
+      internalID: -2978789473156998344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_17
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1406
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8eaedf4501bd1460800000000000000
+      internalID: 7214116814490349199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_18
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1406
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 916dbf8969774d260800000000000000
+      internalID: 7121448399475037721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_19
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1406
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c258eed99586c90800000000000000
+      internalID: -7176387471368442818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_20
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1406
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe163c7f5bf79860800000000000000
+      internalID: 7536768888952200891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_21
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1406
+        width: 64
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1efb0ff8676867e0800000000000000
+      internalID: -1772052752717054436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_22
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1405
+        width: 64
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55d13090ab284b3a0800000000000000
+      internalID: -6650547014192652971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_23
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1405
+        width: 69
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0234f86217c98530800000000000000
+      internalID: 3857833437703713293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_24
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1146
+        width: 71
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a1d20787a016680800000000000000
+      internalID: -8763711887491917224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_25
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1147
+        width: 69
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54861abdc49afb200800000000000000
+      internalID: 198063056194988101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_26
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1149
+        width: 68
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0cb4711f95f87e0800000000000000
+      internalID: -1761090037265743672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_27
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1148
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7999ef39543dd94f0800000000000000
+      internalID: -820267261322421865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_28
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1149
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aeeed3d7584d1780800000000000000
+      internalID: -8710726562210713943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_29
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1149
+        width: 57
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86323694f19be3570800000000000000
+      internalID: 8448393495019987816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_53_Forward throw_30
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1150
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42314e159ea028180800000000000000
+      internalID: -9114710698626903260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tate_53_Forward throw_0: -2149169033635338924
+      Tate_53_Forward throw_1: -458710871590081268
+      Tate_53_Forward throw_10: -5806268438160935384
+      Tate_53_Forward throw_11: -7685474872482388850
+      Tate_53_Forward throw_12: -5993296763384578814
+      Tate_53_Forward throw_13: 7219403397111275602
+      Tate_53_Forward throw_14: -5458198692161057533
+      Tate_53_Forward throw_15: 4516077916812614449
+      Tate_53_Forward throw_16: -2978789473156998344
+      Tate_53_Forward throw_17: 7214116814490349199
+      Tate_53_Forward throw_18: 7121448399475037721
+      Tate_53_Forward throw_19: -7176387471368442818
+      Tate_53_Forward throw_2: 5815230332747964054
+      Tate_53_Forward throw_20: 7536768888952200891
+      Tate_53_Forward throw_21: -1772052752717054436
+      Tate_53_Forward throw_22: -6650547014192652971
+      Tate_53_Forward throw_23: 3857833437703713293
+      Tate_53_Forward throw_24: -8763711887491917224
+      Tate_53_Forward throw_25: 198063056194988101
+      Tate_53_Forward throw_26: -1761090037265743672
+      Tate_53_Forward throw_27: -820267261322421865
+      Tate_53_Forward throw_28: -8710726562210713943
+      Tate_53_Forward throw_29: 8448393495019987816
+      Tate_53_Forward throw_3: 7790024614719821313
+      Tate_53_Forward throw_30: -9114710698626903260
+      Tate_53_Forward throw_4: 866359679764795783
+      Tate_53_Forward throw_5: 6190388944584203773
+      Tate_53_Forward throw_6: 312704627917566189
+      Tate_53_Forward throw_7: -6662617310397470726
+      Tate_53_Forward throw_8: 810934220566031789
+      Tate_53_Forward throw_9: -257334249124405582
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

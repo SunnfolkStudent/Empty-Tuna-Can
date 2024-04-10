@@ -7,11 +7,13 @@ using Utils;
 using Utils.Entity;
 
 public class PlayerScript : Damageable {
-    [SerializeField] private Transform projectileSpawnPos;
+    [SerializeField] private Material testPlayer2Material;
+    [SerializeField] private Transform projectileSpawnPosition;
+    [SerializeField] protected Hitbox hitbox;
     
     [HideInInspector] public Vector2 moveVector;
     [HideInInspector] public bool movementEnabled = true;
-    [HideInInspector] public bool isInAction;
+    [HideInInspector] public bool inAction;
     
     public List<Item> itemInventory;
     
@@ -127,13 +129,13 @@ public class PlayerScript : Damageable {
         entityMovement.MoveInDirection(Time.deltaTime, moveVector);
         CheckIfFlipObject();
         
-        if (!isInAction) {
+        if (!inAction) {
             animator.Play(moveVector.magnitude != 0 ? "Walk" : "Idle");
         }
     }
     
     public void ThrowItem(ThrowableItem throwableItem) {
-        ThrowableObjectFactory.CreateGameObject(throwableItem, projectileSpawnPos.position, this);
+        ThrowableObjectFactory.CreateGameObject(throwableItem, projectileSpawnPosition.position, this);
     }
     
     public void CheckIfFlipObject() {

@@ -1,0 +1,1714 @@
+fileFormatVersion: 2
+guid: 8aee24ba086e16d479742983addc5eb2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 602332396330159841
+    second: Tate_59_Taunt_0
+  - first:
+      213: 832877371824633685
+    second: Tate_59_Taunt_1
+  - first:
+      213: 7834652837845279979
+    second: Tate_59_Taunt_2
+  - first:
+      213: 8202680896944617505
+    second: Tate_59_Taunt_3
+  - first:
+      213: 1877051152419491914
+    second: Tate_59_Taunt_4
+  - first:
+      213: 5668579630084850130
+    second: Tate_59_Taunt_5
+  - first:
+      213: 5167769685510214148
+    second: Tate_59_Taunt_6
+  - first:
+      213: -2042610227504674880
+    second: Tate_59_Taunt_7
+  - first:
+      213: 5062785645043583339
+    second: Tate_59_Taunt_8
+  - first:
+      213: 702258810904249919
+    second: Tate_59_Taunt_9
+  - first:
+      213: -5527533784236781117
+    second: Tate_59_Taunt_10
+  - first:
+      213: -748765647769996224
+    second: Tate_59_Taunt_11
+  - first:
+      213: 553386727609468883
+    second: Tate_59_Taunt_12
+  - first:
+      213: 3948837644517480575
+    second: Tate_59_Taunt_13
+  - first:
+      213: -7653844072778097686
+    second: Tate_59_Taunt_14
+  - first:
+      213: -6242468611648408385
+    second: Tate_59_Taunt_15
+  - first:
+      213: -496185694376389824
+    second: Tate_59_Taunt_16
+  - first:
+      213: -3039902321070829838
+    second: Tate_59_Taunt_17
+  - first:
+      213: 5392486456237365990
+    second: Tate_59_Taunt_18
+  - first:
+      213: -3894845588631049430
+    second: Tate_59_Taunt_19
+  - first:
+      213: 8008098109581749364
+    second: Tate_59_Taunt_20
+  - first:
+      213: -1709659493390936328
+    second: Tate_59_Taunt_21
+  - first:
+      213: 869376309602463581
+    second: Tate_59_Taunt_22
+  - first:
+      213: 4737387157162040557
+    second: Tate_59_Taunt_23
+  - first:
+      213: 5706093555343585889
+    second: Tate_59_Taunt_24
+  - first:
+      213: -6148878984729294263
+    second: Tate_59_Taunt_25
+  - first:
+      213: -805201412847418037
+    second: Tate_59_Taunt_26
+  - first:
+      213: 5131427061862027813
+    second: Tate_59_Taunt_27
+  - first:
+      213: -2361197970021366454
+    second: Tate_59_Taunt_28
+  - first:
+      213: 5240192086086357174
+    second: Tate_59_Taunt_29
+  - first:
+      213: 7538323429106605192
+    second: Tate_59_Taunt_30
+  - first:
+      213: -8605125037413347071
+    second: Tate_59_Taunt_31
+  - first:
+      213: 621575699358351271
+    second: Tate_59_Taunt_32
+  - first:
+      213: -1374379570734185331
+    second: Tate_59_Taunt_33
+  - first:
+      213: -2289851664382445379
+    second: Tate_59_Taunt_34
+  - first:
+      213: 2586317736004199886
+    second: Tate_59_Taunt_35
+  - first:
+      213: -2893873606572752640
+    second: Tate_59_Taunt_36
+  - first:
+      213: -3957595805530652199
+    second: Tate_59_Taunt_37
+  - first:
+      213: 5531334913254579195
+    second: Tate_59_Taunt_38
+  - first:
+      213: 4572685320183126777
+    second: Tate_59_Taunt_39
+  - first:
+      213: -7356761083255404523
+    second: Tate_59_Taunt_40
+  - first:
+      213: 7804446707335164459
+    second: Tate_59_Taunt_41
+  - first:
+      213: -1768286344720459882
+    second: Tate_59_Taunt_42
+  - first:
+      213: -1050734527156899595
+    second: Tate_59_Taunt_43
+  - first:
+      213: -8767201193227996775
+    second: Tate_59_Taunt_44
+  - first:
+      213: 3564251691388617310
+    second: Tate_59_Taunt_45
+  - first:
+      213: -266944268643092420
+    second: Tate_59_Taunt_46
+  - first:
+      213: -4490522559592107730
+    second: Tate_59_Taunt_47
+  - first:
+      213: -4050897236845668525
+    second: Tate_59_Taunt_48
+  - first:
+      213: 2851368676941173559
+    second: Tate_59_Taunt_49
+  - first:
+      213: -4038452396030098751
+    second: Tate_59_Taunt_50
+  - first:
+      213: 1676158659406742057
+    second: Tate_59_Taunt_51
+  - first:
+      213: -6875381916391536035
+    second: Tate_59_Taunt_52
+  - first:
+      213: 279313590313853702
+    second: Tate_59_Taunt_53
+  - first:
+      213: -5980294841179497333
+    second: Tate_59_Taunt_54
+  - first:
+      213: -1179142958253100878
+    second: Tate_59_Taunt_55
+  - first:
+      213: -28212069717874964
+    second: Tate_59_Taunt_56
+  - first:
+      213: 7520460706730079869
+    second: Tate_59_Taunt_57
+  - first:
+      213: -6832410919902872531
+    second: Tate_59_Taunt_58
+  - first:
+      213: -7460800503345171654
+    second: Tate_59_Taunt_59
+  - first:
+      213: 1712987601788069739
+    second: Tate_59_Taunt_60
+  - first:
+      213: 5224935682430830884
+    second: Tate_59_Taunt_61
+  - first:
+      213: -5898261889401793565
+    second: Tate_59_Taunt_62
+  - first:
+      213: -6517582003372827816
+    second: Tate_59_Taunt_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tate_59_Taunt_0
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1918
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee08f78f1aeb5800800000000000000
+      internalID: 602332396330159841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_1
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1918
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55771119e89fe8b00800000000000000
+      internalID: 832877371824633685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_2
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1918
+        width: 59
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4264a0f374abc60800000000000000
+      internalID: 7834652837845279979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_3
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1907
+        width: 63
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 128344ce0d6c5d170800000000000000
+      internalID: 8202680896944617505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_4
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 1917
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40933df310ac0a10800000000000000
+      internalID: 1877051152419491914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_5
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1937
+        width: 69
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d10930e327daae40800000000000000
+      internalID: 5668579630084850130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_6
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 1941
+        width: 68
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4025ed1262b97b740800000000000000
+      internalID: 5167769685510214148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_7
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 1939
+        width: 57
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7010ff1d037a3e0800000000000000
+      internalID: -2042610227504674880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_8
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1672
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6905ca68b0a24640800000000000000
+      internalID: 5062785645043583339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_9
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1660
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f360654faaceeb900800000000000000
+      internalID: 702258810904249919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_10
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 1655
+        width: 78
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c198923f414a43b0800000000000000
+      internalID: -5527533784236781117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_11
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 1658
+        width: 74
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04477a84c99db95f0800000000000000
+      internalID: -748765647769996224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_12
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 1658
+        width: 70
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d7049afb460ea700800000000000000
+      internalID: 553386727609468883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_13
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1657
+        width: 66
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7897257ae61dc630800000000000000
+      internalID: 3948837644517480575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_14
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 1658
+        width: 67
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb15db1e5518c590800000000000000
+      internalID: -7653844072778097686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_15
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 1658
+        width: 67
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4bb292fdb4e59a0800000000000000
+      internalID: -6242468611648408385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_16
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1401
+        width: 68
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04390186db13d19f0800000000000000
+      internalID: -496185694376389824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_17
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1400
+        width: 68
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe00b0f1f810d5d0800000000000000
+      internalID: -3039902321070829838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_18
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 1400
+        width: 68
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea12208cd5f5da40800000000000000
+      internalID: 5392486456237365990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_19
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1400
+        width: 68
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2b26aaa29ab2f9c0800000000000000
+      internalID: -3894845588631049430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_20
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1400
+        width: 68
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ce81c4dca722f60800000000000000
+      internalID: 8008098109581749364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_21
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1401
+        width: 68
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f61f89bfb11648e0800000000000000
+      internalID: -1709659493390936328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_22
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 1402
+        width: 67
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5faefdb525a01c00800000000000000
+      internalID: 869376309602463581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_23
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 1400
+        width: 66
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec142a05849eb140800000000000000
+      internalID: 4737387157162040557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_24
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1144
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 162766d3bdd103f40800000000000000
+      internalID: 5706093555343585889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_25
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 1144
+        width: 63
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a885c342bcaaaa0800000000000000
+      internalID: -6148878984729294263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_26
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1144
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b454696c49953d4f0800000000000000
+      internalID: -805201412847418037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_27
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1144
+        width: 66
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 522dc1da9bd763740800000000000000
+      internalID: 5131427061862027813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_28
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1146
+        width: 67
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a45c088d4f65b3fd0800000000000000
+      internalID: -2361197970021366454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_29
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1145
+        width: 69
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b09df540f6e8b840800000000000000
+      internalID: 5240192086086357174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_30
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 1145
+        width: 71
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c57e118318d9860800000000000000
+      internalID: 7538323429106605192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_31
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 1145
+        width: 74
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1015821de54749880800000000000000
+      internalID: -8605125037413347071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_32
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 889
+        width: 73
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aff4492ec740a800800000000000000
+      internalID: 621575699358351271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_33
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 888
+        width: 70
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d84c5dbef093dece0800000000000000
+      internalID: -1374379570734185331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_34
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 888
+        width: 68
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8b52c1b00d830e0800000000000000
+      internalID: -2289851664382445379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_35
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 888
+        width: 68
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5a2da274274e320800000000000000
+      internalID: 2586317736004199886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_36
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 889
+        width: 68
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0014a578945e6d7d0800000000000000
+      internalID: -2893873606572752640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_37
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 890
+        width: 67
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d105c6459bc319c0800000000000000
+      internalID: -3957595805530652199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_38
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 888
+        width: 66
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb514e1ccf33cc40800000000000000
+      internalID: 5531334913254579195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_39
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 888
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa98235211757f30800000000000000
+      internalID: 4572685320183126777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_40
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 632
+        width: 63
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518c427c5c887e990800000000000000
+      internalID: -7356761083255404523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_41
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 632
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b22fd2b3ee6fe4c60800000000000000
+      internalID: 7804446707335164459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_42
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 632
+        width: 66
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69753c130f8c577e0800000000000000
+      internalID: -1768286344720459882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_43
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 634
+        width: 67
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f0339bb38a0b61f0800000000000000
+      internalID: -1050734527156899595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_44
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 633
+        width: 69
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991b34327f4a45680800000000000000
+      internalID: -8767201193227996775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_45
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 633
+        width: 71
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52cd437704c67130800000000000000
+      internalID: 3564251691388617310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_46
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 633
+        width: 74
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38b3bc1a9f9b4cf0800000000000000
+      internalID: -266944268643092420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_47
+      rect:
+        serializedVersion: 2
+        x: 1882
+        y: 633
+        width: 73
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2172ab16857ea1c0800000000000000
+      internalID: -4490522559592107730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_48
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 376
+        width: 70
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357d338fc6258c7c0800000000000000
+      internalID: -4050897236845668525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_49
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 376
+        width: 68
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73311c854b8129720800000000000000
+      internalID: 2851368676941173559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_50
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 376
+        width: 68
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c20d4441f884f7c0800000000000000
+      internalID: -4038452396030098751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_51
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 377
+        width: 68
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92242298b69e24710800000000000000
+      internalID: 1676158659406742057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_52
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 378
+        width: 67
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a865a039cb590a0800000000000000
+      internalID: -6875381916391536035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_53
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 376
+        width: 66
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 603a8930b3250e300800000000000000
+      internalID: 279313590313853702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_54
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 376
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8c1563e689b10da0800000000000000
+      internalID: -5980294841179497333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_55
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 376
+        width: 63
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0bbe11ab7d2afe0800000000000000
+      internalID: -1179142958253100878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_56
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 120
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce66616a545cb9ff0800000000000000
+      internalID: -28212069717874964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_57
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 120
+        width: 66
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76fdebea2b0e5860800000000000000
+      internalID: 7520460706730079869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_58
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 122
+        width: 67
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c70bfc7766e21a0800000000000000
+      internalID: -6832410919902872531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_59
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 121
+        width: 69
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a333e02a879e57890800000000000000
+      internalID: -7460800503345171654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_60
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 121
+        width: 71
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67e935e521c5c710800000000000000
+      internalID: 1712987601788069739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_61
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 121
+        width: 74
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4298d8df153b28840800000000000000
+      internalID: 5224935682430830884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_62
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 121
+        width: 73
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e35bf9df0a252ea0800000000000000
+      internalID: -5898261889401793565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_59_Taunt_63
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 120
+        width: 70
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85bdb7613b5ec85a0800000000000000
+      internalID: -6517582003372827816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tate_59_Taunt_0: 602332396330159841
+      Tate_59_Taunt_1: 832877371824633685
+      Tate_59_Taunt_10: -5527533784236781117
+      Tate_59_Taunt_11: -748765647769996224
+      Tate_59_Taunt_12: 553386727609468883
+      Tate_59_Taunt_13: 3948837644517480575
+      Tate_59_Taunt_14: -7653844072778097686
+      Tate_59_Taunt_15: -6242468611648408385
+      Tate_59_Taunt_16: -496185694376389824
+      Tate_59_Taunt_17: -3039902321070829838
+      Tate_59_Taunt_18: 5392486456237365990
+      Tate_59_Taunt_19: -3894845588631049430
+      Tate_59_Taunt_2: 7834652837845279979
+      Tate_59_Taunt_20: 8008098109581749364
+      Tate_59_Taunt_21: -1709659493390936328
+      Tate_59_Taunt_22: 869376309602463581
+      Tate_59_Taunt_23: 4737387157162040557
+      Tate_59_Taunt_24: 5706093555343585889
+      Tate_59_Taunt_25: -6148878984729294263
+      Tate_59_Taunt_26: -805201412847418037
+      Tate_59_Taunt_27: 5131427061862027813
+      Tate_59_Taunt_28: -2361197970021366454
+      Tate_59_Taunt_29: 5240192086086357174
+      Tate_59_Taunt_3: 8202680896944617505
+      Tate_59_Taunt_30: 7538323429106605192
+      Tate_59_Taunt_31: -8605125037413347071
+      Tate_59_Taunt_32: 621575699358351271
+      Tate_59_Taunt_33: -1374379570734185331
+      Tate_59_Taunt_34: -2289851664382445379
+      Tate_59_Taunt_35: 2586317736004199886
+      Tate_59_Taunt_36: -2893873606572752640
+      Tate_59_Taunt_37: -3957595805530652199
+      Tate_59_Taunt_38: 5531334913254579195
+      Tate_59_Taunt_39: 4572685320183126777
+      Tate_59_Taunt_4: 1877051152419491914
+      Tate_59_Taunt_40: -7356761083255404523
+      Tate_59_Taunt_41: 7804446707335164459
+      Tate_59_Taunt_42: -1768286344720459882
+      Tate_59_Taunt_43: -1050734527156899595
+      Tate_59_Taunt_44: -8767201193227996775
+      Tate_59_Taunt_45: 3564251691388617310
+      Tate_59_Taunt_46: -266944268643092420
+      Tate_59_Taunt_47: -4490522559592107730
+      Tate_59_Taunt_48: -4050897236845668525
+      Tate_59_Taunt_49: 2851368676941173559
+      Tate_59_Taunt_5: 5668579630084850130
+      Tate_59_Taunt_50: -4038452396030098751
+      Tate_59_Taunt_51: 1676158659406742057
+      Tate_59_Taunt_52: -6875381916391536035
+      Tate_59_Taunt_53: 279313590313853702
+      Tate_59_Taunt_54: -5980294841179497333
+      Tate_59_Taunt_55: -1179142958253100878
+      Tate_59_Taunt_56: -28212069717874964
+      Tate_59_Taunt_57: 7520460706730079869
+      Tate_59_Taunt_58: -6832410919902872531
+      Tate_59_Taunt_59: -7460800503345171654
+      Tate_59_Taunt_6: 5167769685510214148
+      Tate_59_Taunt_60: 1712987601788069739
+      Tate_59_Taunt_61: 5224935682430830884
+      Tate_59_Taunt_62: -5898261889401793565
+      Tate_59_Taunt_63: -6517582003372827816
+      Tate_59_Taunt_7: -2042610227504674880
+      Tate_59_Taunt_8: 5062785645043583339
+      Tate_59_Taunt_9: 702258810904249919
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

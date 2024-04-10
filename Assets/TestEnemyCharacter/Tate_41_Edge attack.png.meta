@@ -1,0 +1,664 @@
+fileFormatVersion: 2
+guid: fa19d5c04edb4194db2ea2427a979cdc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3549730973646729233
+    second: Tate_41_Edge attack_0
+  - first:
+      213: 2570781199163488837
+    second: Tate_41_Edge attack_1
+  - first:
+      213: 3295787791887986729
+    second: Tate_41_Edge attack_2
+  - first:
+      213: 5829501397120233429
+    second: Tate_41_Edge attack_3
+  - first:
+      213: -2703246502750201893
+    second: Tate_41_Edge attack_4
+  - first:
+      213: -2568363090128426124
+    second: Tate_41_Edge attack_5
+  - first:
+      213: 8397979318283876171
+    second: Tate_41_Edge attack_6
+  - first:
+      213: -729520956786204922
+    second: Tate_41_Edge attack_7
+  - first:
+      213: 605417582582632783
+    second: Tate_41_Edge attack_8
+  - first:
+      213: 3455160830210086143
+    second: Tate_41_Edge attack_9
+  - first:
+      213: -8067660920176242181
+    second: Tate_41_Edge attack_10
+  - first:
+      213: -2814068924924465327
+    second: Tate_41_Edge attack_11
+  - first:
+      213: 4512998068369157928
+    second: Tate_41_Edge attack_12
+  - first:
+      213: 6154219768034186843
+    second: Tate_41_Edge attack_13
+  - first:
+      213: -1490134574824179940
+    second: Tate_41_Edge attack_14
+  - first:
+      213: 3970642593944845426
+    second: Tate_41_Edge attack_15
+  - first:
+      213: -8514344660807838460
+    second: Tate_41_Edge attack_16
+  - first:
+      213: -3128181439357658278
+    second: Tate_41_Edge attack_17
+  - first:
+      213: -7543057194468123299
+    second: Tate_41_Edge attack_18
+  - first:
+      213: -1845308769507225659
+    second: Tate_41_Edge attack_19
+  - first:
+      213: -7314182896869083576
+    second: Tate_41_Edge attack_20
+  - first:
+      213: 7645654831319095025
+    second: Tate_41_Edge attack_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tate_41_Edge attack_0
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1863
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1103a64638d234130800000000000000
+      internalID: 3549730973646729233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_41_Edge attack_1
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1874
+        width: 52
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a746b41ef3da320800000000000000
+      internalID: 2570781199163488837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_41_Edge attack_2
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1891
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9207d8ee88dfcbd20800000000000000
+      internalID: 3295787791887986729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_41_Edge attack_3
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1924
+        width: 63
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfaef872ac86e050800000000000000
+      internalID: 5829501397120233429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_41_Edge attack_4
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 1924
+        width: 66
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7d14fc0a32c7ad0800000000000000
+      internalID: -2703246502750201893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_41_Edge attack_5
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 1925
+        width: 67
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47baba690675b5cd0800000000000000
+      internalID: -2568363090128426124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_41_Edge attack_6
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1926
+        width: 67
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b47336112bd9b8470800000000000000
+      internalID: 8397979318283876171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_41_Edge attack_7
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 1926
+        width: 65
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f1e821e8830e5f0800000000000000
+      internalID: -729520956786204922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_41_Edge attack_8
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1657
+        width: 67
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f411d9e6510e66800800000000000000
+      internalID: 605417582582632783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_41_Edge attack_9
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1657
+        width: 66
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff41486087233ff20800000000000000
+      internalID: 3455160830210086143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_41_Edge attack_10
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 1657
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1189c2329e90090800000000000000
+      internalID: -8067660920176242181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_41_Edge attack_11
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 1658
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f696ce83b62f8d0800000000000000
+      internalID: -2814068924924465327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_41_Edge attack_12
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1658
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82fea2115d361ae30800000000000000
+      internalID: 4512998068369157928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_41_Edge attack_13
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 1659
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b565d57c54e286550800000000000000
+      internalID: 6154219768034186843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_41_Edge attack_14
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 1659
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17b310df7af15be0800000000000000
+      internalID: -1490134574824179940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_41_Edge attack_15
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 1659
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c3e1ed66e8a1730800000000000000
+      internalID: 3970642593944845426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_41_Edge attack_16
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1403
+        width: 62
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4051e4554a8f6d980800000000000000
+      internalID: -8514344660807838460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_41_Edge attack_17
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1405
+        width: 60
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5bdd120e877694d0800000000000000
+      internalID: -3128181439357658278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_41_Edge attack_18
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1406
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5dd54b427da15790800000000000000
+      internalID: -7543057194468123299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_41_Edge attack_19
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1406
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cfcb9473752466e0800000000000000
+      internalID: -1845308769507225659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_41_Edge attack_20
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1406
+        width: 65
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84671e1586dce7a90800000000000000
+      internalID: -7314182896869083576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_41_Edge attack_21
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1406
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f616088f82da1a60800000000000000
+      internalID: 7645654831319095025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tate_41_Edge attack_0: 3549730973646729233
+      Tate_41_Edge attack_1: 2570781199163488837
+      Tate_41_Edge attack_10: -8067660920176242181
+      Tate_41_Edge attack_11: -2814068924924465327
+      Tate_41_Edge attack_12: 4512998068369157928
+      Tate_41_Edge attack_13: 6154219768034186843
+      Tate_41_Edge attack_14: -1490134574824179940
+      Tate_41_Edge attack_15: 3970642593944845426
+      Tate_41_Edge attack_16: -8514344660807838460
+      Tate_41_Edge attack_17: -3128181439357658278
+      Tate_41_Edge attack_18: -7543057194468123299
+      Tate_41_Edge attack_19: -1845308769507225659
+      Tate_41_Edge attack_2: 3295787791887986729
+      Tate_41_Edge attack_20: -7314182896869083576
+      Tate_41_Edge attack_21: 7645654831319095025
+      Tate_41_Edge attack_3: 5829501397120233429
+      Tate_41_Edge attack_4: -2703246502750201893
+      Tate_41_Edge attack_5: -2568363090128426124
+      Tate_41_Edge attack_6: 8397979318283876171
+      Tate_41_Edge attack_7: -729520956786204922
+      Tate_41_Edge attack_8: 605417582582632783
+      Tate_41_Edge attack_9: 3455160830210086143
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

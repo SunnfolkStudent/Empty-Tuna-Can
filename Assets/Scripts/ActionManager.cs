@@ -9,7 +9,7 @@ public class ActionManager : MonoBehaviour {
     [SerializeField] private float inputBuffer = 0.25f;
     
     private Timer _combatInputTimer;
-    private CombatActionInstance[] _allCombatActions;
+    [SerializeField] private CombatAction[] moveList;
     private List<CombatActionInstance> _availableCombatActions;
     [CanBeNull] private CombatActionInstance _nextCombatAction;
     
@@ -37,10 +37,9 @@ public class ActionManager : MonoBehaviour {
     private void Awake() {
         _combatInputTimer = new Timer(inputBuffer, false);
         _combatInputTimer.OnComplete += ResetCombatActions;
-        _allCombatActions = ScrubUtils.GetAllScrubsInResourceFolder<CombatAction>("ComboActions")
-            .Select(combatAction => new CombatActionInstance(combatAction)).ToArray();
+        moveList = ScrubUtils.GetAllScrubsInResourceFolder<CombatAction>("ComboActions/TestPlayer");
         
-        _availableCombatActions = _allCombatActions.ToList();
+        _availableCombatActions = moveList.Select(combatAction => new CombatActionInstance(combatAction)).ToList();
     }
     
     public void ReceiveCombatInput(CombatInput combatInput) {
@@ -60,7 +59,7 @@ public class ActionManager : MonoBehaviour {
     }
     
     private void ResetCombatActions() {
-        foreach (var combatAction in _allCombatActions) {
+        foreach (var combatAction in _availableCombatActions) {
             combatAction.Index = 0;
         }
     }
@@ -82,7 +81,7 @@ public class ActionManager : MonoBehaviour {
         Debug.Log("Executing combat action " + _nextCombatAction.Animation.name);
         
         playerScript.movementEnabled = _nextCombatAction.CanMoveDuring;
-        playerScript.isInAction = true;
+        playerScript.inAction = true;
         
         animator.Play(_nextCombatAction.Animation.name);
         
@@ -90,6 +89,7 @@ public class ActionManager : MonoBehaviour {
     }
 
     private void SetAnimationController(int index) {
+        Debug.Log("Controller: " + index);
         animator.runtimeAnimatorController = allControllers[index];
     }
     
@@ -103,7 +103,7 @@ public class ActionManager : MonoBehaviour {
         else {
             animator.Play("Idle");
             playerScript.movementEnabled = true;
-            playerScript.isInAction = false;
+            playerScript.inAction = false;
         }
     }
 }

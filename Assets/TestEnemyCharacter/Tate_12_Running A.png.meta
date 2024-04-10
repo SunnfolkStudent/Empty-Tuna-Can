@@ -1,0 +1,1714 @@
+fileFormatVersion: 2
+guid: 085629439ee9dfc4b8d078ff94a77474
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1271952812755035760
+    second: Tate_12_Running A_0
+  - first:
+      213: -6378984609875252832
+    second: Tate_12_Running A_1
+  - first:
+      213: -8184653256022796005
+    second: Tate_12_Running A_2
+  - first:
+      213: -4642122104562288366
+    second: Tate_12_Running A_3
+  - first:
+      213: 329219472989728150
+    second: Tate_12_Running A_4
+  - first:
+      213: -6270811699309813696
+    second: Tate_12_Running A_5
+  - first:
+      213: 600682373672017760
+    second: Tate_12_Running A_6
+  - first:
+      213: 3257145059017267178
+    second: Tate_12_Running A_7
+  - first:
+      213: 7516610084755838958
+    second: Tate_12_Running A_8
+  - first:
+      213: -5221825067087836496
+    second: Tate_12_Running A_9
+  - first:
+      213: 1346300602204530233
+    second: Tate_12_Running A_10
+  - first:
+      213: -5177539729757268171
+    second: Tate_12_Running A_11
+  - first:
+      213: -6853616052531912346
+    second: Tate_12_Running A_12
+  - first:
+      213: -8662930045044151968
+    second: Tate_12_Running A_13
+  - first:
+      213: -1043434147898964353
+    second: Tate_12_Running A_14
+  - first:
+      213: 4682362565026966951
+    second: Tate_12_Running A_15
+  - first:
+      213: 1750496384848974636
+    second: Tate_12_Running A_16
+  - first:
+      213: 2210807597197846920
+    second: Tate_12_Running A_17
+  - first:
+      213: 8306841642900324560
+    second: Tate_12_Running A_18
+  - first:
+      213: 7788858031533898724
+    second: Tate_12_Running A_19
+  - first:
+      213: 926410387451411298
+    second: Tate_12_Running A_20
+  - first:
+      213: 6598914670933361439
+    second: Tate_12_Running A_21
+  - first:
+      213: 5310928565053052574
+    second: Tate_12_Running A_22
+  - first:
+      213: -4467271356285092090
+    second: Tate_12_Running A_23
+  - first:
+      213: -2455731158595529644
+    second: Tate_12_Running A_24
+  - first:
+      213: -7717416556524970058
+    second: Tate_12_Running A_25
+  - first:
+      213: 7285862973479042514
+    second: Tate_12_Running A_26
+  - first:
+      213: -882513538560927952
+    second: Tate_12_Running A_27
+  - first:
+      213: 7730557891965546471
+    second: Tate_12_Running A_28
+  - first:
+      213: -364859081257429682
+    second: Tate_12_Running A_29
+  - first:
+      213: -3157644750579770692
+    second: Tate_12_Running A_30
+  - first:
+      213: 2403372255948685064
+    second: Tate_12_Running A_31
+  - first:
+      213: -4008443547214943228
+    second: Tate_12_Running A_32
+  - first:
+      213: -4556038482076670579
+    second: Tate_12_Running A_33
+  - first:
+      213: 9119782242079190527
+    second: Tate_12_Running A_34
+  - first:
+      213: -4311069885893473765
+    second: Tate_12_Running A_35
+  - first:
+      213: 3917979726551745154
+    second: Tate_12_Running A_36
+  - first:
+      213: -8415998783357812280
+    second: Tate_12_Running A_37
+  - first:
+      213: 5744049583919058473
+    second: Tate_12_Running A_38
+  - first:
+      213: 1203578953451690278
+    second: Tate_12_Running A_39
+  - first:
+      213: 6794652494902077399
+    second: Tate_12_Running A_40
+  - first:
+      213: -62096039148396466
+    second: Tate_12_Running A_41
+  - first:
+      213: 7571577490922056230
+    second: Tate_12_Running A_42
+  - first:
+      213: -1667782739459334817
+    second: Tate_12_Running A_43
+  - first:
+      213: -3965298533245341286
+    second: Tate_12_Running A_44
+  - first:
+      213: -4883662415315950294
+    second: Tate_12_Running A_45
+  - first:
+      213: 2817074895090240939
+    second: Tate_12_Running A_46
+  - first:
+      213: -5480799201951076160
+    second: Tate_12_Running A_47
+  - first:
+      213: 7933053887581233321
+    second: Tate_12_Running A_48
+  - first:
+      213: 5470269303491876106
+    second: Tate_12_Running A_49
+  - first:
+      213: 1483921876376527270
+    second: Tate_12_Running A_50
+  - first:
+      213: -6865051128193636261
+    second: Tate_12_Running A_51
+  - first:
+      213: 4536070952015725906
+    second: Tate_12_Running A_52
+  - first:
+      213: 6972934786937431190
+    second: Tate_12_Running A_53
+  - first:
+      213: -8917142577623375984
+    second: Tate_12_Running A_54
+  - first:
+      213: 7769375980789862231
+    second: Tate_12_Running A_55
+  - first:
+      213: 6151347805021580699
+    second: Tate_12_Running A_56
+  - first:
+      213: 8424035085356431283
+    second: Tate_12_Running A_57
+  - first:
+      213: 7791315769892793451
+    second: Tate_12_Running A_58
+  - first:
+      213: -6192605027539645518
+    second: Tate_12_Running A_59
+  - first:
+      213: -4054932863664868572
+    second: Tate_12_Running A_60
+  - first:
+      213: -808075733053666143
+    second: Tate_12_Running A_61
+  - first:
+      213: 8054842666205203837
+    second: Tate_12_Running A_62
+  - first:
+      213: -6976725161207560774
+    second: Tate_12_Running A_63
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tate_12_Running A_0
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1917
+        width: 59
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0995da8e7ad195ee0800000000000000
+      internalID: -1271952812755035760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_1
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1917
+        width: 61
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a9a3bc6b4b4977a0800000000000000
+      internalID: -6378984609875252832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_2
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1917
+        width: 63
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1954015a354a6e80800000000000000
+      internalID: -8184653256022796005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_3
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1920
+        width: 70
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21973997a8ed39fb0800000000000000
+      internalID: -4642122104562288366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_4
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1921
+        width: 72
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69da1bccd5f919400800000000000000
+      internalID: 329219472989728150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_5
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1922
+        width: 72
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0406641dbf999f8a0800000000000000
+      internalID: -6270811699309813696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_6
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 1916
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06f1f81bf6d065800800000000000000
+      internalID: 600682373672017760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_7
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 1914
+        width: 101
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae794a09c24b33d20800000000000000
+      internalID: 3257145059017267178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_8
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 1658
+        width: 99
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee79df02c0d505860800000000000000
+      internalID: 7516610084755838958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_9
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 1659
+        width: 94
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bacff494c95887b0800000000000000
+      internalID: -5221825067087836496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_10
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 1659
+        width: 90
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936ab43c3450fa210800000000000000
+      internalID: 1346300602204530233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_11
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1660
+        width: 85
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 537985d2c0fa528b0800000000000000
+      internalID: -5177539729757268171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_12
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 1660
+        width: 81
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 661abe1238013e0a0800000000000000
+      internalID: -6853616052531912346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_13
+      rect:
+        serializedVersion: 2
+        x: 1398
+        y: 1660
+        width: 81
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069a51fa50717c780800000000000000
+      internalID: -8662930045044151968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_14
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 1660
+        width: 81
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7648fbbb2af481f0800000000000000
+      internalID: -1043434147898964353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_15
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 1660
+        width: 81
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ade406d1f71bf040800000000000000
+      internalID: 4682362565026966951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_16
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1404
+        width: 84
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c23578fff230b4810800000000000000
+      internalID: 1750496384848974636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_17
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1403
+        width: 83
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88966b9dbcd5eae10800000000000000
+      internalID: 2210807597197846920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_18
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1403
+        width: 79
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d00f727674d74370800000000000000
+      internalID: 8306841642900324560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_19
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1404
+        width: 72
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ebb68fcc15971c60800000000000000
+      internalID: 7788858031533898724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_20
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 1402
+        width: 76
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26bf54cc6554bdc00800000000000000
+      internalID: 926410387451411298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_21
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1401
+        width: 71
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13c8104eed049b50800000000000000
+      internalID: 6598914670933361439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_22
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 1405
+        width: 76
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e965673346534b940800000000000000
+      internalID: 5310928565053052574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_23
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1407
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f795dbe501102c0800000000000000
+      internalID: -4467271356285092090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_24
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1151
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4541e04b58d7bedd0800000000000000
+      internalID: -2455731158595529644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_25
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1150
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf5c9cc78a36e490800000000000000
+      internalID: -7717416556524970058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_26
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 1150
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ddb360b5c59c1560800000000000000
+      internalID: 7285862973479042514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_27
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 1149
+        width: 59
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0375a98cc9ea0c3f0800000000000000
+      internalID: -882513538560927952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_28
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1150
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7efe23ac175784b60800000000000000
+      internalID: 7730557891965546471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_29
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1150
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4553944992cfeaf0800000000000000
+      internalID: -364859081257429682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_30
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1150
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbad0da44dacd24d0800000000000000
+      internalID: -3157644750579770692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_31
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1150
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80fb9da455e7a5120800000000000000
+      internalID: 2403372255948685064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_32
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 894
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ceb0ad4d52f58c0800000000000000
+      internalID: -4008443547214943228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_33
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 894
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d856fc4b323b5c0c0800000000000000
+      internalID: -4556038482076670579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_34
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 894
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffdab0861a9ff8e70800000000000000
+      internalID: 9119782242079190527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_35
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 894
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a8f61a7c00c24c0800000000000000
+      internalID: -4311069885893473765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_36
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 894
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2828c4e8dc57f5630800000000000000
+      internalID: 3917979726551745154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_37
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 894
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c186d742bd543b80800000000000000
+      internalID: -8415998783357812280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_38
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 894
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ec9bdc9a6f6bf40800000000000000
+      internalID: 5744049583919058473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_39
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 894
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629df9b6ea8f3b010800000000000000
+      internalID: 1203578953451690278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_40
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 638
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d72cdac1747b4e50800000000000000
+      internalID: 6794652494902077399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_41
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 638
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40e99c3bf3632ff0800000000000000
+      internalID: -62096039148396466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_42
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 638
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62aa0cfac95a31960800000000000000
+      internalID: 7571577490922056230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_43
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 638
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d9ffb4f68dad8e0800000000000000
+      internalID: -1667782739459334817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_44
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 638
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91b8893efd68f8c0800000000000000
+      internalID: -3965298533245341286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_45
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 638
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25aa2478eeb93cb0800000000000000
+      internalID: -4883662415315950294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_46
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 638
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bad468b01b2481720800000000000000
+      internalID: 2817074895090240939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_47
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 638
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c036721a2a40f3b0800000000000000
+      internalID: -5480799201951076160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_48
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 382
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0af49ca7ed71e60800000000000000
+      internalID: 7933053887581233321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_49
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 382
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a055b54e2fc4aeb40800000000000000
+      internalID: 5470269303491876106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_50
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 382
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1aadb9513f79410800000000000000
+      internalID: 1483921876376527270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_51
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 382
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58af1b1f507ab0a0800000000000000
+      internalID: -6865051128193636261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_52
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 382
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2558dda6f7c53fe30800000000000000
+      internalID: 4536070952015725906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_53
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 382
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 694ae599e37d4c060800000000000000
+      internalID: 6972934786937431190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_54
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 382
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09f5f391212ff3480800000000000000
+      internalID: -8917142577623375984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_55
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 382
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f8e656a4e52db60800000000000000
+      internalID: 7769375980789862231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_56
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 126
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9da038cc3afd5550800000000000000
+      internalID: 6151347805021580699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_57
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 126
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7f816174f28e470800000000000000
+      internalID: 8424035085356431283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_58
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 126
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ceb5d9960502c60800000000000000
+      internalID: 7791315769892793451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_59
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 126
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb833b89827f0aa0800000000000000
+      internalID: -6192605027539645518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_60
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 126
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423b2316b0cf9b7c0800000000000000
+      internalID: -4054932863664868572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_61
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 126
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac09b3f66329c4f0800000000000000
+      internalID: -808075733053666143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_62
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 126
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d42d08abc88cf60800000000000000
+      internalID: 8054842666205203837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_12_Running A_63
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 126
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab581be1e61bd2f90800000000000000
+      internalID: -6976725161207560774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tate_12_Running A_0: -1271952812755035760
+      Tate_12_Running A_1: -6378984609875252832
+      Tate_12_Running A_10: 1346300602204530233
+      Tate_12_Running A_11: -5177539729757268171
+      Tate_12_Running A_12: -6853616052531912346
+      Tate_12_Running A_13: -8662930045044151968
+      Tate_12_Running A_14: -1043434147898964353
+      Tate_12_Running A_15: 4682362565026966951
+      Tate_12_Running A_16: 1750496384848974636
+      Tate_12_Running A_17: 2210807597197846920
+      Tate_12_Running A_18: 8306841642900324560
+      Tate_12_Running A_19: 7788858031533898724
+      Tate_12_Running A_2: -8184653256022796005
+      Tate_12_Running A_20: 926410387451411298
+      Tate_12_Running A_21: 6598914670933361439
+      Tate_12_Running A_22: 5310928565053052574
+      Tate_12_Running A_23: -4467271356285092090
+      Tate_12_Running A_24: -2455731158595529644
+      Tate_12_Running A_25: -7717416556524970058
+      Tate_12_Running A_26: 7285862973479042514
+      Tate_12_Running A_27: -882513538560927952
+      Tate_12_Running A_28: 7730557891965546471
+      Tate_12_Running A_29: -364859081257429682
+      Tate_12_Running A_3: -4642122104562288366
+      Tate_12_Running A_30: -3157644750579770692
+      Tate_12_Running A_31: 2403372255948685064
+      Tate_12_Running A_32: -4008443547214943228
+      Tate_12_Running A_33: -4556038482076670579
+      Tate_12_Running A_34: 9119782242079190527
+      Tate_12_Running A_35: -4311069885893473765
+      Tate_12_Running A_36: 3917979726551745154
+      Tate_12_Running A_37: -8415998783357812280
+      Tate_12_Running A_38: 5744049583919058473
+      Tate_12_Running A_39: 1203578953451690278
+      Tate_12_Running A_4: 329219472989728150
+      Tate_12_Running A_40: 6794652494902077399
+      Tate_12_Running A_41: -62096039148396466
+      Tate_12_Running A_42: 7571577490922056230
+      Tate_12_Running A_43: -1667782739459334817
+      Tate_12_Running A_44: -3965298533245341286
+      Tate_12_Running A_45: -4883662415315950294
+      Tate_12_Running A_46: 2817074895090240939
+      Tate_12_Running A_47: -5480799201951076160
+      Tate_12_Running A_48: 7933053887581233321
+      Tate_12_Running A_49: 5470269303491876106
+      Tate_12_Running A_5: -6270811699309813696
+      Tate_12_Running A_50: 1483921876376527270
+      Tate_12_Running A_51: -6865051128193636261
+      Tate_12_Running A_52: 4536070952015725906
+      Tate_12_Running A_53: 6972934786937431190
+      Tate_12_Running A_54: -8917142577623375984
+      Tate_12_Running A_55: 7769375980789862231
+      Tate_12_Running A_56: 6151347805021580699
+      Tate_12_Running A_57: 8424035085356431283
+      Tate_12_Running A_58: 7791315769892793451
+      Tate_12_Running A_59: -6192605027539645518
+      Tate_12_Running A_6: 600682373672017760
+      Tate_12_Running A_60: -4054932863664868572
+      Tate_12_Running A_61: -808075733053666143
+      Tate_12_Running A_62: 8054842666205203837
+      Tate_12_Running A_63: -6976725161207560774
+      Tate_12_Running A_7: 3257145059017267178
+      Tate_12_Running A_8: 7516610084755838958
+      Tate_12_Running A_9: -5221825067087836496
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

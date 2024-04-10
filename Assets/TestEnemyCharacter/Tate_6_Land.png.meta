@@ -1,0 +1,864 @@
+fileFormatVersion: 2
+guid: 747f5f0b2ff973c42bbe359f3726c214
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7128429460660258700
+    second: Tate_6_Land_0
+  - first:
+      213: 7731289951349700829
+    second: Tate_6_Land_1
+  - first:
+      213: -2533814837908667886
+    second: Tate_6_Land_2
+  - first:
+      213: -9185668129041467839
+    second: Tate_6_Land_3
+  - first:
+      213: -7915193194730982533
+    second: Tate_6_Land_4
+  - first:
+      213: 1539067591832032781
+    second: Tate_6_Land_5
+  - first:
+      213: -622716028788711086
+    second: Tate_6_Land_6
+  - first:
+      213: -1729513898082551759
+    second: Tate_6_Land_7
+  - first:
+      213: 1686601457327226811
+    second: Tate_6_Land_8
+  - first:
+      213: -7525739119488994060
+    second: Tate_6_Land_9
+  - first:
+      213: 2554692357143475393
+    second: Tate_6_Land_10
+  - first:
+      213: 7165318644951220690
+    second: Tate_6_Land_11
+  - first:
+      213: 8127216267966140165
+    second: Tate_6_Land_12
+  - first:
+      213: 1504631845156164770
+    second: Tate_6_Land_13
+  - first:
+      213: 1879212475505265671
+    second: Tate_6_Land_14
+  - first:
+      213: -4934911085593925649
+    second: Tate_6_Land_15
+  - first:
+      213: 2751396368696841716
+    second: Tate_6_Land_16
+  - first:
+      213: 4185060238295036599
+    second: Tate_6_Land_17
+  - first:
+      213: 1563644395487742013
+    second: Tate_6_Land_18
+  - first:
+      213: -8943714787994276553
+    second: Tate_6_Land_19
+  - first:
+      213: 1474300323134737089
+    second: Tate_6_Land_20
+  - first:
+      213: 4031566463337995120
+    second: Tate_6_Land_21
+  - first:
+      213: -8376269527913970902
+    second: Tate_6_Land_22
+  - first:
+      213: -2067353932177260774
+    second: Tate_6_Land_23
+  - first:
+      213: -200855415204758151
+    second: Tate_6_Land_24
+  - first:
+      213: -3323947180897149575
+    second: Tate_6_Land_25
+  - first:
+      213: 6154361587864317756
+    second: Tate_6_Land_26
+  - first:
+      213: 7588781464736427977
+    second: Tate_6_Land_27
+  - first:
+      213: 5331452467773928196
+    second: Tate_6_Land_28
+  - first:
+      213: -6744502627240616588
+    second: Tate_6_Land_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tate_6_Land_0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1918
+        width: 59
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87851193d44de260800000000000000
+      internalID: 7128429460660258700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_1
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1918
+        width: 56
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8feb5af3f0b4b60800000000000000
+      internalID: 7731289951349700829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_2
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1918
+        width: 62
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21207d364d416dcd0800000000000000
+      internalID: -2533814837908667886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_3
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1918
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1463bdf1183f58080800000000000000
+      internalID: -9185668129041467839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_4
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1918
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b737873d9b5972290800000000000000
+      internalID: -7915193194730982533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_5
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1918
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06d67802dddb5510800000000000000
+      internalID: 1539067591832032781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_6
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 1915
+        width: 67
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2516b14321bab57f0800000000000000
+      internalID: -622716028788711086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_7
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1663
+        width: 67
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13830b6e5488ff7e0800000000000000
+      internalID: -1729513898082551759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_8
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1666
+        width: 66
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf35a5e613086710800000000000000
+      internalID: 1686601457327226811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_9
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 1663
+        width: 67
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4f896d4243f8790800000000000000
+      internalID: -7525739119488994060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_10
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1659
+        width: 67
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c431f9d927147320800000000000000
+      internalID: 2554692357143475393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_11
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 1658
+        width: 66
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d10dc61853507360800000000000000
+      internalID: 7165318644951220690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_12
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 1656
+        width: 65
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fc5e8c22ca9c070800000000000000
+      internalID: 8127216267966140165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_13
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 1653
+        width: 62
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a41648f0b681e410800000000000000
+      internalID: 1504631845156164770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_14
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 1653
+        width: 62
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70c49fb3acd441a10800000000000000
+      internalID: 1879212475505265671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_15
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1397
+        width: 62
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe76901938ca38bb0800000000000000
+      internalID: -4934911085593925649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_16
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1397
+        width: 62
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f599787b6cee2620800000000000000
+      internalID: 2751396368696841716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_17
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1397
+        width: 62
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b2ff230d12541a30800000000000000
+      internalID: 4185060238295036599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_18
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1397
+        width: 62
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38c31c0b4e23b510800000000000000
+      internalID: 1563644395487742013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_19
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1399
+        width: 60
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d613149ca81e380800000000000000
+      internalID: -8943714787994276553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_20
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1401
+        width: 59
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca80bc2554c57410800000000000000
+      internalID: 1474300323134737089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_21
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 1407
+        width: 59
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b93a7965003f730800000000000000
+      internalID: 4031566463337995120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_22
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1414
+        width: 60
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2342c56e3381cb80800000000000000
+      internalID: -8376269527913970902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_23
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1157
+        width: 60
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f319f4d884f43e0800000000000000
+      internalID: -2067353932177260774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_24
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1154
+        width: 60
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97db185601b663df0800000000000000
+      internalID: -200855415204758151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_25
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1151
+        width: 59
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97dd67666a7fed1d0800000000000000
+      internalID: -3323947180897149575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_26
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1150
+        width: 59
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f26f7c14fa86550800000000000000
+      internalID: 6154361587864317756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_27
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1150
+        width: 62
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cfeeabf884c05960800000000000000
+      internalID: 7588781464736427977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_28
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1150
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4037b8ea5cf1df940800000000000000
+      internalID: 5331452467773928196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_6_Land_29
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1150
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d52ac2896b662a0800000000000000
+      internalID: -6744502627240616588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tate_6_Land_0: 7128429460660258700
+      Tate_6_Land_1: 7731289951349700829
+      Tate_6_Land_10: 2554692357143475393
+      Tate_6_Land_11: 7165318644951220690
+      Tate_6_Land_12: 8127216267966140165
+      Tate_6_Land_13: 1504631845156164770
+      Tate_6_Land_14: 1879212475505265671
+      Tate_6_Land_15: -4934911085593925649
+      Tate_6_Land_16: 2751396368696841716
+      Tate_6_Land_17: 4185060238295036599
+      Tate_6_Land_18: 1563644395487742013
+      Tate_6_Land_19: -8943714787994276553
+      Tate_6_Land_2: -2533814837908667886
+      Tate_6_Land_20: 1474300323134737089
+      Tate_6_Land_21: 4031566463337995120
+      Tate_6_Land_22: -8376269527913970902
+      Tate_6_Land_23: -2067353932177260774
+      Tate_6_Land_24: -200855415204758151
+      Tate_6_Land_25: -3323947180897149575
+      Tate_6_Land_26: 6154361587864317756
+      Tate_6_Land_27: 7588781464736427977
+      Tate_6_Land_28: 5331452467773928196
+      Tate_6_Land_29: -6744502627240616588
+      Tate_6_Land_3: -9185668129041467839
+      Tate_6_Land_4: -7915193194730982533
+      Tate_6_Land_5: 1539067591832032781
+      Tate_6_Land_6: -622716028788711086
+      Tate_6_Land_7: -1729513898082551759
+      Tate_6_Land_8: 1686601457327226811
+      Tate_6_Land_9: -7525739119488994060
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

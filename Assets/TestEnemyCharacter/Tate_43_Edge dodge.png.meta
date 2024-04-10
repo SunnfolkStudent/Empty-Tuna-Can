@@ -1,0 +1,764 @@
+fileFormatVersion: 2
+guid: 94650fafd57f5fb4aacc177d99305435
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7836969002957535612
+    second: Tate_43_Edge dodge_0
+  - first:
+      213: 3087071987394046836
+    second: Tate_43_Edge dodge_1
+  - first:
+      213: 7854794966009248977
+    second: Tate_43_Edge dodge_2
+  - first:
+      213: -281634284542168531
+    second: Tate_43_Edge dodge_3
+  - first:
+      213: 6109217305192620901
+    second: Tate_43_Edge dodge_4
+  - first:
+      213: 8689464023483327677
+    second: Tate_43_Edge dodge_5
+  - first:
+      213: 9001097505210216354
+    second: Tate_43_Edge dodge_6
+  - first:
+      213: 1689575229227334944
+    second: Tate_43_Edge dodge_7
+  - first:
+      213: 2670663137022106343
+    second: Tate_43_Edge dodge_8
+  - first:
+      213: 7133719971627177180
+    second: Tate_43_Edge dodge_9
+  - first:
+      213: 8632370276329271351
+    second: Tate_43_Edge dodge_10
+  - first:
+      213: 7441536440531972815
+    second: Tate_43_Edge dodge_11
+  - first:
+      213: -5028938575475043685
+    second: Tate_43_Edge dodge_12
+  - first:
+      213: -1599371025083788536
+    second: Tate_43_Edge dodge_13
+  - first:
+      213: 6679469161132638476
+    second: Tate_43_Edge dodge_14
+  - first:
+      213: -6139011351811021383
+    second: Tate_43_Edge dodge_15
+  - first:
+      213: 4779842651125108252
+    second: Tate_43_Edge dodge_16
+  - first:
+      213: -5251170276548774805
+    second: Tate_43_Edge dodge_17
+  - first:
+      213: -8513814254067242946
+    second: Tate_43_Edge dodge_18
+  - first:
+      213: -2075985306856145839
+    second: Tate_43_Edge dodge_19
+  - first:
+      213: -3348774815330448257
+    second: Tate_43_Edge dodge_20
+  - first:
+      213: 1919618376148738324
+    second: Tate_43_Edge dodge_21
+  - first:
+      213: -689626457726491055
+    second: Tate_43_Edge dodge_22
+  - first:
+      213: 9075602572956240168
+    second: Tate_43_Edge dodge_23
+  - first:
+      213: 6761323625158010001
+    second: Tate_43_Edge dodge_24
+  - first:
+      213: -1394102428670893201
+    second: Tate_43_Edge dodge_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tate_43_Edge dodge_0
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 1863
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79f70149c182cc60800000000000000
+      internalID: 7836969002957535612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_43_Edge dodge_1
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 1869
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b6ea4dd9b77da20800000000000000
+      internalID: 3087071987394046836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_43_Edge dodge_2
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 1874
+        width: 52
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dcf184b766d10d60800000000000000
+      internalID: 7854794966009248977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_43_Edge dodge_3
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 1882
+        width: 63
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22fa414c1f671cf0800000000000000
+      internalID: -281634284542168531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_43_Edge dodge_4
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 1891
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 563eca365cc48c450800000000000000
+      internalID: 6109217305192620901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_43_Edge dodge_5
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1916
+        width: 65
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4a2489d7d279870800000000000000
+      internalID: 8689464023483327677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_43_Edge dodge_6
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1912
+        width: 58
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2afa5babd725aec70800000000000000
+      internalID: 9001097505210216354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_43_Edge dodge_7
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 1914
+        width: 50
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02df46f18b3927710800000000000000
+      internalID: 1689575229227334944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_43_Edge dodge_8
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1648
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eadeec29f9101520800000000000000
+      internalID: 2670663137022106343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_43_Edge dodge_9
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1654
+        width: 51
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd492f3a480100360800000000000000
+      internalID: 7133719971627177180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_43_Edge dodge_10
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 1656
+        width: 65
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7303f32b7075cc770800000000000000
+      internalID: 8632370276329271351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_43_Edge dodge_11
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1656
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc2780937f5a54760800000000000000
+      internalID: 7441536440531972815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_43_Edge dodge_12
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 1656
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b921d83920f953ab0800000000000000
+      internalID: -5028938575475043685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_43_Edge dodge_13
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1656
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80314d9c684edc9e0800000000000000
+      internalID: -1599371025083788536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_43_Edge dodge_14
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1669
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c01cc7d00dd32bc50800000000000000
+      internalID: 6679469161132638476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_43_Edge dodge_15
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1663
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5a63f83b9ddcaa0800000000000000
+      internalID: -6139011351811021383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_43_Edge dodge_16
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1407
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ec2960199655240800000000000000
+      internalID: 4779842651125108252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_43_Edge dodge_17
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1408
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64783394781027b0800000000000000
+      internalID: -5251170276548774805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_43_Edge dodge_18
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 1406
+        width: 61
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e382aa64b0bd8d980800000000000000
+      internalID: -8513814254067242946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_43_Edge dodge_19
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1406
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15cb8e9cc5e9033e0800000000000000
+      internalID: -2075985306856145839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_43_Edge dodge_20
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1405
+        width: 59
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c447b4c03c681d0800000000000000
+      internalID: -3348774815330448257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_43_Edge dodge_21
+      rect:
+        serializedVersion: 2
+        x: 1386
+        y: 1405
+        width: 61
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41168a61ebad3aa10800000000000000
+      internalID: 1919618376148738324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_43_Edge dodge_22
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1405
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1566087f364fd66f0800000000000000
+      internalID: -689626457726491055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_43_Edge dodge_23
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1405
+        width: 65
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8298dab947403fd70800000000000000
+      internalID: 9075602572956240168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_43_Edge dodge_24
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1149
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 194eff8930c05dd50800000000000000
+      internalID: 6761323625158010001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_43_Edge dodge_25
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1150
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f63ef863a3727ace0800000000000000
+      internalID: -1394102428670893201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tate_43_Edge dodge_0: 7836969002957535612
+      Tate_43_Edge dodge_1: 3087071987394046836
+      Tate_43_Edge dodge_10: 8632370276329271351
+      Tate_43_Edge dodge_11: 7441536440531972815
+      Tate_43_Edge dodge_12: -5028938575475043685
+      Tate_43_Edge dodge_13: -1599371025083788536
+      Tate_43_Edge dodge_14: 6679469161132638476
+      Tate_43_Edge dodge_15: -6139011351811021383
+      Tate_43_Edge dodge_16: 4779842651125108252
+      Tate_43_Edge dodge_17: -5251170276548774805
+      Tate_43_Edge dodge_18: -8513814254067242946
+      Tate_43_Edge dodge_19: -2075985306856145839
+      Tate_43_Edge dodge_2: 7854794966009248977
+      Tate_43_Edge dodge_20: -3348774815330448257
+      Tate_43_Edge dodge_21: 1919618376148738324
+      Tate_43_Edge dodge_22: -689626457726491055
+      Tate_43_Edge dodge_23: 9075602572956240168
+      Tate_43_Edge dodge_24: 6761323625158010001
+      Tate_43_Edge dodge_25: -1394102428670893201
+      Tate_43_Edge dodge_3: -281634284542168531
+      Tate_43_Edge dodge_4: 6109217305192620901
+      Tate_43_Edge dodge_5: 8689464023483327677
+      Tate_43_Edge dodge_6: 9001097505210216354
+      Tate_43_Edge dodge_7: 1689575229227334944
+      Tate_43_Edge dodge_8: 2670663137022106343
+      Tate_43_Edge dodge_9: 7133719971627177180
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

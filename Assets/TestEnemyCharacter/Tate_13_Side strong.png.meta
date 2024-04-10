@@ -1,0 +1,1764 @@
+fileFormatVersion: 2
+guid: 0913e0da5db3ac743a9a668e11412bbc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7388372621480799664
+    second: Tate_13_Side strong_0
+  - first:
+      213: 7599551854531153218
+    second: Tate_13_Side strong_1
+  - first:
+      213: 8383582495529269747
+    second: Tate_13_Side strong_2
+  - first:
+      213: -8609781432660697786
+    second: Tate_13_Side strong_3
+  - first:
+      213: -5136963843283675860
+    second: Tate_13_Side strong_4
+  - first:
+      213: -6948697725524191530
+    second: Tate_13_Side strong_5
+  - first:
+      213: 8753731281065484523
+    second: Tate_13_Side strong_6
+  - first:
+      213: -7337640305070120833
+    second: Tate_13_Side strong_7
+  - first:
+      213: -8092585185950262439
+    second: Tate_13_Side strong_8
+  - first:
+      213: -7429994528591997532
+    second: Tate_13_Side strong_9
+  - first:
+      213: 1643250068315293438
+    second: Tate_13_Side strong_10
+  - first:
+      213: -2440295111438839676
+    second: Tate_13_Side strong_11
+  - first:
+      213: -1222139272524476669
+    second: Tate_13_Side strong_12
+  - first:
+      213: -813601896148127957
+    second: Tate_13_Side strong_13
+  - first:
+      213: -4987199671687075990
+    second: Tate_13_Side strong_14
+  - first:
+      213: 8777392225581272430
+    second: Tate_13_Side strong_15
+  - first:
+      213: -3200392725157585359
+    second: Tate_13_Side strong_16
+  - first:
+      213: -1365206261306881658
+    second: Tate_13_Side strong_17
+  - first:
+      213: -5379203694813673745
+    second: Tate_13_Side strong_18
+  - first:
+      213: 6376490405660805190
+    second: Tate_13_Side strong_19
+  - first:
+      213: -2971971713114165854
+    second: Tate_13_Side strong_20
+  - first:
+      213: 8309498672370681344
+    second: Tate_13_Side strong_21
+  - first:
+      213: -451747223133515099
+    second: Tate_13_Side strong_22
+  - first:
+      213: -14718028131892152
+    second: Tate_13_Side strong_23
+  - first:
+      213: -4426898463101313898
+    second: Tate_13_Side strong_24
+  - first:
+      213: -3063192424494138304
+    second: Tate_13_Side strong_25
+  - first:
+      213: 3338812898241439306
+    second: Tate_13_Side strong_26
+  - first:
+      213: -3915158918560732004
+    second: Tate_13_Side strong_27
+  - first:
+      213: 4610295574280851925
+    second: Tate_13_Side strong_28
+  - first:
+      213: -3838774035549818180
+    second: Tate_13_Side strong_29
+  - first:
+      213: -8196224456710756240
+    second: Tate_13_Side strong_30
+  - first:
+      213: -76064682451569096
+    second: Tate_13_Side strong_31
+  - first:
+      213: -3661030451067918179
+    second: Tate_13_Side strong_32
+  - first:
+      213: -4815456569167736421
+    second: Tate_13_Side strong_33
+  - first:
+      213: 2791139491339156932
+    second: Tate_13_Side strong_34
+  - first:
+      213: -4272143095460423812
+    second: Tate_13_Side strong_35
+  - first:
+      213: 5901132794024286593
+    second: Tate_13_Side strong_36
+  - first:
+      213: -4175538604299557531
+    second: Tate_13_Side strong_37
+  - first:
+      213: -8013907304355206845
+    second: Tate_13_Side strong_38
+  - first:
+      213: 4186687718376118071
+    second: Tate_13_Side strong_39
+  - first:
+      213: 5090210286637961393
+    second: Tate_13_Side strong_40
+  - first:
+      213: -4872294638079531624
+    second: Tate_13_Side strong_41
+  - first:
+      213: 3019637987219899809
+    second: Tate_13_Side strong_42
+  - first:
+      213: -8450149342423887294
+    second: Tate_13_Side strong_43
+  - first:
+      213: -1489695367717272096
+    second: Tate_13_Side strong_44
+  - first:
+      213: 1871439649343081752
+    second: Tate_13_Side strong_45
+  - first:
+      213: -529027033421995293
+    second: Tate_13_Side strong_46
+  - first:
+      213: 7117383197005752867
+    second: Tate_13_Side strong_47
+  - first:
+      213: 8387004351841630317
+    second: Tate_13_Side strong_48
+  - first:
+      213: 5316562377817318535
+    second: Tate_13_Side strong_49
+  - first:
+      213: -1669731253946705797
+    second: Tate_13_Side strong_50
+  - first:
+      213: -7978367059454177240
+    second: Tate_13_Side strong_51
+  - first:
+      213: -705336067431517372
+    second: Tate_13_Side strong_52
+  - first:
+      213: 9140025865468019349
+    second: Tate_13_Side strong_53
+  - first:
+      213: -1727094979075056508
+    second: Tate_13_Side strong_54
+  - first:
+      213: 4389550998990196089
+    second: Tate_13_Side strong_55
+  - first:
+      213: -5367417261086118450
+    second: Tate_13_Side strong_56
+  - first:
+      213: 5488756506870046478
+    second: Tate_13_Side strong_57
+  - first:
+      213: 2527559162156507868
+    second: Tate_13_Side strong_58
+  - first:
+      213: 3109311991803326492
+    second: Tate_13_Side strong_59
+  - first:
+      213: -6083736199882633316
+    second: Tate_13_Side strong_60
+  - first:
+      213: 1690381054258895607
+    second: Tate_13_Side strong_61
+  - first:
+      213: -3279246849457201350
+    second: Tate_13_Side strong_62
+  - first:
+      213: -7485254729544293791
+    second: Tate_13_Side strong_63
+  - first:
+      213: 130219839089657011
+    second: Tate_13_Side strong_64
+  - first:
+      213: 740747563201523795
+    second: Tate_13_Side strong_65
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tate_13_Side strong_0
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1918
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bda59301c5c88660800000000000000
+      internalID: 7388372621480799664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_1
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1917
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d8d75c528077960800000000000000
+      internalID: 7599551854531153218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_2
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1916
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f9743f8cd7785470800000000000000
+      internalID: 8383582495529269747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_3
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 1915
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d51805769e38880800000000000000
+      internalID: -8609781432660697786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_4
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 1915
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c251d01f996d5b8b0800000000000000
+      internalID: -5136963843283675860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_5
+      rect:
+        serializedVersion: 2
+        x: 1352
+        y: 1915
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d6d0920c34419f90800000000000000
+      internalID: -6948697725524191530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_6
+      rect:
+        serializedVersion: 2
+        x: 1608
+        y: 1915
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0222b88308b7970800000000000000
+      internalID: 8753731281065484523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_7
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 1915
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f70e4bed4077b2a90800000000000000
+      internalID: -7337640305070120833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_8
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 1659
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b98d456ac51bf80800000000000000
+      internalID: -8092585185950262439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_9
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1660
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a59d20975b53e890800000000000000
+      internalID: -7429994528591997532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_10
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1662
+        width: 99
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6c1171b3ffdc610800000000000000
+      internalID: 1643250068315293438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_11
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1661
+        width: 81
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480d09f7684522ed0800000000000000
+      internalID: -2440295111438839676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_12
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 1679
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30fcf1b8ec61a0fe0800000000000000
+      internalID: -1222139272524476669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_13
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1660
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2fa187d26185b4f0800000000000000
+      internalID: -813601896148127957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_14
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1660
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67a5296258e9cab0800000000000000
+      internalID: -4987199671687075990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_15
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 1662
+        width: 97
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6d0c0c79bf8fc970800000000000000
+      internalID: 8777392225581272430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_16
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 1661
+        width: 86
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13edc3bd5cbe593d0800000000000000
+      internalID: -3200392725157585359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_17
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 1679
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6890aa57320dd0de0800000000000000
+      internalID: -1365206261306881658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_18
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1404
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe689246dba3955b0800000000000000
+      internalID: -5379203694813673745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_19
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1404
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64849176d38dd7850800000000000000
+      internalID: 6376490405660805190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_20
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1406
+        width: 94
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad225d197f61c6d0800000000000000
+      internalID: -2971971713114165854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_21
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1403
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0060c345405415370800000000000000
+      internalID: 8309498672370681344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_22
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 1403
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a29bd44b421bb9f0800000000000000
+      internalID: -451747223133515099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_23
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1403
+        width: 60
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84487690806bbcff0800000000000000
+      internalID: -14718028131892152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_24
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 1406
+        width: 95
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c9f127d4f7092c0800000000000000
+      internalID: -4426898463101313898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_25
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 1406
+        width: 89
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04cfb5b28ba5d75d0800000000000000
+      internalID: -3063192424494138304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_26
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1150
+        width: 74
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a466c2324a8d55e20800000000000000
+      internalID: 3338812898241439306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_27
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1150
+        width: 60
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c2cfbf4bf8aa9c0800000000000000
+      internalID: -3915158918560732004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_28
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1150
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d1d09ef56f0bff30800000000000000
+      internalID: 4610295574280851925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_29
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1150
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb27f067a5fe9bac0800000000000000
+      internalID: -3838774035549818180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_30
+      rect:
+        serializedVersion: 2
+        x: 1132
+        y: 1150
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078e2663849214e80800000000000000
+      internalID: -8196224456710756240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_31
+      rect:
+        serializedVersion: 2
+        x: 1388
+        y: 1150
+        width: 56
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83675860393c1fef0800000000000000
+      internalID: -76064682451569096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_32
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1150
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d986534a338613dc0800000000000000
+      internalID: -3661030451067918179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_33
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 1150
+        width: 66
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b919f6383cf0c2db0800000000000000
+      internalID: -4815456569167736421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_34
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 894
+        width: 68
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cdb5db449e1cb620800000000000000
+      internalID: 2791139491339156932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_35
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 894
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77917d4d7c46b4c0800000000000000
+      internalID: -4272143095460423812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_36
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 893
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189d938b20905e150800000000000000
+      internalID: 5901132794024286593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_37
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 893
+        width: 63
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5656bc823c18d06c0800000000000000
+      internalID: -4175538604299557531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_38
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 892
+        width: 63
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349eff424c1e8c090800000000000000
+      internalID: -8013907304355206845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_39
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 892
+        width: 63
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7379c4f3c4a1a1a30800000000000000
+      internalID: 4186687718376118071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_40
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 892
+        width: 63
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b0581f594f04a640800000000000000
+      internalID: 5090210286637961393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_41
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 892
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895aa3857d1226cb0800000000000000
+      internalID: -4872294638079531624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_42
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 636
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a5848a20c8e7e920800000000000000
+      internalID: 3019637987219899809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_43
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 636
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242d2d1a1f90bba80800000000000000
+      internalID: -8450149342423887294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_44
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 636
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5caafa4f9835be0800000000000000
+      internalID: -1489695367717272096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_45
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 636
+        width: 62
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d0dad1270b8f910800000000000000
+      internalID: 1871439649343081752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_46
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 636
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2ad4c47b488a8f0800000000000000
+      internalID: -529027033421995293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_47
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 636
+        width: 61
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32aacd3ee4606c260800000000000000
+      internalID: 7117383197005752867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_48
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 637
+        width: 60
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68fc219500a46470800000000000000
+      internalID: 8387004351841630317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_49
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 637
+        width: 60
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784e104705938c940800000000000000
+      internalID: 5316562377817318535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_50
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 381
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b78932a654ce3d8e0800000000000000
+      internalID: -1669731253946705797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_51
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 382
+        width: 62
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8205e8d3e65274190800000000000000
+      internalID: -7978367059454177240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_52
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 382
+        width: 62
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443397d65942636f0800000000000000
+      internalID: -705336067431517372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_53
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 377
+        width: 58
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5928a154915e7de70800000000000000
+      internalID: 9140025865468019349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_54
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 380
+        width: 99
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48cdede54402808e0800000000000000
+      internalID: -1727094979075056508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_55
+      rect:
+        serializedVersion: 2
+        x: 1390
+        y: 380
+        width: 99
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d85427061daec30800000000000000
+      internalID: 4389550998990196089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_56
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 380
+        width: 99
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd69a7507a1385b0800000000000000
+      internalID: -5367417261086118450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_57
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 380
+        width: 85
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f5a9a56fafb2c40800000000000000
+      internalID: 5488756506870046478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_58
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 124
+        width: 76
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd26f199aa1b31320800000000000000
+      internalID: 2527559162156507868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_59
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 124
+        width: 72
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10bc4f58ce762b20800000000000000
+      internalID: 3109311991803326492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_60
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 124
+        width: 68
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f8fc2c82a329ba0800000000000000
+      internalID: -6083736199882633316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_61
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 124
+        width: 69
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fad622ec90757710800000000000000
+      internalID: 1690381054258895607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_62
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 124
+        width: 67
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3fd8475d56cd72d0800000000000000
+      internalID: -3279246849457201350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_63
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 124
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16223386b780f1890800000000000000
+      internalID: -7485254729544293791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_64
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 124
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4c5a3f042aec100800000000000000
+      internalID: 130219839089657011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_13_Side strong_65
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 125
+        width: 61
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350fcdcebf9a74a00800000000000000
+      internalID: 740747563201523795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tate_13_Side strong_0: 7388372621480799664
+      Tate_13_Side strong_1: 7599551854531153218
+      Tate_13_Side strong_10: 1643250068315293438
+      Tate_13_Side strong_11: -2440295111438839676
+      Tate_13_Side strong_12: -1222139272524476669
+      Tate_13_Side strong_13: -813601896148127957
+      Tate_13_Side strong_14: -4987199671687075990
+      Tate_13_Side strong_15: 8777392225581272430
+      Tate_13_Side strong_16: -3200392725157585359
+      Tate_13_Side strong_17: -1365206261306881658
+      Tate_13_Side strong_18: -5379203694813673745
+      Tate_13_Side strong_19: 6376490405660805190
+      Tate_13_Side strong_2: 8383582495529269747
+      Tate_13_Side strong_20: -2971971713114165854
+      Tate_13_Side strong_21: 8309498672370681344
+      Tate_13_Side strong_22: -451747223133515099
+      Tate_13_Side strong_23: -14718028131892152
+      Tate_13_Side strong_24: -4426898463101313898
+      Tate_13_Side strong_25: -3063192424494138304
+      Tate_13_Side strong_26: 3338812898241439306
+      Tate_13_Side strong_27: -3915158918560732004
+      Tate_13_Side strong_28: 4610295574280851925
+      Tate_13_Side strong_29: -3838774035549818180
+      Tate_13_Side strong_3: -8609781432660697786
+      Tate_13_Side strong_30: -8196224456710756240
+      Tate_13_Side strong_31: -76064682451569096
+      Tate_13_Side strong_32: -3661030451067918179
+      Tate_13_Side strong_33: -4815456569167736421
+      Tate_13_Side strong_34: 2791139491339156932
+      Tate_13_Side strong_35: -4272143095460423812
+      Tate_13_Side strong_36: 5901132794024286593
+      Tate_13_Side strong_37: -4175538604299557531
+      Tate_13_Side strong_38: -8013907304355206845
+      Tate_13_Side strong_39: 4186687718376118071
+      Tate_13_Side strong_4: -5136963843283675860
+      Tate_13_Side strong_40: 5090210286637961393
+      Tate_13_Side strong_41: -4872294638079531624
+      Tate_13_Side strong_42: 3019637987219899809
+      Tate_13_Side strong_43: -8450149342423887294
+      Tate_13_Side strong_44: -1489695367717272096
+      Tate_13_Side strong_45: 1871439649343081752
+      Tate_13_Side strong_46: -529027033421995293
+      Tate_13_Side strong_47: 7117383197005752867
+      Tate_13_Side strong_48: 8387004351841630317
+      Tate_13_Side strong_49: 5316562377817318535
+      Tate_13_Side strong_5: -6948697725524191530
+      Tate_13_Side strong_50: -1669731253946705797
+      Tate_13_Side strong_51: -7978367059454177240
+      Tate_13_Side strong_52: -705336067431517372
+      Tate_13_Side strong_53: 9140025865468019349
+      Tate_13_Side strong_54: -1727094979075056508
+      Tate_13_Side strong_55: 4389550998990196089
+      Tate_13_Side strong_56: -5367417261086118450
+      Tate_13_Side strong_57: 5488756506870046478
+      Tate_13_Side strong_58: 2527559162156507868
+      Tate_13_Side strong_59: 3109311991803326492
+      Tate_13_Side strong_6: 8753731281065484523
+      Tate_13_Side strong_60: -6083736199882633316
+      Tate_13_Side strong_61: 1690381054258895607
+      Tate_13_Side strong_62: -3279246849457201350
+      Tate_13_Side strong_63: -7485254729544293791
+      Tate_13_Side strong_64: 130219839089657011
+      Tate_13_Side strong_65: 740747563201523795
+      Tate_13_Side strong_7: -7337640305070120833
+      Tate_13_Side strong_8: -8092585185950262439
+      Tate_13_Side strong_9: -7429994528591997532
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

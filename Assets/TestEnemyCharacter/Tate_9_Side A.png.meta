@@ -1,0 +1,589 @@
+fileFormatVersion: 2
+guid: 9cc047e5c3e267f4ca4100447f02aee0
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6482950545745714605
+    second: Tate_9_Side A_0
+  - first:
+      213: -4599968304816181948
+    second: Tate_9_Side A_1
+  - first:
+      213: -5628725645966855593
+    second: Tate_9_Side A_2
+  - first:
+      213: 1245890271516735169
+    second: Tate_9_Side A_3
+  - first:
+      213: -6985971163372924551
+    second: Tate_9_Side A_4
+  - first:
+      213: 6337471853835638196
+    second: Tate_9_Side A_5
+  - first:
+      213: -7093747933634288008
+    second: Tate_9_Side A_6
+  - first:
+      213: -6671182099612355157
+    second: Tate_9_Side A_7
+  - first:
+      213: 8949624195622144580
+    second: Tate_9_Side A_8
+  - first:
+      213: -2108104546085780168
+    second: Tate_9_Side A_9
+  - first:
+      213: -3166318300925677620
+    second: Tate_9_Side A_10
+  - first:
+      213: 2739841301965425985
+    second: Tate_9_Side A_11
+  - first:
+      213: 780250414913573845
+    second: Tate_9_Side A_12
+  - first:
+      213: 4333141726349547176
+    second: Tate_9_Side A_13
+  - first:
+      213: -3233621693085430649
+    second: Tate_9_Side A_14
+  - first:
+      213: 761943884854120172
+    second: Tate_9_Side A_15
+  - first:
+      213: -3645978512310339194
+    second: Tate_9_Side A_16
+  - first:
+      213: 4650121032842823469
+    second: Tate_9_Side A_17
+  - first:
+      213: 2779724283293420724
+    second: Tate_9_Side A_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tate_9_Side A_0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1913
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352e668a3dee706a0800000000000000
+      internalID: -6482950545745714605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_9_Side A_1
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1918
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d206dc231a920c0800000000000000
+      internalID: -4599968304816181948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_9_Side A_2
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1917
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 752b306e8dfb2e1b0800000000000000
+      internalID: -5628725645966855593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_9_Side A_3
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1918
+        width: 58
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6bed6d99a4a4110800000000000000
+      internalID: 1245890271516735169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_9_Side A_4
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 1921
+        width: 68
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971d80c7d38dc0f90800000000000000
+      internalID: -6985971163372924551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_9_Side A_5
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1923
+        width: 97
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5d8edd21933f750800000000000000
+      internalID: 6337471853835638196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_9_Side A_6
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 1925
+        width: 93
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8762191b6d1fd8d90800000000000000
+      internalID: -7093747933634288008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_9_Side A_7
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1926
+        width: 92
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba539a0d9333b63a0800000000000000
+      internalID: -6671182099612355157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_9_Side A_8
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1670
+        width: 90
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a8c4de9c3733c70800000000000000
+      internalID: 8949624195622144580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_9_Side A_9
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1669
+        width: 89
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835cb25a5128eb2e0800000000000000
+      internalID: -2108104546085780168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_9_Side A_10
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1669
+        width: 87
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccfa18bf74afe04d0800000000000000
+      internalID: -3166318300925677620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_9_Side A_11
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 1669
+        width: 86
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14dc798d52fd50620800000000000000
+      internalID: 2739841301965425985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_9_Side A_12
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 1664
+        width: 75
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d356c05e9104da00800000000000000
+      internalID: 780250414913573845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_9_Side A_13
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 1662
+        width: 68
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6dc703179622c30800000000000000
+      internalID: 4333141726349547176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_9_Side A_14
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 1662
+        width: 70
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c45add33edf13d0800000000000000
+      internalID: -3233621693085430649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_9_Side A_15
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 1661
+        width: 68
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceec2832de7f29a00800000000000000
+      internalID: 761943884854120172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_9_Side A_16
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1405
+        width: 69
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 689f80b3cd1e66dc0800000000000000
+      internalID: -3645978512310339194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_9_Side A_17
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1405
+        width: 63
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d274b25217c888040800000000000000
+      internalID: 4650121032842823469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_9_Side A_18
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1406
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bc4b3f0280939620800000000000000
+      internalID: 2779724283293420724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tate_9_Side A_0: -6482950545745714605
+      Tate_9_Side A_1: -4599968304816181948
+      Tate_9_Side A_10: -3166318300925677620
+      Tate_9_Side A_11: 2739841301965425985
+      Tate_9_Side A_12: 780250414913573845
+      Tate_9_Side A_13: 4333141726349547176
+      Tate_9_Side A_14: -3233621693085430649
+      Tate_9_Side A_15: 761943884854120172
+      Tate_9_Side A_16: -3645978512310339194
+      Tate_9_Side A_17: 4650121032842823469
+      Tate_9_Side A_18: 2779724283293420724
+      Tate_9_Side A_2: -5628725645966855593
+      Tate_9_Side A_3: 1245890271516735169
+      Tate_9_Side A_4: -6985971163372924551
+      Tate_9_Side A_5: 6337471853835638196
+      Tate_9_Side A_6: -7093747933634288008
+      Tate_9_Side A_7: -6671182099612355157
+      Tate_9_Side A_8: 8949624195622144580
+      Tate_9_Side A_9: -2108104546085780168
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

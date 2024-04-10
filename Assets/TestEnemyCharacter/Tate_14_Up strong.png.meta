@@ -1,0 +1,839 @@
+fileFormatVersion: 2
+guid: b585ec0d0c2c6df40ab0418cd2326c40
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2182344434745587791
+    second: Tate_14_Up strong_0
+  - first:
+      213: -2738193692980307343
+    second: Tate_14_Up strong_1
+  - first:
+      213: -2755506136492682500
+    second: Tate_14_Up strong_2
+  - first:
+      213: -5508306823803416676
+    second: Tate_14_Up strong_3
+  - first:
+      213: 8509648266802214105
+    second: Tate_14_Up strong_4
+  - first:
+      213: 6253493524453328209
+    second: Tate_14_Up strong_5
+  - first:
+      213: -82165044382498972
+    second: Tate_14_Up strong_6
+  - first:
+      213: 233139634662690379
+    second: Tate_14_Up strong_7
+  - first:
+      213: -7684465195145175927
+    second: Tate_14_Up strong_8
+  - first:
+      213: -5195486029567790604
+    second: Tate_14_Up strong_9
+  - first:
+      213: -5687190325702226697
+    second: Tate_14_Up strong_10
+  - first:
+      213: 6188045551842690238
+    second: Tate_14_Up strong_11
+  - first:
+      213: -4103599807412023202
+    second: Tate_14_Up strong_12
+  - first:
+      213: 7840152518480117277
+    second: Tate_14_Up strong_13
+  - first:
+      213: 9122947252773153716
+    second: Tate_14_Up strong_14
+  - first:
+      213: -5567226521633430058
+    second: Tate_14_Up strong_15
+  - first:
+      213: 8223434499237597348
+    second: Tate_14_Up strong_16
+  - first:
+      213: -4649040825906014116
+    second: Tate_14_Up strong_17
+  - first:
+      213: -8857973178846781487
+    second: Tate_14_Up strong_18
+  - first:
+      213: -1558601394428577225
+    second: Tate_14_Up strong_19
+  - first:
+      213: -3903600842783829652
+    second: Tate_14_Up strong_20
+  - first:
+      213: 7594234793896928582
+    second: Tate_14_Up strong_21
+  - first:
+      213: 1009600001072950176
+    second: Tate_14_Up strong_22
+  - first:
+      213: 2377428192792378435
+    second: Tate_14_Up strong_23
+  - first:
+      213: 8156979364376121369
+    second: Tate_14_Up strong_24
+  - first:
+      213: -6597219249181447509
+    second: Tate_14_Up strong_25
+  - first:
+      213: -8211735438606339469
+    second: Tate_14_Up strong_26
+  - first:
+      213: 204888389153307533
+    second: Tate_14_Up strong_27
+  - first:
+      213: 3462177349243041910
+    second: Tate_14_Up strong_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tate_14_Up strong_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 1917
+        width: 68
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b740759c41c6b1e0800000000000000
+      internalID: -2182344434745587791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_1
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1918
+        width: 69
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a91b3085bfff9d0800000000000000
+      internalID: -2738193692980307343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_2
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1918
+        width: 69
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2d1f5a4c972c9d0800000000000000
+      internalID: -2755506136492682500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_3
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1916
+        width: 65
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f4655c0209e83b0800000000000000
+      internalID: -5508306823803416676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_4
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1916
+        width: 64
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4b34a3308581670800000000000000
+      internalID: 8509648266802214105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_5
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1916
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1550f326a3fd8c650800000000000000
+      internalID: 6253493524453328209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_6
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 1916
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f70a4d3571cdef0800000000000000
+      internalID: -82165044382498972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_7
+      rect:
+        serializedVersion: 2
+        x: 1889
+        y: 1916
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4e422333474c3300800000000000000
+      internalID: 233139634662690379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_8
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1682
+        width: 48
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cd48a7e9b4b5590800000000000000
+      internalID: -7684465195145175927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_9
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1693
+        width: 53
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f17b14abfce5e7b0800000000000000
+      internalID: -5195486029567790604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_10
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1694
+        width: 53
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc0b72e78a0311b0800000000000000
+      internalID: -5687190325702226697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_11
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1696
+        width: 55
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb4058bc4aa50e550800000000000000
+      internalID: 6188045551842690238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_12
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1698
+        width: 55
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5058da87b51d07c0800000000000000
+      internalID: -4103599807412023202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_13
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1696
+        width: 55
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e34e83d21ddcc60800000000000000
+      internalID: 7840152518480117277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_14
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 1696
+        width: 55
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb6b22e0383b9e70800000000000000
+      internalID: 9122947252773153716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_15
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1693
+        width: 64
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5e7e999fc3db2b0800000000000000
+      internalID: -5567226521633430058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_16
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1426
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a0dfb08b128f1270800000000000000
+      internalID: 8223434499237597348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_17
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1422
+        width: 58
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c585591200a4b7fb0800000000000000
+      internalID: -4649040825906014116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_18
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1416
+        width: 54
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df56ec4358221580800000000000000
+      internalID: -8857973178846781487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_19
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 1410
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73af7a22a4cbe5ae0800000000000000
+      internalID: -1558601394428577225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_20
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 1403
+        width: 45
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6154f437bf93d9c0800000000000000
+      internalID: -3903600842783829652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_21
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 1402
+        width: 50
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645632f1f44246960800000000000000
+      internalID: 7594234793896928582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_22
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 1404
+        width: 57
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0abef251ad1d20e00800000000000000
+      internalID: 1009600001072950176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_23
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1406
+        width: 60
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c736e58525ef020800000000000000
+      internalID: 2377428192792378435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_24
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1150
+        width: 66
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91094dda389633170800000000000000
+      internalID: 8156979364376121369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_25
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1149
+        width: 71
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baaab23eb08f174a0800000000000000
+      internalID: -6597219249181447509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_26
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1149
+        width: 68
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372f160502e0a0e80800000000000000
+      internalID: -8211735438606339469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_27
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1149
+        width: 66
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8bb51687e8e7d200800000000000000
+      internalID: 204888389153307533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_14_Up strong_28
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1150
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678f80ba4ff1c0030800000000000000
+      internalID: 3462177349243041910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tate_14_Up strong_0: -2182344434745587791
+      Tate_14_Up strong_1: -2738193692980307343
+      Tate_14_Up strong_10: -5687190325702226697
+      Tate_14_Up strong_11: 6188045551842690238
+      Tate_14_Up strong_12: -4103599807412023202
+      Tate_14_Up strong_13: 7840152518480117277
+      Tate_14_Up strong_14: 9122947252773153716
+      Tate_14_Up strong_15: -5567226521633430058
+      Tate_14_Up strong_16: 8223434499237597348
+      Tate_14_Up strong_17: -4649040825906014116
+      Tate_14_Up strong_18: -8857973178846781487
+      Tate_14_Up strong_19: -1558601394428577225
+      Tate_14_Up strong_2: -2755506136492682500
+      Tate_14_Up strong_20: -3903600842783829652
+      Tate_14_Up strong_21: 7594234793896928582
+      Tate_14_Up strong_22: 1009600001072950176
+      Tate_14_Up strong_23: 2377428192792378435
+      Tate_14_Up strong_24: 8156979364376121369
+      Tate_14_Up strong_25: -6597219249181447509
+      Tate_14_Up strong_26: -8211735438606339469
+      Tate_14_Up strong_27: 204888389153307533
+      Tate_14_Up strong_28: 3462177349243041910
+      Tate_14_Up strong_3: -5508306823803416676
+      Tate_14_Up strong_4: 8509648266802214105
+      Tate_14_Up strong_5: 6253493524453328209
+      Tate_14_Up strong_6: -82165044382498972
+      Tate_14_Up strong_7: 233139634662690379
+      Tate_14_Up strong_8: -7684465195145175927
+      Tate_14_Up strong_9: -5195486029567790604
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

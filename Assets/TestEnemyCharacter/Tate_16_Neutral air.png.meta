@@ -1,0 +1,1739 @@
+fileFormatVersion: 2
+guid: f7f3bff25f07d6c49a336132f8c297c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5474711569853036345
+    second: Tate_16_Neutral air_0
+  - first:
+      213: -9086999691287085712
+    second: Tate_16_Neutral air_1
+  - first:
+      213: 199810782440024271
+    second: Tate_16_Neutral air_2
+  - first:
+      213: -2006852230625846213
+    second: Tate_16_Neutral air_3
+  - first:
+      213: -6596624529164523847
+    second: Tate_16_Neutral air_4
+  - first:
+      213: 1302728918399326670
+    second: Tate_16_Neutral air_5
+  - first:
+      213: -2467820046387850543
+    second: Tate_16_Neutral air_6
+  - first:
+      213: -2487578466718450100
+    second: Tate_16_Neutral air_7
+  - first:
+      213: 3044775507502031258
+    second: Tate_16_Neutral air_8
+  - first:
+      213: 5498201186426091333
+    second: Tate_16_Neutral air_9
+  - first:
+      213: -9020698009028630514
+    second: Tate_16_Neutral air_10
+  - first:
+      213: -6693726471658042182
+    second: Tate_16_Neutral air_11
+  - first:
+      213: 8759106665217873536
+    second: Tate_16_Neutral air_12
+  - first:
+      213: -8522681011642858730
+    second: Tate_16_Neutral air_13
+  - first:
+      213: 4828636033825816990
+    second: Tate_16_Neutral air_14
+  - first:
+      213: 3973242878060749264
+    second: Tate_16_Neutral air_15
+  - first:
+      213: -3539291232318199799
+    second: Tate_16_Neutral air_16
+  - first:
+      213: 3302546562168270985
+    second: Tate_16_Neutral air_17
+  - first:
+      213: -5729582429711049696
+    second: Tate_16_Neutral air_18
+  - first:
+      213: 575497256348068127
+    second: Tate_16_Neutral air_19
+  - first:
+      213: 2594107976218688447
+    second: Tate_16_Neutral air_20
+  - first:
+      213: 6880827270666923627
+    second: Tate_16_Neutral air_21
+  - first:
+      213: 7177583917641586238
+    second: Tate_16_Neutral air_22
+  - first:
+      213: -6385212891624140296
+    second: Tate_16_Neutral air_23
+  - first:
+      213: -3221289037790926736
+    second: Tate_16_Neutral air_24
+  - first:
+      213: 3444488490738738925
+    second: Tate_16_Neutral air_25
+  - first:
+      213: 5332048976111538194
+    second: Tate_16_Neutral air_26
+  - first:
+      213: 4675441061936071023
+    second: Tate_16_Neutral air_27
+  - first:
+      213: 8793300809286517399
+    second: Tate_16_Neutral air_28
+  - first:
+      213: -3616717285722951907
+    second: Tate_16_Neutral air_29
+  - first:
+      213: 234649640060366916
+    second: Tate_16_Neutral air_30
+  - first:
+      213: 5729296222234533803
+    second: Tate_16_Neutral air_31
+  - first:
+      213: -9083332778345941788
+    second: Tate_16_Neutral air_32
+  - first:
+      213: 8797791849119171916
+    second: Tate_16_Neutral air_33
+  - first:
+      213: -6674857956415263975
+    second: Tate_16_Neutral air_34
+  - first:
+      213: 7597301594844180219
+    second: Tate_16_Neutral air_35
+  - first:
+      213: 8012467987446750145
+    second: Tate_16_Neutral air_36
+  - first:
+      213: 2038274079937141008
+    second: Tate_16_Neutral air_37
+  - first:
+      213: -4814573123542573763
+    second: Tate_16_Neutral air_38
+  - first:
+      213: 7640625278105254582
+    second: Tate_16_Neutral air_39
+  - first:
+      213: -3700011487134330955
+    second: Tate_16_Neutral air_40
+  - first:
+      213: -274659876162083894
+    second: Tate_16_Neutral air_41
+  - first:
+      213: -1418762251520365446
+    second: Tate_16_Neutral air_42
+  - first:
+      213: -4486707164354289770
+    second: Tate_16_Neutral air_43
+  - first:
+      213: 2588700945485002035
+    second: Tate_16_Neutral air_44
+  - first:
+      213: 204965584866236643
+    second: Tate_16_Neutral air_45
+  - first:
+      213: 4686148668162057214
+    second: Tate_16_Neutral air_46
+  - first:
+      213: 5466413718087698671
+    second: Tate_16_Neutral air_47
+  - first:
+      213: 2297243542299831456
+    second: Tate_16_Neutral air_48
+  - first:
+      213: -5766230579781157426
+    second: Tate_16_Neutral air_49
+  - first:
+      213: -475205637792852523
+    second: Tate_16_Neutral air_50
+  - first:
+      213: 88643232304574228
+    second: Tate_16_Neutral air_51
+  - first:
+      213: -4632565996292130988
+    second: Tate_16_Neutral air_52
+  - first:
+      213: -73781646794551493
+    second: Tate_16_Neutral air_53
+  - first:
+      213: 5493963286913501340
+    second: Tate_16_Neutral air_54
+  - first:
+      213: -1665491165730204167
+    second: Tate_16_Neutral air_55
+  - first:
+      213: -556732598625981132
+    second: Tate_16_Neutral air_56
+  - first:
+      213: -2502807014697841049
+    second: Tate_16_Neutral air_57
+  - first:
+      213: 4087865157882776733
+    second: Tate_16_Neutral air_58
+  - first:
+      213: 8449371364522232911
+    second: Tate_16_Neutral air_59
+  - first:
+      213: 211277392984467597
+    second: Tate_16_Neutral air_60
+  - first:
+      213: 1141380023598650642
+    second: Tate_16_Neutral air_61
+  - first:
+      213: -5519662009134130769
+    second: Tate_16_Neutral air_62
+  - first:
+      213: 2745384079992483392
+    second: Tate_16_Neutral air_63
+  - first:
+      213: -5162549668152610229
+    second: Tate_16_Neutral air_64
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_0
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1911
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8403f55dae504b0800000000000000
+      internalID: -5474711569853036345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_1
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 1919
+        width: 60
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07dbfbefced74e180800000000000000
+      internalID: -9086999691287085712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_2
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1908
+        width: 50
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc861a519ded5c200800000000000000
+      internalID: 199810782440024271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_3
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1906
+        width: 45
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c98dc678a3624e0800000000000000
+      internalID: -2006852230625846213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_4
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 1914
+        width: 68
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6258ee0f41474a0800000000000000
+      internalID: -6596624529164523847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_5
+      rect:
+        serializedVersion: 2
+        x: 1392
+        y: 1903
+        width: 67
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec912d39c09341210800000000000000
+      internalID: 1302728918399326670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_6
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 1890
+        width: 49
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2d67d2eba80cdd0800000000000000
+      internalID: -2467820046387850543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_7
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 1893
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ef55470985a7dd0800000000000000
+      internalID: -2487578466718450100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_8
+      rect:
+        serializedVersion: 2
+        x: 1911
+        y: 1890
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91e7713137314a20800000000000000
+      internalID: 3044775507502031258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_9
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1655
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 547fe8c29d88d4c40800000000000000
+      internalID: 5498201186426091333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_10
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1656
+        width: 53
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0866c954fa00d280800000000000000
+      internalID: -9020698009028630514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_11
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 1652
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc81392d3b1b13a0800000000000000
+      internalID: -6693726471658042182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_12
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1656
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0865112ba199e8970800000000000000
+      internalID: 8759106665217873536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_13
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 1656
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6138f0766ca59b980800000000000000
+      internalID: -8522681011642858730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_14
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 1656
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e91c6d9b3e2c20340800000000000000
+      internalID: 4828636033825816990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_15
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 1653
+        width: 67
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d16921b85bc32730800000000000000
+      internalID: 3973242878060749264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_16
+      rect:
+        serializedVersion: 2
+        x: 1907
+        y: 1637
+        width: 60
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908e40d4069e1eec0800000000000000
+      internalID: -3539291232318199799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_17
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1384
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9803a34c99005dd20800000000000000
+      internalID: 3302546562168270985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_18
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 1415
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02cd0c5032f6c70b0800000000000000
+      internalID: -5729582429711049696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_19
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1401
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19a6dd94b39cf700800000000000000
+      internalID: 575497256348068127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_20
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1401
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbbb58fc57f100420800000000000000
+      internalID: 2594107976218688447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_21
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1402
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e2cec42fb9d7f50800000000000000
+      internalID: 6880827270666923627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_22
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1399
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e36559c6b86eb9360800000000000000
+      internalID: 7177583917641586238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_23
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 1404
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f19f7394ba2367a0800000000000000
+      internalID: -6385212891624140296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_24
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1403
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078ac9fefaeab43d0800000000000000
+      internalID: -3221289037790926736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_25
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 1399
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6676b58084dcf20800000000000000
+      internalID: 3444488490738738925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_26
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1140
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2101d1a1b4e3ff940800000000000000
+      internalID: 5332048976111538194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_27
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 1142
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6189f0dfd082e040800000000000000
+      internalID: 4675441061936071023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_28
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 1144
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7928da44f74180a70800000000000000
+      internalID: 8793300809286517399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_29
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1150
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1fe7737ac6decdc0800000000000000
+      internalID: -3616717285722951907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_30
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1150
+        width: 59
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440b87aba94a14300800000000000000
+      internalID: 234649640060366916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_31
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1150
+        width: 63
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bafd64b1f8c828f40800000000000000
+      internalID: 5729296222234533803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_32
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1150
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e43702b6f481f180800000000000000
+      internalID: -9083332778345941788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_33
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 894
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c454396f219081a70800000000000000
+      internalID: 8797791849119171916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_34
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 894
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91bada5bd042e53a0800000000000000
+      internalID: -6674857956415263975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_35
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 894
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe223c5c890f6960800000000000000
+      internalID: 7597301594844180219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_36
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 894
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cbd3f5ce21023f60800000000000000
+      internalID: 8012467987446750145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_37
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 894
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0191a89f977694c10800000000000000
+      internalID: 2038274079937141008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_38
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 894
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3d1a1ab0433f2db0800000000000000
+      internalID: -4814573123542573763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_39
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 894
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba755b6534f80a60800000000000000
+      internalID: 7640625278105254582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_40
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 894
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bf4e7ce72be6acc0800000000000000
+      internalID: -3700011487134330955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_41
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 638
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac36e4f3c46303cf0800000000000000
+      internalID: -274659876162083894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_42
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 638
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c2569cf3b8f4ce0800000000000000
+      internalID: -1418762251520365446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_43
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 638
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f56790b930cb1c0800000000000000
+      internalID: -4486707164354289770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_44
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 638
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335f95d5bc9ece320800000000000000
+      internalID: 2588700945485002035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_45
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 638
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8d12d0d1f28d200800000000000000
+      internalID: 204965584866236643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_46
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 638
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3287aa26b880140800000000000000
+      internalID: 4686148668162057214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_47
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 638
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe880f5705a9cdb40800000000000000
+      internalID: 5466413718087698671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_48
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 638
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac675594d271ef10800000000000000
+      internalID: 2297243542299831456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_49
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 382
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd3627a6db3affa0800000000000000
+      internalID: -5766230579781157426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_50
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 382
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5181c7dfab769f0800000000000000
+      internalID: -475205637792852523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_51
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 382
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41fa145dc8cea3100800000000000000
+      internalID: 88643232304574228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_52
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 382
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 457347055c1d5bfb0800000000000000
+      internalID: -4632565996292130988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_53
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 382
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f0edfabffd9fef0800000000000000
+      internalID: -73781646794551493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_54
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 382
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98448d408a7e3c40800000000000000
+      internalID: 5493963286913501340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_55
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 382
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f59912eb9cf2e8e0800000000000000
+      internalID: -1665491165730204167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_56
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 382
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43da408b6a61648f0800000000000000
+      internalID: -556732598625981132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_57
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 126
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e4493d74e344dd0800000000000000
+      internalID: -2502807014697841049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_58
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 126
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9c8c41e3b30bb830800000000000000
+      internalID: 4087865157882776733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_59
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 126
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c84b54d72324570800000000000000
+      internalID: 8449371364522232911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_60
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 126
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88e8e56bab9ee200800000000000000
+      internalID: 211277392984467597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_61
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 126
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215135c851ff6df00800000000000000
+      internalID: 1141380023598650642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_62
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 126
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa95759a5a83663b0800000000000000
+      internalID: -5519662009134130769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_63
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 126
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ee6fb6640991620800000000000000
+      internalID: 2745384079992483392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_16_Neutral air_64
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 126
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42f37edd60fa58b0800000000000000
+      internalID: -5162549668152610229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tate_16_Neutral air_0: -5474711569853036345
+      Tate_16_Neutral air_1: -9086999691287085712
+      Tate_16_Neutral air_10: -9020698009028630514
+      Tate_16_Neutral air_11: -6693726471658042182
+      Tate_16_Neutral air_12: 8759106665217873536
+      Tate_16_Neutral air_13: -8522681011642858730
+      Tate_16_Neutral air_14: 4828636033825816990
+      Tate_16_Neutral air_15: 3973242878060749264
+      Tate_16_Neutral air_16: -3539291232318199799
+      Tate_16_Neutral air_17: 3302546562168270985
+      Tate_16_Neutral air_18: -5729582429711049696
+      Tate_16_Neutral air_19: 575497256348068127
+      Tate_16_Neutral air_2: 199810782440024271
+      Tate_16_Neutral air_20: 2594107976218688447
+      Tate_16_Neutral air_21: 6880827270666923627
+      Tate_16_Neutral air_22: 7177583917641586238
+      Tate_16_Neutral air_23: -6385212891624140296
+      Tate_16_Neutral air_24: -3221289037790926736
+      Tate_16_Neutral air_25: 3444488490738738925
+      Tate_16_Neutral air_26: 5332048976111538194
+      Tate_16_Neutral air_27: 4675441061936071023
+      Tate_16_Neutral air_28: 8793300809286517399
+      Tate_16_Neutral air_29: -3616717285722951907
+      Tate_16_Neutral air_3: -2006852230625846213
+      Tate_16_Neutral air_30: 234649640060366916
+      Tate_16_Neutral air_31: 5729296222234533803
+      Tate_16_Neutral air_32: -9083332778345941788
+      Tate_16_Neutral air_33: 8797791849119171916
+      Tate_16_Neutral air_34: -6674857956415263975
+      Tate_16_Neutral air_35: 7597301594844180219
+      Tate_16_Neutral air_36: 8012467987446750145
+      Tate_16_Neutral air_37: 2038274079937141008
+      Tate_16_Neutral air_38: -4814573123542573763
+      Tate_16_Neutral air_39: 7640625278105254582
+      Tate_16_Neutral air_4: -6596624529164523847
+      Tate_16_Neutral air_40: -3700011487134330955
+      Tate_16_Neutral air_41: -274659876162083894
+      Tate_16_Neutral air_42: -1418762251520365446
+      Tate_16_Neutral air_43: -4486707164354289770
+      Tate_16_Neutral air_44: 2588700945485002035
+      Tate_16_Neutral air_45: 204965584866236643
+      Tate_16_Neutral air_46: 4686148668162057214
+      Tate_16_Neutral air_47: 5466413718087698671
+      Tate_16_Neutral air_48: 2297243542299831456
+      Tate_16_Neutral air_49: -5766230579781157426
+      Tate_16_Neutral air_5: 1302728918399326670
+      Tate_16_Neutral air_50: -475205637792852523
+      Tate_16_Neutral air_51: 88643232304574228
+      Tate_16_Neutral air_52: -4632565996292130988
+      Tate_16_Neutral air_53: -73781646794551493
+      Tate_16_Neutral air_54: 5493963286913501340
+      Tate_16_Neutral air_55: -1665491165730204167
+      Tate_16_Neutral air_56: -556732598625981132
+      Tate_16_Neutral air_57: -2502807014697841049
+      Tate_16_Neutral air_58: 4087865157882776733
+      Tate_16_Neutral air_59: 8449371364522232911
+      Tate_16_Neutral air_6: -2467820046387850543
+      Tate_16_Neutral air_60: 211277392984467597
+      Tate_16_Neutral air_61: 1141380023598650642
+      Tate_16_Neutral air_62: -5519662009134130769
+      Tate_16_Neutral air_63: 2745384079992483392
+      Tate_16_Neutral air_64: -5162549668152610229
+      Tate_16_Neutral air_7: -2487578466718450100
+      Tate_16_Neutral air_8: 3044775507502031258
+      Tate_16_Neutral air_9: 5498201186426091333
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

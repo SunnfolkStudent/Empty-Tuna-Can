@@ -1,0 +1,514 @@
+fileFormatVersion: 2
+guid: 033254c518be81b409c0b33f8cfe5a0b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1695518563362429676
+    second: Tate_47_Sidestep dodge_0
+  - first:
+      213: 2013208649134344736
+    second: Tate_47_Sidestep dodge_1
+  - first:
+      213: -1153472317839064481
+    second: Tate_47_Sidestep dodge_2
+  - first:
+      213: 7167348159311309361
+    second: Tate_47_Sidestep dodge_3
+  - first:
+      213: -4619593207878068115
+    second: Tate_47_Sidestep dodge_4
+  - first:
+      213: -8436923306686891834
+    second: Tate_47_Sidestep dodge_5
+  - first:
+      213: 5773651060926350614
+    second: Tate_47_Sidestep dodge_6
+  - first:
+      213: 8567767054053015093
+    second: Tate_47_Sidestep dodge_7
+  - first:
+      213: 8995716989335192274
+    second: Tate_47_Sidestep dodge_8
+  - first:
+      213: 660388810862896484
+    second: Tate_47_Sidestep dodge_9
+  - first:
+      213: -8199841199460868951
+    second: Tate_47_Sidestep dodge_10
+  - first:
+      213: 770941833912430095
+    second: Tate_47_Sidestep dodge_11
+  - first:
+      213: 3652357334990846107
+    second: Tate_47_Sidestep dodge_12
+  - first:
+      213: 7954237926977743309
+    second: Tate_47_Sidestep dodge_13
+  - first:
+      213: -6329102942283490647
+    second: Tate_47_Sidestep dodge_14
+  - first:
+      213: 5314283228153033940
+    second: Tate_47_Sidestep dodge_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tate_47_Sidestep dodge_0
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1917
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea5c4f6621b78710800000000000000
+      internalID: 1695518563362429676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_47_Sidestep dodge_1
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1918
+        width: 68
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a8566999a50fb10800000000000000
+      internalID: 2013208649134344736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_47_Sidestep dodge_2
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1918
+        width: 68
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52c4fcc90b0effe0800000000000000
+      internalID: -1153472317839064481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_47_Sidestep dodge_3
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1918
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13aec493d29877360800000000000000
+      internalID: 7167348159311309361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_47_Sidestep dodge_4
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 1918
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68de9df378e3efb0800000000000000
+      internalID: -4619593207878068115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_47_Sidestep dodge_5
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1918
+        width: 54
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8b6bb04f60aea80800000000000000
+      internalID: -8436923306686891834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_47_Sidestep dodge_6
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 1918
+        width: 55
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615829fbc01202050800000000000000
+      internalID: 5773651060926350614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_47_Sidestep dodge_7
+      rect:
+        serializedVersion: 2
+        x: 1902
+        y: 1918
+        width: 54
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53eff1fddb2d6e670800000000000000
+      internalID: 8567767054053015093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_47_Sidestep dodge_8
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1662
+        width: 57
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d24541c0f437dc70800000000000000
+      internalID: 8995716989335192274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_47_Sidestep dodge_9
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1661
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4652025ef1c2a2900800000000000000
+      internalID: 660388810862896484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_47_Sidestep dodge_10
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1661
+        width: 61
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac958bafdf443e80800000000000000
+      internalID: -8199841199460868951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_47_Sidestep dodge_11
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1662
+        width: 59
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ea6d8638fe2ba00800000000000000
+      internalID: 770941833912430095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_47_Sidestep dodge_12
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1661
+        width: 64
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98fbe825a7cfa230800000000000000
+      internalID: 3652357334990846107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_47_Sidestep dodge_13
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1661
+        width: 68
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9a2705041236e60800000000000000
+      internalID: 7954237926977743309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_47_Sidestep dodge_14
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1661
+        width: 67
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa105238628a28a0800000000000000
+      internalID: -6329102942283490647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_47_Sidestep dodge_15
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1662
+        width: 65
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4b0e1907020c940800000000000000
+      internalID: 5314283228153033940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tate_47_Sidestep dodge_0: 1695518563362429676
+      Tate_47_Sidestep dodge_1: 2013208649134344736
+      Tate_47_Sidestep dodge_10: -8199841199460868951
+      Tate_47_Sidestep dodge_11: 770941833912430095
+      Tate_47_Sidestep dodge_12: 3652357334990846107
+      Tate_47_Sidestep dodge_13: 7954237926977743309
+      Tate_47_Sidestep dodge_14: -6329102942283490647
+      Tate_47_Sidestep dodge_15: 5314283228153033940
+      Tate_47_Sidestep dodge_2: -1153472317839064481
+      Tate_47_Sidestep dodge_3: 7167348159311309361
+      Tate_47_Sidestep dodge_4: -4619593207878068115
+      Tate_47_Sidestep dodge_5: -8436923306686891834
+      Tate_47_Sidestep dodge_6: 5773651060926350614
+      Tate_47_Sidestep dodge_7: 8567767054053015093
+      Tate_47_Sidestep dodge_8: 8995716989335192274
+      Tate_47_Sidestep dodge_9: 660388810862896484
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,914 @@
+fileFormatVersion: 2
+guid: 183acc328a166e349bade927c057937d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2072052169348480833
+    second: Tate_55_Up throw_0
+  - first:
+      213: 1713399902008638160
+    second: Tate_55_Up throw_1
+  - first:
+      213: -283913122040222576
+    second: Tate_55_Up throw_2
+  - first:
+      213: 245767335881632045
+    second: Tate_55_Up throw_3
+  - first:
+      213: -6840485818197744389
+    second: Tate_55_Up throw_4
+  - first:
+      213: 7528239659074239450
+    second: Tate_55_Up throw_5
+  - first:
+      213: 2951355727711536607
+    second: Tate_55_Up throw_6
+  - first:
+      213: 3108720770590793126
+    second: Tate_55_Up throw_7
+  - first:
+      213: 7036297031384096348
+    second: Tate_55_Up throw_8
+  - first:
+      213: -3267864371628424147
+    second: Tate_55_Up throw_9
+  - first:
+      213: 8699727913408762683
+    second: Tate_55_Up throw_10
+  - first:
+      213: 2032599647730200064
+    second: Tate_55_Up throw_11
+  - first:
+      213: 2665668488605141447
+    second: Tate_55_Up throw_12
+  - first:
+      213: -6003478042908000074
+    second: Tate_55_Up throw_13
+  - first:
+      213: -2788859411208509129
+    second: Tate_55_Up throw_14
+  - first:
+      213: -1605120318787478204
+    second: Tate_55_Up throw_15
+  - first:
+      213: -2818683490796415862
+    second: Tate_55_Up throw_16
+  - first:
+      213: 2368796597856154188
+    second: Tate_55_Up throw_17
+  - first:
+      213: 5291621308383258883
+    second: Tate_55_Up throw_18
+  - first:
+      213: 6273347524115331178
+    second: Tate_55_Up throw_19
+  - first:
+      213: -1861097060775202514
+    second: Tate_55_Up throw_20
+  - first:
+      213: 4945855518194267950
+    second: Tate_55_Up throw_21
+  - first:
+      213: -5290473514953428040
+    second: Tate_55_Up throw_22
+  - first:
+      213: -2969409692917797458
+    second: Tate_55_Up throw_23
+  - first:
+      213: -4183820110177666157
+    second: Tate_55_Up throw_24
+  - first:
+      213: -2565259598854880271
+    second: Tate_55_Up throw_25
+  - first:
+      213: 8396034299575676849
+    second: Tate_55_Up throw_26
+  - first:
+      213: 8675589106802742383
+    second: Tate_55_Up throw_27
+  - first:
+      213: -315328915502342457
+    second: Tate_55_Up throw_28
+  - first:
+      213: 9121907080212266209
+    second: Tate_55_Up throw_29
+  - first:
+      213: -2027870829128058371
+    second: Tate_55_Up throw_30
+  - first:
+      213: 8775630851845179349
+    second: Tate_55_Up throw_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tate_55_Up throw_0
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1917
+        width: 68
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ff716487861cc10800000000000000
+      internalID: 2072052169348480833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_1
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1917
+        width: 67
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0daf965022837c710800000000000000
+      internalID: 1713399902008638160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_2
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1917
+        width: 65
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c68bd05865f0cf0800000000000000
+      internalID: -283913122040222576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_3
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1917
+        width: 68
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d296e900714296300800000000000000
+      internalID: 245767335881632045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_4
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 1917
+        width: 72
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf4e93b0466b111a0800000000000000
+      internalID: -6840485818197744389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_5
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 1917
+        width: 76
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbb027651ea97860800000000000000
+      internalID: 7528239659074239450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_6
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1917
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd58f0cb56255f820800000000000000
+      internalID: 2951355727711536607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_7
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1917
+        width: 56
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad51f4f115642b20800000000000000
+      internalID: 3108720770590793126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_8
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1661
+        width: 54
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ed8c1ced2f5a160800000000000000
+      internalID: 7036297031384096348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_9
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 1661
+        width: 54
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d24ceeafaa636a2d0800000000000000
+      internalID: -3267864371628424147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_10
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1661
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b339741b174abb870800000000000000
+      internalID: 8699727913408762683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_11
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 1661
+        width: 72
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00eea854c9e353c10800000000000000
+      internalID: 2032599647730200064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_12
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 1661
+        width: 78
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c90348fd5b5ef420800000000000000
+      internalID: 2665668488605141447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_13
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 1661
+        width: 75
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b08c9b178c5faca0800000000000000
+      internalID: -6003478042908000074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_14
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1661
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739696a342bfb49d0800000000000000
+      internalID: -2788859411208509129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_15
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1661
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d19e8039779b9e0800000000000000
+      internalID: -1605120318787478204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_16
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1405
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8452d49c4602e8d0800000000000000
+      internalID: -2818683490796415862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_17
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1405
+        width: 72
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42be5094f7afd020800000000000000
+      internalID: 2368796597856154188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_18
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1405
+        width: 72
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30962143b8d9f6940800000000000000
+      internalID: 5291621308383258883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_19
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1405
+        width: 74
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a687877e5586f0750800000000000000
+      internalID: 6273347524115331178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_20
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1405
+        width: 73
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2178ff651e0c26e0800000000000000
+      internalID: -1861097060775202514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_21
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1405
+        width: 73
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e27ff58b36533a440800000000000000
+      internalID: 4945855518194267950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_22
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 1405
+        width: 66
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3b6974e567496b0800000000000000
+      internalID: -5290473514953428040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_23
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 1405
+        width: 52
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead680ded998ac6d0800000000000000
+      internalID: -2969409692917797458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_24
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1149
+        width: 54
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39b79b0d6c510f5c0800000000000000
+      internalID: -4183820110177666157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_25
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1149
+        width: 54
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f308957cfd566cd0800000000000000
+      internalID: -2565259598854880271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_26
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1149
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf243c16b4b48470800000000000000
+      internalID: 8396034299575676849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_27
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1149
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f64d930d352e56870800000000000000
+      internalID: 8675589106802742383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_28
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 1149
+        width: 61
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ced214a50abf9bf0800000000000000
+      internalID: -315328915502342457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_29
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1149
+        width: 65
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec3c26d826879e70800000000000000
+      internalID: 9121907080212266209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_30
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 1149
+        width: 66
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df9f17b993e8bd3e0800000000000000
+      internalID: -2027870829128058371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_55_Up throw_31
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1150
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7c034b3cd49c970800000000000000
+      internalID: 8775630851845179349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tate_55_Up throw_0: 2072052169348480833
+      Tate_55_Up throw_1: 1713399902008638160
+      Tate_55_Up throw_10: 8699727913408762683
+      Tate_55_Up throw_11: 2032599647730200064
+      Tate_55_Up throw_12: 2665668488605141447
+      Tate_55_Up throw_13: -6003478042908000074
+      Tate_55_Up throw_14: -2788859411208509129
+      Tate_55_Up throw_15: -1605120318787478204
+      Tate_55_Up throw_16: -2818683490796415862
+      Tate_55_Up throw_17: 2368796597856154188
+      Tate_55_Up throw_18: 5291621308383258883
+      Tate_55_Up throw_19: 6273347524115331178
+      Tate_55_Up throw_2: -283913122040222576
+      Tate_55_Up throw_20: -1861097060775202514
+      Tate_55_Up throw_21: 4945855518194267950
+      Tate_55_Up throw_22: -5290473514953428040
+      Tate_55_Up throw_23: -2969409692917797458
+      Tate_55_Up throw_24: -4183820110177666157
+      Tate_55_Up throw_25: -2565259598854880271
+      Tate_55_Up throw_26: 8396034299575676849
+      Tate_55_Up throw_27: 8675589106802742383
+      Tate_55_Up throw_28: -315328915502342457
+      Tate_55_Up throw_29: 9121907080212266209
+      Tate_55_Up throw_3: 245767335881632045
+      Tate_55_Up throw_30: -2027870829128058371
+      Tate_55_Up throw_31: 8775630851845179349
+      Tate_55_Up throw_4: -6840485818197744389
+      Tate_55_Up throw_5: 7528239659074239450
+      Tate_55_Up throw_6: 2951355727711536607
+      Tate_55_Up throw_7: 3108720770590793126
+      Tate_55_Up throw_8: 7036297031384096348
+      Tate_55_Up throw_9: -3267864371628424147
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

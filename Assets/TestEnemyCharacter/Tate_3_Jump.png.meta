@@ -1,0 +1,864 @@
+fileFormatVersion: 2
+guid: ef1844e50231f3641b93d65853750e3d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6570426438031423403
+    second: Tate_3_Jump_0
+  - first:
+      213: 6088256956540749776
+    second: Tate_3_Jump_1
+  - first:
+      213: -4291884969850343849
+    second: Tate_3_Jump_2
+  - first:
+      213: -6185564939581909116
+    second: Tate_3_Jump_3
+  - first:
+      213: 4270634871556739108
+    second: Tate_3_Jump_4
+  - first:
+      213: -4052225968499504785
+    second: Tate_3_Jump_5
+  - first:
+      213: 392807125082108969
+    second: Tate_3_Jump_6
+  - first:
+      213: -4119731291365402625
+    second: Tate_3_Jump_7
+  - first:
+      213: -3387823981188215948
+    second: Tate_3_Jump_8
+  - first:
+      213: -9064186719386135450
+    second: Tate_3_Jump_9
+  - first:
+      213: 2209116532890068971
+    second: Tate_3_Jump_10
+  - first:
+      213: 9086848197016237646
+    second: Tate_3_Jump_11
+  - first:
+      213: -102162573653331558
+    second: Tate_3_Jump_12
+  - first:
+      213: -1030952758701222643
+    second: Tate_3_Jump_13
+  - first:
+      213: 1591631009355131013
+    second: Tate_3_Jump_14
+  - first:
+      213: -1052530071605651205
+    second: Tate_3_Jump_15
+  - first:
+      213: -3576954335725169923
+    second: Tate_3_Jump_16
+  - first:
+      213: -3984071188820605796
+    second: Tate_3_Jump_17
+  - first:
+      213: -4277655213777422788
+    second: Tate_3_Jump_18
+  - first:
+      213: -3926809614267666069
+    second: Tate_3_Jump_19
+  - first:
+      213: -2542777522703222246
+    second: Tate_3_Jump_20
+  - first:
+      213: 376919897796273297
+    second: Tate_3_Jump_21
+  - first:
+      213: 1010592625249070794
+    second: Tate_3_Jump_22
+  - first:
+      213: 2758325805090993835
+    second: Tate_3_Jump_23
+  - first:
+      213: 6355790553791073700
+    second: Tate_3_Jump_24
+  - first:
+      213: 1675549276816536299
+    second: Tate_3_Jump_25
+  - first:
+      213: 6897298307087051767
+    second: Tate_3_Jump_26
+  - first:
+      213: -7596126799257776437
+    second: Tate_3_Jump_27
+  - first:
+      213: 8616593947417318180
+    second: Tate_3_Jump_28
+  - first:
+      213: -6996642293302459848
+    second: Tate_3_Jump_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tate_3_Jump_0
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1918
+        width: 60
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7b2b5a808de2b50800000000000000
+      internalID: 6570426438031423403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_1
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1918
+        width: 59
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d789ebe175dd7450800000000000000
+      internalID: 6088256956540749776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_2
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1907
+        width: 63
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e6b3bfb592074c0800000000000000
+      internalID: -4291884969850343849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_3
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 1909
+        width: 63
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4871c11c575782aa0800000000000000
+      internalID: -6185564939581909116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_4
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1911
+        width: 63
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4201984f9c7544b30800000000000000
+      internalID: 4270634871556739108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_5
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1913
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6949f583f993c7c0800000000000000
+      internalID: -4052225968499504785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_6
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1915
+        width: 60
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924f2c3cff7837500800000000000000
+      internalID: 392807125082108969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_7
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 1917
+        width: 61
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff79a10c736c3d6c0800000000000000
+      internalID: -4119731291365402625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_8
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1663
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b0abfd9080cf0d0800000000000000
+      internalID: -3387823981188215948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_9
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1665
+        width: 62
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6641d2de33a853280800000000000000
+      internalID: -9064186719386135450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_10
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1666
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be7ea5248cb58ae10800000000000000
+      internalID: 2209116532890068971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_11
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1667
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e463d0f7a48fa1e70800000000000000
+      internalID: 9086848197016237646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_12
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 1668
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91bd083eab059ef0800000000000000
+      internalID: -102162573653331558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_13
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 1669
+        width: 63
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05976d9de151b1f0800000000000000
+      internalID: -1030952758701222643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_14
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1670
+        width: 66
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 588eb1e58fb961610800000000000000
+      internalID: 1591631009355131013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_15
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1671
+        width: 68
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf85786f979a461f0800000000000000
+      internalID: -1052530071605651205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_16
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1415
+        width: 69
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df2de41bbfa1c5ec0800000000000000
+      internalID: -3576954335725169923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_17
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1415
+        width: 70
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c94ca7ebc5cb5b8c0800000000000000
+      internalID: -3984071188820605796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_18
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 1414
+        width: 69
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c36f23f3f37b2a4c0800000000000000
+      internalID: -4277655213777422788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_19
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1413
+        width: 69
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61bcf0067b2189c0800000000000000
+      internalID: -3926809614267666069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_20
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1413
+        width: 68
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a3d68b05d36bcd0800000000000000
+      internalID: -2542777522703222246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_21
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1410
+        width: 65
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1946ce866a61b3500800000000000000
+      internalID: 376919897796273297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_22
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 1406
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acea99863a8560e00800000000000000
+      internalID: 1010592625249070794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_23
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 1403
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba6fd3b94ba874620800000000000000
+      internalID: 2758325805090993835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_24
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1147
+        width: 53
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad008195dd443850800000000000000
+      internalID: 6355790553791073700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_25
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1146
+        width: 52
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be2ff48903fb04710800000000000000
+      internalID: 1675549276816536299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_26
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1145
+        width: 51
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fba3df444028bf50800000000000000
+      internalID: 6897298307087051767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_27
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1145
+        width: 50
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce4a6d0ce2259690800000000000000
+      internalID: -7596126799257776437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_28
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1144
+        width: 47
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4231791ea8a449770800000000000000
+      internalID: 8616593947417318180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_3_Jump_29
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1143
+        width: 46
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8328b3f67eee6ee90800000000000000
+      internalID: -6996642293302459848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tate_3_Jump_0: 6570426438031423403
+      Tate_3_Jump_1: 6088256956540749776
+      Tate_3_Jump_10: 2209116532890068971
+      Tate_3_Jump_11: 9086848197016237646
+      Tate_3_Jump_12: -102162573653331558
+      Tate_3_Jump_13: -1030952758701222643
+      Tate_3_Jump_14: 1591631009355131013
+      Tate_3_Jump_15: -1052530071605651205
+      Tate_3_Jump_16: -3576954335725169923
+      Tate_3_Jump_17: -3984071188820605796
+      Tate_3_Jump_18: -4277655213777422788
+      Tate_3_Jump_19: -3926809614267666069
+      Tate_3_Jump_2: -4291884969850343849
+      Tate_3_Jump_20: -2542777522703222246
+      Tate_3_Jump_21: 376919897796273297
+      Tate_3_Jump_22: 1010592625249070794
+      Tate_3_Jump_23: 2758325805090993835
+      Tate_3_Jump_24: 6355790553791073700
+      Tate_3_Jump_25: 1675549276816536299
+      Tate_3_Jump_26: 6897298307087051767
+      Tate_3_Jump_27: -7596126799257776437
+      Tate_3_Jump_28: 8616593947417318180
+      Tate_3_Jump_29: -6996642293302459848
+      Tate_3_Jump_3: -6185564939581909116
+      Tate_3_Jump_4: 4270634871556739108
+      Tate_3_Jump_5: -4052225968499504785
+      Tate_3_Jump_6: 392807125082108969
+      Tate_3_Jump_7: -4119731291365402625
+      Tate_3_Jump_8: -3387823981188215948
+      Tate_3_Jump_9: -9064186719386135450
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1114 @@
+fileFormatVersion: 2
+guid: 1bf1d0a244595be4aa52e917c0f05b43
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3220923193358989508
+    second: Tate_31_Injured weak_0
+  - first:
+      213: 3557339796715644281
+    second: Tate_31_Injured weak_1
+  - first:
+      213: 3590190021049708520
+    second: Tate_31_Injured weak_2
+  - first:
+      213: -3681235829497170629
+    second: Tate_31_Injured weak_3
+  - first:
+      213: -7317337110004815705
+    second: Tate_31_Injured weak_4
+  - first:
+      213: -3820254403136171345
+    second: Tate_31_Injured weak_5
+  - first:
+      213: 2002386188348388311
+    second: Tate_31_Injured weak_6
+  - first:
+      213: -4733963745755278373
+    second: Tate_31_Injured weak_7
+  - first:
+      213: -8211384903710354913
+    second: Tate_31_Injured weak_8
+  - first:
+      213: 2356726991830193899
+    second: Tate_31_Injured weak_9
+  - first:
+      213: 5170779151818995026
+    second: Tate_31_Injured weak_10
+  - first:
+      213: 969870201801992992
+    second: Tate_31_Injured weak_11
+  - first:
+      213: 2412283477726638288
+    second: Tate_31_Injured weak_12
+  - first:
+      213: -8109744150589187486
+    second: Tate_31_Injured weak_13
+  - first:
+      213: -3767017319861457301
+    second: Tate_31_Injured weak_14
+  - first:
+      213: 1227278973975701827
+    second: Tate_31_Injured weak_15
+  - first:
+      213: -2238768541541283872
+    second: Tate_31_Injured weak_16
+  - first:
+      213: 5813062013132227812
+    second: Tate_31_Injured weak_17
+  - first:
+      213: 174277608338409345
+    second: Tate_31_Injured weak_18
+  - first:
+      213: -88148588985664104
+    second: Tate_31_Injured weak_19
+  - first:
+      213: -194791263692397733
+    second: Tate_31_Injured weak_20
+  - first:
+      213: 1688152811235969269
+    second: Tate_31_Injured weak_21
+  - first:
+      213: -3128412335591338683
+    second: Tate_31_Injured weak_22
+  - first:
+      213: 633051217744501345
+    second: Tate_31_Injured weak_23
+  - first:
+      213: 1145459662723951770
+    second: Tate_31_Injured weak_24
+  - first:
+      213: 5262900025710608776
+    second: Tate_31_Injured weak_25
+  - first:
+      213: -1049773676639270307
+    second: Tate_31_Injured weak_26
+  - first:
+      213: 8081353970871543638
+    second: Tate_31_Injured weak_27
+  - first:
+      213: -9152118760249633714
+    second: Tate_31_Injured weak_28
+  - first:
+      213: -2049716558111679918
+    second: Tate_31_Injured weak_29
+  - first:
+      213: 169677190061734911
+    second: Tate_31_Injured weak_30
+  - first:
+      213: -8829229295308552938
+    second: Tate_31_Injured weak_31
+  - first:
+      213: 3610763006693825624
+    second: Tate_31_Injured weak_32
+  - first:
+      213: -1700390261329118802
+    second: Tate_31_Injured weak_33
+  - first:
+      213: 3510784841435221667
+    second: Tate_31_Injured weak_34
+  - first:
+      213: 6716419528399290978
+    second: Tate_31_Injured weak_35
+  - first:
+      213: 8954191635929317552
+    second: Tate_31_Injured weak_36
+  - first:
+      213: -6046435950736224653
+    second: Tate_31_Injured weak_37
+  - first:
+      213: -7226156764437060521
+    second: Tate_31_Injured weak_38
+  - first:
+      213: 8751857277364019036
+    second: Tate_31_Injured weak_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_0
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 1919
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37450bbb6bfc43d0800000000000000
+      internalID: -3220923193358989508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_1
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1921
+        width: 56
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975a89092b53e5130800000000000000
+      internalID: 3557339796715644281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_2
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1919
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8efe1d07dcae2d130800000000000000
+      internalID: 3590190021049708520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_3
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1919
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b357160648f99ecc0800000000000000
+      internalID: -3681235829497170629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_4
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1918
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a82168daa8937a90800000000000000
+      internalID: -7317337110004815705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_5
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1918
+        width: 61
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa252756cdabbfac0800000000000000
+      internalID: -3820254403136171345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_6
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 1918
+        width: 61
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d377a311a7e9cb10800000000000000
+      internalID: 2002386188348388311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_7
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1918
+        width: 61
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3ddaa0e059d4eb0800000000000000
+      internalID: -4733963745755278373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_8
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1662
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f12d6549fec4b0e80800000000000000
+      internalID: -8211384903710354913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_9
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1662
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be61d9c66b6c4b020800000000000000
+      internalID: 2356726991830193899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_10
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1661
+        width: 62
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255ba2c1e3c42c740800000000000000
+      internalID: 5170779151818995026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_11
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 1661
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02be4a85fcba57d00800000000000000
+      internalID: 969870201801992992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_12
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1661
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0b07bca072a7120800000000000000
+      internalID: 2412283477726638288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_13
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1661
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26a54dc89a6647f80800000000000000
+      internalID: -8109744150589187486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_14
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1661
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ee9e2c4bdd8bbc0800000000000000
+      internalID: -3767017319861457301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_15
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 1661
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349a02479bb280110800000000000000
+      internalID: 1227278973975701827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_16
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1406
+        width: 65
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7cc1b7fdb4ee0e0800000000000000
+      internalID: -2238768541541283872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_17
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1407
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4401e1a152ca050800000000000000
+      internalID: 5813062013132227812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_18
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1406
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187c059bf882b6200800000000000000
+      internalID: 174277608338409345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_19
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1406
+        width: 60
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89dbe0a4355d6cef0800000000000000
+      internalID: -88148588985664104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_20
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1405
+        width: 61
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53e342b066fb4df0800000000000000
+      internalID: -194791263692397733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_21
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1405
+        width: 61
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f80c40a9068d6710800000000000000
+      internalID: 1688152811235969269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_22
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 1404
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54dc02a4e85a594d0800000000000000
+      internalID: -3128412335591338683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_23
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 1404
+        width: 62
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16a1a4e7abc09c800800000000000000
+      internalID: 633051217744501345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_24
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1148
+        width: 62
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c233d8e7d75ef00800000000000000
+      internalID: 1145459662723951770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_25
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1148
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88100e870b3990940800000000000000
+      internalID: 5262900025710608776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_26
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1148
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a4c5d27647e61f0800000000000000
+      internalID: -1049773676639270307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_27
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1148
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 657adf1ae9cb62070800000000000000
+      internalID: 8081353970871543638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_28
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1148
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44d1214a742df080800000000000000
+      internalID: -9152118760249633714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_29
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1148
+        width: 65
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a548776a1fd83e0800000000000000
+      internalID: -2049716558111679918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_30
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 1148
+        width: 66
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffbbd106180da5200800000000000000
+      internalID: 169677190061734911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_31
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1148
+        width: 66
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61549a43cb6487580800000000000000
+      internalID: -8829229295308552938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_32
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 893
+        width: 65
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c5b1ee2d10c1230800000000000000
+      internalID: 3610763006693825624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_33
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 893
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9b1fdf0100768e0800000000000000
+      internalID: -1700390261329118802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_34
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 893
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae829c5630d8b030800000000000000
+      internalID: 3510784841435221667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_35
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 893
+        width: 65
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2628cb8d9f3853d50800000000000000
+      internalID: 6716419528399290978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_36
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 893
+        width: 65
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0475ef9dda34c70800000000000000
+      internalID: 8954191635929317552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_37
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 893
+        width: 64
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37e4737c98eb61ca0800000000000000
+      internalID: -6046435950736224653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_38
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 894
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754617465b887bb90800000000000000
+      internalID: -7226156764437060521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_31_Injured weak_39
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 894
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f133e03d7d47970800000000000000
+      internalID: 8751857277364019036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tate_31_Injured weak_0: -3220923193358989508
+      Tate_31_Injured weak_1: 3557339796715644281
+      Tate_31_Injured weak_10: 5170779151818995026
+      Tate_31_Injured weak_11: 969870201801992992
+      Tate_31_Injured weak_12: 2412283477726638288
+      Tate_31_Injured weak_13: -8109744150589187486
+      Tate_31_Injured weak_14: -3767017319861457301
+      Tate_31_Injured weak_15: 1227278973975701827
+      Tate_31_Injured weak_16: -2238768541541283872
+      Tate_31_Injured weak_17: 5813062013132227812
+      Tate_31_Injured weak_18: 174277608338409345
+      Tate_31_Injured weak_19: -88148588985664104
+      Tate_31_Injured weak_2: 3590190021049708520
+      Tate_31_Injured weak_20: -194791263692397733
+      Tate_31_Injured weak_21: 1688152811235969269
+      Tate_31_Injured weak_22: -3128412335591338683
+      Tate_31_Injured weak_23: 633051217744501345
+      Tate_31_Injured weak_24: 1145459662723951770
+      Tate_31_Injured weak_25: 5262900025710608776
+      Tate_31_Injured weak_26: -1049773676639270307
+      Tate_31_Injured weak_27: 8081353970871543638
+      Tate_31_Injured weak_28: -9152118760249633714
+      Tate_31_Injured weak_29: -2049716558111679918
+      Tate_31_Injured weak_3: -3681235829497170629
+      Tate_31_Injured weak_30: 169677190061734911
+      Tate_31_Injured weak_31: -8829229295308552938
+      Tate_31_Injured weak_32: 3610763006693825624
+      Tate_31_Injured weak_33: -1700390261329118802
+      Tate_31_Injured weak_34: 3510784841435221667
+      Tate_31_Injured weak_35: 6716419528399290978
+      Tate_31_Injured weak_36: 8954191635929317552
+      Tate_31_Injured weak_37: -6046435950736224653
+      Tate_31_Injured weak_38: -7226156764437060521
+      Tate_31_Injured weak_39: 8751857277364019036
+      Tate_31_Injured weak_4: -7317337110004815705
+      Tate_31_Injured weak_5: -3820254403136171345
+      Tate_31_Injured weak_6: 2002386188348388311
+      Tate_31_Injured weak_7: -4733963745755278373
+      Tate_31_Injured weak_8: -8211384903710354913
+      Tate_31_Injured weak_9: 2356726991830193899
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

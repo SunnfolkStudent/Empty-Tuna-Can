@@ -1,0 +1,664 @@
+fileFormatVersion: 2
+guid: 9086f616a9dacdb4a93364640fa58874
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8707175482703810046
+    second: Tate_37_Forward roll up_0
+  - first:
+      213: -6665478684287909908
+    second: Tate_37_Forward roll up_1
+  - first:
+      213: 6379307706293459385
+    second: Tate_37_Forward roll up_2
+  - first:
+      213: -1716524908295880263
+    second: Tate_37_Forward roll up_3
+  - first:
+      213: -6385890307759609967
+    second: Tate_37_Forward roll up_4
+  - first:
+      213: -7123628583214385288
+    second: Tate_37_Forward roll up_5
+  - first:
+      213: 1169895524489162842
+    second: Tate_37_Forward roll up_6
+  - first:
+      213: 7230182036652444329
+    second: Tate_37_Forward roll up_7
+  - first:
+      213: -6139359658241280277
+    second: Tate_37_Forward roll up_8
+  - first:
+      213: -5786361336842089430
+    second: Tate_37_Forward roll up_9
+  - first:
+      213: 955214336386887955
+    second: Tate_37_Forward roll up_10
+  - first:
+      213: -7814187518651091407
+    second: Tate_37_Forward roll up_11
+  - first:
+      213: 777097289054550115
+    second: Tate_37_Forward roll up_12
+  - first:
+      213: 854999434941605694
+    second: Tate_37_Forward roll up_13
+  - first:
+      213: -6404332465886296067
+    second: Tate_37_Forward roll up_14
+  - first:
+      213: 2336878006625066479
+    second: Tate_37_Forward roll up_15
+  - first:
+      213: -9164490195959636220
+    second: Tate_37_Forward roll up_16
+  - first:
+      213: -4312333767634335535
+    second: Tate_37_Forward roll up_17
+  - first:
+      213: -6792301463210546024
+    second: Tate_37_Forward roll up_18
+  - first:
+      213: -3487415255530979716
+    second: Tate_37_Forward roll up_19
+  - first:
+      213: -1343936061538553161
+    second: Tate_37_Forward roll up_20
+  - first:
+      213: -430740710573617659
+    second: Tate_37_Forward roll up_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tate_37_Forward roll up_0
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1914
+        width: 78
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd0d8b08f916d870800000000000000
+      internalID: 8707175482703810046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_37_Forward roll up_1
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 1911
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cefb41da3767f73a0800000000000000
+      internalID: -6665478684287909908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_37_Forward roll up_2
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1925
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b998825f8ad78850800000000000000
+      internalID: 6379307706293459385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_37_Forward roll up_3
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1925
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b10ae0c0bdad28e0800000000000000
+      internalID: -1716524908295880263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_37_Forward roll up_4
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 1923
+        width: 46
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 197e0675992c067a0800000000000000
+      internalID: -6385890307759609967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_37_Forward roll up_5
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 1919
+        width: 45
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 877ffa1db89c32d90800000000000000
+      internalID: -7123628583214385288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_37_Forward roll up_6
+      rect:
+        serializedVersion: 2
+        x: 1639
+        y: 1912
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50fe79f7cd4c3010800000000000000
+      internalID: 1169895524489162842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_37_Forward roll up_7
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 1912
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa44145144c65460800000000000000
+      internalID: 7230182036652444329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_37_Forward roll up_8
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1656
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be63a262bec9ccaa0800000000000000
+      internalID: -6139359658241280277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_37_Forward roll up_9
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 1656
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c09778507b2bfa0800000000000000
+      internalID: -5786361336842089430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_37_Forward roll up_10
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 1669
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31173b4c06a914d00800000000000000
+      internalID: 955214336386887955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_37_Forward roll up_11
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1663
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 136b2866add6e8390800000000000000
+      internalID: -7814187518651091407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_37_Forward roll up_12
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1663
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368f30efdddc8ca00800000000000000
+      internalID: 777097289054550115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_37_Forward roll up_13
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1662
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37aad2c4719ddb00800000000000000
+      internalID: 854999434941605694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_37_Forward roll up_14
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 1662
+        width: 57
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7885bcd8d3f17a0800000000000000
+      internalID: -6404332465886296067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_37_Forward roll up_15
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 1661
+        width: 59
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed5f4c6a224e6020800000000000000
+      internalID: 2336878006625066479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_37_Forward roll up_16
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 1405
+        width: 61
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f964ae8b031d080800000000000000
+      internalID: -9164490195959636220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_37_Forward roll up_17
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1405
+        width: 63
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8cb3b39438724c0800000000000000
+      internalID: -4312333767634335535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_37_Forward roll up_18
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1405
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c28fd6ec5ecb1a0800000000000000
+      internalID: -6792301463210546024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_37_Forward roll up_19
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1405
+        width: 64
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e3ccd5d463a9fc0800000000000000
+      internalID: -3487415255530979716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_37_Forward roll up_20
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1405
+        width: 64
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b23823c541695de0800000000000000
+      internalID: -1343936061538553161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_37_Forward roll up_21
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1406
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50ec5fb1b93b50af0800000000000000
+      internalID: -430740710573617659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tate_37_Forward roll up_0: 8707175482703810046
+      Tate_37_Forward roll up_1: -6665478684287909908
+      Tate_37_Forward roll up_10: 955214336386887955
+      Tate_37_Forward roll up_11: -7814187518651091407
+      Tate_37_Forward roll up_12: 777097289054550115
+      Tate_37_Forward roll up_13: 854999434941605694
+      Tate_37_Forward roll up_14: -6404332465886296067
+      Tate_37_Forward roll up_15: 2336878006625066479
+      Tate_37_Forward roll up_16: -9164490195959636220
+      Tate_37_Forward roll up_17: -4312333767634335535
+      Tate_37_Forward roll up_18: -6792301463210546024
+      Tate_37_Forward roll up_19: -3487415255530979716
+      Tate_37_Forward roll up_2: 6379307706293459385
+      Tate_37_Forward roll up_20: -1343936061538553161
+      Tate_37_Forward roll up_21: -430740710573617659
+      Tate_37_Forward roll up_3: -1716524908295880263
+      Tate_37_Forward roll up_4: -6385890307759609967
+      Tate_37_Forward roll up_5: -7123628583214385288
+      Tate_37_Forward roll up_6: 1169895524489162842
+      Tate_37_Forward roll up_7: 7230182036652444329
+      Tate_37_Forward roll up_8: -6139359658241280277
+      Tate_37_Forward roll up_9: -5786361336842089430
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

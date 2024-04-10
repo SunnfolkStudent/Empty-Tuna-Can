@@ -1,0 +1,2064 @@
+fileFormatVersion: 2
+guid: a83750eeef36a354a90968a6c9329df2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6422063586169974581
+    second: Tate_57_Match entrance_0
+  - first:
+      213: 4313870797191976838
+    second: Tate_57_Match entrance_1
+  - first:
+      213: -6225802195230279575
+    second: Tate_57_Match entrance_2
+  - first:
+      213: 5406245993064908251
+    second: Tate_57_Match entrance_3
+  - first:
+      213: 746318271971790173
+    second: Tate_57_Match entrance_4
+  - first:
+      213: -6109087170525300319
+    second: Tate_57_Match entrance_5
+  - first:
+      213: 5587289097077935389
+    second: Tate_57_Match entrance_6
+  - first:
+      213: -5286153401623786954
+    second: Tate_57_Match entrance_7
+  - first:
+      213: 7508738239706002065
+    second: Tate_57_Match entrance_8
+  - first:
+      213: -4429818883492060869
+    second: Tate_57_Match entrance_9
+  - first:
+      213: 86771478845555828
+    second: Tate_57_Match entrance_10
+  - first:
+      213: -8793179079234294359
+    second: Tate_57_Match entrance_11
+  - first:
+      213: -282216886532251113
+    second: Tate_57_Match entrance_12
+  - first:
+      213: -337705482874602597
+    second: Tate_57_Match entrance_13
+  - first:
+      213: -5198022030337847090
+    second: Tate_57_Match entrance_14
+  - first:
+      213: -8208252592770159772
+    second: Tate_57_Match entrance_15
+  - first:
+      213: -6782331625854192029
+    second: Tate_57_Match entrance_16
+  - first:
+      213: -2626706841574676309
+    second: Tate_57_Match entrance_17
+  - first:
+      213: -830515614107997523
+    second: Tate_57_Match entrance_18
+  - first:
+      213: 4110922882294552394
+    second: Tate_57_Match entrance_19
+  - first:
+      213: -3743826750257688654
+    second: Tate_57_Match entrance_20
+  - first:
+      213: -613811984215797053
+    second: Tate_57_Match entrance_21
+  - first:
+      213: 5665618315834143256
+    second: Tate_57_Match entrance_22
+  - first:
+      213: -8241496942627297896
+    second: Tate_57_Match entrance_23
+  - first:
+      213: 1051880410614133511
+    second: Tate_57_Match entrance_24
+  - first:
+      213: 1899109775502453798
+    second: Tate_57_Match entrance_25
+  - first:
+      213: 4945561848224298193
+    second: Tate_57_Match entrance_26
+  - first:
+      213: -5305932355774998252
+    second: Tate_57_Match entrance_27
+  - first:
+      213: 807835169411012969
+    second: Tate_57_Match entrance_28
+  - first:
+      213: -5293370452975335511
+    second: Tate_57_Match entrance_29
+  - first:
+      213: -5143390710080167599
+    second: Tate_57_Match entrance_30
+  - first:
+      213: 6689869995995884212
+    second: Tate_57_Match entrance_31
+  - first:
+      213: 1598771458283262241
+    second: Tate_57_Match entrance_32
+  - first:
+      213: 2067816242888460260
+    second: Tate_57_Match entrance_33
+  - first:
+      213: -8452785527766778516
+    second: Tate_57_Match entrance_34
+  - first:
+      213: 2052522285289153846
+    second: Tate_57_Match entrance_35
+  - first:
+      213: 1334835495410819511
+    second: Tate_57_Match entrance_36
+  - first:
+      213: 4628231551562593452
+    second: Tate_57_Match entrance_37
+  - first:
+      213: -3378560858971377443
+    second: Tate_57_Match entrance_38
+  - first:
+      213: -8286731082389189818
+    second: Tate_57_Match entrance_39
+  - first:
+      213: 3120777797724732114
+    second: Tate_57_Match entrance_40
+  - first:
+      213: -4346440887746707708
+    second: Tate_57_Match entrance_41
+  - first:
+      213: 290766137920825478
+    second: Tate_57_Match entrance_42
+  - first:
+      213: -8121292178147072852
+    second: Tate_57_Match entrance_43
+  - first:
+      213: -3672913229281191632
+    second: Tate_57_Match entrance_44
+  - first:
+      213: 8412339051959930109
+    second: Tate_57_Match entrance_45
+  - first:
+      213: 9032814515152744910
+    second: Tate_57_Match entrance_46
+  - first:
+      213: -2275263273965277813
+    second: Tate_57_Match entrance_47
+  - first:
+      213: -5912339687217075640
+    second: Tate_57_Match entrance_48
+  - first:
+      213: 4525222029489874621
+    second: Tate_57_Match entrance_49
+  - first:
+      213: 9191198790680840063
+    second: Tate_57_Match entrance_50
+  - first:
+      213: -5186489989340794342
+    second: Tate_57_Match entrance_51
+  - first:
+      213: -3383272245047677394
+    second: Tate_57_Match entrance_52
+  - first:
+      213: -2506099232106354606
+    second: Tate_57_Match entrance_53
+  - first:
+      213: -2819608770090148907
+    second: Tate_57_Match entrance_54
+  - first:
+      213: -7766905226193493688
+    second: Tate_57_Match entrance_55
+  - first:
+      213: 5646867437783027678
+    second: Tate_57_Match entrance_56
+  - first:
+      213: -6523695101052005082
+    second: Tate_57_Match entrance_57
+  - first:
+      213: 6254683598339736316
+    second: Tate_57_Match entrance_58
+  - first:
+      213: -3689168812640239046
+    second: Tate_57_Match entrance_59
+  - first:
+      213: 2158957644578110940
+    second: Tate_57_Match entrance_60
+  - first:
+      213: 606085862071072854
+    second: Tate_57_Match entrance_61
+  - first:
+      213: 2320803275196373552
+    second: Tate_57_Match entrance_62
+  - first:
+      213: 624127557118580473
+    second: Tate_57_Match entrance_63
+  - first:
+      213: 7050935905984712423
+    second: Tate_57_Match entrance_64
+  - first:
+      213: 4407121282526381385
+    second: Tate_57_Match entrance_65
+  - first:
+      213: -2439320523910552904
+    second: Tate_57_Match entrance_66
+  - first:
+      213: 1731873132472748120
+    second: Tate_57_Match entrance_67
+  - first:
+      213: -3865142942174783597
+    second: Tate_57_Match entrance_68
+  - first:
+      213: 9200481234701510200
+    second: Tate_57_Match entrance_69
+  - first:
+      213: -5947625884626331426
+    second: Tate_57_Match entrance_70
+  - first:
+      213: -3291623798795341070
+    second: Tate_57_Match entrance_71
+  - first:
+      213: 7504807250030710751
+    second: Tate_57_Match entrance_72
+  - first:
+      213: 334882252849248047
+    second: Tate_57_Match entrance_73
+  - first:
+      213: -383851441518917305
+    second: Tate_57_Match entrance_74
+  - first:
+      213: 6042856262895596605
+    second: Tate_57_Match entrance_75
+  - first:
+      213: -4606783373899475706
+    second: Tate_57_Match entrance_76
+  - first:
+      213: -6029252875056336671
+    second: Tate_57_Match entrance_77
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_0
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 1919
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc01e55a13f30e6a0800000000000000
+      internalID: -6422063586169974581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_1
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1919
+        width: 47
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6871f8952a2fddb30800000000000000
+      internalID: 4313870797191976838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_2
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1918
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968b37f93e18999a0800000000000000
+      internalID: -6225802195230279575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_3
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1919
+        width: 57
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd543015618d60b40800000000000000
+      internalID: 5406245993064908251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_4
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 1915
+        width: 56
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d0342a3847b5a00800000000000000
+      internalID: 746318271971790173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_5
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 1921
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a971f2f599283ba0800000000000000
+      internalID: -6109087170525300319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_6
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 1919
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d4eb0c4d90a8d40800000000000000
+      internalID: 5587289097077935389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_7
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 1921
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63acdfb0d7fc3a6b0800000000000000
+      internalID: -5286153401623786954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_8
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 1919
+        width: 53
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192711165a5643860800000000000000
+      internalID: 7508738239706002065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_9
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1664
+        width: 52
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b316326123f1682c0800000000000000
+      internalID: -4429818883492060869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_10
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1675
+        width: 51
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47489354336443100800000000000000
+      internalID: 86771478845555828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_11
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1681
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ade7d7373a58f580800000000000000
+      internalID: -8793179079234294359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_12
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1686
+        width: 51
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 712e0a8ac3d551cf0800000000000000
+      internalID: -282216886532251113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_13
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1691
+        width: 57
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9bbe8e07aa305bf0800000000000000
+      internalID: -337705482874602597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_14
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1696
+        width: 58
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0de03f08aecd7b0800000000000000
+      internalID: -5198022030337847090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_15
+      rect:
+        serializedVersion: 2
+        x: 1641
+        y: 1698
+        width: 59
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b614d81cd661e80800000000000000
+      internalID: -8208252592770159772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_16
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 1700
+        width: 58
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3663014125150e1a0800000000000000
+      internalID: -6782331625854192029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_17
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1665
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba86ad26b001c8bd0800000000000000
+      internalID: -2626706841574676309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_18
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 1663
+        width: 36
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa6da0037a6974f0800000000000000
+      internalID: -830515614107997523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_19
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1665
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a471132b49eec0930800000000000000
+      internalID: 4110922882294552394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_20
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1663
+        width: 36
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bf094208614b0cc0800000000000000
+      internalID: -3743826750257688654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_21
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1664
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c290f1a04d4b77f0800000000000000
+      internalID: -613811984215797053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_22
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 1663
+        width: 54
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812bd3c27d150ae40800000000000000
+      internalID: 5665618315834143256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_23
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 1663
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8956b3d223250ad80800000000000000
+      internalID: -8241496942627297896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_24
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1663
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703f8dc09a7099e00800000000000000
+      internalID: 1051880410614133511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_25
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1663
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62cab46674efa5a10800000000000000
+      internalID: 1899109775502453798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_26
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 1662
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d4322a5c4a22a440800000000000000
+      internalID: 4945561848224298193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_27
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 1664
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41997cb62aa8d56b0800000000000000
+      internalID: -5305932355774998252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_28
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 1663
+        width: 52
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9699fc57ec1063b00800000000000000
+      internalID: 807835169411012969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_29
+      rect:
+        serializedVersion: 2
+        x: 1353
+        y: 1663
+        width: 52
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a74bd55e9b2a86b0800000000000000
+      internalID: -5293370452975335511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_30
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1445
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 151a0a866610f98b0800000000000000
+      internalID: -5143390710080167599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_31
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1447
+        width: 56
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bae0e0215137dc50800000000000000
+      internalID: 6689869995995884212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_32
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 1449
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 121d100bb2aff2610800000000000000
+      internalID: 1598771458283262241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_33
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1451
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e7462acaeb52bc10800000000000000
+      internalID: 2067816242888460260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_34
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1446
+        width: 57
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6df5e6e85ca1ba80800000000000000
+      internalID: -8452785527766778516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_35
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1442
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 635ab3cc4260c7c10800000000000000
+      internalID: 2052522285289153846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_36
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 1438
+        width: 58
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b16b819fc9468210800000000000000
+      internalID: 1334835495410819511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_37
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1434
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4b4212318ca3040800000000000000
+      internalID: 4628231551562593452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_38
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1173
+        width: 52
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0f8f49cc0fc11d0800000000000000
+      internalID: -3378560858971377443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_39
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1167
+        width: 56
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b010d4cfd9ffc80800000000000000
+      internalID: -8286731082389189818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_40
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1160
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dafe485fda3f4b20800000000000000
+      internalID: 3120777797724732114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_41
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1151
+        width: 47
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40fbf908a075ea3c0800000000000000
+      internalID: -4346440887746707708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_42
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 1144
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 688ab7b0342090400800000000000000
+      internalID: 290766137920825478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_43
+      rect:
+        serializedVersion: 2
+        x: 1384
+        y: 1150
+        width: 59
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca4a26cdacf5b4f80800000000000000
+      internalID: -8121292178147072852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_44
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 1150
+        width: 56
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0399cddb0e0370dc0800000000000000
+      internalID: -3672913229281191632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_45
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1149
+        width: 61
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfcc73a1cc1aeb470800000000000000
+      internalID: 8412339051959930109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_46
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 893
+        width: 65
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec1fba191f00b5d70800000000000000
+      internalID: 9032814515152744910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_47
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 893
+        width: 68
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8daec07b14ac60e0800000000000000
+      internalID: -2275263273965277813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_48
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 893
+        width: 67
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a6bff116623fda0800000000000000
+      internalID: -5912339687217075640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_49
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 893
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6248dc571dcce30800000000000000
+      internalID: 4525222029489874621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_50
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 893
+        width: 69
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7708826a92bd8f70800000000000000
+      internalID: 9191198790680840063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_51
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 893
+        width: 72
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12f83a75d2e508b0800000000000000
+      internalID: -5186489989340794342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_52
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 893
+        width: 71
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2eae7781d33c01d0800000000000000
+      internalID: -3383272245047677394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_53
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 893
+        width: 71
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 258eb6ab60c883dd0800000000000000
+      internalID: -2506099232106354606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_54
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 637
+        width: 71
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db533533ccbed8d0800000000000000
+      internalID: -2819608770090148907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_55
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 637
+        width: 71
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841ac9cf8d8663490800000000000000
+      internalID: -7766905226193493688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_56
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 637
+        width: 68
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf07ca2404bd5e40800000000000000
+      internalID: 5646867437783027678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_57
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 637
+        width: 63
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625d6de9edd2775a0800000000000000
+      internalID: -6523695101052005082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_58
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 637
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2808d08991dc650800000000000000
+      internalID: 6254683598339736316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_59
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 637
+        width: 59
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32012ec2807dccc0800000000000000
+      internalID: -3689168812640239046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_60
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 637
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd31320a8826fd10800000000000000
+      internalID: 2158957644578110940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_61
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 637
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658f12061ef396800800000000000000
+      internalID: 606085862071072854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_62
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 381
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a94ab5846253020800000000000000
+      internalID: 2320803275196373552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_63
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 381
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6d598d4b859a800800000000000000
+      internalID: 624127557118580473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_64
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 381
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee044a59d4f9d160800000000000000
+      internalID: 7050935905984712423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_65
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 381
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9458c0fd47d392d30800000000000000
+      internalID: 4407121282526381385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_66
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 381
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2edf658eac52ed0800000000000000
+      internalID: -2439320523910552904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_67
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 381
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858c4192079d80810800000000000000
+      internalID: 1731873132472748120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_68
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 381
+        width: 68
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3975095f8f04c5ac0800000000000000
+      internalID: -3865142942174783597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_69
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 382
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836e70dcfecaeaf70800000000000000
+      internalID: 9200481234701510200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_70
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 126
+        width: 63
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8dde115c9c57da0800000000000000
+      internalID: -5947625884626331426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_71
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 125
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2f492489dc152d0800000000000000
+      internalID: -3291623798795341070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_72
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 125
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf4bd58e6e662860800000000000000
+      internalID: 7504807250030710751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_73
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 125
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2779aa72adb5a400800000000000000
+      internalID: 334882252849248047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_74
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 125
+        width: 63
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7494ebdc5294caaf0800000000000000
+      internalID: -383851441518917305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_75
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 126
+        width: 63
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d34f2a231c98cd350800000000000000
+      internalID: 6042856262895596605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_76
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 126
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 605db81edea6110c0800000000000000
+      internalID: -4606783373899475706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tate_57_Match entrance_77
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 126
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0b349547ac35ca0800000000000000
+      internalID: -6029252875056336671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tate_57_Match entrance_0: -6422063586169974581
+      Tate_57_Match entrance_1: 4313870797191976838
+      Tate_57_Match entrance_10: 86771478845555828
+      Tate_57_Match entrance_11: -8793179079234294359
+      Tate_57_Match entrance_12: -282216886532251113
+      Tate_57_Match entrance_13: -337705482874602597
+      Tate_57_Match entrance_14: -5198022030337847090
+      Tate_57_Match entrance_15: -8208252592770159772
+      Tate_57_Match entrance_16: -6782331625854192029
+      Tate_57_Match entrance_17: -2626706841574676309
+      Tate_57_Match entrance_18: -830515614107997523
+      Tate_57_Match entrance_19: 4110922882294552394
+      Tate_57_Match entrance_2: -6225802195230279575
+      Tate_57_Match entrance_20: -3743826750257688654
+      Tate_57_Match entrance_21: -613811984215797053
+      Tate_57_Match entrance_22: 5665618315834143256
+      Tate_57_Match entrance_23: -8241496942627297896
+      Tate_57_Match entrance_24: 1051880410614133511
+      Tate_57_Match entrance_25: 1899109775502453798
+      Tate_57_Match entrance_26: 4945561848224298193
+      Tate_57_Match entrance_27: -5305932355774998252
+      Tate_57_Match entrance_28: 807835169411012969
+      Tate_57_Match entrance_29: -5293370452975335511
+      Tate_57_Match entrance_3: 5406245993064908251
+      Tate_57_Match entrance_30: -5143390710080167599
+      Tate_57_Match entrance_31: 6689869995995884212
+      Tate_57_Match entrance_32: 1598771458283262241
+      Tate_57_Match entrance_33: 2067816242888460260
+      Tate_57_Match entrance_34: -8452785527766778516
+      Tate_57_Match entrance_35: 2052522285289153846
+      Tate_57_Match entrance_36: 1334835495410819511
+      Tate_57_Match entrance_37: 4628231551562593452
+      Tate_57_Match entrance_38: -3378560858971377443
+      Tate_57_Match entrance_39: -8286731082389189818
+      Tate_57_Match entrance_4: 746318271971790173
+      Tate_57_Match entrance_40: 3120777797724732114
+      Tate_57_Match entrance_41: -4346440887746707708
+      Tate_57_Match entrance_42: 290766137920825478
+      Tate_57_Match entrance_43: -8121292178147072852
+      Tate_57_Match entrance_44: -3672913229281191632
+      Tate_57_Match entrance_45: 8412339051959930109
+      Tate_57_Match entrance_46: 9032814515152744910
+      Tate_57_Match entrance_47: -2275263273965277813
+      Tate_57_Match entrance_48: -5912339687217075640
+      Tate_57_Match entrance_49: 4525222029489874621
+      Tate_57_Match entrance_5: -6109087170525300319
+      Tate_57_Match entrance_50: 9191198790680840063
+      Tate_57_Match entrance_51: -5186489989340794342
+      Tate_57_Match entrance_52: -3383272245047677394
+      Tate_57_Match entrance_53: -2506099232106354606
+      Tate_57_Match entrance_54: -2819608770090148907
+      Tate_57_Match entrance_55: -7766905226193493688
+      Tate_57_Match entrance_56: 5646867437783027678
+      Tate_57_Match entrance_57: -6523695101052005082
+      Tate_57_Match entrance_58: 6254683598339736316
+      Tate_57_Match entrance_59: -3689168812640239046
+      Tate_57_Match entrance_6: 5587289097077935389
+      Tate_57_Match entrance_60: 2158957644578110940
+      Tate_57_Match entrance_61: 606085862071072854
+      Tate_57_Match entrance_62: 2320803275196373552
+      Tate_57_Match entrance_63: 624127557118580473
+      Tate_57_Match entrance_64: 7050935905984712423
+      Tate_57_Match entrance_65: 4407121282526381385
+      Tate_57_Match entrance_66: -2439320523910552904
+      Tate_57_Match entrance_67: 1731873132472748120
+      Tate_57_Match entrance_68: -3865142942174783597
+      Tate_57_Match entrance_69: 9200481234701510200
+      Tate_57_Match entrance_7: -5286153401623786954
+      Tate_57_Match entrance_70: -5947625884626331426
+      Tate_57_Match entrance_71: -3291623798795341070
+      Tate_57_Match entrance_72: 7504807250030710751
+      Tate_57_Match entrance_73: 334882252849248047
+      Tate_57_Match entrance_74: -383851441518917305
+      Tate_57_Match entrance_75: 6042856262895596605
+      Tate_57_Match entrance_76: -4606783373899475706
+      Tate_57_Match entrance_77: -6029252875056336671
+      Tate_57_Match entrance_8: 7508738239706002065
+      Tate_57_Match entrance_9: -4429818883492060869
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
