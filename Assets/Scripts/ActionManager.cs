@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using JetBrains.Annotations;
 using UnityEngine;
-using UnityEngine.Animations;
 using Utils;
 
 public class ActionManager : MonoBehaviour {
@@ -47,8 +46,6 @@ public class ActionManager : MonoBehaviour {
     public void ReceiveCombatInput(CombatInput combatInput) {
         if (combatInput == CombatInput.None) return;
         
-        // Debug.Log($"ReceiveCombatInput: {combatInput}");
-        
         _combatInputTimer.StopTimer();
         _combatInputTimer.StartTimer(inputBuffer);
         
@@ -63,7 +60,6 @@ public class ActionManager : MonoBehaviour {
     }
     
     private void ResetCombatActions() {
-        // animator.runtimeAnimatorController = allControllers[0];
         foreach (var combatAction in _allCombatActions) {
             combatAction.Index = 0;
         }
@@ -87,6 +83,7 @@ public class ActionManager : MonoBehaviour {
         
         playerScript.movementEnabled = _nextCombatAction.CanMoveDuring;
         playerScript.isInAction = true;
+        
         animator.Play(_nextCombatAction.Animation.name);
         
         _nextCombatAction = null;

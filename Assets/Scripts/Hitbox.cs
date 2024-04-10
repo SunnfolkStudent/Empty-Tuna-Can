@@ -8,7 +8,6 @@ public class Hitbox : MonoBehaviour {
     
     private void OnTriggerStay2D(Collider2D other) {
         if (other.TryGetComponent(out Damageable damageable)) {
-            Debug.Log("damageable");
             if (damageable.teamNumber == teamNumber || damageable.heightIndex != height) return;
             damageable.HandleTakeDamage(damage);
         }
