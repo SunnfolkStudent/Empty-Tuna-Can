@@ -1,12 +1,8 @@
-using System;
-using System.Collections.Generic;
-using Dialogue;
 using Items;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Utils;
 using Utils.Entity;
-using Utils.EventBus;
 
 public class PlayerScript : Damageable {
     [SerializeField] private Material testPlayer2Material;
@@ -17,39 +13,12 @@ public class PlayerScript : Damageable {
     [HideInInspector] public bool movementEnabled = true;
     [HideInInspector] public bool inAction;
     
-    public List<Item> itemInventory;
-
-    private const string LoremIpsum =
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consectetur ligula et quam eleifend, " +
-        "ac sagittis nunc posuere. Quisque et porta lacus, id sollicitudin eros. Integer interdum ex eros, ac sagittis " +
-        "nisi convallis lacinia. Phasellus eros sem, tempus eu orci non, lobortis iaculis sapien. Aenean sapien neque, " +
-        "suscipit vitae ullamcorper eu, congue eget neque. Nullam gravida imperdiet semper. Sed bibendum, lacus egestas " +
-        "pretium auctor, ligula erat condimentum massa, vel ullamcorper lacus massa ac orci. Vestibulum sodales nulla sit " +
-        "amet lectus euismod, a ullamcorper mauris pharetra. Proin feugiat quam vitae augue sollicitudin commodo. Suspendisse " +
-        "tristique fermentum nisi, quis interdum arcu eleifend eu. Etiam quis purus nec justo malesuada mollis id vel purus. " +
-        "Curabitur iaculis ipsum quam, ac iaculis massa suscipit eget. Pellentesque euismod eros eu viverra scelerisque. Nunc " +
-        "accumsan molestie faucibus.";
-    
-    #region ---SelectedItem---
-    private Item _selectedItem;
-    
-    public Item SelectedItem {
-        set {
-            _selectedItem = value;
-            OnSelectItemChanged?.Invoke(_selectedItem != null ? _selectedItem : null);
-        }
-        get => _selectedItem;
-    }
-    
-    public event Action<Item> OnSelectItemChanged;
-    
-    private int _selectedItemIndex;
-    #endregion
     
     [Header("Script References")]
     [SerializeField] private Animator animator;
     [SerializeField] private ActionManager actionManager;
     [SerializeField] private EntityMovement entityMovement;
+    public Inventory inventory;
     private Transform _transform;
     
     private CombatInput _currentDirection;
@@ -60,9 +29,9 @@ public class PlayerScript : Damageable {
     }
     
     private void Start() {
-        SelectedItem = itemInventory[0];
         OnDying += OnDeath;
         
+        inventory.Initialize();
         PlayerUIFactory.CreatePlayerUI(this);
         
         teamNumber = FindObjectsByType<PlayerScript>(FindObjectsSortMode.None).Length;
@@ -92,7 +61,7 @@ public class PlayerScript : Damageable {
         
     }
     #endregion
-
+    
     #region ***---Attack---
     public void OnLightAttack(InputAction.CallbackContext ctx) {
         if (!ctx.performed) return;
@@ -107,23 +76,18 @@ public class PlayerScript : Damageable {
 
     #region ***---Item---
     public void OnUseItem(InputAction.CallbackContext ctx) {
-        if (ctx.performed && SelectedItem != null) SelectedItem.UseItem(this);
+        if (!ctx.performed || inventory.selectedItem.Value.item == null) return;
+        inventory.UseSelectedItem(this);
     }
     
     public void OnNextItem(InputAction.CallbackContext ctx) {
         if (!ctx.performed) return;
-        if (itemInventory.Count != 0 && _selectedItemIndex == itemInventory.Count - 1) return;   
-        _selectedItemIndex++;
-        
-        SelectedItem = itemInventory[_selectedItemIndex];
+        inventory.NextItem();
     }
 
     public void OnPreviousItem(InputAction.CallbackContext ctx) {
         if (!ctx.performed) return;
-        if (itemInventory.Count != 0 && _selectedItemIndex == 0) return;
-        _selectedItemIndex--;
-        
-        SelectedItem = itemInventory[_selectedItemIndex];
+        inventory.PreviousItem();
     }
     #endregion
 
@@ -144,30 +108,6 @@ public class PlayerScript : Damageable {
         
         if (!inAction) {
             animator.Play(moveVector.magnitude != 0 ? "Walk" : "Idle");
-        }
-        
-        if (Keyboard.current.iKey.wasPressedThisFrame) {
-            if (DialogueUIManager.DialogIsPlaying) {
-                EventBus<DialogueEvent>.Raise(new SkipEvent());
-            }
-            else if (DialogueUIManager.InDialog) {
-                EventBus<DialogueEvent>.Raise(new EndEvent());
-            }
-            else {
-                EventBus<DialogueEvent>.Raise(new TextEvent("PersonI", LoremIpsum));
-            }
-        }
-        
-        if (Keyboard.current.oKey.wasPressedThisFrame) {
-            if (DialogueUIManager.DialogIsPlaying) {
-                EventBus<DialogueEvent>.Raise(new SkipEvent());
-            }
-            else if (DialogueUIManager.InDialog) {
-                EventBus<DialogueEvent>.Raise(new EndEvent());
-            }
-            else {
-                EventBus<DialogueEvent>.Raise(new TextEvent("PersonO", LoremIpsum));
-            }
         }
     }
     

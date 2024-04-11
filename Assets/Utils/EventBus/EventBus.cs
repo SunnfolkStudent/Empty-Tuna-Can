@@ -14,7 +14,7 @@ namespace Utils.EventBus {
                 binding.OnEventNoArgs.Invoke();
             }
         }
-
+        
         private static void Clear() {
             Debug.Log($"Clearing {typeof(T).Name} bindings");
             Bindings.Clear();

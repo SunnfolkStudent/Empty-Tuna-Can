@@ -1,5 +1,6 @@
 using Items;
 using JetBrains.Annotations;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using Utils;
@@ -11,6 +12,7 @@ public class PlayerUIElement : MonoBehaviour {
 
     [SerializeField] private GameObject healingItemVisual;
     [SerializeField] private GameObject throwableItemVisual;
+    [SerializeField] private TextMeshProUGUI itemAmount;
     
     private Sprite _emptySprite;
     
@@ -24,6 +26,10 @@ public class PlayerUIElement : MonoBehaviour {
         
         healingItemVisual.SetActive(selectedItem is HealingItem);
         throwableItemVisual.SetActive(selectedItem is ThrowableItem);
+    }
+
+    public void UpdateSelectedItemAmount(int amount) {
+        itemAmount.text = amount.ToString();
     }
     
     public void UpdateHealthBar(float value, float maxValue) {

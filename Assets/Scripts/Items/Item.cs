@@ -1,3 +1,4 @@
+using Plugins.SerializedCollections.Runtime.Scripts;
 using UnityEngine;
 using Utils.CustomAttributes;
 
@@ -5,22 +6,13 @@ namespace Items {
     public class Item : ScriptableObject {
         [Header("Item")]
         [RequiredField] [AssetPreviewIcon] public Sprite itemSprite;
-
-        public Item[] getItemsOnUse;
+        
+        public SerializedDictionary<Item, int> getItemsOnUse;
         
         public virtual void UseItem(PlayerScript playerScript) {
-            playerScript.itemInventory.Remove(playerScript.SelectedItem);
-
             foreach (var item in getItemsOnUse) {
-                playerScript.itemInventory.Add(item);
+                playerScript.inventory.AddItems(item.Key, item.Value);
             }
-
-            if (playerScript.itemInventory.Count == 0) {
-                playerScript.SelectedItem = null;
-                return;
-            }
-
-            playerScript.SelectedItem = playerScript.itemInventory[0];
         }
     }
 }

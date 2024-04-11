@@ -89,7 +89,7 @@ public class ActionManager : MonoBehaviour {
     }
 
     private void SetAnimationController(int index) {
-        Debug.Log("Controller: " + index);
+        // Debug.Log("Controller: " + index);
         animator.runtimeAnimatorController = allControllers[index];
     }
     

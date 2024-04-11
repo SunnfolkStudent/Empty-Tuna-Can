@@ -14,7 +14,10 @@ public static class PlayerUIFactory {
         playerScript.health.OnValueChanged += (value) => playerUIElement.UpdateHealthBar(value, playerScript.health.maxValue);
         playerUIElement.UpdateHealthBar(playerScript.health.Value, playerScript.health.maxValue);
         
-        playerScript.OnSelectItemChanged += playerUIElement.UpdateSelectedItemIcon;
-        playerUIElement.UpdateSelectedItemIcon(playerScript.SelectedItem != null ? playerScript.SelectedItem : null);
+        playerScript.inventory.selectedItem.OnValueChanged += (value) => playerUIElement.UpdateSelectedItemIcon(value.item);
+        playerScript.inventory.selectedItem.OnValueChanged += (value) => playerUIElement.UpdateSelectedItemAmount(value.amount);
+        
+        playerUIElement.UpdateSelectedItemIcon(playerScript.inventory.selectedItem.Value.item);
+        playerUIElement.UpdateSelectedItemAmount(playerScript.inventory.selectedItem.Value.amount);
     }
 }

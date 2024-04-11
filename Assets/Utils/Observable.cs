@@ -1,5 +1,5 @@
 using System;
-using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.Events;
 
 namespace Utils {
@@ -8,19 +8,19 @@ namespace Utils {
     /// </summary>
     [Serializable] 
     public class Observable<T> {
-        public event UnityAction<T> OnValueChanged;
+        public UnityAction<T> OnValueChanged = delegate { };
         
-        private T _value;
+        [SerializeField] private T value;
         
         public T Value {
-            get => _value;
+            get => value;
             set {
-                if (EqualityComparer<T>.Default.Equals(_value, value)) return;
-                _value = value;
+                // if (EqualityComparer<T>.Default.Equals(this.value, value)) return;
+                this.value = value;
                 OnValueChanged?.Invoke(value);
             }
         }
         
-        public Observable(T value = default) => _value = value;
+        public Observable(T value = default) => this.value = value;
     }
 }

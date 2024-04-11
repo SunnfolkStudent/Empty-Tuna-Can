@@ -14,5 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealingItem
   itemSprite: {fileID: -3448690325822707676, guid: 9925861354dab704bb2858ec3c71d35e, type: 3}
   getItemsOnUse:
-  - {fileID: 11400000, guid: a250b1afc26518c4ba109da846c4bc3f, type: 2}
+    _serializedList:
+    - Key: {fileID: 11400000, guid: a250b1afc26518c4ba109da846c4bc3f, type: 2}
+      Value: 1
   healingAmount: 10
