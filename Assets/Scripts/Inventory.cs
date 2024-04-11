@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using Items;
 using Unity.Mathematics;
 using UnityEngine;
-using UnityEngine.InputSystem.Controls;
 using Utils;
 
 [Serializable] public class Inventory {
@@ -42,8 +41,6 @@ using Utils;
     }
     
     public void RemoveItem(ItemInstance item) {
-        // if (item.item is not null) return;
-        
         item.amount -= 1;
         selectedItem.OnValueChanged.Invoke(selectedItem.Value);
 
@@ -83,7 +80,7 @@ using Utils;
                 return i;
             }
         }
-        return -1; // Key not found
+        return -1;
     }
     #endregion
 }

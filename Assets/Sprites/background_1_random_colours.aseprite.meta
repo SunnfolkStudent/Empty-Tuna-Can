@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5a8e3f7eb5674a940b2a40473862946d
+guid: 5122a852f08687346bb341250ec06219
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638484540803813549
+  platformSettingsDirtyTick: 638483567930396171
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: hotel_background_resp_random_colour
+  - name: hotel_background_random_colour
     originalName: 
-    pivot: {x: -0.24166664, y: -1.0210526}
+    pivot: {x: 0.5, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 120
-      height: 95
-    spriteID: 48e1374135310f14790d4943c108f680
+      width: 460
+      height: 259
+    spriteID: 26c7be7a811de1a4eb7d6a8c3adf2411
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,18 +142,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
   spriteSheetImportData:
-  - name: hotel_background_resp_random_colour_0
+  - name: background_1_random_colours_0
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5, y: 0}
+    alignment: 7
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 120
-      height: 95
-    spriteID: 42b3b7f452db1ea48a95392198564cbc
+      width: 420
+      height: 236
+    spriteID: dfe571648d04fd245ad0ec113346ff08
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -164,20 +164,20 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
   asepriteLayers:
   - layerIndex: 0
-    guid: -224542205
-    name: hotel_background_resp_random_colour
+    guid: 1182506250
+    name: background_1_random_colours
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: hotel_background_resp_random_colour
+    - name: background_1_random_colours
       frameIndex: 0
       cellRect:
-        x: 259
-        y: 97
-        width: 120
-        height: 95
-      spriteId: 48e1374135310f14790d4943c108f680
+        x: 0
+        y: 0
+        width: 420
+        height: 236
+      spriteId: 00d6724c68f1711468bc9dd0ff0decde
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -208,4 +208,4 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 460, y: 259}
+  canvasSize: {x: 420, y: 236}
