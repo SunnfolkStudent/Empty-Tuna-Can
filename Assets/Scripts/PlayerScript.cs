@@ -23,6 +23,9 @@ public class PlayerScript : Damageable {
     
     private CombatInput _currentDirection;
     
+    [Header("Conversations")] 
+    [SerializeField] private Conversation conversation;
+    
     private void Awake() {
         _transform = transform;
         entityMovement = GetComponent<EntityMovement>();
@@ -108,6 +111,10 @@ public class PlayerScript : Damageable {
         
         if (!inAction) {
             animator.Play(moveVector.magnitude != 0 ? "Walk" : "Idle");
+        }
+        
+        if (Keyboard.current.iKey.wasPressedThisFrame) {
+            if (conversation != null) conversation.Next();
         }
     }
     

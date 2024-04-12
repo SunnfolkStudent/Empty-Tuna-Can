@@ -166,6 +166,7 @@ MonoBehaviour:
       value:
         item: {fileID: 0}
         amount: 0
+  conversation: {fileID: 11400000, guid: 2f3796d76542d0e4782e93eee9efe16e, type: 2}
 --- !u!114 &1247287791869132474
 MonoBehaviour:
   m_ObjectHideFlags: 0

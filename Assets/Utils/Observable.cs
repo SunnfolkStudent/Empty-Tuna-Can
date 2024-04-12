@@ -8,7 +8,7 @@ namespace Utils {
     /// </summary>
     [Serializable] 
     public class Observable<T> {
-        public UnityAction<T> OnValueChanged = delegate { };
+        public event UnityAction<T> OnValueChanged = delegate { };
         
         [SerializeField] private T value;
         
@@ -22,5 +22,9 @@ namespace Utils {
         }
         
         public Observable(T value = default) => this.value = value;
+
+        public void ForceUpdate() {
+            OnValueChanged.Invoke(Value);
+        }
     }
 }

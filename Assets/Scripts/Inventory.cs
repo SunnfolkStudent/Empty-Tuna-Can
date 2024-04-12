@@ -24,7 +24,7 @@ using Utils;
         var existingItem = inventory.Find(i => i.item != null && i.item == item);
         if (existingItem is not null) {
             existingItem.amount += 1;
-            selectedItem.OnValueChanged.Invoke(selectedItem.Value);
+            selectedItem.ForceUpdate();
         } 
         else {
             inventory.Add(new ItemInstance {
@@ -42,7 +42,7 @@ using Utils;
     
     public void RemoveItem(ItemInstance item) {
         item.amount -= 1;
-        selectedItem.OnValueChanged.Invoke(selectedItem.Value);
+        selectedItem.ForceUpdate();
 
         if (item.amount <= 0) {
             inventory.Remove(item);

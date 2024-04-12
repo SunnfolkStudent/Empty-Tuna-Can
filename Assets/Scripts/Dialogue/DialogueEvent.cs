@@ -1,24 +1,33 @@
-﻿using Utils.EventBus;
+﻿using System;
+using Utils.EventBus;
 
 namespace Dialogue {
     public class DialogueEvent : IEvent {
+        public readonly IDialogEvent Event;
+
+        public DialogueEvent(IDialogEvent @event) {
+            Event = @event;
+        }
+    }
+
+    public interface IDialogEvent {
     }
     
-    public class TextEvent : DialogueEvent {
-        public readonly string Name;
-        public readonly string Text;
-        public readonly float TextSpeed;
-
-        public TextEvent(string name, string text, float textSpeed = 0) {
-            Name = name;
-            Text = text;
-            TextSpeed = textSpeed;
+    [Serializable] public struct TextEvent : IDialogEvent {
+        public string name;
+        public string text;
+        public float textSpeed;
+        
+        public TextEvent(string name, string text, float textSpeed = 15) {
+            this.name = name;
+            this.text = text;
+            this.textSpeed = textSpeed;
         }
     }
     
-    public class SkipEvent : DialogueEvent {
+    public struct SkipEvent : IDialogEvent {
     }
     
-    public class EndEvent : DialogueEvent {
+    public struct EndEvent : IDialogEvent {
     }
 }

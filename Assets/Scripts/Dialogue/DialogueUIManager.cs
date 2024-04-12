@@ -30,7 +30,7 @@ namespace Dialogue {
         }
         
         private void HandlePlayerEvent(DialogueEvent dialogueEvent) {
-            switch (dialogueEvent) {
+            switch (dialogueEvent.Event) {
                 case TextEvent @event:
                     StartDialog(@event);
                     break;
@@ -48,18 +48,18 @@ namespace Dialogue {
             
             textField.text = "";
             nameField.text = "";
-        
+            
             InDialog = true;
             uiElement.SetActive(true);
-        
-            nameField.text = textEvent.Name;
-            _currentMessage = textEvent.Text;
-            StartCoroutine(WriteMessage(textEvent.TextSpeed));
+            
+            nameField.text = textEvent.name;
+            _currentMessage = textEvent.text;
+            StartCoroutine(WriteMessage(textEvent.textSpeed));
         }
         
         private void SkipDialog() {
             if (!DialogIsPlaying) return;
-        
+            
             StopAllCoroutines();
             DialogIsPlaying = false;
             textField.text = _currentMessage;
@@ -86,9 +86,8 @@ namespace Dialogue {
             
             foreach (var c in charArray) {
                 textField.text += c;
-                if (c != ' ') {
-                    yield return new WaitForSeconds(textSpeed);
-                }
+                if (c == ' ') continue;
+                yield return new WaitForSeconds(textSpeed);
             }
             
             DialogIsPlaying = false;

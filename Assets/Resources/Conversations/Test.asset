@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3313b596c237f0b4d8eb07e6c718b99b, type: 3}
+  m_Name: Test
+  m_EditorClassIdentifier: 
+  textEvents:
+  - name: Person1
+    text: Test Text med fleire ord enn to ord
+    textSpeed: 15
+  - name: Person2
+    text: Test Text med fleire ord enn to
+    textSpeed: 15
+  - name: Person1
+    text: Test Text med fleire ord enn to ord
+    textSpeed: 15
+  - name: Person2
+    text: Test Text med fleire ord enn to
+    textSpeed: 15
+  - name: Person1
+    text: Test Text med fleire ord enn to  ord
+    textSpeed: 15
+  - name: Person2
+    text: Test Text med fleire ord enn to
+    textSpeed: 15
