@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 using Utils;
 using Utils.Entity;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class PlayerScript : Damageable {
     [SerializeField] private Material testPlayer2Material;
     [SerializeField] private Transform projectileSpawnPosition;
@@ -21,14 +22,20 @@ public class PlayerScript : Damageable {
     public Inventory inventory;
     private Transform _transform;
     
+    private const float VerticalDodgeSpeed = 10;
+    
     private CombatInput _currentDirection;
     
     [Header("Conversations")] 
     [SerializeField] private Conversation conversation;
-    
+
+    private Rigidbody2D _rigidbody;
+
     private void Awake() {
         _transform = transform;
         entityMovement = GetComponent<EntityMovement>();
+        _rigidbody = GetComponent<Rigidbody2D>();
+        EnemyManager.PlayersTransforms.Add(_transform);
     }
     
     private void Start() {
@@ -106,7 +113,7 @@ public class PlayerScript : Damageable {
     private void Update() {
         if (!movementEnabled) return;
         
-        entityMovement.MoveInDirection(Time.deltaTime, moveVector);
+        entityMovement.MoveInDirection(moveVector);
         CheckIfFlipObject();
         
         if (!inAction) {
@@ -129,5 +136,13 @@ public class PlayerScript : Damageable {
     
     private void OnDeath() {
         movementEnabled = false;
+    }
+    
+    private void DodgeUp() {
+        _rigidbody.velocity = Vector2.up * VerticalDodgeSpeed;
+    }
+    
+    private void DodgeDown() {
+        _rigidbody.velocity = Vector2.down * VerticalDodgeSpeed;
     }
 }

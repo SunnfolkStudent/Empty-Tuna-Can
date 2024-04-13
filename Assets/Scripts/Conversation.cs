@@ -6,7 +6,7 @@ using Utils.EventBus;
 public class Conversation : ScriptableObject {
     public TextEvent[] textEvents;
     private int conversationIndex;
-
+    
     public void Next() {
         if (DialogueUIManager.DialogIsPlaying) {
             EventBus<DialogueEvent>.Raise(new DialogueEvent(new SkipEvent()));
