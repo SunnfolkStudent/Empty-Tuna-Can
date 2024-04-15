@@ -8,6 +8,7 @@ using UnityEngine.UIElements;
 public class TimeLineManager : MonoBehaviour
 {
     public PlayableDirector playableDirector;
+    private bool cutsceneRunning = true;
     
     // Start is called before the first frame update
     void Start()
@@ -17,14 +18,19 @@ public class TimeLineManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.anyKeyDown)
+        if (cutsceneRunning)
         {
-            StartCoroutine("SkipTimeLine");
+            if (Input.anyKeyDown)
+            {
+                StartCoroutine("SkipTimeLine");
+            }
         }
+        
     }
 
     IEnumerator SkipTimeLine()
     {
+        cutsceneRunning = false;
         playableDirector.time = 63f;
         yield return new WaitForSeconds(0.5f);
         gameObject.SetActive(false);
