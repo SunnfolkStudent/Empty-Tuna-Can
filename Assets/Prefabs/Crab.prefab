@@ -109,10 +109,10 @@ MonoBehaviour:
     minValue: 0
     maxValue: 10
     value: 10
+  invincibilityFrames: 0.5
   staggerResistance: 0
   heightIndex: 0
   teamNumber: 0
-  invincibilityFrames: 0.5
   animator: {fileID: 6817108768438100948}
   entityMovement: {fileID: 7932202906571011221}
   hitbox: {fileID: 7752067803713698031}
@@ -265,6 +265,10 @@ PrefabInstance:
     - target: {fileID: 4363281407748217828, guid: 5f8ee42a75fd7744c9be9c4b29aca615, type: 3}
       propertyPath: m_Name
       value: Hitbox
+      objectReference: {fileID: 0}
+    - target: {fileID: 4363281407748217828, guid: 5f8ee42a75fd7744c9be9c4b29aca615, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5835297728010606002, guid: 5f8ee42a75fd7744c9be9c4b29aca615, type: 3}
       propertyPath: damage
