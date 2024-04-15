@@ -38,7 +38,7 @@ public class TestEnemy : Damageable {
         hitbox.gameObject.SetActive(true);
         hitbox.damage = 2.5f;
         Debug.Log("Attack");
-        StartCoroutine(EnumeratorFunctions.ActionAfterTime(1, () => hitbox.gameObject.SetActive(false)));
+        StartCoroutine(EnumeratorFunctions.ActionAfterTime(0.5f, () => hitbox.gameObject.SetActive(false)));
     }
 
     private void Death() {
@@ -48,5 +48,9 @@ public class TestEnemy : Damageable {
     public void CheckIfFlipObject(Vector3 direction) {
         if (direction.x < 0) transform.localScale = transform.localScale.With(x: -1);
         else if (direction.x > 0) transform.localScale = transform.localScale.With(x: 1);
+    }
+    
+    protected override void Stagger() {
+        Debug.Log("Stagger enemy");
     }
 }

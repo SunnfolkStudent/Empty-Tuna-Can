@@ -6,11 +6,12 @@ namespace Items {
         public int teamNumber;
         public int height;
         public float damage;
+        public float stagger;
     
         private void OnTriggerStay2D(Collider2D other) {
             if (other.TryGetComponent(out Damageable damageable)) {
                 if (damageable.teamNumber == teamNumber || damageable.heightIndex != height) return;
-                damageable.HandleTakeDamage(damage);
+                damageable.HandleTakeDamage(damage, stagger);
             }
         
             Destroy(gameObject);

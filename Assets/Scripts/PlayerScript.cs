@@ -6,16 +6,14 @@ using Utils.Entity;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerScript : Damageable {
-    [SerializeField] private Material testPlayer2Material;
     [SerializeField] private Transform projectileSpawnPosition;
-    [SerializeField] protected Hitbox hitbox;
     
     [HideInInspector] public Vector2 moveVector;
     [HideInInspector] public bool movementEnabled = true;
     [HideInInspector] public bool inAction;
     
-    
     [Header("Script References")]
+    [SerializeField] protected Hitbox hitbox;
     [SerializeField] private Animator animator;
     [SerializeField] private ActionManager actionManager;
     [SerializeField] private EntityMovement entityMovement;
@@ -29,11 +27,11 @@ public class PlayerScript : Damageable {
 
     [Header("Players")] 
     [SerializeField] private Material[] playerColors;
-
+    
     private static Conversation conversation;
-
+    
     private Rigidbody2D _rigidbody;
-
+    
     private void Awake() {
         _transform = transform;
         entityMovement = GetComponent<EntityMovement>();
@@ -157,5 +155,11 @@ public class PlayerScript : Damageable {
     public static void StartConversation(Conversation newConversation) {
         conversation = newConversation;
         conversation.Next();
+    }
+
+    protected override void Stagger() {
+        animator.Play("Stagger");
+        movementEnabled = false;
+        inAction = true;
     }
 }

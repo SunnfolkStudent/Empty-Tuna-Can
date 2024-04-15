@@ -4,13 +4,19 @@ using UnityEngine;
 using Utils;
 
 public class EnemyManager : MonoBehaviour {
-    public static List<Transform> PlayersTransforms = new ();
-    public static List<TestEnemy> TestEnemies = new ();
+    public static readonly List<Transform> PlayersTransforms = new ();
+    public static readonly List<TestEnemy> TestEnemies = new ();
     
-    private Func<bool> playersExists = () => PlayersTransforms.Count > 0;
+    private readonly Func<bool> playersExists = () => PlayersTransforms.Count > 0;
+    private readonly Func<bool> enemiesExists = () => TestEnemies.Count > 0;
     
     private void Start() {
         StartCoroutine(EnumeratorFunctions.WaitUntilCondition(playersExists, () => StartCoroutine(EnumeratorFunctions.ActionAtInterval(5, () => {
+            if (!enemiesExists()) {
+                StopAllCoroutines();
+                return;
+            }
+            
             var e = TestEnemies.GetRandom();
             StartCoroutine(EnumeratorFunctions.ActionDuringTime(2, () => e.MoveToPosition(GetTargetPosition(e.transform.position))));
             StartCoroutine(EnumeratorFunctions.ActionAfterTime(2, () => e.Attack()));
