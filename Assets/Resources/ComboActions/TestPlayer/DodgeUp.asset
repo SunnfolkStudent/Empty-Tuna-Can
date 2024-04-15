@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: DodgeUp
   m_EditorClassIdentifier: 
   combatInputs: 0400000004000000
-  animation: {fileID: 7400000, guid: a6ed1bae9b170f34d9def86da4425f91, type: 2}
+  combatOutput: 4
   canMoveDuring: 0

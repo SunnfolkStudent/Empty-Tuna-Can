@@ -11,35 +11,42 @@ public class ActionManager : MonoBehaviour {
     private Timer _combatInputTimer;
     [SerializeField] private CombatAction[] moveList;
     private List<CombatActionInstance> _availableCombatActions;
-    [CanBeNull] private CombatActionInstance _nextCombatAction;
+    [CanBeNull] private CombatActionInstance _queuedCombatAction;
     
     [Serializable] private class CombatActionInstance {
         internal readonly CombatInput[] CombatInputs;
-        internal readonly AnimationClip Animation;
+        // internal readonly AnimationClip Animation;
+        internal readonly CombatOutput CombatOutput;
         internal readonly bool CanMoveDuring;
         internal int Index;
 
         public CombatActionInstance(CombatAction combatAction) {
             CombatInputs = combatAction.combatInputs;
-            Animation = combatAction.animation;
+            // Animation = combatAction.animation;
+            CombatOutput = combatAction.combatOutput;
             CanMoveDuring = combatAction.canMoveDuring;
             Index = 0;
         }
     }
     
-    [Header("Script References")]
+    [Header("References")]
     [SerializeField] private Animator animator;
     [SerializeField] private PlayerScript playerScript;
-    
-    [Header("RuntimeAnimatorControllers")] [Tooltip("Default controller is index 0")]
-    [SerializeField] private RuntimeAnimatorController[] allControllers;
-    
+
+    private static readonly int Output = Animator.StringToHash("CombatOutput");
+
     private void Awake() {
         _combatInputTimer = new Timer(inputBuffer, false);
         _combatInputTimer.OnComplete += ResetCombatActions;
         moveList = ScrubUtils.GetAllScrubsInResourceFolder<CombatAction>("ComboActions/TestPlayer");
         
         _availableCombatActions = moveList.Select(combatAction => new CombatActionInstance(combatAction)).ToList();
+    }
+    
+    private void ResetCombatActions() {
+        foreach (var combatAction in _availableCombatActions) {
+            combatAction.Index = 0;
+        }
     }
     
     public void ReceiveCombatInput(CombatInput combatInput) {
@@ -58,53 +65,27 @@ public class ActionManager : MonoBehaviour {
         }
     }
     
-    private void ResetCombatActions() {
-        foreach (var combatAction in _availableCombatActions) {
-            combatAction.Index = 0;
-        }
-    }
-    
     private void SetNextCombatAction(CombatActionInstance combatAction) {
+        Debug.Log(combatAction.CombatOutput);
         combatAction.Index = 0;
-        if (_nextCombatAction == null || _nextCombatAction.CombatInputs.Length <= combatAction.CombatInputs.Length) {
-            _nextCombatAction = combatAction;
-            if (animator == null) Debug.Log("no animator");
-            else if (animator.GetCurrentAnimationClip().name is "Idle" or "Walk") {
-                PlayNextCombatAction();
-            }
+        if (_queuedCombatAction == null || _queuedCombatAction.CombatInputs.Length <= combatAction.CombatInputs.Length) {
+            _queuedCombatAction = combatAction;
+            animator.SetInteger(Output, (int)combatAction.CombatOutput);
+            playerScript.movementEnabled = _queuedCombatAction.CanMoveDuring;
+            playerScript.inAction = true;
         }
     }
     
-    private void PlayNextCombatAction() {
-        if (_nextCombatAction == null) return;
-        
-        Debug.Log("Executing combat action " + _nextCombatAction.Animation.name);
-        
-        playerScript.movementEnabled = _nextCombatAction.CanMoveDuring;
-        playerScript.inAction = true;
-        
-        animator.Play(_nextCombatAction.Animation.name);
-        
-        _nextCombatAction = null;
-    }
-
-    private void SetAnimationController(int index) {
-        // Debug.Log("Controller: " + index);
-        animator.runtimeAnimatorController = allControllers[index];
+    private void ResetInteger() {
+        animator.SetInteger(Output, 0);
+        _queuedCombatAction = null;
     }
     
-    private void OnActionOver(int index) {
-        SetAnimationController(index);
-        
-        if (_nextCombatAction != null) {
-            PlayNextCombatAction();
-            playerScript.CheckIfFlipObject();
-        }
-        else {
-            animator.Play("Idle");
-            playerScript.movementEnabled = true;
-            playerScript.inAction = false;
-        }
+    private void OnActionOver() {
+        playerScript.CheckIfFlipObject();
+        playerScript.movementEnabled = true;
+        playerScript.inAction = false;
+        _queuedCombatAction = null;
     }
 }
 
@@ -115,4 +96,12 @@ public enum CombatInput {
     Up, UpDiagonal,
     Down, DownDiagonal,
     Jump
+}
+
+public enum CombatOutput {
+    None,
+    LightAttack, HeavyAttack,
+    DashLightAttack, DashUp, DashDown, DashForward,
+    QuarterCircleForwardLightAttack,
+    Jump, XXY
 }

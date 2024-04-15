@@ -13,6 +13,5 @@ MonoBehaviour:
   m_Name: LightAttack
   m_EditorClassIdentifier: 
   combatInputs: 01000000
-  animation: {fileID: 7400000, guid: c8b4c653847d37640a9151b545e2ac5c, type: 2}
+  combatOutput: 1
   canMoveDuring: 0
-  overrideController: {fileID: 22100000, guid: 837a41c2cf24f4d4d9602c93c0d8a54a, type: 2}

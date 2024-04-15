@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Jump
   m_EditorClassIdentifier: 
   combatInputs: 08000000
-  animation: {fileID: 7400000, guid: e119816fb72c815428104e072d6bae9c, type: 2}
+  combatOutput: 8
   canMoveDuring: 1

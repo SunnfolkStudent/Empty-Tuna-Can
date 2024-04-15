@@ -6,18 +6,17 @@ using Utils.Entity;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerScript : Damageable {
-    [SerializeField] private Transform projectileSpawnPosition;
-    
     [HideInInspector] public Vector2 moveVector;
     [HideInInspector] public bool movementEnabled = true;
     [HideInInspector] public bool inAction;
     
-    [Header("Script References")]
+    [Header("References")]
     [SerializeField] protected Hitbox hitbox;
     [SerializeField] private Animator animator;
     [SerializeField] private ActionManager actionManager;
     [SerializeField] private EntityMovement entityMovement;
     [SerializeField] private SpriteRenderer playerSprite;
+    [SerializeField] private Transform projectileSpawnPosition;
     
     public Inventory inventory;
     private Transform _transform;
@@ -32,7 +31,8 @@ public class PlayerScript : Damageable {
     private static Conversation conversation;
     
     private Rigidbody2D _rigidbody;
-    
+    private static readonly int Speed = Animator.StringToHash("Speed");
+
     private void Awake() {
         _transform = transform;
         entityMovement = GetComponent<EntityMovement>();
@@ -122,14 +122,11 @@ public class PlayerScript : Damageable {
     #endregion
     
     private void Update() {
-        if (!movementEnabled) return;
+        animator.SetFloat(Speed, moveVector.magnitude);
         
+        if (!movementEnabled) return;
         entityMovement.MoveInDirection(moveVector);
         CheckIfFlipObject();
-        
-        if (!inAction) {
-            animator.Play(moveVector.magnitude != 0 ? "Walk" : "Idle");
-        }
     }
     
     public void ThrowItem(ThrowableItem throwableItem) {

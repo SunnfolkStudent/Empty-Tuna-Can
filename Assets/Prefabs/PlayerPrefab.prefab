@@ -145,20 +145,19 @@ MonoBehaviour:
     minValue: 0
     maxValue: 50
     value: 50
+  invincibilityFrames: 0.75
   staggerResistance: 0
   heightIndex: 0
   teamNumber: 0
-  invincibilityFrames: 0.75
-  testPlayer2Material: {fileID: 2100000, guid: 33ef2dd47b121174bb657ff88528e521, type: 2}
-  projectileSpawnPosition: {fileID: 5438945748069665815}
-  hitbox: {fileID: 2122585974787326767}
   moveVector: {x: 0, y: 0}
   movementEnabled: 1
   inAction: 0
+  hitbox: {fileID: 2122585974787326767}
   animator: {fileID: 2491191273193909679}
   actionManager: {fileID: 1247287791869132474}
   entityMovement: {fileID: 6602708319433839972}
   playerSprite: {fileID: 2448174363510326756}
+  projectileSpawnPosition: {fileID: 5438945748069665815}
   inventory:
     inventory:
     - item: {fileID: 11400000, guid: bb99081224f82264d82580f3cd351ed0, type: 2}
@@ -172,7 +171,6 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 33ef2dd47b121174bb657ff88528e521, type: 2}
   - {fileID: 2100000, guid: 81ba5f466da873947ad14a007c2c3fdd, type: 2}
   - {fileID: 2100000, guid: bf8b8aa38c3a9ec4bb607f10997b0da5, type: 2}
-  conversation: {fileID: 11400000, guid: 2f3796d76542d0e4782e93eee9efe16e, type: 2}
 --- !u!114 &1247287791869132474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,21 +185,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputBuffer: 0.2
   moveList:
-  - {fileID: 11400000, guid: 863c7c16ca11ab74aa079de35956f96f, type: 2}
-  - {fileID: 11400000, guid: 4e27bc627c535d94ab0329dd4b55e4f1, type: 2}
-  - {fileID: 11400000, guid: 192ebec021c457545a3bc3a17871173a, type: 2}
-  - {fileID: 11400000, guid: a245be8a09d877b46a6c56fcd45d7bf9, type: 2}
-  - {fileID: 11400000, guid: a37abf505a408284d90ea4f1d96161e7, type: 2}
-  - {fileID: 11400000, guid: d48c9ded9a0cfd6438ba4cfa3633dc82, type: 2}
   - {fileID: 11400000, guid: 090c244ae972c6f44b56648c216f0517, type: 2}
-  - {fileID: 11400000, guid: 625148fa9e18f1044941d9cbef258c62, type: 2}
-  - {fileID: 11400000, guid: 98e07e5cfef45d442a6880b27c8bdf27, type: 2}
+  - {fileID: 11400000, guid: d48c9ded9a0cfd6438ba4cfa3633dc82, type: 2}
+  - {fileID: 11400000, guid: a245be8a09d877b46a6c56fcd45d7bf9, type: 2}
+  - {fileID: 11400000, guid: 192ebec021c457545a3bc3a17871173a, type: 2}
+  - {fileID: 11400000, guid: 4e27bc627c535d94ab0329dd4b55e4f1, type: 2}
   animator: {fileID: 2491191273193909679}
   playerScript: {fileID: -4913135579417499507}
-  allControllers:
-  - {fileID: 22100000, guid: 739dcb27009e1b949a4e93f4b84fb273, type: 2}
-  - {fileID: 22100000, guid: 45b0226aaa0766b4db6ef0787e0f427d, type: 2}
-  - {fileID: 22100000, guid: 0bfcaf45824e9eb45aad0df2199b3db5, type: 2}
 --- !u!114 &6602708319433839972
 MonoBehaviour:
   m_ObjectHideFlags: 0
