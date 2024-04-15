@@ -143,8 +143,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health:
     minValue: 0
-    maxValue: 20
-    value: 10
+    maxValue: 50
+    value: 50
   staggerResistance: 0
   heightIndex: 0
   teamNumber: 0
@@ -158,6 +158,7 @@ MonoBehaviour:
   animator: {fileID: 2491191273193909679}
   actionManager: {fileID: 1247287791869132474}
   entityMovement: {fileID: 6602708319433839972}
+  playerSprite: {fileID: 2448174363510326756}
   inventory:
     inventory:
     - item: {fileID: 11400000, guid: bb99081224f82264d82580f3cd351ed0, type: 2}
@@ -166,6 +167,11 @@ MonoBehaviour:
       value:
         item: {fileID: 0}
         amount: 0
+  playerColors:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 33ef2dd47b121174bb657ff88528e521, type: 2}
+  - {fileID: 2100000, guid: 81ba5f466da873947ad14a007c2c3fdd, type: 2}
+  - {fileID: 2100000, guid: bf8b8aa38c3a9ec4bb607f10997b0da5, type: 2}
   conversation: {fileID: 11400000, guid: 2f3796d76542d0e4782e93eee9efe16e, type: 2}
 --- !u!114 &1247287791869132474
 MonoBehaviour:

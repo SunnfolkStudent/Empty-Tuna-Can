@@ -23,13 +23,17 @@ public class TestEnemy : Damageable {
         
         entityMovement.MoveInDirection(direction);
         
+        if (Vector3.Distance(transform.position, position) > 0.2f) {
+            CheckIfFlipObject(direction);
+        }
+        
         Debug.Log("MoveTo");
     }
     
     public static bool ComparePosition(Vector3 position1, Vector3 position2, float distance) {
         return Vector3.Distance(position1, position2) < distance;
     }
-
+    
     public void Attack() {
         hitbox.gameObject.SetActive(true);
         hitbox.damage = 2.5f;
@@ -39,5 +43,10 @@ public class TestEnemy : Damageable {
 
     private void Death() {
         Destroy(gameObject);
+    }
+    
+    public void CheckIfFlipObject(Vector3 direction) {
+        if (direction.x < 0) transform.localScale = transform.localScale.With(x: -1);
+        else if (direction.x > 0) transform.localScale = transform.localScale.With(x: 1);
     }
 }

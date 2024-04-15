@@ -19,15 +19,18 @@ public class PlayerScript : Damageable {
     [SerializeField] private Animator animator;
     [SerializeField] private ActionManager actionManager;
     [SerializeField] private EntityMovement entityMovement;
+    [SerializeField] private SpriteRenderer playerSprite;
     public Inventory inventory;
     private Transform _transform;
     
     private const float VerticalDodgeSpeed = 10;
     
     private CombatInput _currentDirection;
-    
-    [Header("Conversations")] 
-    [SerializeField] private Conversation conversation;
+
+    [Header("Players")] 
+    [SerializeField] private Material[] playerColors;
+
+    private static Conversation conversation;
 
     private Rigidbody2D _rigidbody;
 
@@ -45,8 +48,11 @@ public class PlayerScript : Damageable {
         PlayerUIFactory.CreatePlayerUI(this);
         
         teamNumber = FindObjectsByType<PlayerScript>(FindObjectsSortMode.None).Length;
+
+        transform.name = "Player" + teamNumber;
+        playerSprite.material = playerColors[teamNumber - 1];
         
-        hitbox.teamNumber = teamNumber;
+        hitbox.teamNumber = 1;
     }
     
     #region ---OnInputAction---
@@ -67,6 +73,12 @@ public class PlayerScript : Damageable {
 
     public void OnJump(InputAction.CallbackContext ctx) {
         if (!ctx.performed) return;
+
+        if (conversation != null) {
+            conversation.Next();
+            return;
+        }
+        
         actionManager.ReceiveCombatInput(CombatInput.Jump);
         
     }
@@ -119,10 +131,6 @@ public class PlayerScript : Damageable {
         if (!inAction) {
             animator.Play(moveVector.magnitude != 0 ? "Walk" : "Idle");
         }
-        
-        if (Keyboard.current.iKey.wasPressedThisFrame) {
-            if (conversation != null) conversation.Next();
-        }
     }
     
     public void ThrowItem(ThrowableItem throwableItem) {
@@ -144,5 +152,10 @@ public class PlayerScript : Damageable {
     
     private void DodgeDown() {
         _rigidbody.velocity = Vector2.down * VerticalDodgeSpeed;
+    }
+    
+    public static void StartConversation(Conversation newConversation) {
+        conversation = newConversation;
+        conversation.Next();
     }
 }

@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: PinkPlayer
+  m_Name: CyanPlayer
   m_Shader: {fileID: -6465566751694194690, guid: e0998e1430524344a9de7efde21ec2b5, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -42,7 +42,7 @@ Material:
     m_Ints: []
     m_Floats: []
     m_Colors:
-    - _Color: {r: 0.8867924, g: 0.3890174, b: 0.73973036, a: 1}
+    - _Color: {r: 0.2951673, g: 0.77797556, b: 0.9339623, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &8035845815071813846
