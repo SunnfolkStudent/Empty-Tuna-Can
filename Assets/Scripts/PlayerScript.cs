@@ -18,6 +18,7 @@ public class PlayerScript : Damageable {
     [SerializeField] private ActionManager actionManager;
     [SerializeField] private EntityMovement entityMovement;
     [SerializeField] private SpriteRenderer playerSprite;
+    
     public Inventory inventory;
     private Transform _transform;
     
@@ -46,7 +47,7 @@ public class PlayerScript : Damageable {
         PlayerUIFactory.CreatePlayerUI(this);
         
         teamNumber = FindObjectsByType<PlayerScript>(FindObjectsSortMode.None).Length;
-
+        
         transform.name = "Player" + teamNumber;
         playerSprite.material = playerColors[teamNumber - 1];
         

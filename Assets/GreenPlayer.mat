@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: GreenPlayer
-  m_Shader: {fileID: -6465566751694194690, guid: e0998e1430524344a9de7efde21ec2b5, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: f8519ee440a9c3e459856c81da4924a5, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -42,10 +42,13 @@ Material:
     m_Ints: []
     m_Floats: []
     m_Colors:
-    - _Color: {r: 0.38013017, g: 0.9339623, b: 0.2511125, a: 1}
+    - _BaseColor: {r: 0.3199715, g: 0.754717, b: 0.29547882, a: 1}
+    - _DarkColor: {r: 0.39518023, g: 0.764151, b: 0.26312745, a: 1}
+    - _HighlightColor: {r: 0.44495374, g: 0.9339623, b: 0.4823302, a: 1}
+    - _LightColor: {r: 0.38511798, g: 0.9056604, b: 0.252047, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &8035845815071813846
+--- !u!114 &473299471075110971
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

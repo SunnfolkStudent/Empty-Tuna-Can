@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: CyanPlayer
-  m_Shader: {fileID: -6465566751694194690, guid: e0998e1430524344a9de7efde21ec2b5, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: f8519ee440a9c3e459856c81da4924a5, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -42,10 +42,13 @@ Material:
     m_Ints: []
     m_Floats: []
     m_Colors:
-    - _Color: {r: 0.2951673, g: 0.77797556, b: 0.9339623, a: 1}
+    - _BaseColor: {r: 0.26352793, g: 0.8810421, b: 0.8867924, a: 1}
+    - _DarkColor: {r: 0.17412782, g: 0.79822063, b: 0.8584906, a: 1}
+    - _HighlightColor: {r: 0.4575472, g: 0.994213, b: 1, a: 1}
+    - _LightColor: {r: 0.3987629, g: 0.88732976, b: 0.9716981, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &8035845815071813846
+--- !u!114 &473299471075110971
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
