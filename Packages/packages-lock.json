@@ -1,5 +1,22 @@
 {
   "dependencies": {
+    "com.eflatun.scenereference": {
+      "version": "git+https://github.com/starikcetin/Eflatun.SceneReference.git#4.0.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.settings-manager": "2.0.1",
+        "com.unity.nuget.newtonsoft-json": "3.0.2"
+      },
+      "hash": "7dbcaf0327bcba279f2dcd07b824a693b1091beb"
+    },
+    "com.johannesmp.unityscenereference": {
+      "version": "git+https://github.com/JohannesMP/unity-scene-reference.git#1.1.1",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "40ae99098ad0f587c180a202a57954913dd290d6"
+    },
     "com.unity.2d.animation": {
       "version": "10.1.1",
       "depth": 1,
@@ -193,6 +210,13 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.1",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.recorder": {
       "version": "5.0.0",
       "depth": 0,
@@ -239,6 +263,13 @@
     "com.unity.searcher": {
       "version": "4.9.2",
       "depth": 2,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.settings-manager": {
+      "version": "2.0.1",
+      "depth": 1,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"

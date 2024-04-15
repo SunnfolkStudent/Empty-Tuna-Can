@@ -1,27 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour
-{
-    public void StartGame()
-    {
-        SceneManager.LoadScene("Level1");
+public class MainMenu : MonoBehaviour {
+    [SerializeField] private Eflatun.SceneReference.SceneReference gameScene;
+    [SerializeField] private Eflatun.SceneReference.SceneReference settingsScene;
+    [SerializeField] private Eflatun.SceneReference.SceneReference menuScene;
+    
+    public void StartGame() {
+        SceneManager.LoadScene(gameScene.Name);
     }
-
-    public void SettingsMenu()
-    {
-        SceneManager.LoadScene("SettingsMenu");
+    
+    public void SettingsMenu() {
+        SceneManager.LoadScene(settingsScene.Name);
     }
-
-    public void QuitGame()
-    {
+    
+    public void QuitGame() {
         Application.Quit();
     }
-
-    public void BackToMenu()
-    {
-        SceneManager.LoadScene("MainMenu");
+    
+    public void BackToMenu() {
+        SceneManager.LoadScene(menuScene.Name);
     }
 }

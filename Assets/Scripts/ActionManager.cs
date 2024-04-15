@@ -48,7 +48,7 @@ public class ActionManager : MonoBehaviour {
             combatAction.Index = 0;
         }
     }
-    
+   
     public void ReceiveCombatInput(CombatInput combatInput) {
         if (combatInput == CombatInput.None) return;
         
