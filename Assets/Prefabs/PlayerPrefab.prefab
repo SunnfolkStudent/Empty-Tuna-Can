@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5336051305789222688}
   - component: {fileID: 2448174363510326756}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,9 +168,9 @@ MonoBehaviour:
         amount: 0
   playerColors:
   - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  - {fileID: 2100000, guid: 33ef2dd47b121174bb657ff88528e521, type: 2}
-  - {fileID: 2100000, guid: 81ba5f466da873947ad14a007c2c3fdd, type: 2}
-  - {fileID: 2100000, guid: bf8b8aa38c3a9ec4bb607f10997b0da5, type: 2}
+  - {fileID: 2100000, guid: 2048db2ca05e00949af0dffaf4097ccd, type: 2}
+  - {fileID: 2100000, guid: e3e9d55080f0c2b4fadd9db52fc42e88, type: 2}
+  - {fileID: 2100000, guid: cf50de4f3a6b05d4b88263ceceb1857a, type: 2}
 --- !u!114 &1247287791869132474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -504,7 +504,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5438945748069665815}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: ProjectileSpawnPos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -540,7 +540,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 299956784591321345, guid: 1f1dd18c94eca414aa1b8fac9e04030f, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9202376435216941991, guid: 1f1dd18c94eca414aa1b8fac9e04030f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -651,7 +651,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4363281407748217828, guid: 5f8ee42a75fd7744c9be9c4b29aca615, type: 3}
       propertyPath: m_Layer
-      value: 7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4363281407748217828, guid: 5f8ee42a75fd7744c9be9c4b29aca615, type: 3}
       propertyPath: m_IsActive

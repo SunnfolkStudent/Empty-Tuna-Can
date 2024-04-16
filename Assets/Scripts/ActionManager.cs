@@ -31,7 +31,7 @@ public class ActionManager : MonoBehaviour {
     [SerializeField] private Animator animator;
     [SerializeField] private PlayerScript playerScript;
 
-    private static readonly int Output = Animator.StringToHash("CombatOutput");
+    private static readonly int CombatOutputAnimatorParameter = Animator.StringToHash("CombatOutput");
 
     private void Awake() {
         _combatInputTimer = new Timer(inputBuffer, false);
@@ -64,18 +64,15 @@ public class ActionManager : MonoBehaviour {
     }
     
     private void SetNextCombatAction(CombatActionInstance combatAction) {
-        Debug.Log(combatAction.CombatOutput);
         combatAction.Index = 0;
-        if (_queuedCombatAction == null || _queuedCombatAction.CombatInputs.Length <= combatAction.CombatInputs.Length) {
-            _queuedCombatAction = combatAction;
-            animator.SetInteger(Output, (int)combatAction.CombatOutput);
-            playerScript.movementEnabled = _queuedCombatAction.CanMoveDuring;
-            playerScript.inAction = true;
-        }
+        if (_queuedCombatAction != null && _queuedCombatAction.CombatInputs.Length > combatAction.CombatInputs.Length) return;
+        _queuedCombatAction = combatAction;
+        animator.SetInteger(CombatOutputAnimatorParameter, (int)combatAction.CombatOutput);
+        playerScript.movementEnabled = _queuedCombatAction.CanMoveDuring;
     }
     
     private void ResetInteger() {
-        animator.SetInteger(Output, 0);
+        animator.SetInteger(CombatOutputAnimatorParameter, 0);
         _queuedCombatAction = null;
     }
     
@@ -83,9 +80,8 @@ public class ActionManager : MonoBehaviour {
         playerScript.CheckIfFlipObject();
         _queuedCombatAction = null;
         
-        if (animator.GetCurrentAnimationClip().name is not ("Idle" or "Walk")) return;
+        if (animator.GetCurrentAnimationClip().name is not ("Idle" or "Walk") || animator.GetInteger(CombatOutputAnimatorParameter) != 0) return;
         playerScript.movementEnabled = true;
-        playerScript.inAction = false;
     }
 }
 

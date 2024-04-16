@@ -6,11 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/2DRework.unity
-    guid: e6c6f8909c0f08446964ebede5c57ed3
-  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 43ecd976835194448ba599c153a89b6d
+  - enabled: 1
+    path: Assets/Scenes/2DRework.unity
+    guid: e6c6f8909c0f08446964ebede5c57ed3
   - enabled: 1
     path: Assets/Scenes/SettingsMenu.unity
     guid: ea89936d63955e94794c42285187489d

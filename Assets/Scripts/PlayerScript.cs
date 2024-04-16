@@ -6,9 +6,9 @@ using Utils.Entity;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerScript : Damageable {
-    [HideInInspector] public Vector2 moveVector;
-    [HideInInspector] public bool movementEnabled = true;
-    [HideInInspector] public bool inAction;
+    [Header("Movement")]
+    public Vector2 moveVector;
+    public bool movementEnabled = true;
     
     [Header("References")]
     [SerializeField] protected Hitbox hitbox;
@@ -31,7 +31,7 @@ public class PlayerScript : Damageable {
     private static Conversation conversation;
     
     private Rigidbody2D _rigidbody;
-    private static readonly int Speed = Animator.StringToHash("Speed");
+    private static readonly int SpeedAnimatorParameter = Animator.StringToHash("Speed");
 
     private void Awake() {
         _transform = transform;
@@ -51,7 +51,7 @@ public class PlayerScript : Damageable {
         transform.name = "Player" + teamNumber;
         playerSprite.material = playerColors[teamNumber - 1];
         
-        hitbox.teamNumber = 1;
+        hitbox.teamNumber = teamNumber;
     }
     
     #region ---OnInputAction---
@@ -122,9 +122,8 @@ public class PlayerScript : Damageable {
     #endregion
     
     private void Update() {
-        animator.SetFloat(Speed, moveVector.magnitude);
-        
         if (!movementEnabled) return;
+        animator.SetFloat(SpeedAnimatorParameter, moveVector.magnitude);
         entityMovement.MoveInDirection(moveVector);
         CheckIfFlipObject();
     }
@@ -158,6 +157,5 @@ public class PlayerScript : Damageable {
     protected override void Stagger() {
         animator.Play("Stagger");
         movementEnabled = false;
-        inAction = true;
     }
 }

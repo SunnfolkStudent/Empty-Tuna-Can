@@ -176,7 +176,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 2.75
+  - time: 2.8333333
     functionName: OnActionOver
     data: 
     objectReferenceParameter: {fileID: 0}
