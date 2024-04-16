@@ -37,7 +37,7 @@ public class PlayerScript : Damageable {
         _transform = transform;
         entityMovement = GetComponent<EntityMovement>();
         _rigidbody = GetComponent<Rigidbody2D>();
-        EnemyManager.PlayersTransforms.Add(_transform);
+        EntityManager.PlayersTransforms.Add(_transform);
     }
     
     private void Start() {
@@ -46,7 +46,7 @@ public class PlayerScript : Damageable {
         inventory.Initialize();
         PlayerUIFactory.CreatePlayerUI(this);
         
-        teamNumber = FindObjectsByType<PlayerScript>(FindObjectsSortMode.None).Length;
+        teamNumber = EntityManager.PlayersTransforms.Count;
         
         transform.name = "Player" + teamNumber;
         playerSprite.material = playerColors[teamNumber - 1];

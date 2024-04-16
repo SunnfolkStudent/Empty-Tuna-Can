@@ -15,14 +15,12 @@ public class ActionManager : MonoBehaviour {
     
     [Serializable] private class CombatActionInstance {
         internal readonly CombatInput[] CombatInputs;
-        // internal readonly AnimationClip Animation;
         internal readonly CombatOutput CombatOutput;
         internal readonly bool CanMoveDuring;
         internal int Index;
 
         public CombatActionInstance(CombatAction combatAction) {
             CombatInputs = combatAction.combatInputs;
-            // Animation = combatAction.animation;
             CombatOutput = combatAction.combatOutput;
             CanMoveDuring = combatAction.canMoveDuring;
             Index = 0;
@@ -83,25 +81,23 @@ public class ActionManager : MonoBehaviour {
     
     private void OnActionOver() {
         playerScript.CheckIfFlipObject();
+        _queuedCombatAction = null;
+        
+        if (animator.GetCurrentAnimationClip().name is not ("Idle" or "Walk")) return;
         playerScript.movementEnabled = true;
         playerScript.inAction = false;
-        _queuedCombatAction = null;
     }
 }
 
 public enum CombatInput {
-    None,
-    LightAttack, HeavyAttack,
-    Forward,
-    Up, UpDiagonal,
+    None, LightAttack, HeavyAttack,
+    Forward, Up, UpDiagonal,
     Down, DownDiagonal,
     Jump
 }
 
 public enum CombatOutput {
-    None,
-    LightAttack, HeavyAttack,
+    None, LightAttack, HeavyAttack,
     DashLightAttack, DashUp, DashDown, DashForward,
-    QuarterCircleForwardLightAttack,
-    Jump, XXY
+    QuarterCircleForwardLightAttack, Jump
 }

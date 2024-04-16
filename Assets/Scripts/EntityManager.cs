@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Utils;
 
-public class EnemyManager : MonoBehaviour {
+public class EntityManager : MonoBehaviour {
     public static readonly List<Transform> PlayersTransforms = new ();
     public static readonly List<TestEnemy> TestEnemies = new ();
     

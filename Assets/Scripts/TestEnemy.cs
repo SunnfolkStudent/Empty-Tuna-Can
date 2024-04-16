@@ -10,12 +10,12 @@ public class TestEnemy : Damageable {
     [SerializeField] private Hitbox hitbox;
     
     private void Awake() {
-        EnemyManager.TestEnemies.Add(this);
+        EntityManager.TestEnemies.Add(this);
         OnDying += Death;
     }
 
     private void OnDisable() {
-        EnemyManager.TestEnemies.Remove(this);
+        EntityManager.TestEnemies.Remove(this);
     }
 
     public void MoveToPosition(Vector3 position) {
@@ -40,7 +40,7 @@ public class TestEnemy : Damageable {
         Debug.Log("Attack");
         StartCoroutine(EnumeratorFunctions.ActionAfterTime(0.5f, () => hitbox.gameObject.SetActive(false)));
     }
-
+    
     private void Death() {
         Destroy(gameObject);
     }
