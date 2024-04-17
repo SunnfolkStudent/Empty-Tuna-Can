@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using JetBrains.Annotations;
+using StateMachineBehaviourScripts;
 using UnityEngine;
 using Utils;
 
@@ -36,9 +37,13 @@ public class ActionManager : MonoBehaviour {
     private void Awake() {
         _combatInputTimer = new Timer(inputBuffer, false);
         _combatInputTimer.OnComplete += ResetCombatActions;
-        moveList = ScrubUtils.GetAllScrubsInResourceFolder<CombatAction>("ComboActions/TestPlayer");
+        moveList = ScrubUtils.GetAllScrubsInResourceFolder<CombatAction>("ComboActions/TestPlayer"); // TODO: Comment out
         
         _availableCombatActions = moveList.Select(combatAction => new CombatActionInstance(combatAction)).ToList();
+
+        foreach (var stateBehaviour in animator.GetBehaviours<StateBehaviour>()) {
+            stateBehaviour.actionManager = this;
+        }
     }
     
     private void ResetCombatActions() {
@@ -70,13 +75,13 @@ public class ActionManager : MonoBehaviour {
         animator.SetInteger(CombatOutputAnimatorParameter, (int)combatAction.CombatOutput);
         playerScript.movementEnabled = _queuedCombatAction.CanMoveDuring;
     }
-    
-    private void ResetInteger() {
+
+    public void ResetInteger() {
         animator.SetInteger(CombatOutputAnimatorParameter, 0);
         _queuedCombatAction = null;
     }
-    
-    private void OnActionOver() {
+
+    public void OnActionOver() {
         playerScript.CheckIfFlipObject();
         _queuedCombatAction = null;
         

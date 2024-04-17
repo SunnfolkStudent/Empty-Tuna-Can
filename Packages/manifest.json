@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.domybest.mybox": "git+https://github.com/Deadcows/MyBox.git",
     "com.eflatun.scenereference": "git+https://github.com/starikcetin/Eflatun.SceneReference.git#4.0.0",
     "com.unity.cinemachine": "2.9.7",
     "com.unity.collab-proxy": "2.3.1",

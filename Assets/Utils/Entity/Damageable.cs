@@ -18,15 +18,21 @@ namespace Utils.Entity {
         
         private bool _canTakeDamage = true;
         
-        public void HandleTakeDamage(float damage, float stagger) {
+        public void HandleTakeDamage(DamageInstance damageInstance) {
             if (!_canTakeDamage) return;
             
-            health.Value -= damage;
-            if (health.Value <= 0) OnDying?.Invoke();
+            TakeDamage(damageInstance.damage);
             
             StartCoroutine(BecomeTemporarilyInvincible());
             
-            if (staggerResistance <= stagger) Stagger();
+            if (staggerResistance <= damageInstance.stagger) Stagger();
+
+            damageInstance.StatusEffect?.Apply(this);
+        }
+
+        private void TakeDamage(float damage) {
+            health.Value -= damage;
+            if (health.Value <= 0) OnDying?.Invoke();
         }
         
         protected abstract void Stagger();
@@ -39,6 +45,22 @@ namespace Utils.Entity {
         
         public void HandleReceiveHealing(float amount) {
             health.Value += amount;
+        }
+
+        public void HandleFreeze(Freeze freeze) {
+            // TODO: Freeze movement of the Entity
+        }
+        
+        public void HandleBurn(Burn burn) {
+            StartCoroutine(TakeBurnDamage(burn));
+        }
+        
+        private IEnumerator TakeBurnDamage(Burn burn) {
+            var startTime = Time.time;
+            while (Time.time < startTime + burn.duration) {
+                TakeDamage(burn.damage);
+                yield return new WaitForSeconds(1 / burn.damageFrequency);
+            }
         }
     }
 }

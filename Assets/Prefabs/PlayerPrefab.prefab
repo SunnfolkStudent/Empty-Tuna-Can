@@ -121,7 +121,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 6918444335117713780}
   - {fileID: 5336051305789222688}
@@ -151,7 +151,6 @@ MonoBehaviour:
   teamNumber: 0
   moveVector: {x: 0, y: 0}
   movementEnabled: 1
-  inAction: 0
   hitbox: {fileID: 2122585974787326767}
   animator: {fileID: 2491191273193909679}
   actionManager: {fileID: 1247287791869132474}
@@ -186,10 +185,13 @@ MonoBehaviour:
   inputBuffer: 0.2
   moveList:
   - {fileID: 11400000, guid: 090c244ae972c6f44b56648c216f0517, type: 2}
+  - {fileID: 11400000, guid: a37abf505a408284d90ea4f1d96161e7, type: 2}
   - {fileID: 11400000, guid: d48c9ded9a0cfd6438ba4cfa3633dc82, type: 2}
   - {fileID: 11400000, guid: a245be8a09d877b46a6c56fcd45d7bf9, type: 2}
   - {fileID: 11400000, guid: 192ebec021c457545a3bc3a17871173a, type: 2}
   - {fileID: 11400000, guid: 4e27bc627c535d94ab0329dd4b55e4f1, type: 2}
+  - {fileID: 11400000, guid: 863c7c16ca11ab74aa079de35956f96f, type: 2}
+  - {fileID: 11400000, guid: c536516eeade9034993641c3ed899c90, type: 2}
   animator: {fileID: 2491191273193909679}
   playerScript: {fileID: -4913135579417499507}
 --- !u!114 &6602708319433839972

@@ -36,7 +36,7 @@ public class TestEnemy : Damageable {
     
     public void Attack() {
         hitbox.gameObject.SetActive(true);
-        hitbox.damage = 2.5f;
+        hitbox.damageInstance = new DamageInstance(2.5f, 0);
         Debug.Log("Attack");
         StartCoroutine(EnumeratorFunctions.ActionAfterTime(0.5f, () => hitbox.gameObject.SetActive(false)));
     }

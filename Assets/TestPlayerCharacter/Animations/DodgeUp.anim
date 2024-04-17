@@ -182,17 +182,3 @@ AnimationClip:
     floatParameter: 5
     intParameter: 0
     messageOptions: 0
-  - time: 0
-    functionName: ResetInteger
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0.31666666
-    functionName: OnActionOver
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0

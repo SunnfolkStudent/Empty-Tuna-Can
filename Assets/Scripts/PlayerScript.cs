@@ -1,4 +1,5 @@
 using Items;
+using StateMachineBehaviourScripts;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Utils;
@@ -11,7 +12,7 @@ public class PlayerScript : Damageable {
     public bool movementEnabled = true;
     
     [Header("References")]
-    [SerializeField] protected Hitbox hitbox;
+    public Hitbox hitbox;
     [SerializeField] private Animator animator;
     [SerializeField] private ActionManager actionManager;
     [SerializeField] private EntityMovement entityMovement;
@@ -25,7 +26,10 @@ public class PlayerScript : Damageable {
     
     private CombatInput _currentDirection;
 
+    public static bool FriendlyFire = true;
+
     [Header("Players")] 
+    private int playerNumber;
     [SerializeField] private Material[] playerColors;
     
     private static Conversation conversation;
@@ -38,6 +42,12 @@ public class PlayerScript : Damageable {
         entityMovement = GetComponent<EntityMovement>();
         _rigidbody = GetComponent<Rigidbody2D>();
         EntityManager.PlayersTransforms.Add(_transform);
+        
+        foreach (var stateBehaviour in animator.GetBehaviours<Attack>()) {
+            stateBehaviour.playerScript = this;
+        }
+        
+        // var lightAttackState = animator.runtimeAnimatorController.animationClips.Where(clip => clip.name == "LightAttack");
     }
     
     private void Start() {
@@ -46,11 +56,11 @@ public class PlayerScript : Damageable {
         inventory.Initialize();
         PlayerUIFactory.CreatePlayerUI(this);
         
-        teamNumber = EntityManager.PlayersTransforms.Count;
+        playerNumber = EntityManager.PlayersTransforms.Count;
+        transform.name = "Player" + playerNumber;
+        playerSprite.material = playerColors[playerNumber - 1];
         
-        transform.name = "Player" + teamNumber;
-        playerSprite.material = playerColors[teamNumber - 1];
-        
+        teamNumber = FriendlyFire ? 0 : 1;
         hitbox.teamNumber = teamNumber;
     }
     
