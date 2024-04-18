@@ -17,13 +17,11 @@ public class ActionManager : MonoBehaviour {
     [Serializable] private class CombatActionInstance {
         internal readonly CombatInput[] CombatInputs;
         internal readonly CombatOutput CombatOutput;
-        internal readonly bool CanMoveDuring;
         internal int Index;
 
         public CombatActionInstance(CombatAction combatAction) {
             CombatInputs = combatAction.combatInputs;
             CombatOutput = combatAction.combatOutput;
-            CanMoveDuring = combatAction.canMoveDuring;
             Index = 0;
         }
     }
@@ -73,7 +71,6 @@ public class ActionManager : MonoBehaviour {
         if (_queuedCombatAction != null && _queuedCombatAction.CombatInputs.Length > combatAction.CombatInputs.Length) return;
         _queuedCombatAction = combatAction;
         animator.SetInteger(CombatOutputAnimatorParameter, (int)combatAction.CombatOutput);
-        playerScript.movementEnabled = _queuedCombatAction.CanMoveDuring;
     }
 
     public void ResetInteger() {
@@ -84,8 +81,6 @@ public class ActionManager : MonoBehaviour {
     public void OnActionOver() {
         playerScript.CheckIfFlipObject();
         _queuedCombatAction = null;
-        
-        if (animator.GetCurrentAnimationClip().name is not ("Idle" or "Walk") || animator.GetInteger(CombatOutputAnimatorParameter) != 0) return;
         playerScript.movementEnabled = true;
     }
 }

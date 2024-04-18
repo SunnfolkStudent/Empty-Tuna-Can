@@ -2,8 +2,8 @@
 using Utils.Entity;
 
 namespace Upgrades {
-    [CreateAssetMenu(fileName = "StatusEffectTypeUpgrade", menuName = "Upgrade/new StatusEffectUpgrade")]
-    public class StatusEffectTypeUpgrade : Upgrade {
+    [CreateAssetMenu(fileName = "StatusEffectTypeUpgrade", menuName = "Upgrade/AttackUpgrade/new StatusEffectUpgrade")]
+    public class StatusEffectTypeUpgrade : AttackUpgrade {
         public IStatusEffect StatusEffect;
     
         public override void GetUpgrade(DamageInstance damageInstance) {

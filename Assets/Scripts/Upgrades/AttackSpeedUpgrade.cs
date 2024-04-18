@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 
 namespace Upgrades {
-    [CreateAssetMenu(fileName = "AttackSpeedUpgrade", menuName = "Upgrade/new AttackSpeedUpgrade")]
-    public class AttackSpeedUpgrade : Upgrade {
+    [CreateAssetMenu(fileName = "AttackSpeedUpgrade", menuName = "Upgrade/AttackUpgrade/new AttackSpeedUpgrade")]
+    public class AttackSpeedUpgrade : CharacterUpgrade {
         public float attackSpeedIncrease;
         
-        public void GetUpgrade(Animator animator) {
-            animator.speed += attackSpeedIncrease;
+        public override void GetUpgrade(PlayerScript playerScript) {
+            playerScript.animator.speed += attackSpeedIncrease;
         }
     }
 }

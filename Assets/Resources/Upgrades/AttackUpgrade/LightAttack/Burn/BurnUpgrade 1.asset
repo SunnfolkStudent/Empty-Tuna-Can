@@ -9,9 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc2214ed3a4f429bad69c1426ac497a5, type: 3}
-  m_Name: AttackSpeedUpgrade
+  m_Script: {fileID: 11500000, guid: f9f20ea46ac54588a99e4d84cff6d500, type: 3}
+  m_Name: BurnUpgrade 1
   m_EditorClassIdentifier: 
-  text: AttackSpeedUpgradeMinor
+  name: BurnUpgradeLightAttackMajor
   attackAction: 0
-  attackSpeedIncrease: 0.5
+  durationIncrease: 2
+  damageIncrease: 2
+  damageFrequencyIncrease: 2

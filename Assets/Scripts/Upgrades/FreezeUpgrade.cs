@@ -2,8 +2,8 @@
 using Utils.Entity;
 
 namespace Upgrades {
-    [CreateAssetMenu(fileName = "FreezeUpgrade", menuName = "Upgrade/new FreezeUpgrade")]
-    public class FreezeUpgrade : Upgrade {
+    [CreateAssetMenu(fileName = "FreezeUpgrade", menuName = "Upgrade/AttackUpgrade/new FreezeUpgrade")]
+    public class FreezeUpgrade : AttackUpgrade {
         public float durationIncrease;
     
         public override void GetUpgrade(DamageInstance damageInstance) {

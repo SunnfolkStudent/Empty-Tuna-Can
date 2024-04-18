@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dbb8f9cdbc3947b09b4ac70588807884, type: 3}
   m_Name: LightAttackBurnDamage 1
   m_EditorClassIdentifier: 
-  text: Make Light Attack 2 Apply Burn Damage
+  name: LightAttack2BurnEffect
   attackAction: 1

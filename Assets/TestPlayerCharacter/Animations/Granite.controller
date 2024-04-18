@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d6c8e9aaa911c848bbc035696a96605, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attackAction: 0
+  canMoveDuring: 0
+  attackAction: 3
   damageInstance:
     damage: 10
     stagger: 0
@@ -139,6 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d6c8e9aaa911c848bbc035696a96605, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canMoveDuring: 0
   attackAction: 0
   damageInstance:
     damage: 20
@@ -325,6 +327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d6c8e9aaa911c848bbc035696a96605, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canMoveDuring: 0
   attackAction: 2
   damageInstance:
     damage: 15
@@ -688,6 +691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d6c8e9aaa911c848bbc035696a96605, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canMoveDuring: 0
   attackAction: 1
   damageInstance:
     damage: 10
@@ -1222,6 +1226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d6c8e9aaa911c848bbc035696a96605, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canMoveDuring: 0
   attackAction: 0
   damageInstance:
     damage: 5

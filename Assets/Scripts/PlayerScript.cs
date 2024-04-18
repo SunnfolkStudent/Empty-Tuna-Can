@@ -1,4 +1,3 @@
-using System.Diagnostics;
 using System.Linq;
 using Items;
 using StateMachineBehaviourScripts;
@@ -17,9 +16,9 @@ public class PlayerScript : Damageable {
     
     [Header("References")]
     public Hitbox hitbox;
-    [SerializeField] private Animator animator;
+    [SerializeField] public Animator animator;
     [SerializeField] private ActionManager actionManager;
-    [SerializeField] private EntityMovement entityMovement;
+    public EntityMovement entityMovement;
     [SerializeField] private SpriteRenderer playerSprite;
     [SerializeField] private Transform projectileSpawnPosition;
     public PlayerInput input;
@@ -177,13 +176,14 @@ public class PlayerScript : Damageable {
     }
     
     public void GetUpgrade(Upgrade upgrade) {
-        if (upgrade is AttackSpeedUpgrade attackSpeedUpgrade) {
-            attackSpeedUpgrade.GetUpgrade(animator);
+        switch (upgrade) {
+            case CharacterUpgrade characterUpgrade:
+                characterUpgrade.GetUpgrade(this);
+                break;
+            case AttackUpgrade attackUpgrade:
+                var damageInstance = GetDamageInstance(attackUpgrade.attackAction);
+                attackUpgrade.GetUpgrade(damageInstance);
+                break;
         }
-        else {
-            var damageInstance = GetDamageInstance(upgrade.attackAction);
-            upgrade.GetUpgrade(damageInstance);
-        }
-        Debug.Log("Upgrade got: " + upgrade.text);
     }
 }

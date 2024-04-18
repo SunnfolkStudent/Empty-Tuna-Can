@@ -2,8 +2,8 @@
 using Utils.Entity;
 
 namespace Upgrades {
-    [CreateAssetMenu(fileName = "BurnUpgrade", menuName = "Upgrade/new BurnUpgrade")]
-    public class BurnUpgrade : Upgrade {
+    [CreateAssetMenu(fileName = "BurnUpgrade", menuName = "Upgrade/AttackUpgrade/new BurnUpgrade")]
+    public class BurnUpgrade : AttackUpgrade {
         public float durationIncrease;
         public float damageIncrease;
         public float damageFrequencyIncrease;

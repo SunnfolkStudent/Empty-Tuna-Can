@@ -10,7 +10,7 @@ namespace Upgrades {
         public PlayerScript playerScript;
     
         public void UpdateSlot() {
-            textField.text = upgrade.text;
+            textField.text = upgrade.name;
         }
         
         public void GetUpgrade() {
