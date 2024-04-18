@@ -171,6 +171,17 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 2048db2ca05e00949af0dffaf4097ccd, type: 2}
   - {fileID: 2100000, guid: e3e9d55080f0c2b4fadd9db52fc42e88, type: 2}
   - {fileID: 2100000, guid: cf50de4f3a6b05d4b88263ceceb1857a, type: 2}
+  allUpgrades:
+  - {fileID: 11400000, guid: 2c6e9ff14aecb7641a0ec69e1b03d153, type: 2}
+  - {fileID: 11400000, guid: 6102c127ffebd024aa7405bfc89b1458, type: 2}
+  - {fileID: 11400000, guid: aafbb438e47d865408381ced1ea310f9, type: 2}
+  - {fileID: 11400000, guid: 371be495486f5b34f9b9835d99711714, type: 2}
+  - {fileID: 11400000, guid: 0a0a6dbe9e7bda340b05eca2b2408353, type: 2}
+  - {fileID: 11400000, guid: 6243cc0825a94fc46af8fbb220b89c48, type: 2}
+  - {fileID: 11400000, guid: fc6d80fe7cc106749ae398df9ba0a40a, type: 2}
+  - {fileID: 11400000, guid: b6e4163b6eb59ce499585e831ba2c705, type: 2}
+  - {fileID: 11400000, guid: 68d8ffe4cb2b76349b4b01ed7907a3f7, type: 2}
+  - {fileID: 11400000, guid: 40a11c6ecc710ee4d8f22f7cbf3b3ac7, type: 2}
 --- !u!114 &1247287791869132474
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,9 +1,10 @@
-﻿using StateMachineBehaviourScripts;
+﻿using System;
+using StateMachineBehaviourScripts;
 using UnityEngine;
 using Utils.Entity;
 
 namespace Upgrades {
-    public class Upgrade : ScriptableObject {
+    [Serializable] public class Upgrade : ScriptableObject {
         public string name;
     }
 

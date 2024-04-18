@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Linq;
 using Items;
 using StateMachineBehaviourScripts;
@@ -6,7 +7,6 @@ using UnityEngine.InputSystem;
 using Upgrades;
 using Utils;
 using Utils.Entity;
-using Debug = UnityEngine.Debug;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerScript : Damageable {
@@ -35,6 +35,9 @@ public class PlayerScript : Damageable {
     [Header("Players")] 
     private int playerNumber;
     [SerializeField] private Material[] playerColors;
+    
+    [Header("Upgrades")]
+    public List<Upgrade> allUpgrades = new ();
     
     private static Conversation conversation;
     

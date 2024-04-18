@@ -6,10 +6,7 @@ namespace Upgrades {
         [SerializeField] private UpgradeSlot[] upgradeSlots;
         public PlayerScript playerScript;
         
-        [SerializeField] private Upgrade[] allUpgrades;
-        
         private void Awake() {
-            allUpgrades = ScrubUtils.GetAllScrubsInResourceFolder<Upgrade>("Upgrades");
             UpgradeManager.UpgradesUI.Add(this);
             foreach (var upgradeSlot in upgradeSlots) {
                 upgradeSlot.upgradeUI = this;
@@ -30,8 +27,7 @@ namespace Upgrades {
         
         public void SetRandomUpgrades() {
             foreach (var upgradeSlot in upgradeSlots) {
-                upgradeSlot.upgrade = allUpgrades.GetRandom();
-                upgradeSlot.playerScript = playerScript;
+                upgradeSlot.upgrade = playerScript.allUpgrades.GetRandom();
                 upgradeSlot.UpdateSlot();
             }
             

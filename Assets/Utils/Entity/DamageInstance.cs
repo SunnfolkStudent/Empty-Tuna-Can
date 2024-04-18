@@ -17,9 +17,9 @@ namespace Utils.Entity {
         [ConditionalField("statusEffect", false, StatusEffects.Burn)] [SerializeField] 
         private Burn burnProperties = new (1,2,2);
         
-        public IStatusEffect StatusEffect;
+        public StatusEffect StatusEffect;
         
-        public DamageInstance(float damage, float stagger = 0, IStatusEffect statusEffect = null) {
+        public DamageInstance(float damage, float stagger = 0, StatusEffect statusEffect = null) {
             this.damage = damage;
             this.stagger = stagger;
             StatusEffect = statusEffect;
@@ -37,11 +37,12 @@ namespace Utils.Entity {
     
     [Serializable] public enum StatusEffects{None, Freeze, Burn}
     
-    public interface IStatusEffect {
-        void Apply(Damageable damageable);
+    [Serializable] public abstract class StatusEffect {
+        public void Apply(Damageable damageable) {
+        }
     }
     
-    [Serializable] public class Freeze : IStatusEffect {
+    [Serializable] public class Freeze : StatusEffect {
         public float duration;
         
         public Freeze(float freezeDuration) {
@@ -53,7 +54,7 @@ namespace Utils.Entity {
         }
     }
     
-    [Serializable] public class Burn : IStatusEffect {
+    [Serializable] public class Burn : StatusEffect {
         public float damage;
         public float duration;
         public float damageFrequency;

@@ -4,7 +4,6 @@ using JetBrains.Annotations;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem.UI;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 using Utils;
 
@@ -16,7 +15,7 @@ public class PlayerUIElement : MonoBehaviour {
     [SerializeField] private GameObject healingItemVisual;
     [SerializeField] private GameObject throwableItemVisual;
     [SerializeField] private TextMeshProUGUI itemAmount;
-    [FormerlySerializedAs("upgrades")] [SerializeField] private Upgrades.UpgradesUI upgradesUI;
+    [SerializeField] private Upgrades.UpgradesUI upgradesUI;
     
     public PlayerScript playerScript;
     public InputSystemUIInputModule inputSystemUIInputModule;

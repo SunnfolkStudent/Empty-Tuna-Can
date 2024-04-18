@@ -6,8 +6,6 @@ namespace Upgrades {
         public TextMeshProUGUI textField;
         public Upgrade upgrade;
         public UpgradesUI upgradeUI;
-
-        public PlayerScript playerScript;
     
         public void UpdateSlot() {
             textField.text = upgrade.name;
