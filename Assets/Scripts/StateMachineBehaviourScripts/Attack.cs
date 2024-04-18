@@ -5,6 +5,7 @@ using Utils.Entity;
 namespace StateMachineBehaviourScripts {
     public class Attack : StateMachineBehaviour {
         public bool canMoveDuring;
+        public int staggerResistanceBonusDuringAttack;
         public AttackAction attackAction;
         public DamageInstance damageInstance;
         
@@ -16,10 +17,14 @@ namespace StateMachineBehaviourScripts {
         
         public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
             playerScript.hitbox.damageInstance = damageInstance;
+            playerScript.staggerResistance += staggerResistanceBonusDuringAttack;
+        }
+        
+        public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
+            playerScript.staggerResistance -= staggerResistanceBonusDuringAttack;
         }
         
         public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
-            base.OnStateUpdate(animator, stateInfo, layerIndex);
             playerScript.movementEnabled = canMoveDuring;
         }
     }

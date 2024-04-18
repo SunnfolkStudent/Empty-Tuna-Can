@@ -7,7 +7,6 @@ namespace Upgrades {
         public float durationIncrease;
     
         public override void GetUpgrade(DamageInstance damageInstance) {
-            base.GetUpgrade(damageInstance);
             if (damageInstance.StatusEffect is not Freeze freeze) return;
             freeze.duration += durationIncrease;
         }

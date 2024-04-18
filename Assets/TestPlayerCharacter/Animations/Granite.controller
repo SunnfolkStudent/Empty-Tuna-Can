@@ -43,6 +43,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canMoveDuring: 0
+  staggerResistanceBonusDuringAttack: 1
   attackAction: 3
   damageInstance:
     damage: 10
@@ -218,6 +219,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canMoveDuring: 0
+  staggerResistanceBonusDuringAttack: 1
   attackAction: 0
   damageInstance:
     damage: 25
@@ -417,6 +419,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canMoveDuring: 0
+  staggerResistanceBonusDuringAttack: 0
   attackAction: 2
   damageInstance:
     damage: 15
@@ -915,6 +918,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canMoveDuring: 0
+  staggerResistanceBonusDuringAttack: 1
   attackAction: 4
   damageInstance:
     damage: 10
@@ -1030,6 +1034,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canMoveDuring: 0
+  staggerResistanceBonusDuringAttack: 0
   attackAction: 1
   damageInstance:
     damage: 10
@@ -1248,6 +1253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canMoveDuring: 0
+  staggerResistanceBonusDuringAttack: 1
   attackAction: 6
   damageInstance:
     damage: 20
@@ -1273,10 +1279,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canMoveDuring: 0
+  staggerResistanceBonusDuringAttack: 2
   attackAction: 7
   damageInstance:
     damage: 15
-    stagger: 1
+    stagger: 2
     statusEffect: 0
     freezeProperties:
       duration: 0
@@ -1775,6 +1782,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canMoveDuring: 0
+  staggerResistanceBonusDuringAttack: 0
   attackAction: 0
   damageInstance:
     damage: 5
@@ -1825,6 +1833,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canMoveDuring: 0
+  staggerResistanceBonusDuringAttack: 1
   attackAction: 5
   damageInstance:
     damage: 20

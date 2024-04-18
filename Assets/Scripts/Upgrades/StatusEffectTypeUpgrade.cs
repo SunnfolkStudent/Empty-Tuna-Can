@@ -7,7 +7,6 @@ namespace Upgrades {
         public StatusEffect StatusEffect;
     
         public override void GetUpgrade(DamageInstance damageInstance) {
-            base.GetUpgrade(damageInstance);
             damageInstance.StatusEffect = StatusEffect;
         }
     }

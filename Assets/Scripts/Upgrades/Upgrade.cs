@@ -5,19 +5,17 @@ using UnityEngine;
 using Utils.Entity;
 
 namespace Upgrades {
-    [Serializable] public class Upgrade : ScriptableObject {
+    [Serializable] public abstract class Upgrade : ScriptableObject {
         public string name;
     }
-
-    public class AttackUpgrade : Upgrade {
+    
+    public abstract class AttackUpgrade : Upgrade {
         public AttackAction attackAction;
-
-        public virtual void GetUpgrade(DamageInstance damageInstance) {
-        }
+        
+        public abstract  void GetUpgrade(DamageInstance damageInstance);
     }
     
-    public class CharacterUpgrade : Upgrade {
-        public virtual void GetUpgrade(PlayerScript playerScript) {
-        }
+    public abstract class CharacterUpgrade : Upgrade {
+        public abstract void GetUpgrade(PlayerScript playerScript);
     }
 }

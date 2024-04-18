@@ -7,7 +7,6 @@ namespace Upgrades {
         public float damageIncrease;
 
         public override void GetUpgrade(DamageInstance damageInstance) {
-            base.GetUpgrade(damageInstance);
             damageInstance.damage += damageIncrease;
         }
     }

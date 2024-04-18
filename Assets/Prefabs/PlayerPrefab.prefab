@@ -146,7 +146,7 @@ MonoBehaviour:
     maxValue: 50
     value: 50
   invincibilityFrames: 0.75
-  staggerResistance: 0
+  staggerResistance: 1
   heightIndex: 0
   teamNumber: 0
   moveVector: {x: 0, y: 0}

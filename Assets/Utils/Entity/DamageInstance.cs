@@ -35,11 +35,11 @@ namespace Utils.Entity {
         }
     }
     
+    #region ---StatusEffects---
     [Serializable] public enum StatusEffects{None, Freeze, Burn}
     
     [Serializable] public abstract class StatusEffect {
-        public void Apply(Damageable damageable) {
-        }
+        public abstract void Apply(Damageable damageable);
     }
     
     [Serializable] public class Freeze : StatusEffect {
@@ -49,7 +49,7 @@ namespace Utils.Entity {
             duration = freezeDuration;
         }
 
-        public void Apply(Damageable damageable) {
+        public override void Apply(Damageable damageable) {
             damageable.HandleFreeze(this);
         }
     }
@@ -64,9 +64,10 @@ namespace Utils.Entity {
             duration = burnDuration;
             damageFrequency = burnDamageFrequency;
         }
-
-        public void Apply(Damageable damageable) {
+        
+        public override void Apply(Damageable damageable) {
             damageable.HandleBurn(this);
         }
     }
+    #endregion
 }
