@@ -110,7 +110,7 @@ MonoBehaviour:
     maxValue: 10
     value: 10
   invincibilityFrames: 0.5
-  staggerResistance: 1
+  staggerResistance: 2
   heightIndex: 0
   teamNumber: 0
   animator: {fileID: 6817108768438100948}

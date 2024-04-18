@@ -17,12 +17,15 @@ namespace StateMachineBehaviourScripts {
         public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
             playerScript.hitbox.damageInstance = damageInstance;
         }
-
+        
         public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
             base.OnStateUpdate(animator, stateInfo, layerIndex);
             playerScript.movementEnabled = canMoveDuring;
         }
     }
     
-    public enum AttackAction{ LightAttack1, LightAttack2, LightAttack3, ForwardLightAttack1 }
+    public enum AttackAction {
+        LightAttack1, LightAttack2, LightAttack3, ForwardLightAttack1,
+        HeavyAttack1, HeavyAttack2, HeavyAttack3, ForwardHeavyAttack1,
+    }
 }
