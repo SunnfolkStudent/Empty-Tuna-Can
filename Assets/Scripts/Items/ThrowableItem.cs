@@ -6,8 +6,6 @@ namespace Items {
     public class ThrowableItem : Item {
         [Header("ThrowableItem")]
         [RequiredField] [AssetPreviewIcon] public GameObject itemPrefab;
-        
-        public float velocity;
         public float damage;
         
         public override void UseItem(PlayerScript playerScript) {

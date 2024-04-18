@@ -3,10 +3,11 @@ using Utils.Entity;
 
 namespace StateMachineBehaviourScripts {
     public class Attack : StateMachineBehaviour {
-        [SerializeField] private DamageInstance damageInstance;
+        public AttackAction attackAction;
+        public DamageInstance damageInstance;
         
         [HideInInspector] public PlayerScript playerScript;
-
+        
         private void Awake() {
             damageInstance.Initialize();
         }
@@ -14,9 +15,7 @@ namespace StateMachineBehaviourScripts {
         public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
             playerScript.hitbox.damageInstance = damageInstance;
         }
-        
-        public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
-            playerScript.hitbox.damageInstance = null;
-        }
     }
+    
+    public enum AttackAction{ LightAttack1, LightAttack2, LightAttack3, ForwardLightAttack1 }
 }

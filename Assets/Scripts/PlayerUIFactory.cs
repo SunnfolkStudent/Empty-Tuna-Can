@@ -19,5 +19,9 @@ public static class PlayerUIFactory {
         
         playerUIElement.UpdateSelectedItemIcon(playerScript.inventory.selectedItem.Value.item);
         playerUIElement.UpdateSelectedItemAmount(playerScript.inventory.selectedItem.Value.amount);
+
+        playerScript.input.uiInputModule = playerUIElement.inputSystemUIInputModule;
+
+        playerUIElement.playerScript = playerScript;
     }
 }

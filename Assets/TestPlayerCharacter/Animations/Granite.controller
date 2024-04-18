@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d6c8e9aaa911c848bbc035696a96605, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackAction: 0
   damageInstance:
     damage: 10
     stagger: 0
-    statusEffect: 2
+    statusEffect: 0
     freezeProperties:
       duration: 0
     burnProperties:
@@ -138,9 +139,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d6c8e9aaa911c848bbc035696a96605, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackAction: 0
   damageInstance:
     damage: 20
-    stagger: 0
+    stagger: 3
     statusEffect: 0
     freezeProperties:
       duration: 0
@@ -273,22 +275,22 @@ AnimatorStateMachine:
     m_Position: {x: 150, y: 360, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6810043111498691164}
-    m_Position: {x: 690, y: -130, z: 0}
+    m_Position: {x: 580, y: -110, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 7500474195355039812}
-    m_Position: {x: 900, y: -70, z: 0}
+    m_Position: {x: 920, y: -90, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 5273942824482345125}
-    m_Position: {x: 700, y: -10, z: 0}
+    m_Position: {x: 720, y: 10, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6980383646808574072}
-    m_Position: {x: 390, y: 150, z: 0}
+    m_Position: {x: 360, y: 150, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -68863418668811115}
-    m_Position: {x: 900, y: 50, z: 0}
+    m_Position: {x: 840, y: 90, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -8456528499121456380}
-    m_Position: {x: 620, y: 110, z: 0}
+    m_Position: {x: 580, y: 110, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6200367145168135853}
     m_Position: {x: -250, y: 0, z: 0}
@@ -323,9 +325,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d6c8e9aaa911c848bbc035696a96605, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackAction: 2
   damageInstance:
     damage: 15
-    stagger: 0
+    stagger: 2
     statusEffect: 0
     freezeProperties:
       duration: 0
@@ -685,9 +688,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d6c8e9aaa911c848bbc035696a96605, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackAction: 1
   damageInstance:
     damage: 10
-    stagger: 0
+    stagger: 1
     statusEffect: 0
     freezeProperties:
       duration: 2
@@ -1044,7 +1048,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SideStrong
+  m_Name: LightAttack3
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -1183,7 +1187,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: LightAttack
+  m_Name: LightAttack1
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
@@ -1218,6 +1222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d6c8e9aaa911c848bbc035696a96605, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackAction: 0
   damageInstance:
     damage: 5
     stagger: 0
@@ -1283,7 +1288,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HeavyAttack
+  m_Name: LightAttack2
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:

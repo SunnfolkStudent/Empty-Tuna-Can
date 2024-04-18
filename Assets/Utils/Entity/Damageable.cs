@@ -22,12 +22,11 @@ namespace Utils.Entity {
             if (!_canTakeDamage) return;
             
             TakeDamage(damageInstance.damage);
+            damageInstance.StatusEffect?.Apply(this);
             
             StartCoroutine(BecomeTemporarilyInvincible());
             
             if (staggerResistance <= damageInstance.stagger) Stagger();
-
-            damageInstance.StatusEffect?.Apply(this);
         }
 
         private void TakeDamage(float damage) {

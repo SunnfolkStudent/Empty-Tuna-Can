@@ -1,9 +1,13 @@
+using System.Diagnostics;
+using System.Linq;
 using Items;
 using StateMachineBehaviourScripts;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Upgrades;
 using Utils;
 using Utils.Entity;
+using Debug = UnityEngine.Debug;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class PlayerScript : Damageable {
@@ -18,6 +22,7 @@ public class PlayerScript : Damageable {
     [SerializeField] private EntityMovement entityMovement;
     [SerializeField] private SpriteRenderer playerSprite;
     [SerializeField] private Transform projectileSpawnPosition;
+    public PlayerInput input;
     
     public Inventory inventory;
     private Transform _transform;
@@ -46,8 +51,6 @@ public class PlayerScript : Damageable {
         foreach (var stateBehaviour in animator.GetBehaviours<Attack>()) {
             stateBehaviour.playerScript = this;
         }
-        
-        // var lightAttackState = animator.runtimeAnimatorController.animationClips.Where(clip => clip.name == "LightAttack");
     }
     
     private void Start() {
@@ -163,9 +166,24 @@ public class PlayerScript : Damageable {
         conversation = newConversation;
         conversation.Next();
     }
-
+    
     protected override void Stagger() {
         animator.Play("Stagger");
         movementEnabled = false;
+    }
+
+    public DamageInstance GetDamageInstance(AttackAction attackAction) {
+        return animator.GetBehaviours<Attack>().ToList().First(behaviour => behaviour.attackAction == attackAction).damageInstance;
+    }
+    
+    public void GetUpgrade(Upgrade upgrade) {
+        if (upgrade is AttackSpeedUpgrade attackSpeedUpgrade) {
+            attackSpeedUpgrade.GetUpgrade(animator);
+        }
+        else {
+            var damageInstance = GetDamageInstance(upgrade.attackAction);
+            upgrade.GetUpgrade(damageInstance);
+        }
+        Debug.Log("Upgrade got: " + upgrade.text);
     }
 }

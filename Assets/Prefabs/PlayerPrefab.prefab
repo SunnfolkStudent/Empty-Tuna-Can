@@ -157,6 +157,7 @@ MonoBehaviour:
   entityMovement: {fileID: 6602708319433839972}
   playerSprite: {fileID: 2448174363510326756}
   projectileSpawnPosition: {fileID: 5438945748069665815}
+  input: {fileID: 4492384674172777789}
   inventory:
     inventory:
     - item: {fileID: 11400000, guid: bb99081224f82264d82580f3cd351ed0, type: 2}
@@ -377,22 +378,6 @@ MonoBehaviour:
   - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: -4913135579417499507}
-        m_TargetAssemblyTypeName: PlayerScript, Assembly-CSharp
-        m_MethodName: OnUnpause
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 8d1be933-3991-4694-9dec-02eedf83ebc2
-    m_ActionName: 'PauseMenu/UnPause[/Keyboard/escape,/XInputControllerWindows/start]'
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: -4913135579417499507}
         m_TargetAssemblyTypeName: TestMove, Assembly-CSharp
         m_MethodName: OnLightAttack
         m_Mode: 0
@@ -470,6 +455,14 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 16a4989b-c6cf-4117-b61e-8a2a12b29254
     m_ActionName: 'Player/PreviousItem[/Keyboard/q]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a1e57189-351b-4b6b-981f-9d93f7924a3f
+    m_ActionName: 'UI/Navigate[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d,/XInputControllerWindows/dpad/up,/XInputControllerWindows/dpad/down,/XInputControllerWindows/dpad/left,/XInputControllerWindows/dpad/right]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 7ac56c1c-4ed4-4354-86b9-ef722af8a8da
+    m_ActionName: 'UI/Select[/XInputControllerWindows/buttonSouth,/Keyboard/enter]'
   m_NeverAutoSwitchControlSchemes: 1
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
