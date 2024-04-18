@@ -1,4 +1,5 @@
 ﻿using System;
+using Player;
 using StateMachineBehaviourScripts;
 using UnityEngine;
 using Utils.Entity;

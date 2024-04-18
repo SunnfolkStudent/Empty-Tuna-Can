@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Player;
+using UnityEngine;
 
 namespace Upgrades {
     [CreateAssetMenu(fileName = "AttackSpeedUpgrade", menuName = "Upgrade/AttackUpgrade/new AttackSpeedUpgrade")]
