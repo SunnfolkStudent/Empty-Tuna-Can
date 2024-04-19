@@ -1,19 +1,24 @@
-using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using SceneReference = Eflatun.SceneReference.SceneReference;
 
 public class MainMenu : MonoBehaviour {
-    [SerializeField] private Eflatun.SceneReference.SceneReference gameScene;
-    [SerializeField] private Eflatun.SceneReference.SceneReference settingsScene;
-    [SerializeField] private Eflatun.SceneReference.SceneReference menuScene;
+    [SerializeField] private SceneReference playerScene;
+    [SerializeField] private SceneReference gameScene;
+    [SerializeField] private SceneReference settingsScene;
+    [SerializeField] private SceneReference menuScene;
 
     private void Awake() {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        
+        DontDestroyOnLoad(gameObject);
     }
 
     public void StartGame() {
-        SceneManager.LoadScene(gameScene.Name);
+        SceneManager.LoadScene(playerScene.Name);
+        SceneManager.LoadScene(gameScene.Name, LoadSceneMode.Additive);
+        Destroy(gameObject);
     }
     
     public void SettingsMenu() {

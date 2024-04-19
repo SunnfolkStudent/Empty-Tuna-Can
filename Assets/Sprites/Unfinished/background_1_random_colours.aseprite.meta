@@ -144,8 +144,8 @@ ScriptedImporter:
   spriteSheetImportData:
   - name: background_1_random_colours_0
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0, y: 0}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2

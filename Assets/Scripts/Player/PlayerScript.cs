@@ -8,6 +8,7 @@ using Upgrades;
 using Utils;
 using Utils.Entity;
 using Utils.EventBus;
+using Utils.Singleton;
 
 namespace Player {
     [RequireComponent(typeof(Rigidbody2D))]
@@ -31,8 +32,6 @@ namespace Player {
         private const float VerticalDodgeSpeed = 10;
         
         private CombatInput _currentDirection;
-        
-        public static bool FriendlyFire = true;
         
         [Header("Players")] 
         private int playerNumber;
@@ -71,8 +70,10 @@ namespace Player {
             transform.name = "Player" + playerNumber;
             playerSprite.material = playerColors[playerNumber - 1];
             
-            teamNumber = FriendlyFire ? 0 : 1;
+            teamNumber = PlayerManager.FriendlyFire ? 0 : 1;
             hitbox.teamNumber = teamNumber;
+            
+            transform.position = PlayerManager.GetSpawnPosition();
         }
         
         #region ---OnInputAction---

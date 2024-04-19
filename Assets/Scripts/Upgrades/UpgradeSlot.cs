@@ -8,7 +8,7 @@ namespace Upgrades {
         public UpgradesUI upgradeUI;
     
         public void UpdateSlot() {
-            textField.text = upgrade.name;
+            textField.text = upgrade.upgradeName;
         }
         
         public void GetUpgrade() {

@@ -2,11 +2,12 @@
 using Player;
 using StateMachineBehaviourScripts;
 using UnityEngine;
+using UnityEngine.Serialization;
 using Utils.Entity;
 
 namespace Upgrades {
     [Serializable] public abstract class Upgrade : ScriptableObject {
-        public string name;
+        [FormerlySerializedAs("name")] public string upgradeName;
     }
     
     public abstract class AttackUpgrade : Upgrade {
