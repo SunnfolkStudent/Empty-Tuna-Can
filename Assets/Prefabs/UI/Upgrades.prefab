@@ -122,6 +122,8 @@ MonoBehaviour:
   - {fileID: 4929894195300813083}
   - {fileID: 2109163189542418460}
   - {fileID: 8638241455493030473}
+  eventSystem: {fileID: 568336604634812008}
+  inputSystemUIInputModule: {fileID: 2704202415370560723}
   playerScript: {fileID: 0}
 --- !u!114 &568336604634812008
 MonoBehaviour:
@@ -130,7 +132,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2604710429364428147}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b16c6f78230fa4964a222622d8aae332, type: 3}
   m_Name: 

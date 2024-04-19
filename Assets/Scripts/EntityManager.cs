@@ -4,10 +4,9 @@ using UnityEngine;
 using Utils;
 
 public class EntityManager : MonoBehaviour {
-    public static readonly List<Transform> PlayersTransforms = new ();
     public static readonly List<TestEnemy> TestEnemies = new ();
     
-    private readonly Func<bool> playersExists = () => PlayersTransforms.Count > 0;
+    private readonly Func<bool> playersExists = () => PlayerManager.AlivePlayersTransforms.Count > 0;
     private readonly Func<bool> enemiesExists = () => TestEnemies.Count > 0;
     
     private void Start() {
@@ -24,10 +23,10 @@ public class EntityManager : MonoBehaviour {
     }
     
     public static Vector3 GetTargetPosition(Vector3 position, float range = 3f) {
-        var closestPlayer = PlayersTransforms[0];
-        for (var index = 1; index < PlayersTransforms.Count; index++) {
-            if (Vector3.Distance(position, PlayersTransforms[index].position) < Vector3.Distance(position, closestPlayer.position)) {
-                closestPlayer = PlayersTransforms[index];
+        var closestPlayer = PlayerManager.AlivePlayersTransforms[0];
+        for (var index = 1; index < PlayerManager.AlivePlayersTransforms.Count; index++) {
+            if (Vector3.Distance(position, PlayerManager.AlivePlayersTransforms[index].position) < Vector3.Distance(position, closestPlayer.position)) {
+                closestPlayer = PlayerManager.AlivePlayersTransforms[index];
             }
         }
         

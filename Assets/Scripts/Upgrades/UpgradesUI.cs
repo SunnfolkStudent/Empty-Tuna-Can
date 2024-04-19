@@ -1,10 +1,12 @@
 using Player;
 using UnityEngine;
+using UnityEngine.InputSystem.UI;
 using Utils;
 
 namespace Upgrades {
     public class UpgradesUI : MonoBehaviour {
         [SerializeField] private UpgradeSlot[] upgradeSlots;
+        [SerializeField] private MultiplayerEventSystem eventSystem;
         public PlayerScript playerScript;
         
         private void Awake() {
@@ -17,12 +19,14 @@ namespace Upgrades {
         private void ShowUpgrades() {
             foreach (var upgradeSlot in upgradeSlots) {
                 upgradeSlot.gameObject.SetActive(true);
+                eventSystem.enabled = true;
             }
         }
         
         private void HideUpgrades() {
             foreach (var upgradeSlot in upgradeSlots) {
                 upgradeSlot.gameObject.SetActive(false);
+                eventSystem.enabled = false;
             }
         }
         

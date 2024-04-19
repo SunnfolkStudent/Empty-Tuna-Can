@@ -47,7 +47,7 @@ MonoBehaviour:
   attackAction: 3
   damageInstance:
     damage: 10
-    stagger: 0
+    stagger: 1
     statusEffect: 0
     freezeProperties:
       duration: 0
