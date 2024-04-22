@@ -1,4 +1,6 @@
 using System;
+using System.Collections;
+using Dialogue;
 using Player;
 using UnityEngine;
 using UnityEngine.EventSystems;
@@ -10,7 +12,7 @@ public class PauseMenu : MonoBehaviour {
     [SerializeField] private EventSystem eventSystem;
     
     private EventBinding<PauseMenuEvent> pauseMenuEventBinding;
-
+    
     public static Func<bool> UnpauseCondition = () => true;
     
     private void OnEnable() {
@@ -25,13 +27,23 @@ public class PauseMenu : MonoBehaviour {
     public static void Pause() => EventBus<PauseMenuEvent>.Raise(new PauseMenuEvent(true));
     
     public static void Unpause() => EventBus<PauseMenuEvent>.Raise(new PauseMenuEvent(false));
-
+    
     private void SetPauseMenu(PauseMenuEvent iPauseMenuEvent) {
-        if (iPauseMenuEvent.State == false && !UnpauseCondition()) return;
+        if (iPauseMenuEvent.State == false && !UnpauseCondition()) {
+            StopAllCoroutines();
+            StartCoroutine(CantStart());
+            return;
+        }
         pauseButtons.SetActive(iPauseMenuEvent.State);
         Time.timeScale = iPauseMenuEvent.State ? 0 : 1;
         PlayerScript.Paused = iPauseMenuEvent.State;
         eventSystem.enabled = iPauseMenuEvent.State;
+    }
+    
+    private static IEnumerator CantStart() {
+        EventBus<DialogueEvent>.Raise(new DialogueEvent(new TextEvent("Versus Mode", "Cant start Versus mode with only one player")));
+        yield return new WaitForSecondsRealtime(3);
+        EventBus<DialogueEvent>.Raise(new DialogueEvent(new EndEvent()));
     }
     
     public static void Settings() {
@@ -45,7 +57,7 @@ public class PauseMenu : MonoBehaviour {
 
 public class PauseMenuEvent : IEvent {
     public readonly bool State;
-
+    
     public PauseMenuEvent(bool state) {
         State = state;
     }

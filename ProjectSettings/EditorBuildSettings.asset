@@ -18,17 +18,20 @@ EditorBuildSettings:
     path: Assets/Scenes/Players.unity
     guid: c958fd5cc1a3a2f42b2df3d4a004f522
   - enabled: 1
-    path: Assets/Scenes/SingleAreaStages/Area1.unity
+    path: Assets/Scenes/AreaScenes/Area1.unity
     guid: 478d81048b437964b93a9bae3cea5907
   - enabled: 1
-    path: Assets/Scenes/SingleAreaStages/Area2.unity
+    path: Assets/Scenes/AreaScenes/Area2.unity
     guid: 940e0fea6f820b344ba71b1cfa373a7c
   - enabled: 1
-    path: Assets/Scenes/SingleAreaStages/Area3.unity
+    path: Assets/Scenes/AreaScenes/Area3.unity
     guid: 2b22a17579eb4db42ba1684764516485
   - enabled: 1
-    path: Assets/Scenes/SingleAreaStages/Area4.unity
+    path: Assets/Scenes/AreaScenes/Area4.unity
     guid: d9ea87cc217e59b46bf5596808077086
+  - enabled: 1
+    path: Assets/Scenes/VersusMode.unity
+    guid: 6f2a5d0a0bbdd06458ae2ce41d76bb03
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: ccc24c46258a26d4c89276d7591637f0, type: 2}
   m_UseUCBPForAssetBundles: 0

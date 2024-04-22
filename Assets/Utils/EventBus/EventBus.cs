@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using UnityEngine;
 
 namespace Utils.EventBus {
     public static class EventBus<T> where T : IEvent {

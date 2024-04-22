@@ -87,7 +87,7 @@ namespace Dialogue {
             foreach (var c in charArray) {
                 textField.text += c;
                 if (c == ' ') continue;
-                yield return new WaitForSeconds(textSpeed);
+                yield return new WaitForSecondsRealtime(textSpeed);
             }
             
             DialogIsPlaying = false;

@@ -1,3 +1,4 @@
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Utils;
@@ -9,6 +10,9 @@ public class MainMenu : MonoBehaviour {
     [SerializeField] private SceneReference settingsScene;
     [SerializeField] private SceneReference menuScene;
     [SerializeField] private SceneReference[] singleAreaScenes;
+    [SerializeField] private SceneReference versusModeScene;
+
+    [SerializeField] private GameObject versusModeManager;
 
     private void Awake() {
         Cursor.lockState = CursorLockMode.Locked;
@@ -30,6 +34,7 @@ public class MainMenu : MonoBehaviour {
         PlayerManager.FriendlyFire = true;
         SceneManager.LoadScene(playerScene.Name);
         SceneManager.LoadScene(singleAreaScenes.GetRandom().Name, LoadSceneMode.Additive);
+        SceneManager.LoadScene(versusModeScene.Name, LoadSceneMode.Additive);
         Destroy(gameObject);
     }
     

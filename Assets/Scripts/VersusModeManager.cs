@@ -1,11 +1,14 @@
 using System;
-using Utils.Singleton;
+using Player;
+using UnityEngine;
 
-public class VersusModeManager : PersistentSingleton<VersusModeManager> {
+public class VersusModeManager : MonoBehaviour {
     public static Func<bool> HasEnoughPlayers = () => PlayerManager.AllPlayersTransforms.Count > 1;
     
-    private void Start() {
+    public void Start() {
         PauseMenu.Pause();
         PauseMenu.UnpauseCondition = HasEnoughPlayers;
+        Time.timeScale = 0;
+        PlayerScript.Paused = true;
     }
 }
