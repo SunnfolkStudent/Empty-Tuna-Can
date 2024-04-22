@@ -8,7 +8,6 @@ using Upgrades;
 using Utils;
 using Utils.Entity;
 using Utils.EventBus;
-using Utils.Singleton;
 
 namespace Player {
     [RequireComponent(typeof(Rigidbody2D))]

@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using System.Linq;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -19,16 +18,5 @@ namespace Upgrades {
                 SetUpgradesUI();
             }
         }
-        
-#if UNITY_EDITOR
-        [CustomEditor(typeof(UpgradeManager))]
-       internal class DecalMeshHelperEditor : Editor {
-           public override void OnInspectorGUI() {
-               if (!GUILayout.Button("GiveUpgrade")) return;
-               Debug.Log("GiveUpgrades");
-               SetUpgradesUI();
-           }
-       }
     }
-#endif
 }

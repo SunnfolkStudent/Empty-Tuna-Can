@@ -19,15 +19,17 @@ namespace Upgrades {
         private void ShowUpgrades() {
             foreach (var upgradeSlot in upgradeSlots) {
                 upgradeSlot.gameObject.SetActive(true);
-                eventSystem.enabled = true;
             }
+            
+            eventSystem.gameObject.SetActive(true);
         }
         
         private void HideUpgrades() {
             foreach (var upgradeSlot in upgradeSlots) {
                 upgradeSlot.gameObject.SetActive(false);
-                eventSystem.enabled = false;
             }
+            
+            eventSystem.gameObject.SetActive(false);
         }
         
         public void SetRandomUpgrades() {

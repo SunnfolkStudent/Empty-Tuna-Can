@@ -1,4 +1,5 @@
 using UnityEngine.Events;
+using Utils.EventBus;
 using Utils.Singleton;
 
 public class PauseManager : PersistentSingleton<PauseManager> {

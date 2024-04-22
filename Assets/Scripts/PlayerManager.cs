@@ -22,6 +22,12 @@ public static class PlayerManager {
         AlivePlayersTransforms.Remove(playerScript.transform);
     }
     
+    public static void DeregisterAllPlayers() {
+        AlivePlayersTransforms = null;
+        AllPlayersTransforms = null;
+        AllPlayersScripts = null;
+    }
+    
     public static void ResetAlivePlayerTransforms() {
         AlivePlayersTransforms = AllPlayersTransforms;
     }
@@ -31,8 +37,7 @@ public static class PlayerManager {
     }
     
     public static Vector3 GetSpawnPosition() {
-        var gameObject = GameObject.FindWithTag("PlayerSpawnPositions").transform.GetImmediateChildren()
-            .First(o => o.activeSelf);
+        var gameObject = GameObject.FindWithTag("PlayerSpawnPositions").transform.GetImmediateChildren().First(o => o.activeSelf);
         gameObject.SetActive(false);
         return gameObject.transform.position;
     }
