@@ -181,14 +181,12 @@ MonoBehaviour:
   menuScene:
     asset: {fileID: 102900000, guid: 43ecd976835194448ba599c153a89b6d, type: 3}
     guid: 43ecd976835194448ba599c153a89b6d
-  singleAreaScenes:
-  - asset: {fileID: 102900000, guid: 478d81048b437964b93a9bae3cea5907, type: 3}
-    guid: 478d81048b437964b93a9bae3cea5907
-  - asset: {fileID: 102900000, guid: 940e0fea6f820b344ba71b1cfa373a7c, type: 3}
-    guid: 940e0fea6f820b344ba71b1cfa373a7c
   versusModeScene:
     asset: {fileID: 102900000, guid: 6f2a5d0a0bbdd06458ae2ce41d76bb03, type: 3}
     guid: 6f2a5d0a0bbdd06458ae2ce41d76bb03
+  endlessModeScene:
+    asset: {fileID: 102900000, guid: 360489d5148e45e48b4c67d65604bed2, type: 3}
+    guid: 360489d5148e45e48b4c67d65604bed2
   versusModeManager: {fileID: 298061878454197479, guid: c53031ed0931db545969ab3be489a2a7, type: 3}
 --- !u!1 &442697756
 GameObject:

@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Items;
+using ModeManagers;
 using StateMachineBehaviourScripts;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -26,7 +27,7 @@ namespace Player {
         public PlayerInput input;
         
         public Inventory inventory;
-        private Transform _transform;
+        [HideInInspector] public Transform transform1;
         
         private const float VerticalDodgeSpeed = 10;
         
@@ -35,6 +36,7 @@ namespace Player {
         [Header("Players")] 
         private int playerNumber;
         [SerializeField] private Material[] playerColors;
+        public int wins;
         
         [Header("Upgrades")]
         public List<Upgrade> allUpgrades = new ();
@@ -47,9 +49,10 @@ namespace Player {
         private static readonly int SpeedAnimatorParameter = Animator.StringToHash("Speed");
         
         private EventBinding<PauseMenuEvent> pauseMenuEventBinding;
-        
+        public bool dead;
+
         private void Awake() {
-            _transform = transform;
+            transform1 = transform;
             entityMovement = GetComponent<EntityMovement>();
             _rigidbody = GetComponent<Rigidbody2D>();
             PlayerManager.RegisterPlayer(this);
@@ -65,14 +68,14 @@ namespace Player {
             inventory.Initialize();
             PlayerUIFactory.CreatePlayerUI(this);
             
-            playerNumber = PlayerManager.AllPlayersTransforms.Count;
+            playerNumber = PlayerManager.AllPlayers.Count;
             transform.name = "Player" + playerNumber;
             playerSprite.material = playerColors[playerNumber - 1];
             
             teamNumber = PlayerManager.FriendlyFire ? 0 : 1;
             hitbox.teamNumber = teamNumber;
             
-            transform.position = PlayerManager.GetSpawnPosition();
+            transform.position = PlayerManager.GetAvailableSpawnPosition();
         }
         
         #region ---OnInputAction---
@@ -159,13 +162,13 @@ namespace Player {
         }
         
         public void CheckIfFlipObject() {
-            if (moveVector.x < 0) _transform.localScale = _transform.localScale.With(x: -1);
-            else if (moveVector.x > 0) _transform.localScale = _transform.localScale.With(x: 1);
+            if (moveVector.x < 0) transform1.localScale = transform1.localScale.With(x: -1);
+            else if (moveVector.x > 0) transform1.localScale = transform1.localScale.With(x: 1);
         }
         
         private void OnDeath() {
-            movementEnabled = false;
-            PlayerManager.PlayerDead(this);
+            if (dead) return;
+            EventBus<GameModeEvent>.Raise(new PlayerDeathEvent(this));
         }
         
         private void DodgeUp() {
@@ -186,7 +189,7 @@ namespace Player {
             movementEnabled = false;
         }
         
-        public DamageInstance GetDamageInstance(AttackAction attackAction) {
+        private DamageInstance GetDamageInstance(AttackAction attackAction) {
             return animator.GetBehaviours<Attack>().ToList().First(behaviour => behaviour.attackAction == attackAction).damageInstance;
         }
         

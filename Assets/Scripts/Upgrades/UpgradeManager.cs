@@ -7,7 +7,7 @@ namespace Upgrades {
     public class UpgradeManager : MonoBehaviour {
         public static readonly List<UpgradesUI> UpgradesUI = new ();
 
-        private static void SetUpgradesUI() {
+        public static void SetUpgradesUI() {
             foreach (var ui in UpgradesUI.Where(u => u.playerScript != null)) {
                 ui.SetRandomUpgrades();
             }

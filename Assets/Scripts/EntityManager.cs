@@ -6,7 +6,7 @@ using Utils;
 public class EntityManager : MonoBehaviour {
     public static readonly List<TestEnemy> TestEnemies = new ();
     
-    private readonly Func<bool> playersExists = () => PlayerManager.AlivePlayersTransforms.Count > 0;
+    private readonly Func<bool> playersExists = () => PlayerManager.AlivePlayers.Count > 0;
     private readonly Func<bool> enemiesExists = () => TestEnemies.Count > 0;
     
     private void Start() {
@@ -21,15 +21,15 @@ public class EntityManager : MonoBehaviour {
             StartCoroutine(EnumeratorFunctions.ActionAfterTime(2, () => e.Attack()));
         }))));
     }
-    
-    public static Vector3 GetTargetPosition(Vector3 position, float range = 3f) {
-        var closestPlayer = PlayerManager.AlivePlayersTransforms[0];
-        for (var index = 1; index < PlayerManager.AlivePlayersTransforms.Count; index++) {
-            if (Vector3.Distance(position, PlayerManager.AlivePlayersTransforms[index].position) < Vector3.Distance(position, closestPlayer.position)) {
-                closestPlayer = PlayerManager.AlivePlayersTransforms[index];
+
+    private static Vector3 GetTargetPosition(Vector3 position, float range = 3f) {
+        var closestPlayer = PlayerManager.AlivePlayers[0];
+        for (var index = 1; index < PlayerManager.AlivePlayers.Count; index++) {
+            if (Vector3.Distance(position, PlayerManager.AlivePlayers[index].transform1.position) < Vector3.Distance(position, closestPlayer.transform1.position)) {
+                closestPlayer = PlayerManager.AlivePlayers[index];
             }
         }
         
-        return closestPlayer.position.WithOffset(position.x > closestPlayer.position.x ? range : -range);
+        return closestPlayer.transform1.position.WithOffset(position.x > closestPlayer.transform1.position.x ? range : -range);
     }
 }

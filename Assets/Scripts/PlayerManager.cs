@@ -5,45 +5,48 @@ using UnityEngine;
 using Utils;
 
 public static class PlayerManager {
-    public static List<Transform> AlivePlayersTransforms = new ();
-    public static List<Transform> AllPlayersTransforms = new ();
-    public static List<PlayerScript> AllPlayersScripts = new ();
+    public static List<PlayerScript> AllPlayers = new ();
+    public static List<PlayerScript> AlivePlayers = new ();
     public static bool FriendlyFire = true;
     
     public static void RegisterPlayer(PlayerScript playerScript) {
-        AllPlayersScripts.Add(playerScript);
-        AllPlayersTransforms.Add(playerScript.transform);
-        AlivePlayersTransforms.Add(playerScript.transform);
+        AllPlayers.Add(playerScript);
+        AlivePlayers.Add(playerScript);
     }
     
     public static void DeregisterPlayer(PlayerScript playerScript) {
-        AllPlayersScripts.Remove(playerScript);
-        AllPlayersTransforms.Remove(playerScript.transform);
-        AlivePlayersTransforms.Remove(playerScript.transform);
+        AllPlayers.Remove(playerScript);
+        AlivePlayers.Remove(playerScript);
     }
     
     public static void DeregisterAllPlayers() {
-        AlivePlayersTransforms = null;
-        AllPlayersTransforms = null;
-        AllPlayersScripts = null;
+        AllPlayers = null;
+        AlivePlayers = null;
     }
     
-    public static void ResetAlivePlayerTransforms() {
-        AlivePlayersTransforms = AllPlayersTransforms;
+    public static void ReviveAllPlayers() {
+        AlivePlayers.Clear();
+        foreach (var playerScript in AllPlayers) {
+            playerScript.dead = false;
+            playerScript.health.Value = playerScript.health.maxValue;
+            AlivePlayers.Add(playerScript);
+        }
     }
     
     public static void PlayerDead(PlayerScript playerScript) {
-        AlivePlayersTransforms.Remove(playerScript.transform);
+        AlivePlayers.Remove(playerScript);
+        playerScript.dead = true;
+        playerScript.movementEnabled = false;
     }
     
-    public static Vector3 GetSpawnPosition() {
-        var gameObject = GameObject.FindWithTag("PlayerSpawnPositions").transform.GetImmediateChildren().First(o => o.activeSelf);
+    public static Vector3 GetAvailableSpawnPosition() {
+        var gameObject = GetSpawnPositions().First(o => o.activeSelf);
         gameObject.SetActive(false);
         return gameObject.transform.position;
     }
     
     public static void ResetAvailableSpawnPositions() {
-        var p = GameObject.FindWithTag("PlayerSpawnPositions").transform.GetImmediateChildren();
+        var p = GetSpawnPositions();
         foreach (var o in p) {
             o.SetActive(true);
         }
@@ -51,8 +54,16 @@ public static class PlayerManager {
     
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.AfterSceneLoad)]
     public static void SetSpawnForPlayers() {
-        foreach (var playerScript in AllPlayersScripts) {
-            playerScript.transform.position = GetSpawnPosition();
+        foreach (var o in GetSpawnPositions()) {
+            o.gameObject.SetActive(true);
         }
+        
+        foreach (var playerScript in AllPlayers) {
+            playerScript.transform.position = GetAvailableSpawnPosition();
+        }
+    }
+
+    private static IEnumerable<GameObject> GetSpawnPositions() {
+        return GameObject.FindWithTag("PlayerSpawnPositions").transform.GetImmediateChildren();
     }
 }

@@ -45,10 +45,20 @@ namespace Player {
     
         public void UpdateHealthBar(float value, float maxValue) {
             healthBar.localScale = healthBar.localScale.With(x: value / maxValue);
+            if (value > 0) {
+                RemoveDeath();
+            }
+            else {
+                ShowDeath();
+            }
         }
-
-        public void ShowDeath() {
+        
+        private void ShowDeath() {
             deathVisual.gameObject.SetActive(true);
+        }
+        
+        private void RemoveDeath() {
+            deathVisual.gameObject.SetActive(false);
         }
     }
 }

@@ -10,7 +10,7 @@ namespace Player {
             
             var playerUIElement = o.GetComponent<PlayerUIElement>();
             
-            playerScript.OnDying += playerUIElement.ShowDeath;
+            // playerScript.OnDying += playerUIElement.ShowDeath;
             
             playerScript.health.OnValueChanged += (value) => playerUIElement.UpdateHealthBar(value, playerScript.health.maxValue);
             playerUIElement.UpdateHealthBar(playerScript.health.Value, playerScript.health.maxValue);

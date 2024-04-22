@@ -1,7 +1,5 @@
-using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using Utils;
 using SceneReference = Eflatun.SceneReference.SceneReference;
 
 public class MainMenu : MonoBehaviour {
@@ -9,8 +7,8 @@ public class MainMenu : MonoBehaviour {
     [SerializeField] private SceneReference gameScene;
     [SerializeField] private SceneReference settingsScene;
     [SerializeField] private SceneReference menuScene;
-    [SerializeField] private SceneReference[] singleAreaScenes;
     [SerializeField] private SceneReference versusModeScene;
+    [SerializeField] private SceneReference endlessModeScene;
 
     [SerializeField] private GameObject versusModeManager;
 
@@ -22,28 +20,22 @@ public class MainMenu : MonoBehaviour {
     }
 
     public void StartStoryMode() {
-        PlayerManager.FriendlyFire = false;
-        //TODO: Start Cutscene
-        
-        SceneManager.LoadScene(playerScene.Name);
-        SceneManager.LoadScene(gameScene.Name, LoadSceneMode.Additive);
+        // TODO: Start Cutscene
+        // SceneManager.LoadScene(playerScene.Name);
+        // SceneManager.LoadScene(gameScene.Name, LoadSceneMode.Additive);
         Destroy(gameObject);
     }
     
     public void StartVersusMode() {
-        PlayerManager.FriendlyFire = true;
         SceneManager.LoadScene(playerScene.Name);
-        SceneManager.LoadScene(singleAreaScenes.GetRandom().Name, LoadSceneMode.Additive);
         SceneManager.LoadScene(versusModeScene.Name, LoadSceneMode.Additive);
         Destroy(gameObject);
     }
     
     public void StartEndlessMode() {
-        PlayerManager.FriendlyFire = false;
-        
-        // SceneManager.LoadScene(playerScene.Name);
-        // SceneManager.LoadScene(endlessModeScenes.Name, LoadSceneMode.Additive);
-        // Destroy(gameObject);
+        SceneManager.LoadScene(playerScene.Name);
+        SceneManager.LoadScene(endlessModeScene.Name, LoadSceneMode.Additive);
+        Destroy(gameObject);
     }
     
     public void SettingsMenu() {
