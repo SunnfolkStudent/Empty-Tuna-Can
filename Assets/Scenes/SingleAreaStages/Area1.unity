@@ -264,9 +264,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camera
       objectReference: {fileID: 0}
-    - target: {fileID: 7043834608431271884, guid: 657df23a4a0e7f644af8662eaf918f1a, type: 3}
-      propertyPath: m_LocalPosition.y
+    - target: {fileID: 2442772544335532982, guid: 657df23a4a0e7f644af8662eaf918f1a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2936095087709748609, guid: 657df23a4a0e7f644af8662eaf918f1a, type: 3}
+      propertyPath: m_Lens.OrthographicSize
+      value: 3.68
+      objectReference: {fileID: 0}
+    - target: {fileID: 3966551548829306030, guid: 657df23a4a0e7f644af8662eaf918f1a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4349571428508060405, guid: 657df23a4a0e7f644af8662eaf918f1a, type: 3}
+      propertyPath: orthographic size
+      value: 3.375
+      objectReference: {fileID: 0}
+    - target: {fileID: 4349571428508060405, guid: 657df23a4a0e7f644af8662eaf918f1a, type: 3}
+      propertyPath: m_NormalizedViewPortRect.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4349571428508060405, guid: 657df23a4a0e7f644af8662eaf918f1a, type: 3}
+      propertyPath: m_NormalizedViewPortRect.height
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -381,6 +401,38 @@ PrefabInstance:
     - target: {fileID: 6326753149128011668, guid: 0002989bf0f70884e92e996f570a76b6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171086010481461521, guid: 0002989bf0f70884e92e996f570a76b6, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171086010481461521, guid: 0002989bf0f70884e92e996f570a76b6, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171086010481461521, guid: 0002989bf0f70884e92e996f570a76b6, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[0].y
+      value: 3.6875
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171086010481461521, guid: 0002989bf0f70884e92e996f570a76b6, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[1].y
+      value: -3.6875
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171086010481461521, guid: 0002989bf0f70884e92e996f570a76b6, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[2].x
+      value: 6.5625
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171086010481461521, guid: 0002989bf0f70884e92e996f570a76b6, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[2].y
+      value: -3.6875
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171086010481461521, guid: 0002989bf0f70884e92e996f570a76b6, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].x
+      value: 6.5625
+      objectReference: {fileID: 0}
+    - target: {fileID: 9171086010481461521, guid: 0002989bf0f70884e92e996f570a76b6, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].y
+      value: 3.6875
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
