@@ -121,27 +121,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: back_2_random_colours (2)_Frame_0
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 4
-      width: 420
-      height: 236
-    spriteID: 2efa29845ed31a9419bfb452b2ed86d4
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
-  - name: back_2_random_colours (2)_Frame_1
+  - name: Casino_Frame_1
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -152,7 +132,7 @@ ScriptedImporter:
       y: 248
       width: 420
       height: 236
-    spriteID: aab51c0f76d9e534d90d17c6dcf3d86f
+    spriteID: c091c567237c1994f8b3aec1dc62e7a7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -161,27 +141,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 248}
-  - name: back_2_random_colours (2)_Frame_2
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 492
-      width: 420
-      height: 236
-    spriteID: 6a10457fdfc8bfe4fa140166b2037737
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 492}
-  - name: back_2_random_colours (2)_Frame_3
+  - name: Casino_Frame_3
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -192,7 +152,7 @@ ScriptedImporter:
       y: 736
       width: 420
       height: 236
-    spriteID: 2c17a8eec86955e4abdbb4d1b4d53e5d
+    spriteID: d1e94edfc48cb324996b620ba742f748
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -201,47 +161,87 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 736}
+  - name: Casino_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 420
+      height: 236
+    spriteID: c08386a60f428534a8c07e51ffa59f83
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Casino_Frame_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 492
+      width: 420
+      height: 236
+    spriteID: 085ebb4e34e2dec489134c40898570a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 492}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1232265627
-    name: back_2_random_colours (2)
+    guid: -1108557375
+    name: Casino
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: back_2_random_colours (2)_Frame_0
+    - name: Casino_Frame_0
       frameIndex: 0
       cellRect:
         x: 0
         y: 0
         width: 420
         height: 236
-      spriteId: 2efa29845ed31a9419bfb452b2ed86d4
-    - name: back_2_random_colours (2)_Frame_1
+      spriteId: c08386a60f428534a8c07e51ffa59f83
+    - name: Casino_Frame_1
       frameIndex: 1
       cellRect:
         x: 0
         y: 0
         width: 420
         height: 236
-      spriteId: aab51c0f76d9e534d90d17c6dcf3d86f
-    - name: back_2_random_colours (2)_Frame_2
+      spriteId: c091c567237c1994f8b3aec1dc62e7a7
+    - name: Casino_Frame_2
       frameIndex: 2
       cellRect:
         x: 0
         y: 0
         width: 420
         height: 236
-      spriteId: 6a10457fdfc8bfe4fa140166b2037737
-    - name: back_2_random_colours (2)_Frame_3
+      spriteId: 085ebb4e34e2dec489134c40898570a6
+    - name: Casino_Frame_3
       frameIndex: 3
       cellRect:
         x: 0
         y: 0
         width: 420
         height: 236
-      spriteId: 2c17a8eec86955e4abdbb4d1b4d53e5d
+      spriteId: d1e94edfc48cb324996b620ba742f748
     linkedCells: []
     parentIndex: -1
   platformSettings:

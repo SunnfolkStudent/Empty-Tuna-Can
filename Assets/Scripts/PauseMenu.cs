@@ -23,22 +23,19 @@ public class PauseMenu : MonoBehaviour {
     }
     
     public static void Pause() => EventBus<PauseMenuEvent>.Raise(new PauseMenuEvent(true));
-    public static void Unpause() => EventBus<PauseMenuEvent>.Raise(new PauseMenuEvent(false));
     
+    public static void Unpause() => EventBus<PauseMenuEvent>.Raise(new PauseMenuEvent(false));
+
     private void SetPauseMenu(PauseMenuEvent iPauseMenuEvent) {
+        if (iPauseMenuEvent.State == false && !UnpauseCondition()) return;
         pauseButtons.SetActive(iPauseMenuEvent.State);
         Time.timeScale = iPauseMenuEvent.State ? 0 : 1;
         PlayerScript.Paused = iPauseMenuEvent.State;
         eventSystem.enabled = iPauseMenuEvent.State;
     }
     
-    public static void Resume() {
-        if (UnpauseCondition()) {
-            Unpause();
-        }
-    }
-
     public static void Settings() {
+        throw new NotImplementedException();
     }
     
     public static void Quit() {

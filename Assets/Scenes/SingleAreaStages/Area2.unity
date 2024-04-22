@@ -264,6 +264,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 7043834608431271884, guid: 657df23a4a0e7f644af8662eaf918f1a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -488,9 +492,105 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1733035474459961148, guid: 397c1ce339434104a878aa7ad768cbb5, type: 3}
+      propertyPath: m_ShapeLightFalloffSize
+      value: 2.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 1733035474459961148, guid: 397c1ce339434104a878aa7ad768cbb5, type: 3}
+      propertyPath: m_LocalBounds.m_Center.x
+      value: -0.014000058
+      objectReference: {fileID: 0}
+    - target: {fileID: 1733035474459961148, guid: 397c1ce339434104a878aa7ad768cbb5, type: 3}
+      propertyPath: m_LocalBounds.m_Center.y
+      value: 0.0516001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1733035474459961148, guid: 397c1ce339434104a878aa7ad768cbb5, type: 3}
+      propertyPath: m_LocalBounds.m_Extent.x
+      value: 2.3788
+      objectReference: {fileID: 0}
+    - target: {fileID: 1733035474459961148, guid: 397c1ce339434104a878aa7ad768cbb5, type: 3}
+      propertyPath: m_LocalBounds.m_Extent.y
+      value: 2.3772001
+      objectReference: {fileID: 0}
+    - target: {fileID: 2886371645342374052, guid: 397c1ce339434104a878aa7ad768cbb5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7699550684527280338, guid: 598562e07f06153418ef1aa2282a132b, type: 3}
+    - target: {fileID: 2886371645342374052, guid: 397c1ce339434104a878aa7ad768cbb5, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575628385164842882, guid: 397c1ce339434104a878aa7ad768cbb5, type: 3}
+      propertyPath: m_ShapeLightFalloffSize
+      value: 2.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575628385164842882, guid: 397c1ce339434104a878aa7ad768cbb5, type: 3}
+      propertyPath: m_LocalBounds.m_Center.x
+      value: -0.014000058
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575628385164842882, guid: 397c1ce339434104a878aa7ad768cbb5, type: 3}
+      propertyPath: m_LocalBounds.m_Center.y
+      value: 0.0516001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575628385164842882, guid: 397c1ce339434104a878aa7ad768cbb5, type: 3}
+      propertyPath: m_LocalBounds.m_Extent.x
+      value: 2.3788
+      objectReference: {fileID: 0}
+    - target: {fileID: 4575628385164842882, guid: 397c1ce339434104a878aa7ad768cbb5, type: 3}
+      propertyPath: m_LocalBounds.m_Extent.y
+      value: 2.3772001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4762553300485648941, guid: 397c1ce339434104a878aa7ad768cbb5, type: 3}
+      propertyPath: m_ShapeLightFalloffSize
+      value: 2.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 4762553300485648941, guid: 397c1ce339434104a878aa7ad768cbb5, type: 3}
+      propertyPath: m_LocalBounds.m_Center.x
+      value: -0.014000058
+      objectReference: {fileID: 0}
+    - target: {fileID: 4762553300485648941, guid: 397c1ce339434104a878aa7ad768cbb5, type: 3}
+      propertyPath: m_LocalBounds.m_Center.y
+      value: 0.0516001
+      objectReference: {fileID: 0}
+    - target: {fileID: 4762553300485648941, guid: 397c1ce339434104a878aa7ad768cbb5, type: 3}
+      propertyPath: m_LocalBounds.m_Extent.x
+      value: 2.3788
+      objectReference: {fileID: 0}
+    - target: {fileID: 4762553300485648941, guid: 397c1ce339434104a878aa7ad768cbb5, type: 3}
+      propertyPath: m_LocalBounds.m_Extent.y
+      value: 2.3772001
+      objectReference: {fileID: 0}
     - target: {fileID: 6048594410125653619, guid: 397c1ce339434104a878aa7ad768cbb5, type: 3}
       propertyPath: m_Name
       value: Casino
+      objectReference: {fileID: 0}
+    - target: {fileID: 6232192915954493281, guid: 397c1ce339434104a878aa7ad768cbb5, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7368509622876112564, guid: 397c1ce339434104a878aa7ad768cbb5, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9006290652272678275, guid: 397c1ce339434104a878aa7ad768cbb5, type: 3}
+      propertyPath: m_ShapeLightFalloffSize
+      value: 2.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 9006290652272678275, guid: 397c1ce339434104a878aa7ad768cbb5, type: 3}
+      propertyPath: m_LocalBounds.m_Center.x
+      value: -0.014000058
+      objectReference: {fileID: 0}
+    - target: {fileID: 9006290652272678275, guid: 397c1ce339434104a878aa7ad768cbb5, type: 3}
+      propertyPath: m_LocalBounds.m_Center.y
+      value: 0.0516001
+      objectReference: {fileID: 0}
+    - target: {fileID: 9006290652272678275, guid: 397c1ce339434104a878aa7ad768cbb5, type: 3}
+      propertyPath: m_LocalBounds.m_Extent.x
+      value: 2.3788
+      objectReference: {fileID: 0}
+    - target: {fileID: 9006290652272678275, guid: 397c1ce339434104a878aa7ad768cbb5, type: 3}
+      propertyPath: m_LocalBounds.m_Extent.y
+      value: 2.3772001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

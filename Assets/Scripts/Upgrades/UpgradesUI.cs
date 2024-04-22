@@ -14,6 +14,8 @@ namespace Upgrades {
             foreach (var upgradeSlot in upgradeSlots) {
                 upgradeSlot.upgradeUI = this;
             }
+            
+            eventSystem.gameObject.SetActive(false);
         }
         
         private void ShowUpgrades() {
