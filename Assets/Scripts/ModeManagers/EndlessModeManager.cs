@@ -64,9 +64,7 @@ namespace ModeManagers {
             switch (gameModeEvent) {
                 case PlayerDeathEvent playerDeathEvent:
                     PlayerManager.PlayerDead(playerDeathEvent.PlayerScript);
-                    if (PlayerManager.AlivePlayers.Count == 0) {
-                        SceneManager.LoadScene(gameOverScene.Name);
-                    }
+                    if (PlayerManager.AlivePlayers.Count == 0) SceneManager.LoadScene(gameOverScene.Name);
                     break;
                 case WaveOver:
                     StartNextWave();

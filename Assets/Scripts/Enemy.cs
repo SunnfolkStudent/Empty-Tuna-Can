@@ -11,6 +11,7 @@ public class Enemy : Damageable {
     [SerializeField] private Hitbox hitbox;
     
     public bool canMove = true;
+    [Tooltip("Lower number means more agile")]
     [SerializeField] private float agility = 5f;
     
     private Vector3 direction;
@@ -25,10 +26,11 @@ public class Enemy : Damageable {
     private void OnDisable() {
         EntityManager.EnemyDeath(this);
     }
-
+    
     private void Start() {
-        StartCoroutine(EnumeratorFunctions.ActionAfterTime(Random.Range(0f, agility), () => {
-            StartCoroutine(EnumeratorFunctions.ActionAtInterval(Random.Range(0f, agility), () => {
+        agility = Random.Range(agility, 3 * agility);
+        StartCoroutine(EnumeratorFunctions.ActionAfterTime(agility, () => {
+            StartCoroutine(EnumeratorFunctions.ActionAtInterval(agility, () => {
                 canMove = !canMove;
             }));
         }));
