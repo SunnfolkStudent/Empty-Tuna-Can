@@ -35,6 +35,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameModeManagers/EndlessMode.unity
     guid: 360489d5148e45e48b4c67d65604bed2
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: ce83beaebf0df9343a4d68b63b180285
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: ccc24c46258a26d4c89276d7591637f0, type: 2}
   m_UseUCBPForAssetBundles: 0

@@ -107,8 +107,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health:
     minValue: 0
-    maxValue: 10
-    value: 10
+    maxValue: 50
+    value: 50
   invincibilityFrames: 0.5
   staggerResistance: 2
   heightIndex: 0
@@ -128,8 +128,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f71f2163ed1c5744966a044883109e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  verticalSpeed: 1
-  horizontalSpeed: 2
+  verticalSpeed: 0.5
+  horizontalSpeed: 1
 --- !u!114 &7501283263995119346
 MonoBehaviour:
   m_ObjectHideFlags: 0
