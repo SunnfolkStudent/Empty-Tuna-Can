@@ -20,7 +20,6 @@ namespace Utils.Entity {
         
         public void HandleTakeDamage(DamageInstance damageInstance) {
             if (!_canTakeDamage) return;
-            Debug.Log("takeDamage", gameObject);
             
             TakeDamage(damageInstance.damage);
             damageInstance.StatusEffect?.Apply(this);

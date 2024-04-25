@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using SceneReference = Eflatun.SceneReference.SceneReference;
@@ -22,8 +21,6 @@ public class MainMenu : MonoBehaviour {
     }
     
     public void StartStoryMode() {
-        throw new NotImplementedException();
-        
         // TODO: Start Cutscene
         // SceneManager.LoadScene(playerScene.Name);
         // SceneManager.LoadScene(storyModeScene.Name, LoadSceneMode.Additive);
@@ -51,12 +48,14 @@ public class MainMenu : MonoBehaviour {
         SceneManager.LoadScene(howToPlayScene.Name);
         Destroy(gameObject);
     }
-
+    
     public void QuitGame() {
         Application.Quit();
     }
     
     public void BackToMenu() {
         SceneManager.LoadScene(menuScene.Name);
+        PlayerManager.DeregisterAllPlayers();
+        Destroy(gameObject);
     }
 }

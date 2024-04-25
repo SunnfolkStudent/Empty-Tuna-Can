@@ -116,7 +116,6 @@ namespace ModeManagers {
             if (_enemySpawnPositions == null) SetEnemySpawnPositions();
             var spawnPos = _enemySpawnPositions.GetRandom().position;
             Instantiate(enemyType.prefab, spawnPos, quaternion.identity);
-            Debug.Log("Spawn: " + enemyType.prefab.name + " at: " + spawnPos);
         }
     }
 }

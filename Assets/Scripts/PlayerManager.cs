@@ -20,8 +20,8 @@ public static class PlayerManager {
     }
     
     public static void DeregisterAllPlayers() {
-        AllPlayers = null;
-        AlivePlayers = null;
+        AllPlayers.Clear();
+        AlivePlayers.Clear();
     }
     
     public static void ReviveAllPlayers() {
