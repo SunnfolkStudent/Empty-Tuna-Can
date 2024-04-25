@@ -90,8 +90,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health:
     minValue: 0
-    maxValue: 25
-    value: 25
+    maxValue: 30
+    value: 30
   invincibilityFrames: 0.5
   staggerResistance: 0
   heightIndex: 0
@@ -418,7 +418,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5835297728010606002, guid: 5f8ee42a75fd7744c9be9c4b29aca615, type: 3}
       propertyPath: damageInstance.damage
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5835297728010606002, guid: 5f8ee42a75fd7744c9be9c4b29aca615, type: 3}
       propertyPath: damageInstance.stagger

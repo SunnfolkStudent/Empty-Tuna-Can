@@ -136,6 +136,7 @@ MonoBehaviour:
   teamNumber: 0
   height: 0
   damage: 0
+  stagger: 0
 --- !u!61 &7901080508093800717
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -170,7 +171,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.014644504}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: -0.07692308}
@@ -180,7 +181,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.77, y: 0.22}
+  m_Size: {x: 1.77, y: 0.48360097}
   m_EdgeRadius: 0
 --- !u!95 &1649199647240651720
 Animator:

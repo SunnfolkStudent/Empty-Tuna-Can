@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using UnityEngine;
 using Utils;
-using Utils.Entity;
 
 namespace Entities {
     public abstract class Damageable : MonoBehaviour {
@@ -58,6 +57,10 @@ namespace Entities {
         
         public void HandleBurn(Burn burn) {
             StartCoroutine(TakeBurnDamage(burn));
+        }
+
+        public void StopStatusEffects() {
+            StopAllCoroutines();
         }
         
         private IEnumerator TakeBurnDamage(Burn burn) {

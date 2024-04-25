@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 986f80dd9c55406a8bb2053d6bbf1d78, type: 3}
   m_Name: DamageUpgrade 1
   m_EditorClassIdentifier: 
-  name: LightAttack1DamageUpgradeMajor
+  upgradeName: DamageUpMajorLightAttack1
   attackAction: 0
   damageIncrease: 10

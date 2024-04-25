@@ -29,6 +29,7 @@ namespace Entities.Player {
             foreach (var playerScript in AllPlayers) {
                 playerScript.dead = false;
                 playerScript.health.Value = playerScript.health.maxValue;
+                playerScript.StopStatusEffects();
                 AlivePlayers.Add(playerScript);
             }
         }

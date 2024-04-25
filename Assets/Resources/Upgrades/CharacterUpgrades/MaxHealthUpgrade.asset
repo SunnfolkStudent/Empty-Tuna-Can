@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 947d37174cd04c98bb33fd319d63b45c, type: 3}
   m_Name: MaxHealthUpgrade
   m_EditorClassIdentifier: 
-  name: MaxHealthUpgradeMinor
-  maxHealthIncrease: 10
+  upgradeName: MaxHealthUpgradeMinor
+  maxHealthIncrease: 15

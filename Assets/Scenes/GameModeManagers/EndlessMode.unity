@@ -262,58 +262,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 911321255213466210, guid: e69ddfd204535e245a158897ff3fb44b, type: 3}
-      propertyPath: m_Name
-      value: WaveCounter
-      objectReference: {fileID: 0}
     - target: {fileID: 2882567139696891729, guid: e69ddfd204535e245a158897ff3fb44b, type: 3}
       propertyPath: m_Name
       value: EndlessModeManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 2970442106545397598, guid: e69ddfd204535e245a158897ff3fb44b, type: 3}
-      propertyPath: m_text
-      value: 'Wave: 0'
-      objectReference: {fileID: 0}
-    - target: {fileID: 2970442106545397598, guid: e69ddfd204535e245a158897ff3fb44b, type: 3}
-      propertyPath: m_fontSize
-      value: 65.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2970442106545397598, guid: e69ddfd204535e245a158897ff3fb44b, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: 4ecf1082c0d7c6f49a1484ae4e352013, type: 2}
-    - target: {fileID: 2970442106545397598, guid: e69ddfd204535e245a158897ff3fb44b, type: 3}
-      propertyPath: m_fontSizeBase
-      value: 65.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2970442106545397598, guid: e69ddfd204535e245a158897ff3fb44b, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: -2644475807352887312, guid: 4ecf1082c0d7c6f49a1484ae4e352013, type: 2}
-    - target: {fileID: 2970442106545397598, guid: e69ddfd204535e245a158897ff3fb44b, type: 3}
-      propertyPath: m_VerticalAlignment
-      value: 512
-      objectReference: {fileID: 0}
-    - target: {fileID: 2970442106545397598, guid: e69ddfd204535e245a158897ff3fb44b, type: 3}
-      propertyPath: m_HorizontalAlignment
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2970442106545397598, guid: e69ddfd204535e245a158897ff3fb44b, type: 3}
-      propertyPath: m_hasFontAssetChanged
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3066574836711313578, guid: e69ddfd204535e245a158897ff3fb44b, type: 3}
       propertyPath: enemySpawnPosition
       value: 
       objectReference: {fileID: 2034631691}
-    - target: {fileID: 3066574836711313578, guid: e69ddfd204535e245a158897ff3fb44b, type: 3}
-      propertyPath: enemies.Array.data[0].spawnProbability
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 3066574836711313578, guid: e69ddfd204535e245a158897ff3fb44b, type: 3}
-      propertyPath: enemies.Array.data[1].spawnProbability
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 7789517402953658399, guid: e69ddfd204535e245a158897ff3fb44b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.9515043
@@ -353,22 +309,6 @@ PrefabInstance:
     - target: {fileID: 7789517402953658399, guid: e69ddfd204535e245a158897ff3fb44b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8395764240488921539, guid: e69ddfd204535e245a158897ff3fb44b, type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 678.2015
-      objectReference: {fileID: 0}
-    - target: {fileID: 8395764240488921539, guid: e69ddfd204535e245a158897ff3fb44b, type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 100.4755
-      objectReference: {fileID: 0}
-    - target: {fileID: 8395764240488921539, guid: e69ddfd204535e245a158897ff3fb44b, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 386.3507
-      objectReference: {fileID: 0}
-    - target: {fileID: 8395764240488921539, guid: e69ddfd204535e245a158897ff3fb44b, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -283.63782
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

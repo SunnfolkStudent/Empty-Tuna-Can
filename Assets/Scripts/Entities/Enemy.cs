@@ -38,6 +38,7 @@ namespace Entities {
         }
     
         private void Update() {
+            animator.SetFloat(Speed, 0);
             if (!canMove) return;
             MoveToPosition();
         }
@@ -47,7 +48,7 @@ namespace Entities {
             if (position == default) return;
             CheckIfFlipObject(position.playerPos);
             direction = (position.targetPos - transform.position).normalized;
-        
+            
             entityMovement.MoveInDirection(direction);
             animator.SetFloat(Speed, direction.magnitude);
         
@@ -84,6 +85,7 @@ namespace Entities {
         protected override void Stagger() {
             if (animator.GetCurrentAnimationClip().name == "Death") return;
             animator.Play("Hit");
+            canMove = false;
         }
     }
 }

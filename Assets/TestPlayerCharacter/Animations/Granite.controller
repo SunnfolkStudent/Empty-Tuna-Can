@@ -8,7 +8,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: HeavyAttack1
-  m_Speed: 0.6
+  m_Speed: 0.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 318755675054389127}
@@ -24,7 +24,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: c8b4c653847d37640a9151b545e2ac5c, type: 2}
+  m_Motion: {fileID: 7400000, guid: b82e0ebea97ee5a4d84fe3475303f252, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canMoveDuring: 0
-  staggerResistanceBonusDuringAttack: 1
+  staggerResistanceBonusDuringAttack: 0
   attackAction: 3
   damageInstance:
     damage: 10
@@ -308,7 +308,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: f6b188d4fbc26c541a9cd405e64c8b52, type: 2}
+  m_Motion: {fileID: 7400000, guid: 8dcf2361d91b892479de60cfdab10b49, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -512,7 +512,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: HeavyAttack2
-  m_Speed: 0.6
+  m_Speed: 0.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -8848723372945716773}
@@ -528,7 +528,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: b82e0ebea97ee5a4d84fe3475303f252, type: 2}
+  m_Motion: {fileID: 7400000, guid: c8b4c653847d37640a9151b545e2ac5c, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -580,7 +580,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: HeavyAttack3
-  m_Speed: 0.6
+  m_Speed: 0.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -2458445737222461855}
@@ -918,7 +918,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canMoveDuring: 0
-  staggerResistanceBonusDuringAttack: 1
+  staggerResistanceBonusDuringAttack: 0
   attackAction: 4
   damageInstance:
     damage: 10
@@ -1279,7 +1279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canMoveDuring: 0
-  staggerResistanceBonusDuringAttack: 2
+  staggerResistanceBonusDuringAttack: 1
   attackAction: 7
   damageInstance:
     damage: 15
@@ -1410,7 +1410,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Walk
-  m_Speed: 3.46
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 6330034634618111415}
@@ -1833,10 +1833,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canMoveDuring: 0
-  staggerResistanceBonusDuringAttack: 1
+  staggerResistanceBonusDuringAttack: 0
   attackAction: 5
   damageInstance:
-    damage: 20
+    damage: 15
     stagger: 2
     statusEffect: 0
     freezeProperties:

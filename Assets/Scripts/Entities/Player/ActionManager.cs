@@ -52,7 +52,7 @@ namespace Entities.Player {
         }
    
         public void ReceiveCombatInput(CombatInput combatInput) {
-            if (combatInput == CombatInput.None) return;
+            if (combatInput == CombatInput.None || PlayerScript.Paused) return;
         
             _combatInputTimer.StopTimer();
             _combatInputTimer.StartTimer(inputBuffer);

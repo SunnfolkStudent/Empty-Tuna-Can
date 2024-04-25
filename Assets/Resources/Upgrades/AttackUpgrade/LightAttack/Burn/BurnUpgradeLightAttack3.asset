@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f20ea46ac54588a99e4d84cff6d500, type: 3}
   m_Name: BurnUpgradeLightAttack3
   m_EditorClassIdentifier: 
-  upgradeName: BurnUpgradeLightAttackMajor
+  upgradeName: BurnUpgradeLightAttack3
   attackAction: 2
-  damageIncrease: 2
+  damageIncrease: 4
   durationIncrease: 2
   damageFrequencyIncrease: 2

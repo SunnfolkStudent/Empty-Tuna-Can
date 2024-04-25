@@ -1,0 +1,1143 @@
+fileFormatVersion: 2
+guid: 3a2630665c5931a428081052eb999707
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 32
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638496718975636516
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Crab_1_1-Recovered_Frame_1
+    originalName: 
+    pivot: {x: 0.27173913, y: -0.011904762}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 713
+      width: 92
+      height: 84
+    spriteID: 330c27f1c049b3345bb76c148fda370f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 713}
+  - name: Crab_1_1-Recovered_Frame_3
+    originalName: 
+    pivot: {x: 0.26136363, y: -0.011494253}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 897
+      width: 88
+      height: 87
+    spriteID: 2992df9d6c024fd42bfde17e1e1fca36
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 897}
+  - name: Crab_1_1-Recovered_Frame_4
+    originalName: 
+    pivot: {x: 0.22784811, y: -0.011494253}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 283
+      y: 276
+      width: 79
+      height: 87
+    spriteID: bc1a5bb91d4444e47a6f2782cb3ec2b5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 283, y: 276}
+  - name: Crab_1_1-Recovered_Frame_5
+    originalName: 
+    pivot: {x: 0.3012048, y: -0.01010101}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 414
+      width: 83
+      height: 99
+    spriteID: fa735aaf2d7f1d9458932755fbfbe9e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 414}
+  - name: Crab_1_1-Recovered_Frame_6
+    originalName: 
+    pivot: {x: 0.3255814, y: -0.01010101}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 119
+      width: 86
+      height: 99
+    spriteID: bfcf22b2cb1f5324f8bef64c11fbb048
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 119}
+  - name: Crab_1_1-Recovered_Frame_7
+    originalName: 
+    pivot: {x: 0.3255814, y: -0.010989011}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 614
+      width: 86
+      height: 91
+    spriteID: 9f1b8e81df1ee4b43a453843cce18fca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 614}
+  - name: Crab_1_1-Recovered_Frame_8
+    originalName: 
+    pivot: {x: 0.35555556, y: -0.01010101}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 845
+      width: 90
+      height: 99
+    spriteID: a57e0f53cb66cca4687560685b383891
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 845}
+  - name: Crab_1_1-Recovered_Frame_9
+    originalName: 
+    pivot: {x: 0.3763441, y: -0.010204081}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 739
+      width: 93
+      height: 98
+    spriteID: dce2840752f949c4c94f2af227fe06a6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 739}
+  - name: Crab_1_1-Recovered_Frame_0
+    originalName: 
+    pivot: {x: 0.27173913, y: -0.012048192}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 283
+      y: 4
+      width: 92
+      height: 83
+    spriteID: 8db1add05ceeae649b87ac6e0ac543c7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 283, y: 4}
+  - name: Crab_1_1-Recovered_Frame_2
+    originalName: 
+    pivot: {x: 0.27173913, y: -0.0121951215}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 283
+      y: 186
+      width: 92
+      height: 82
+    spriteID: 186246216885c644abe6f5075163e323
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 283, y: 186}
+  - name: Crab_1_1-Recovered_Frame_10
+    originalName: 
+    pivot: {x: 0.43089435, y: -0.012048192}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 436
+      width: 123
+      height: 83
+    spriteID: b431f5017885da440a10ae363f868680
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 436}
+  - name: Crab_1_1-Recovered_Frame_11
+    originalName: 
+    pivot: {x: 0.32999998, y: -0.012048192}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 323
+      width: 100
+      height: 83
+    spriteID: 4b88d8ded9a4b534fadee9d84a105f49
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 323}
+  - name: Crab_1_1-Recovered_Frame_12
+    originalName: 
+    pivot: {x: 0.25242716, y: -0.010204081}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 527
+      width: 103
+      height: 98
+    spriteID: 8d5ce7061e62c8945bf35ff32dfc3618
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 527}
+  - name: Crab_1_1-Recovered_Frame_13
+    originalName: 
+    pivot: {x: 0.30555555, y: -0.010204081}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 330
+      width: 108
+      height: 98
+    spriteID: 57ae760863894574b885b971a579f9dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 330}
+  - name: Crab_1_1-Recovered_Frame_14
+    originalName: 
+    pivot: {x: 0.26595744, y: -0.011235955}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 226
+      width: 94
+      height: 89
+    spriteID: 5fe1175f9da16454b8431ff3a8233c7f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 226}
+  - name: Crab_1_1-Recovered_Frame_15
+    originalName: 
+    pivot: {x: 0.25242716, y: -0.010204081}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 633
+      width: 103
+      height: 98
+    spriteID: 7f70f445ceec6e04cb07d4c0a6d44592
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 633}
+  - name: Crab_1_1-Recovered_Frame_16
+    originalName: 
+    pivot: {x: 0.27499998, y: -0.00990099}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 221
+      width: 120
+      height: 101
+    spriteID: d2a2bbd948cbe8a4396acf1956d32c07
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 221}
+  - name: Crab_1_1-Recovered_Frame_17
+    originalName: 
+    pivot: {x: 0.2923077, y: -0.009345794}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 130
+      height: 107
+    spriteID: d21e4a225928a384fb37169d0cec3c6a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Crab_1_1-Recovered_Frame_18
+    originalName: 
+    pivot: {x: 0.31578946, y: -0.00990099}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 4
+      width: 133
+      height: 101
+    spriteID: d1892e28d6c665c4c9cfc641d3363155
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 4}
+  - name: Crab_1_1-Recovered_Frame_19
+    originalName: 
+    pivot: {x: 0.31578946, y: -0.01}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 113
+      width: 133
+      height: 100
+    spriteID: 0769de1b4c6cc5c4bafb74cdfcfa665e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 113}
+  - name: Crab_1_1-Recovered_Frame_20
+    originalName: 
+    pivot: {x: -0.25714296, y: -2.15625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 614
+      width: 35
+      height: 32
+    spriteID: c2a5a645c1d76d543a4e6528e3e25a29
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 614}
+  - name: Crab_1_1-Recovered_Frame_21
+    originalName: 
+    pivot: {x: -0.25714296, y: -2.15625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 654
+      width: 35
+      height: 32
+    spriteID: b8615f30b1c8c6a44a71d4c8b18d028d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 654}
+  - name: Crab_1_1-Recovered_Frame_22
+    originalName: 
+    pivot: {x: -0.25714296, y: -2.15625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 845
+      width: 35
+      height: 32
+    spriteID: 571076f966a671446a7b376b31a4c8d9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 240, y: 845}
+  - name: Crab_1_1-Recovered_Frame_23
+    originalName: 
+    pivot: {x: -0.25714296, y: -2.15625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 885
+      width: 35
+      height: 32
+    spriteID: 8d2e2a58bf1cc2748b55bb1288e64fc9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 240, y: 885}
+  - name: Crab_1_1-Recovered_Frame_24
+    originalName: 
+    pivot: {x: -0.25714296, y: -2.15625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 119
+      width: 35
+      height: 32
+    spriteID: b9682ba7af02c0247bfb64d7038415ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 119}
+  - name: Crab_1_1-Recovered_Frame_25
+    originalName: 
+    pivot: {x: -0.25714296, y: -2.15625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 159
+      width: 35
+      height: 32
+    spriteID: 713f7953304f4f54d847651b21d11d99
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 159}
+  - name: Crab_1_1-Recovered_Frame_26
+    originalName: 
+    pivot: {x: -0.25714296, y: -2.15625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 95
+      y: 414
+      width: 35
+      height: 32
+    spriteID: 7661833cd7c355b408036fccded6a7cd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 95, y: 414}
+  - name: Crab_1_1-Recovered_Frame_27
+    originalName: 
+    pivot: {x: 0.021276591, y: -0.9090909}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 283
+      y: 371
+      width: 47
+      height: 55
+    spriteID: 89827937e74ed6447be6274c5db0c3fa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 283, y: 371}
+  - name: Crab_1_1-Recovered_Frame_28
+    originalName: 
+    pivot: {x: 0.07407406, y: -0.7419355}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 210
+      y: 952
+      width: 54
+      height: 62
+    spriteID: 3afb6beef64693c4dbeb7fe8ed1ae715
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 210, y: 952}
+  - name: Crab_1_1-Recovered_Frame_29
+    originalName: 
+    pivot: {x: 0.1333333, y: -0.765625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 952
+      width: 60
+      height: 64
+    spriteID: e2541158ed560c64e88019c1ebd74de9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 142, y: 952}
+  - name: Crab_1_1-Recovered_Frame_31
+    originalName: 
+    pivot: {x: 0.30107525, y: -0.011764706}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 521
+      width: 93
+      height: 85
+    spriteID: ba8dede6c9734044da414e4575fd035a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 521}
+  - name: Crab_1_1-Recovered_Frame_32
+    originalName: 
+    pivot: {x: 0.31578946, y: -0.013157895}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 383
+      y: 4
+      width: 95
+      height: 76
+    spriteID: 62cc2f57b755a0a428a08b0cff80a508
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 383, y: 4}
+  - name: Crab_1_1-Recovered_Frame_33
+    originalName: 
+    pivot: {x: 0.29347825, y: -0.024096385}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 283
+      y: 95
+      width: 92
+      height: 83
+    spriteID: e9886fa8d58c61948a960b7cb52370ce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 283, y: 95}
+  - name: Crab_1_1-Recovered_Frame_34
+    originalName: 
+    pivot: {x: 0.31578946, y: -0.013157895}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 383
+      y: 88
+      width: 95
+      height: 76
+    spriteID: f1eeb19058d08eb43a6f45f1940c407b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 383, y: 88}
+  - name: Crab_1_1-Recovered_Frame_35
+    originalName: 
+    pivot: {x: 0.29347825, y: -0.011904762}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 805
+      width: 92
+      height: 84
+    spriteID: 14a657c8a7c7cc24ba0988931d6e4769
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 805}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 736526532
+    name: Crab_1_1-Recovered
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Crab_1_1-Recovered_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 67
+        y: 1
+        width: 92
+        height: 84
+      spriteId: 330c27f1c049b3345bb76c148fda370f
+    - name: Crab_1_1-Recovered_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 69
+        y: 1
+        width: 88
+        height: 87
+      spriteId: 2992df9d6c024fd42bfde17e1e1fca36
+    - name: Crab_1_1-Recovered_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 74
+        y: 1
+        width: 79
+        height: 87
+      spriteId: bc1a5bb91d4444e47a6f2782cb3ec2b5
+    - name: Crab_1_1-Recovered_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 67
+        y: 1
+        width: 83
+        height: 99
+      spriteId: fa735aaf2d7f1d9458932755fbfbe9e6
+    - name: Crab_1_1-Recovered_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 64
+        y: 1
+        width: 86
+        height: 99
+      spriteId: bfcf22b2cb1f5324f8bef64c11fbb048
+    - name: Crab_1_1-Recovered_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 64
+        y: 1
+        width: 86
+        height: 91
+      spriteId: 9f1b8e81df1ee4b43a453843cce18fca
+    - name: Crab_1_1-Recovered_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 60
+        y: 1
+        width: 90
+        height: 99
+      spriteId: a57e0f53cb66cca4687560685b383891
+    - name: Crab_1_1-Recovered_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 57
+        y: 1
+        width: 93
+        height: 98
+      spriteId: dce2840752f949c4c94f2af227fe06a6
+    - name: Crab_1_1-Recovered_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 67
+        y: 1
+        width: 92
+        height: 83
+      spriteId: 8db1add05ceeae649b87ac6e0ac543c7
+    - name: Crab_1_1-Recovered_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 67
+        y: 1
+        width: 92
+        height: 82
+      spriteId: 186246216885c644abe6f5075163e323
+    - name: Crab_1_1-Recovered_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 39
+        y: 1
+        width: 123
+        height: 83
+      spriteId: b431f5017885da440a10ae363f868680
+    - name: Crab_1_1-Recovered_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 59
+        y: 1
+        width: 100
+        height: 83
+      spriteId: 4b88d8ded9a4b534fadee9d84a105f49
+    - name: Crab_1_1-Recovered_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 66
+        y: 1
+        width: 103
+        height: 98
+      spriteId: 8d5ce7061e62c8945bf35ff32dfc3618
+    - name: Crab_1_1-Recovered_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 59
+        y: 1
+        width: 108
+        height: 98
+      spriteId: 57ae760863894574b885b971a579f9dc
+    - name: Crab_1_1-Recovered_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 67
+        y: 1
+        width: 94
+        height: 89
+      spriteId: 5fe1175f9da16454b8431ff3a8233c7f
+    - name: Crab_1_1-Recovered_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 66
+        y: 1
+        width: 103
+        height: 98
+      spriteId: 7f70f445ceec6e04cb07d4c0a6d44592
+    - name: Crab_1_1-Recovered_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 59
+        y: 1
+        width: 120
+        height: 101
+      spriteId: d2a2bbd948cbe8a4396acf1956d32c07
+    - name: Crab_1_1-Recovered_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 54
+        y: 1
+        width: 130
+        height: 107
+      spriteId: d21e4a225928a384fb37169d0cec3c6a
+    - name: Crab_1_1-Recovered_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 50
+        y: 1
+        width: 133
+        height: 101
+      spriteId: d1892e28d6c665c4c9cfc641d3363155
+    - name: Crab_1_1-Recovered_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 50
+        y: 1
+        width: 133
+        height: 100
+      spriteId: 0769de1b4c6cc5c4bafb74cdfcfa665e
+    - name: Crab_1_1-Recovered_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 101
+        y: 69
+        width: 35
+        height: 32
+      spriteId: c2a5a645c1d76d543a4e6528e3e25a29
+    - name: Crab_1_1-Recovered_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 101
+        y: 69
+        width: 35
+        height: 32
+      spriteId: b8615f30b1c8c6a44a71d4c8b18d028d
+    - name: Crab_1_1-Recovered_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 101
+        y: 69
+        width: 35
+        height: 32
+      spriteId: 571076f966a671446a7b376b31a4c8d9
+    - name: Crab_1_1-Recovered_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 101
+        y: 69
+        width: 35
+        height: 32
+      spriteId: 8d2e2a58bf1cc2748b55bb1288e64fc9
+    - name: Crab_1_1-Recovered_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 101
+        y: 69
+        width: 35
+        height: 32
+      spriteId: b9682ba7af02c0247bfb64d7038415ef
+    - name: Crab_1_1-Recovered_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 101
+        y: 69
+        width: 35
+        height: 32
+      spriteId: 713f7953304f4f54d847651b21d11d99
+    - name: Crab_1_1-Recovered_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 101
+        y: 69
+        width: 35
+        height: 32
+      spriteId: 7661833cd7c355b408036fccded6a7cd
+    - name: Crab_1_1-Recovered_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 91
+        y: 50
+        width: 47
+        height: 55
+      spriteId: 89827937e74ed6447be6274c5db0c3fa
+    - name: Crab_1_1-Recovered_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 88
+        y: 46
+        width: 54
+        height: 62
+      spriteId: 3afb6beef64693c4dbeb7fe8ed1ae715
+    - name: Crab_1_1-Recovered_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 84
+        y: 49
+        width: 60
+        height: 64
+      spriteId: e2541158ed560c64e88019c1ebd74de9
+    - name: Crab_1_1-Recovered_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 64
+        y: 1
+        width: 93
+        height: 85
+      spriteId: ba8dede6c9734044da414e4575fd035a
+    - name: Crab_1_1-Recovered_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 62
+        y: 1
+        width: 95
+        height: 76
+      spriteId: 62cc2f57b755a0a428a08b0cff80a508
+    - name: Crab_1_1-Recovered_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 65
+        y: 2
+        width: 92
+        height: 83
+      spriteId: e9886fa8d58c61948a960b7cb52370ce
+    - name: Crab_1_1-Recovered_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 62
+        y: 1
+        width: 95
+        height: 76
+      spriteId: f1eeb19058d08eb43a6f45f1940c407b
+    - name: Crab_1_1-Recovered_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 65
+        y: 1
+        width: 92
+        height: 84
+      spriteId: 14a657c8a7c7cc24ba0988931d6e4769
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 184, y: 128}

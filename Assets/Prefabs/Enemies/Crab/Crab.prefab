@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 3055668776447957223}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.87, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -139,10 +139,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health:
     minValue: 0
-    maxValue: 50
-    value: 50
+    maxValue: 100
+    value: 100
   invincibilityFrames: 0.5
-  staggerResistance: 2
+  staggerResistance: 1
   heightIndex: 0
   teamNumber: 0
   animator: {fileID: 6817108768438100948}
@@ -258,6 +258,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 5259857894651751317}
     m_Modifications:
     - target: {fileID: 3282161613126948841, guid: 5f8ee42a75fd7744c9be9c4b29aca615, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.645883
+      objectReference: {fileID: 0}
+    - target: {fileID: 3282161613126948841, guid: 5f8ee42a75fd7744c9be9c4b29aca615, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.51
       objectReference: {fileID: 0}
@@ -267,7 +271,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3282161613126948841, guid: 5f8ee42a75fd7744c9be9c4b29aca615, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.019221801
+      value: 0.0192218
       objectReference: {fileID: 0}
     - target: {fileID: 3282161613126948841, guid: 5f8ee42a75fd7744c9be9c4b29aca615, type: 3}
       propertyPath: m_LocalRotation.w
@@ -311,7 +315,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5835297728010606002, guid: 5f8ee42a75fd7744c9be9c4b29aca615, type: 3}
       propertyPath: damageInstance.damage
-      value: 10
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 5835297728010606002, guid: 5f8ee42a75fd7744c9be9c4b29aca615, type: 3}
       propertyPath: damageInstance.stagger
