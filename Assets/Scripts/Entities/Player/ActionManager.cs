@@ -6,7 +6,7 @@ using StateMachineBehaviourScripts;
 using UnityEngine;
 using Utils;
 
-namespace Player {
+namespace Entities.Player {
     public class ActionManager : MonoBehaviour {
         [SerializeField] private float inputBuffer = 0.25f;
     

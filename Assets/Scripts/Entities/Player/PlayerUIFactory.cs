@@ -2,7 +2,7 @@ using System.Linq;
 using UnityEngine;
 using Utils;
 
-namespace Player {
+namespace Entities.Player {
     public static class PlayerUIFactory {
         public static void CreatePlayerUI(PlayerScript playerScript) {
             var o = GameObject.FindWithTag("PlayerUI").transform.GetImmediateChildren().First(i => !i.activeSelf);

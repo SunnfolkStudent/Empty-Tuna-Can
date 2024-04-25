@@ -1,4 +1,4 @@
-using Player;
+using Entities.Player;
 using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEngine;

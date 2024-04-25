@@ -1,4 +1,4 @@
-using Player;
+using Entities.Player;
 using UnityEngine;
 
 public abstract class InteractBase : MonoBehaviour {

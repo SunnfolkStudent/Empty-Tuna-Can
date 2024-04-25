@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
 
-namespace Player {
+namespace Entities.Player {
     public class DirectionalInputManager : MonoBehaviour {
     
         public static CombatInput DirectionFormVector2(Vector2 vector) {

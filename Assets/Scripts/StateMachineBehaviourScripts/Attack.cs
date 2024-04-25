@@ -1,4 +1,5 @@
-using Player;
+using Entities;
+using Entities.Player;
 using UnityEngine;
 using Utils.Entity;
 

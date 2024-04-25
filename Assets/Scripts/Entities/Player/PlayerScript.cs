@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using Dialogue;
@@ -9,10 +8,9 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using Upgrades;
 using Utils;
-using Utils.Entity;
 using Utils.EventBus;
 
-namespace Player {
+namespace Entities.Player {
     [RequireComponent(typeof(Rigidbody2D))]
     public class PlayerScript : Damageable {
         [Header("Movement")]

@@ -1,5 +1,6 @@
 ﻿using System;
-using Player;
+using Entities;
+using Entities.Player;
 using StateMachineBehaviourScripts;
 using UnityEngine;
 using UnityEngine.Serialization;

@@ -2,7 +2,7 @@
 using MyBox;
 using UnityEngine;
 
-namespace Utils.Entity {
+namespace Entities {
     [Serializable]
     public class DamageInstance {
         public float damage;

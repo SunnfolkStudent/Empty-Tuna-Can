@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Player {
+namespace Entities.Player {
     [Serializable]
     [CreateAssetMenu(fileName = "CombatAction", menuName = "Combat/new CombatAction")]
     public class CombatAction : ScriptableObject {

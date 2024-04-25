@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 using Dialogue;
-using Player;
+using Entities.Player;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;

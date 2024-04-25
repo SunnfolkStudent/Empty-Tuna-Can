@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 using Eflatun.SceneReference;
-using Player;
+using Entities.Player;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Upgrades;

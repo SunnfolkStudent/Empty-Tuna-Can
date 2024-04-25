@@ -1,8 +1,10 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using Utils;
+using Utils.Entity;
 
-namespace Utils.Entity {
+namespace Entities {
     public abstract class Damageable : MonoBehaviour {
         public event Action OnDying;
         

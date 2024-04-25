@@ -6,7 +6,7 @@ using UnityEngine.InputSystem.UI;
 using UnityEngine.UI;
 using Utils;
 
-namespace Player {
+namespace Entities.Player {
     public class PlayerUIElement : MonoBehaviour {
         [SerializeField] private Image selectedItemIcon;
         [SerializeField] private RectTransform healthBar;

@@ -5,7 +5,7 @@ using Unity.Mathematics;
 using UnityEngine;
 using Utils;
 
-namespace Player {
+namespace Entities.Player {
     [Serializable] public class Inventory {
         [SerializeField] private List<ItemInstance> inventory;
         public Observable<ItemInstance> selectedItem;

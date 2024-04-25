@@ -3,7 +3,7 @@ using System.Linq;
 using UnityEngine;
 using Utils;
 
-namespace Player {
+namespace Entities.Player {
     public static class PlayerManager {
         public static List<PlayerScript> AllPlayers = new ();
         public static List<PlayerScript> AlivePlayers = new ();

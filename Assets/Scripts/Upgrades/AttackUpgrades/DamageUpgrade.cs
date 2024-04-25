@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Entities;
+using UnityEngine;
 using Utils.Entity;
 
 namespace Upgrades.AttackUpgrades {
