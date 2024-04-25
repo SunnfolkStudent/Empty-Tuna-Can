@@ -26,17 +26,16 @@ namespace ModeManagers {
         private void OnDisable() {
             EventBus<GameModeEvent>.Deregister(playerEventBinding);
         }
-    
+
+        private void Awake() {
+            SceneManager.LoadScene(GetNextScene(), LoadSceneMode.Additive);
+        }
+
         public void Start() {
             PlayerManager.FriendlyFire = true;
         
             PauseMenu.Pause();
             PauseMenu.UnpauseCondition = HasEnoughPlayers;
-        
-            Time.timeScale = 0;
-            PlayerScript.Paused = true;
-        
-            SceneManager.LoadScene(GetNextScene(), LoadSceneMode.Additive);
         }
 
         private void PlayerEvent(GameModeEvent gameModeEvent) {

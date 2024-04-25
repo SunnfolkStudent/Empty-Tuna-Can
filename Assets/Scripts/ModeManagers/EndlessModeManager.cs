@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Eflatun.SceneReference;
 using ModeManagers;
+using Player;
 using TMPro;
 using Unity.Mathematics;
 using UnityEngine;
@@ -26,10 +27,11 @@ namespace ModeManagers {
         [Serializable] private struct EnemyType {
             [SerializeField] internal GameObject prefab;
             [SerializeField] internal float cost;
+            [SerializeField] internal float spawnProbability;
         }
         
         private EventBinding<GameModeEvent> gameModeEventBinding;
-        private event Action WaveCompleted;
+        private event Action WaveCompleted = () => { };
         public Observable<int> currentWave;
         
         private void Awake() {
@@ -37,10 +39,13 @@ namespace ModeManagers {
             SetEnemySpawnPositions();
             
             SceneManager.LoadScene(endlessModeScenes.GetRandom().Name, LoadSceneMode.Additive);
+            
             WaveCompleted += PlayerManager.ReviveAllPlayers;
             WaveCompleted += UpgradeManager.SetUpgradesUI;
+            WaveCompleted += PauseMenu.Pause;
             WaveCompleted += StartNextWave;
-            currentWave.OnValueChanged += (value) => waveCounter.text = "Wave: " + value;
+            
+            currentWave.OnValueChanged += value => waveCounter.text = "Wave: " + value;
         }
         
         private void OnEnable() {
@@ -54,7 +59,9 @@ namespace ModeManagers {
         
         public void Start() {
             PlayerManager.FriendlyFire = false;
-            // TODO: Load LevelSelect
+        
+            PauseMenu.Pause();
+            
             StartNextWave();
         }
         
@@ -67,7 +74,7 @@ namespace ModeManagers {
                     if (PlayerManager.AlivePlayers.Count == 0) SceneManager.LoadScene(gameOverScene.Name);
                     break;
                 case WaveOver:
-                    StartNextWave();
+                    WaveCompleted.Invoke();
                     break;
             }
         }
@@ -98,13 +105,12 @@ namespace ModeManagers {
         }
 
         private EnemyType SelectEnemyTypeWithBias() {
-            var totalWeight = enemies.Sum(enemy => enemy.cost);
+            var totalWeight = enemies.Sum(enemy => enemy.spawnProbability);
             var rnd = Random.Range(0, totalWeight);
             
             float sum = 0;
-            foreach (var enemyType in enemies)
-            {
-                sum += enemyType.cost;
+            foreach (var enemyType in enemies) {
+                sum += enemyType.spawnProbability;
                 if (sum < rnd) continue;
                 return enemyType;
             }

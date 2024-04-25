@@ -194,6 +194,8 @@ MonoBehaviour:
   enemies:
   - prefab: {fileID: 3249160653084110874, guid: b2c11ad6d7e69644fbcbfc2bfa7c8472, type: 3}
     cost: 1
+  - prefab: {fileID: 6732149080450429543, guid: 3c34ec14e6ed07e4ba63e9a30d0b40e8, type: 3}
+    cost: 5
   waveBudget: 16
   currentWave:
     value: 0

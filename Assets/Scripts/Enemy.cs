@@ -29,7 +29,7 @@ public class Enemy : Damageable {
     }
     
     private void Start() {
-        agility = Random.Range(agility, 3 * agility);
+        agility = Random.Range(agility, 1.5f * agility);
         StartCoroutine(EnumeratorFunctions.ActionAfterTime(agility, () => {
             StartCoroutine(EnumeratorFunctions.ActionAtInterval(agility, () => {
                 canMove = !canMove;
@@ -39,18 +39,19 @@ public class Enemy : Damageable {
     
     private void Update() {
         if (!canMove) return;
-        MoveToPosition(EntityManager.GetTargetPosition(transform.position, attackRange));
+        MoveToPosition();
     }
     
-    private void MoveToPosition(Vector3 position) {
-        if (!canMove || position == default) return;
-        CheckIfFlipObject(position);
-        direction = (position - transform.position).normalized;
+    private void MoveToPosition() {
+        var position = EntityManager.GetTargetPosition(transform.position, attackRange);
+        if (position == default) return;
+        CheckIfFlipObject(position.playerPos);
+        direction = (position.targetPos - transform.position).normalized;
         
         entityMovement.MoveInDirection(direction);
         animator.SetFloat(Speed, direction.magnitude);
         
-        if (ComparePosition(position, transform.position, 0.1f)) {
+        if (ComparePosition(position.targetPos, transform.position, 0.1f)) {
             Attack();
         }
     }

@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using ModeManagers;
+using Player;
 using UnityEngine;
 using Utils;
 using Utils.EventBus;
@@ -7,7 +8,7 @@ using Utils.EventBus;
 public class EntityManager : MonoBehaviour {
     public static readonly List<Enemy> TestEnemies = new ();
     
-    public static Vector3 GetTargetPosition(Vector3 position, float range = 1f) {
+    public static (Vector3 targetPos, Vector3 playerPos) GetTargetPosition(Vector3 position, float range = 1f) {
         if (PlayerManager.AlivePlayers.Count == 0) return default;
         var closestPlayer = PlayerManager.AlivePlayers[0];
         for (var index = 1; index < PlayerManager.AlivePlayers.Count; index++) {
@@ -16,7 +17,8 @@ public class EntityManager : MonoBehaviour {
             }
         }
         
-        return closestPlayer.transform1.position.WithOffset(position.x > closestPlayer.transform1.position.x ? range : -range);
+        return (closestPlayer.transform1.position.WithOffset(position.x > closestPlayer.transform1.position.x ? range : -range),
+            closestPlayer.transform1.position - position);
     }
 
     public static void EnemyDeath(Enemy enemy) {

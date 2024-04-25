@@ -9,14 +9,26 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 43ecd976835194448ba599c153a89b6d
   - enabled: 1
-    path: Assets/Scenes/TestScenes/2DRework.unity
-    guid: e6c6f8909c0f08446964ebede5c57ed3
-  - enabled: 1
     path: Assets/Scenes/SettingsMenu.unity
     guid: ea89936d63955e94794c42285187489d
   - enabled: 1
+    path: Assets/Scenes/HowToPlay.unity
+    guid: 2af09875b2c0bf449afb6174866edd1f
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: ce83beaebf0df9343a4d68b63b180285
+  - enabled: 1
     path: Assets/Scenes/Players.unity
     guid: c958fd5cc1a3a2f42b2df3d4a004f522
+  - enabled: 1
+    path: Assets/Scenes/GameModeManagers/StoryMode.unity
+    guid: 09a225988302e5c4c9cd1850688d3d01
+  - enabled: 1
+    path: Assets/Scenes/GameModeManagers/VersusMode.unity
+    guid: 6f2a5d0a0bbdd06458ae2ce41d76bb03
+  - enabled: 1
+    path: Assets/Scenes/GameModeManagers/EndlessMode.unity
+    guid: 360489d5148e45e48b4c67d65604bed2
   - enabled: 1
     path: Assets/Scenes/AreaScenes/Area1.unity
     guid: 478d81048b437964b93a9bae3cea5907
@@ -29,21 +41,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AreaScenes/Area4.unity
     guid: d9ea87cc217e59b46bf5596808077086
-  - enabled: 1
-    path: Assets/Scenes/GameModeManagers/VersusMode.unity
-    guid: 6f2a5d0a0bbdd06458ae2ce41d76bb03
-  - enabled: 1
-    path: Assets/Scenes/GameModeManagers/EndlessMode.unity
-    guid: 360489d5148e45e48b4c67d65604bed2
-  - enabled: 1
-    path: Assets/Scenes/GameOver.unity
-    guid: ce83beaebf0df9343a4d68b63b180285
-  - enabled: 1
-    path: Assets/Scenes/HowToPlay.unity
-    guid: 2af09875b2c0bf449afb6174866edd1f
-  - enabled: 1
-    path: Assets/Scenes/GameModeManagers/StoryMode.unity
-    guid: 09a225988302e5c4c9cd1850688d3d01
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: ccc24c46258a26d4c89276d7591637f0, type: 2}
   m_UseUCBPForAssetBundles: 0

@@ -45,6 +45,10 @@ namespace Utils.Entity {
         public void HandleReceiveHealing(float amount) {
             health.Value += amount;
         }
+        
+        public void ReceiveFullHealing() {
+            health.Value += health.Value;
+        }
 
         public void HandleFreeze(Freeze freeze) {
             // TODO: Freeze movement of the Entity
