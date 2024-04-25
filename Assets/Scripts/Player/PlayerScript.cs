@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Items;
@@ -61,7 +62,11 @@ namespace Player {
                 stateBehaviour.playerScript = this;
             }
         }
-        
+
+        private void OnDisable() {
+            PlayerManager.DeregisterPlayer(this);
+        }
+
         private void Start() {
             OnDying += OnDeath;
             

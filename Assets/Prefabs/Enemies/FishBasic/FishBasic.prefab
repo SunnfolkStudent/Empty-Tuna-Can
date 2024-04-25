@@ -101,6 +101,7 @@ MonoBehaviour:
   hitbox: {fileID: 8006654361158850081}
   canMove: 1
   agility: 2
+  attackRange: 1
 --- !u!114 &3246346032263903027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -361,7 +362,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3282161613126948841, guid: 5f8ee42a75fd7744c9be9c4b29aca615, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.11
+      value: -0.0461
       objectReference: {fileID: 0}
     - target: {fileID: 3282161613126948841, guid: 5f8ee42a75fd7744c9be9c4b29aca615, type: 3}
       propertyPath: m_LocalPosition.y
@@ -398,6 +399,14 @@ PrefabInstance:
     - target: {fileID: 3282161613126948841, guid: 5f8ee42a75fd7744c9be9c4b29aca615, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3702054426016257331, guid: 5f8ee42a75fd7744c9be9c4b29aca615, type: 3}
+      propertyPath: m_Size.x
+      value: 0.24640502
+      objectReference: {fileID: 0}
+    - target: {fileID: 3705814252687112322, guid: 5f8ee42a75fd7744c9be9c4b29aca615, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 0.24640502
       objectReference: {fileID: 0}
     - target: {fileID: 4363281407748217828, guid: 5f8ee42a75fd7744c9be9c4b29aca615, type: 3}
       propertyPath: m_Name

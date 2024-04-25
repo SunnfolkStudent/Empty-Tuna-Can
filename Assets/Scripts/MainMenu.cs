@@ -55,7 +55,6 @@ public class MainMenu : MonoBehaviour {
     
     public void BackToMenu() {
         SceneManager.LoadScene(menuScene.Name);
-        PlayerManager.DeregisterAllPlayers();
         Destroy(gameObject);
     }
 }

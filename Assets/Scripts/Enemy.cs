@@ -13,6 +13,7 @@ public class Enemy : Damageable {
     public bool canMove = true;
     [Tooltip("Lower number means more agile")]
     [SerializeField] private float agility = 5f;
+    [SerializeField] private float attackRange = 1;
     
     private Vector3 direction;
     private static readonly int Speed = Animator.StringToHash("Speed");
@@ -38,7 +39,7 @@ public class Enemy : Damageable {
     
     private void Update() {
         if (!canMove) return;
-        MoveToPosition(EntityManager.GetTargetPosition(transform.position));
+        MoveToPosition(EntityManager.GetTargetPosition(transform.position, attackRange));
     }
     
     private void MoveToPosition(Vector3 position) {

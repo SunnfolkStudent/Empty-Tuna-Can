@@ -62,7 +62,7 @@ public static class PlayerManager {
             playerScript.transform.position = GetAvailableSpawnPosition();
         }
     }
-
+    
     private static IEnumerable<GameObject> GetSpawnPositions() {
         return GameObject.FindWithTag("PlayerSpawnPositions").transform.GetImmediateChildren();
     }
