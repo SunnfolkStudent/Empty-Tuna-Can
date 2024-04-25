@@ -142,14 +142,14 @@ MonoBehaviour:
     maxValue: 100
     value: 100
   invincibilityFrames: 0.5
-  staggerResistance: 1
+  staggerResistance: 2
   heightIndex: 0
   teamNumber: 0
   animator: {fileID: 6817108768438100948}
   entityMovement: {fileID: 7932202906571011221}
   hitbox: {fileID: 7752067803713698031}
   canMove: 1
-  agility: 4
+  agility: 2
   attackRange: 3
 --- !u!114 &7932202906571011221
 MonoBehaviour:

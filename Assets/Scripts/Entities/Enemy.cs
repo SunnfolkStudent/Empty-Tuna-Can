@@ -30,7 +30,7 @@ namespace Entities {
     
         private void Start() {
             agility = Random.Range(agility, 1.5f * agility);
-            StartCoroutine(EnumeratorFunctions.ActionAfterTime(agility, () => {
+            StartCoroutine(EnumeratorFunctions.ActionAfterTime(Random.Range(0.5f * agility, 3 * agility), () => {
                 StartCoroutine(EnumeratorFunctions.ActionAtInterval(agility, () => {
                     canMove = !canMove;
                 }));

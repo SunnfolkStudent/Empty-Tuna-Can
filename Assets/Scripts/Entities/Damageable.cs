@@ -13,6 +13,7 @@ namespace Entities {
         [Tooltip("Time entity is invincible after getting hit")] 
         [SerializeField] private float invincibilityFrames = 0.5f;
         
+        [Tooltip("Has to be more than the stagger of the attack to mitigate stun")] 
         public float staggerResistance;
         public int heightIndex;
         public int teamNumber;
