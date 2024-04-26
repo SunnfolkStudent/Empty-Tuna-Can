@@ -18,10 +18,10 @@ namespace Entities {
         public int heightIndex;
         public int teamNumber;
         
-        private bool _canTakeDamage = true;
+        [SerializeField] private bool canTakeDamage = true;
         
         public void HandleTakeDamage(DamageInstance damageInstance) {
-            if (!_canTakeDamage) return;
+            if (!canTakeDamage) return;
             
             TakeDamage(damageInstance.damage);
             damageInstance.StatusEffect?.Apply(this);
@@ -39,9 +39,9 @@ namespace Entities {
         protected abstract void Stagger();
 
         private IEnumerator BecomeTemporarilyInvincible() {
-            _canTakeDamage = false;
+            canTakeDamage = false;
             yield return new WaitForSeconds(invincibilityFrames);
-            _canTakeDamage = true;
+            canTakeDamage = true;
         }
         
         public void HandleReceiveHealing(float amount) {
@@ -62,6 +62,7 @@ namespace Entities {
 
         public void StopStatusEffects() {
             StopAllCoroutines();
+            canTakeDamage = true;
         }
         
         private IEnumerator TakeBurnDamage(Burn burn) {

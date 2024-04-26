@@ -1,8 +1,9 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Utils.Singleton;
 using SceneReference = Eflatun.SceneReference.SceneReference;
 
-public class MainMenu : MonoBehaviour {
+public class MainMenu : Singleton<MainMenu> {
     [SerializeField] private SceneReference settingsScene;
     [SerializeField] private SceneReference howToPlayScene;
     [SerializeField] private SceneReference menuScene;
@@ -12,8 +13,10 @@ public class MainMenu : MonoBehaviour {
     [SerializeField] private SceneReference storyModeScene;
     [SerializeField] private SceneReference versusModeScene;
     [SerializeField] private SceneReference endlessModeScene;
-    
-    private void Awake() {
+
+    protected override void Awake() {
+        base.Awake();
+        
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         

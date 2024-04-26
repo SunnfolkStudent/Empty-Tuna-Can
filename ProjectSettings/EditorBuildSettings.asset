@@ -41,6 +41,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AreaScenes/Area4.unity
     guid: d9ea87cc217e59b46bf5596808077086
+  - enabled: 1
+    path: Assets/Scenes/VersusModeWin.unity
+    guid: 76e6555e1c13cd3488646b53e035e442
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: ccc24c46258a26d4c89276d7591637f0, type: 2}
   m_UseUCBPForAssetBundles: 0

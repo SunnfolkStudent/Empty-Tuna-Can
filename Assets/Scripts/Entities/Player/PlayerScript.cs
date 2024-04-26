@@ -47,8 +47,6 @@ namespace Entities.Player {
         
         private Rigidbody2D _rigidbody;
         private static readonly int SpeedAnimatorParameter = Animator.StringToHash("Speed");
-        
-        private EventBinding<PauseMenuEvent> pauseMenuEventBinding;
         public bool dead;
 
         private void Awake() {
