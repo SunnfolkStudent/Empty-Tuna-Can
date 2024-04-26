@@ -839,7 +839,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8945082780561616131, guid: cd0ab1d89422e5145a4d32fa16e10ae7, type: 3}
       propertyPath: m_text
-      value: Back
+      value: Go To Menu
       objectReference: {fileID: 0}
     - target: {fileID: 8945082780561616131, guid: cd0ab1d89422e5145a4d32fa16e10ae7, type: 3}
       propertyPath: m_fontSize
@@ -4465,7 +4465,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '- String attacks for powerful combos.
+  m_text: '- Chain attacks for powerful combos.
 
 
     - Larger enemies require heavier
@@ -4688,7 +4688,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: Double tap in a direction or jump to dodge attacks. It is recomended to
-    use the d-pad if you are using a gamepad
+    use the d-pad if you are using a gamepad. Play up to 4 players, press any button
+    on keyboard or controller to add a new player.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4ecf1082c0d7c6f49a1484ae4e352013, type: 2}
   m_sharedMaterial: {fileID: -2644475807352887312, guid: 4ecf1082c0d7c6f49a1484ae4e352013, type: 2}

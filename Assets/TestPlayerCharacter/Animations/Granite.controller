@@ -368,22 +368,22 @@ AnimatorStateMachine:
     m_Position: {x: 270, y: 260, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -68863418668811115}
-    m_Position: {x: 1290, y: 150, z: 0}
+    m_Position: {x: 1300, y: 150, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -8456528499121456380}
-    m_Position: {x: 50, y: 110, z: 0}
+    m_Position: {x: -650, y: -90, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 6200367145168135853}
-    m_Position: {x: -570, y: -70, z: 0}
+    m_Position: {x: -320, y: 40, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1502736107523214812}
-    m_Position: {x: -370, y: -20, z: 0}
+    m_Position: {x: -120, y: 90, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -7061714467517490736}
-    m_Position: {x: -200, y: 30, z: 0}
+    m_Position: {x: 50, y: 140, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -6371046893846397999}
-    m_Position: {x: -170, y: -140, z: 0}
+    m_Position: {x: -10, y: -290, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -9049903784902115232}
     m_Position: {x: 630, y: 120, z: 0}
@@ -922,7 +922,7 @@ MonoBehaviour:
   attackAction: 4
   damageInstance:
     damage: 7.5
-    stagger: 1
+    stagger: 2
     statusEffect: 0
     freezeProperties:
       duration: 2

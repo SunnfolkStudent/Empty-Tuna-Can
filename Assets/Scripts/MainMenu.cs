@@ -13,7 +13,7 @@ public class MainMenu : Singleton<MainMenu> {
     [SerializeField] private SceneReference storyModeScene;
     [SerializeField] private SceneReference versusModeScene;
     [SerializeField] private SceneReference endlessModeScene;
-
+    
     protected override void Awake() {
         base.Awake();
         
