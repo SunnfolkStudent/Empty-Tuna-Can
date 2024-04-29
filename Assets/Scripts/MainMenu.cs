@@ -18,7 +18,7 @@ public class MainMenu : Singleton<MainMenu> {
     protected override void Awake() {
         base.Awake();
         PauseMenu.UnpauseCondition = () => true;
-        StoryModeManager.stop = false;
+        StoryModeManager.ExitingToMenu = false;
         
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;

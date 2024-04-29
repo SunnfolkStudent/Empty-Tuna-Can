@@ -2,7 +2,7 @@ using UnityEngine;
 using Utils.EventBus;
 
 namespace Dialogue {
-    [CreateAssetMenu(fileName = "Conversation", menuName = "Conversation/new Conversation")]
+    [CreateAssetMenu(fileName = "Conversation", menuName = "new Conversation")]
     public class Conversation : ScriptableObject {
         public TextEvent[] textEvents;
         private int conversationIndex;

@@ -2910,8 +2910,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 159320748}
     - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
+      propertyPath: areaScenes.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
       propertyPath: areaEnemies.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
       propertyPath: 'areaEnemies.Array.data[0]'
@@ -2924,7 +2928,27 @@ PrefabInstance:
     - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
       propertyPath: 'areaEnemies.Array.data[2]'
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
+      propertyPath: 'areaEnemies.Array.data[3]'
+      value: 
       objectReference: {fileID: 178966182}
+    - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
+      propertyPath: areaScenes.Array.data[2].guid
+      value: 5a8a8fe610c7df749acaac1c518a9ff2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
+      propertyPath: areaScenes.Array.data[3].guid
+      value: d9ea87cc217e59b46bf5596808077086
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
+      propertyPath: areaScenes.Array.data[2].asset
+      value: 
+      objectReference: {fileID: 102900000, guid: 5a8a8fe610c7df749acaac1c518a9ff2, type: 3}
+    - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
+      propertyPath: areaScenes.Array.data[3].asset
+      value: 
+      objectReference: {fileID: 102900000, guid: d9ea87cc217e59b46bf5596808077086, type: 3}
     - target: {fileID: 8392458014875982907, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.7952127
