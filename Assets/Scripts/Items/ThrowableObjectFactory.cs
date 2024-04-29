@@ -10,7 +10,7 @@ namespace Items {
             o.transform.localScale = owner.transform.localScale;
 
             var s = o.GetOrAddComponent<ThrowableObject>();
-            s.damage = throwableItem.damage;
+            s.damageInstance = throwableItem.damageInstance;
             s.teamNumber = owner.teamNumber;
         }
     }

@@ -68,7 +68,7 @@ namespace ModeManagers {
         private void SetEnemySpawnPositions() => _enemySpawnPositions = enemySpawnPosition.GetImmediateChildren().Select(x => x.transform).ToArray();
         
         private void PlayerEvent(GameModeEvent gameModeEvent) {
-            switch (gameModeEvent) {
+            switch (gameModeEvent.Event) {
                 case PlayerDeathEvent playerDeathEvent:
                     PlayerManager.PlayerDead(playerDeathEvent.PlayerScript);
                     if (PlayerManager.AlivePlayers.Count == 0) SceneManager.LoadScene(gameOverScene.Name);
@@ -124,7 +124,4 @@ namespace ModeManagers {
             Instantiate(enemyType.prefab, spawnPos, quaternion.identity);
         }
     }
-}
-
-public class WaveOver : GameModeEvent {
 }

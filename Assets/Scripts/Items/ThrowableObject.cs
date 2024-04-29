@@ -6,13 +6,12 @@ namespace Items {
     public class ThrowableObject : MonoBehaviour {
         public int teamNumber;
         public int height;
-        public float damage;
-        public float stagger;
+        public DamageInstance damageInstance;
     
         private void OnTriggerStay2D(Collider2D other) {
             if (other.TryGetComponent(out Damageable damageable)) {
                 if (damageable.teamNumber == teamNumber || damageable.heightIndex != height) return;
-                damageable.HandleTakeDamage(new DamageInstance(damage, stagger));
+                damageable.HandleTakeDamage(damageInstance);
             }
             
             Destroy(gameObject);

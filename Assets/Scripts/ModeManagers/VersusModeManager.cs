@@ -44,7 +44,7 @@ namespace ModeManagers {
         }
         
         private void PlayerEvent(GameModeEvent gameModeEvent) {
-            switch (gameModeEvent) {
+            switch (gameModeEvent.Event) {
                 case PlayerDeathEvent playerDeathEvent:
                     PlayerManager.PlayerDead(playerDeathEvent.PlayerScript);
                     OnPlayerDeath();
@@ -79,17 +79,6 @@ namespace ModeManagers {
                 currentScene = i;
                 return currentScene.Name;
             }
-        }
-    }
-
-    public class GameModeEvent : IEvent {
-    }
-
-    public class PlayerDeathEvent : GameModeEvent {
-        public readonly PlayerScript PlayerScript;
-
-        public PlayerDeathEvent(PlayerScript playerScript) {
-            PlayerScript = playerScript;
         }
     }
 }

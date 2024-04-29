@@ -4,7 +4,7 @@ using Utils.EventBus;
 
 public class Cutscene : MonoBehaviour {
     private void TriggerCutsceneOverEvent() {
-        EventBus<GameModeEvent>.Raise(new CutsceneOverEvent());
+        EventBus<GameModeEvent>.Raise(new GameModeEvent(new CutsceneOverEvent()));
         Destroy(gameObject);
     }
     
@@ -14,7 +14,4 @@ public class Cutscene : MonoBehaviour {
             Debug.Log("Skipping cutscene");
         }
     }
-}
-
-public class CutsceneOverEvent : GameModeEvent {
 }

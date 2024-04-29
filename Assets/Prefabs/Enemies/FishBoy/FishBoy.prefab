@@ -101,8 +101,8 @@ MonoBehaviour:
   entityMovement: {fileID: 2638086155515647267}
   hitbox: {fileID: 8006654361158850081}
   canMove: 1
-  agility: 1
-  attackRange: 1
+  agility: 0.8
+  attackRange: 1.5
 --- !u!114 &3246346032263903027
 MonoBehaviour:
   m_ObjectHideFlags: 0

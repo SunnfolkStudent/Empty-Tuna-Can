@@ -1,3 +1,4 @@
+using Entities;
 using Entities.Player;
 using UnityEngine;
 using Utils.CustomAttributes;
@@ -7,7 +8,7 @@ namespace Items {
     public class ThrowableItem : Item {
         [Header("ThrowableItem")]
         [RequiredField] [AssetPreviewIcon] public GameObject itemPrefab;
-        public float damage;
+        public DamageInstance damageInstance;
         
         public override void UseItem(PlayerScript playerScript) {
             base.UseItem(playerScript);

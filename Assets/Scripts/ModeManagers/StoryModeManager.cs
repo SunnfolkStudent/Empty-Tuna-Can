@@ -48,7 +48,7 @@ namespace ModeManagers {
         }
         
         private void PlayerEvent(GameModeEvent gameModeEvent) {
-            switch (gameModeEvent) {
+            switch (gameModeEvent.Event) {
                 case PlayerDeathEvent playerDeathEvent:
                     PlayerManager.PlayerDead(playerDeathEvent.PlayerScript);
                     if (PlayerManager.AlivePlayers.Count == 0) SceneManager.LoadScene(gameOverScene.Name);

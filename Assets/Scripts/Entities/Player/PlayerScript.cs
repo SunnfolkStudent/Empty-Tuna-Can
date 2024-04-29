@@ -170,7 +170,7 @@ namespace Entities.Player {
         
         private void OnDeath() {
             if (dead) return;
-            EventBus<GameModeEvent>.Raise(new PlayerDeathEvent(this));
+            EventBus<GameModeEvent>.Raise(new GameModeEvent(new PlayerDeathEvent(this)));
         }
         
         private void DodgeUp() {
