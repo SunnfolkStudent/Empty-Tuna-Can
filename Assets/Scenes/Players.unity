@@ -195,6 +195,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1952911986}
     m_Modifications:
+    - target: {fileID: 1443067895009621881, guid: 73fc7931684f4384db4e650aaaa46f54, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -327
+      objectReference: {fileID: 0}
+    - target: {fileID: 1443067895009621881, guid: 73fc7931684f4384db4e650aaaa46f54, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -384
+      objectReference: {fileID: 0}
     - target: {fileID: 3216223776999818036, guid: 73fc7931684f4384db4e650aaaa46f54, type: 3}
       propertyPath: m_Type
       value: 0
@@ -239,9 +247,25 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5151854461342330054, guid: 73fc7931684f4384db4e650aaaa46f54, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0.000011920929
+      objectReference: {fileID: 0}
+    - target: {fileID: 5151854461342330054, guid: 73fc7931684f4384db4e650aaaa46f54, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.0000059604645
+      objectReference: {fileID: 0}
     - target: {fileID: 5177574060886838137, guid: 73fc7931684f4384db4e650aaaa46f54, type: 3}
       propertyPath: m_Name
       value: DialogueManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5657350402223258672, guid: 73fc7931684f4384db4e650aaaa46f54, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5657350402223258672, guid: 73fc7931684f4384db4e650aaaa46f54, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6662692528300182873, guid: 73fc7931684f4384db4e650aaaa46f54, type: 3}
       propertyPath: m_AnchorMax.y

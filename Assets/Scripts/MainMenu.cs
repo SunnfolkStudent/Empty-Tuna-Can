@@ -1,3 +1,4 @@
+using ModeManagers;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Utils.Singleton;
@@ -16,6 +17,8 @@ public class MainMenu : Singleton<MainMenu> {
     
     protected override void Awake() {
         base.Awake();
+        PauseMenu.UnpauseCondition = () => true;
+        StoryModeManager.stop = false;
         
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;

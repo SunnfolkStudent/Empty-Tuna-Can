@@ -23,6 +23,8 @@ namespace ModeManagers {
         
         private int currentLevel;
 
+        public static bool stop;
+
         private void Awake() {
             LevelCompleted += StartNextLevel;
             LevelCompleted += PlayerManager.ReviveAllPlayers;
@@ -34,8 +36,6 @@ namespace ModeManagers {
             PlayerManager.FriendlyFire = false;
             
             PauseMenu.Pause();
-            Time.timeScale = 0;
-            PlayerScript.Paused = true;
         }
         
         private void OnEnable() {
@@ -48,6 +48,7 @@ namespace ModeManagers {
         }
         
         private void PlayerEvent(GameModeEvent gameModeEvent) {
+            if (stop) return;
             switch (gameModeEvent.Event) {
                 case PlayerDeathEvent playerDeathEvent:
                     PlayerManager.PlayerDead(playerDeathEvent.PlayerScript);
@@ -63,6 +64,9 @@ namespace ModeManagers {
         }
         
         private void StartLevel1() {
+            Time.timeScale = 0;
+            PlayerScript.Paused = true;
+            
             cutsceneCamera.SetActive(false);
             SceneManager.LoadScene(playerScene.Name, LoadSceneMode.Additive);
             SceneManager.LoadScene(areaScenes[currentLevel].Name, LoadSceneMode.Additive);
