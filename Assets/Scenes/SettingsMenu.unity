@@ -354,13 +354,25 @@ MonoBehaviour:
   m_FillRect: {fileID: 617449804}
   m_HandleRect: {fileID: 680890668}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
+  m_MinValue: -80
+  m_MaxValue: 0
   m_WholeNumbers: 0
   m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 118678771}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &368425158
 GameObject:
   m_ObjectHideFlags: 0
@@ -1529,8 +1541,8 @@ GameObject:
   m_Component:
   - component: {fileID: 901104195}
   - component: {fileID: 901104194}
-  - component: {fileID: 901104193}
   - component: {fileID: 901104196}
+  - component: {fileID: 901104197}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1538,14 +1550,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &901104193
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 901104192}
-  m_Enabled: 1
 --- !u!20 &901104194
 Camera:
   m_ObjectHideFlags: 0
@@ -1656,6 +1660,19 @@ MonoBehaviour:
     mipBias: 0
     varianceClampScale: 0.9
     contrastAdaptiveSharpening: 0
+--- !u!114 &901104197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901104192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attenuationObject: {fileID: 0}
 --- !u!1 &1014043592
 GameObject:
   m_ObjectHideFlags: 0
@@ -1968,7 +1985,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 223}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1203574081
@@ -1993,8 +2010,8 @@ MonoBehaviour:
   m_StartAxis: 0
   m_CellSize: {x: 700, y: 100}
   m_Spacing: {x: 0, y: 100}
-  m_Constraint: 0
-  m_ConstraintCount: 2
+  m_Constraint: 2
+  m_ConstraintCount: 3
 --- !u!1 &1331532255
 GameObject:
   m_ObjectHideFlags: 0
