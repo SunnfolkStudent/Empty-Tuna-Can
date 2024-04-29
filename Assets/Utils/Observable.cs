@@ -22,7 +22,7 @@ namespace Utils {
         }
         
         public Observable(T value = default) => this.value = value;
-
+        
         public void ForceUpdate() {
             OnValueChanged.Invoke(Value);
         }

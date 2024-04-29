@@ -19,11 +19,11 @@ namespace ModeManagers {
         
         private EventBinding<GameModeEvent> playerEventBinding;
         
-        private event Action LevelCompleted = () => { };
+        private static event Action LevelCompleted = () => { };
         
         private int currentLevel;
 
-        public static bool stop;
+        public static bool ExitingToMenu;
 
         private void Awake() {
             LevelCompleted += StartNextLevel;
@@ -48,7 +48,7 @@ namespace ModeManagers {
         }
         
         private void PlayerEvent(GameModeEvent gameModeEvent) {
-            if (stop) return;
+            if (ExitingToMenu) return;
             switch (gameModeEvent.Event) {
                 case PlayerDeathEvent playerDeathEvent:
                     PlayerManager.PlayerDead(playerDeathEvent.PlayerScript);
@@ -74,9 +74,14 @@ namespace ModeManagers {
         }
         
         private void StartNextLevel() {
+            SceneManager.UnloadSceneAsync(areaScenes[currentLevel].Name);
             currentLevel++;
             SceneManager.LoadScene(areaScenes[currentLevel].Name, LoadSceneMode.Additive);
             areaEnemies[currentLevel].SetActive(true);
+        }
+        
+        public static void CallLevelCompleted() {
+            LevelCompleted.Invoke();
         }
     }
 }

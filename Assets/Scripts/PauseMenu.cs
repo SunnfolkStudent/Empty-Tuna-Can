@@ -52,7 +52,7 @@ public class PauseMenu : MonoBehaviour {
     }
     
     public static void Quit() {
-        StoryModeManager.stop = true;
+        StoryModeManager.ExitingToMenu = true;
         SceneManager.LoadScene("MainMenu");
     }
 }
