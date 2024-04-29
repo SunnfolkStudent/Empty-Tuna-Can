@@ -1103,7 +1103,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 16.875
+  orthographic size: 18.75
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4476,7 +4476,8 @@ MonoBehaviour:
     fight.
 
 
-    - Collect and use healing and throwable items.'
+    - Collect and use items. (Items marked with red are healing and
+    green one''s are throwable)'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4ecf1082c0d7c6f49a1484ae4e352013, type: 2}
   m_sharedMaterial: {fileID: -2644475807352887312, guid: 4ecf1082c0d7c6f49a1484ae4e352013, type: 2}
@@ -4503,14 +4504,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.5
+  m_fontSize: 26.7
   m_fontSizeBase: 24.6
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 17.5
   m_fontSizeMax: 36
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -4541,7 +4542,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 15.847412, y: 9.055664, z: 18.111267, w: 0}
+  m_margin: {x: 15.847412, y: 9.055664, z: 18.111267, w: 9.560577}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0

@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using Dialogue;
 using Entities.Player;
+using ModeManagers;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
@@ -51,6 +52,7 @@ public class PauseMenu : MonoBehaviour {
     }
     
     public static void Quit() {
+        StoryModeManager.stop = true;
         SceneManager.LoadScene("MainMenu");
     }
 }

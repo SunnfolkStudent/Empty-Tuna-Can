@@ -25,7 +25,7 @@ namespace Entities {
         public static void EnemyDeath(Enemy enemy) {
             TestEnemies.Remove(enemy);
             if (TestEnemies.Count == 0) {
-                EventBus<GameModeEvent>.Raise(new WaveOver());
+                EventBus<GameModeEvent>.Raise(new GameModeEvent(new WaveOver()));
             }
         }
     }

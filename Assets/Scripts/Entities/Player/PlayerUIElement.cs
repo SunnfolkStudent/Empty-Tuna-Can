@@ -34,6 +34,7 @@ namespace Entities.Player {
 
         public void UpdateSelectedItemIcon([CanBeNull] Item selectedItem) {
             selectedItemIcon.sprite = selectedItem ? selectedItem.itemSprite : _emptySprite;
+            selectedItemIcon.SetNativeSize();
         
             healingItemVisual.SetActive(selectedItem is HealingItem);
             throwableItemVisual.SetActive(selectedItem is ThrowableItem);
