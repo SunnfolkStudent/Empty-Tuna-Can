@@ -6963,6 +6963,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: GlobalInsideVolume
       objectReference: {fileID: 0}
+    - target: {fileID: 6874927573982912166, guid: f48cb1b1e25f4ce46a10a0e9570f45dc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
