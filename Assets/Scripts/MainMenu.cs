@@ -24,10 +24,8 @@ public class MainMenu : Singleton<MainMenu> {
     }
     
     public void StartStoryMode() {
-        // TODO: Start Cutscene
-        // SceneManager.LoadScene(playerScene.Name);
-        // SceneManager.LoadScene(storyModeScene.Name, LoadSceneMode.Additive);
-        // Destroy(gameObject);
+        SceneManager.LoadScene(storyModeScene.Name);
+        Destroy(gameObject);
     }
     
     public void StartVersusMode() {

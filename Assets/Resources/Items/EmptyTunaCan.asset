@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d61275c5dd1b8041aa040009fc910b4, type: 3}
   m_Name: EmptyTunaCan
   m_EditorClassIdentifier: Assembly-CSharp::ThrowableItem
-  itemSprite: {fileID: -1803334677317895276, guid: b178f1a6859d2074bb1a5aa68e2520f9, type: 3}
+  itemSprite: {fileID: 3498800903691535, guid: 7ba5b3a72bc3e2b41b2068e7b8aa4293, type: 3}
   getItemsOnUse: []
   itemPrefab: {fileID: 8697755100241596283, guid: e59beeb982b77d44b86bb85efb2a76d1, type: 3}
-  velocity: 15
   damage: 5

@@ -59,7 +59,7 @@ namespace ModeManagers {
         
         public void Start() {
             PlayerManager.FriendlyFire = false;
-        
+            
             PauseMenu.Pause();
             
             StartNextWave();

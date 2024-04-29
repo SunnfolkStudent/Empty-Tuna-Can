@@ -190,7 +190,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4984197461504421705, guid: c53031ed0931db545969ab3be489a2a7, type: 3}
       propertyPath: versusStages.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4984197461504421705, guid: c53031ed0931db545969ab3be489a2a7, type: 3}
       propertyPath: versusStages.Array.data[0].guid
@@ -201,6 +201,10 @@ PrefabInstance:
       value: 940e0fea6f820b344ba71b1cfa373a7c
       objectReference: {fileID: 0}
     - target: {fileID: 4984197461504421705, guid: c53031ed0931db545969ab3be489a2a7, type: 3}
+      propertyPath: versusStages.Array.data[2].guid
+      value: d9ea87cc217e59b46bf5596808077086
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984197461504421705, guid: c53031ed0931db545969ab3be489a2a7, type: 3}
       propertyPath: versusStages.Array.data[0].asset
       value: 
       objectReference: {fileID: 102900000, guid: 478d81048b437964b93a9bae3cea5907, type: 3}
@@ -208,6 +212,10 @@ PrefabInstance:
       propertyPath: versusStages.Array.data[1].asset
       value: 
       objectReference: {fileID: 102900000, guid: 940e0fea6f820b344ba71b1cfa373a7c, type: 3}
+    - target: {fileID: 4984197461504421705, guid: c53031ed0931db545969ab3be489a2a7, type: 3}
+      propertyPath: versusStages.Array.data[2].asset
+      value: 
+      objectReference: {fileID: 102900000, guid: d9ea87cc217e59b46bf5596808077086, type: 3}
     - target: {fileID: 8141958135707819319, guid: c53031ed0931db545969ab3be489a2a7, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

@@ -270,6 +270,18 @@ PrefabInstance:
       propertyPath: enemySpawnPosition
       value: 
       objectReference: {fileID: 2034631691}
+    - target: {fileID: 3066574836711313578, guid: e69ddfd204535e245a158897ff3fb44b, type: 3}
+      propertyPath: endlessModeScenes.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3066574836711313578, guid: e69ddfd204535e245a158897ff3fb44b, type: 3}
+      propertyPath: endlessModeScenes.Array.data[2].guid
+      value: d9ea87cc217e59b46bf5596808077086
+      objectReference: {fileID: 0}
+    - target: {fileID: 3066574836711313578, guid: e69ddfd204535e245a158897ff3fb44b, type: 3}
+      propertyPath: endlessModeScenes.Array.data[2].asset
+      value: 
+      objectReference: {fileID: 102900000, guid: d9ea87cc217e59b46bf5596808077086, type: 3}
     - target: {fileID: 7789517402953658399, guid: e69ddfd204535e245a158897ff3fb44b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.9515043
