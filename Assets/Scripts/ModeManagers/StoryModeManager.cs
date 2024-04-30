@@ -22,9 +22,9 @@ namespace ModeManagers {
         private static event Action LevelCompleted = () => { };
         
         private int currentLevel;
-
+        
         public static bool ExitingToMenu;
-
+        
         private void Awake() {
             LevelCompleted += StartNextLevel;
             LevelCompleted += PlayerManager.ReviveAllPlayers;
@@ -52,7 +52,10 @@ namespace ModeManagers {
             switch (gameModeEvent.Event) {
                 case PlayerDeathEvent playerDeathEvent:
                     PlayerManager.PlayerDead(playerDeathEvent.PlayerScript);
-                    if (PlayerManager.AlivePlayers.Count == 0) SceneManager.LoadScene(gameOverScene.Name);
+                    if (PlayerManager.AlivePlayers.Count == 0) {
+                        ExitingToMenu = true;
+                        SceneManager.LoadScene(gameOverScene.Name);
+                    }
                     break;
                 case WaveOver:
                     LevelCompleted.Invoke();
@@ -76,6 +79,12 @@ namespace ModeManagers {
         private void StartNextLevel() {
             SceneManager.UnloadSceneAsync(areaScenes[currentLevel].Name);
             currentLevel++;
+            
+            if (currentLevel == areaScenes.Length - 1) {
+                SceneManager.LoadScene("MainMenu");
+                return;
+            }
+            
             SceneManager.LoadScene(areaScenes[currentLevel].Name, LoadSceneMode.Additive);
             areaEnemies[currentLevel].SetActive(true);
         }
