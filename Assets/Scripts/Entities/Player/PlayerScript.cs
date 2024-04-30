@@ -48,6 +48,7 @@ namespace Entities.Player {
         private Rigidbody2D _rigidbody;
         private static readonly int SpeedAnimatorParameter = Animator.StringToHash("Speed");
         public bool dead;
+        private static readonly int IsDead = Animator.StringToHash("IsDead");
 
         private void Awake() {
             transform1 = transform;
@@ -170,6 +171,7 @@ namespace Entities.Player {
         
         private void OnDeath() {
             if (dead) return;
+            animator.SetBool(IsDead, true);
             EventBus<GameModeEvent>.Raise(new GameModeEvent(new PlayerDeathEvent(this)));
         }
         

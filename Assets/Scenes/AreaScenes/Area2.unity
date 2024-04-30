@@ -475,6 +475,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Casino
       objectReference: {fileID: 0}
+    - target: {fileID: 6048594410125653619, guid: 397c1ce339434104a878aa7ad768cbb5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6232192915954493281, guid: 397c1ce339434104a878aa7ad768cbb5, type: 3}
       propertyPath: m_ApplyToSortingLayers.Array.size
       value: 1

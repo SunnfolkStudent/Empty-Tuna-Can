@@ -5,10 +5,12 @@ using Utils;
 
 namespace Entities.Player {
     public static class PlayerManager {
-        public static List<PlayerScript> AllPlayers = new ();
-        public static List<PlayerScript> AlivePlayers = new ();
+        public static readonly List<PlayerScript> AllPlayers = new ();
+        public static readonly List<PlayerScript> AlivePlayers = new ();
         public static bool FriendlyFire = true;
-    
+        
+        private static readonly int IsDead = Animator.StringToHash("IsDead");
+
         public static void RegisterPlayer(PlayerScript playerScript) {
             AllPlayers.Add(playerScript);
             AlivePlayers.Add(playerScript);
@@ -30,6 +32,7 @@ namespace Entities.Player {
                 playerScript.dead = false;
                 playerScript.health.Value = playerScript.health.maxValue;
                 playerScript.StopStatusEffects();
+                playerScript.animator.SetBool(IsDead, false);
                 AlivePlayers.Add(playerScript);
             }
         }
