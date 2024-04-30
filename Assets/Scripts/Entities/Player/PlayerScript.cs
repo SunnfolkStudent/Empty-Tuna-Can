@@ -42,20 +42,21 @@ namespace Entities.Player {
         public List<Upgrade> allUpgrades = new ();
         
         private static Conversation conversation;
-
+        
         public static bool Paused;
         
         private Rigidbody2D _rigidbody;
-        private static readonly int SpeedAnimatorParameter = Animator.StringToHash("Speed");
         public bool dead;
-        private static readonly int IsDead = Animator.StringToHash("IsDead");
-
+        
+        private static readonly int SpeedAnimatorParameter = Animator.StringToHash("Speed");
+        private static readonly int IsDeadAnimatorParameter = Animator.StringToHash("IsDead");
+        
         private void Awake() {
             transform1 = transform;
             entityMovement = GetComponent<EntityMovement>();
             _rigidbody = GetComponent<Rigidbody2D>();
             PlayerManager.RegisterPlayer(this);
-        
+            
             foreach (var stateBehaviour in animator.GetBehaviours<Attack>()) {
                 stateBehaviour.playerScript = this;
             }
@@ -171,7 +172,7 @@ namespace Entities.Player {
         
         private void OnDeath() {
             if (dead) return;
-            animator.SetBool(IsDead, true);
+            animator.SetBool(IsDeadAnimatorParameter, true);
             EventBus<GameModeEvent>.Raise(new GameModeEvent(new PlayerDeathEvent(this)));
         }
         
@@ -189,6 +190,7 @@ namespace Entities.Player {
         }
         
         protected override void Stagger() {
+            if (dead) return;
             animator.Play("Stagger");
             movementEnabled = false;
         }
