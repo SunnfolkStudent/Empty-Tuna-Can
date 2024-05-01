@@ -149,10 +149,10 @@ MonoBehaviour:
   staggerResistance: 1
   heightIndex: 0
   teamNumber: 0
+  hitbox: {fileID: 2122585974787326767}
+  canMove: 1
   canTakeDamage: 1
   moveVector: {x: 0, y: 0}
-  movementEnabled: 1
-  hitbox: {fileID: 2122585974787326767}
   animator: {fileID: 2491191273193909679}
   actionManager: {fileID: 1247287791869132474}
   entityMovement: {fileID: 6602708319433839972}
@@ -162,7 +162,7 @@ MonoBehaviour:
   inventory:
     inventory:
     - item: {fileID: 11400000, guid: bb99081224f82264d82580f3cd351ed0, type: 2}
-      amount: 2
+      amount: 9
     selectedItem:
       value:
         item: {fileID: 0}

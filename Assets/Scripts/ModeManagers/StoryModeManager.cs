@@ -34,6 +34,7 @@ namespace ModeManagers {
         
         public void Start() {
             PlayerManager.FriendlyFire = false;
+            currentLevel = 0;
             
             PauseMenu.Pause();
         }
@@ -80,7 +81,7 @@ namespace ModeManagers {
             SceneManager.UnloadSceneAsync(areaScenes[currentLevel].Name);
             currentLevel++;
             
-            if (currentLevel == areaScenes.Length - 1) {
+            if (currentLevel == areaScenes.Length) {
                 SceneManager.LoadScene("MainMenu");
                 return;
             }

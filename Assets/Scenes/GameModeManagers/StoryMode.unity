@@ -2460,7 +2460,7 @@ PrefabInstance:
     - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
       propertyPath: 'areaEnemies.Array.data[2]'
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2068383588}
     - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
       propertyPath: 'areaEnemies.Array.data[3]'
       value: 
