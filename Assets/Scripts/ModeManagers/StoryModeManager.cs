@@ -21,7 +21,7 @@ namespace ModeManagers {
         
         private static event Action LevelCompleted = () => { };
         
-        private int currentLevel;
+        [SerializeField] private int currentLevel;
         
         public static bool ExitingToMenu;
         

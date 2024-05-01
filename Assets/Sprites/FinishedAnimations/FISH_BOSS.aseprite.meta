@@ -1,0 +1,1171 @@
+fileFormatVersion: 2
+guid: 15fbf46a12484134f99babd2429f295f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 32
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638501056787147881
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: FISH_BOSS_Frame_11
+    originalName: 
+    pivot: {x: 0.48692805, y: -0.122950815}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 689
+      y: 4
+      width: 153
+      height: 122
+    spriteID: 323b12b298f1d1f43b31169ea2c6374d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 689, y: 4}
+  - name: FISH_BOSS_Frame_12
+    originalName: 
+    pivot: {x: 0.5028736, y: -0.006993007}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 174
+      height: 143
+    spriteID: d0bcc291527866f43a39539f98a6ca14
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: FISH_BOSS_Frame_13
+    originalName: 
+    pivot: {x: 0.49712646, y: -0.085271314}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 359
+      y: 4
+      width: 174
+      height: 129
+    spriteID: 7f29ff2536775124d8b8f87934fabf04
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 359, y: 4}
+  - name: FISH_BOSS_Frame_14
+    originalName: 
+    pivot: {x: 0.5969697, y: -0.10071942}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 186
+      y: 4
+      width: 165
+      height: 139
+    spriteID: b6651fa2bde1a36408f84c5f7b5c0b99
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 186, y: 4}
+  - name: FISH_BOSS_Frame_24
+    originalName: 
+    pivot: {x: 0.41071427, y: -0.11678833}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 541
+      y: 4
+      width: 140
+      height: 137
+    spriteID: 849e38bc0d750714487da431f12c9449
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 541, y: 4}
+  - name: FISH_BOSS_Frame_25
+    originalName: 
+    pivot: {x: 0.8511451, y: -0.12698412}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 155
+      width: 131
+      height: 126
+    spriteID: d9505f91b5437f34d822e97b43293016
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 155}
+  - name: FISH_BOSS_Frame_0
+    originalName: 
+    pivot: {x: 0.53797466, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 780
+      y: 155
+      width: 79
+      height: 104
+    spriteID: 25d360bd473fe6c428b9c5734c471461
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 780, y: 155}
+  - name: FISH_BOSS_Frame_1
+    originalName: 
+    pivot: {x: 0.53797466, y: -0.15686275}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 265
+      y: 429
+      width: 79
+      height: 102
+    spriteID: a9bc78266339aa742bc56c67d570d465
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 265, y: 429}
+  - name: FISH_BOSS_Frame_2
+    originalName: 
+    pivot: {x: 0.53797466, y: -0.1509434}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 518
+      y: 155
+      width: 79
+      height: 106
+    spriteID: 5f4a3669fb4a3f14684846d61950599e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 518, y: 155}
+  - name: FISH_BOSS_Frame_3
+    originalName: 
+    pivot: {x: 0.5126582, y: -0.15238096}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 693
+      y: 155
+      width: 79
+      height: 105
+    spriteID: e3e88f1644038e54eb75cad41dc38569
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 693, y: 155}
+  - name: FISH_BOSS_Frame_4
+    originalName: 
+    pivot: {x: 0.53797466, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 867
+      y: 155
+      width: 79
+      height: 104
+    spriteID: e8bfe36090280944988c645dee654bc4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 867, y: 155}
+  - name: FISH_BOSS_Frame_5
+    originalName: 
+    pivot: {x: 0.59375, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 605
+      y: 155
+      width: 80
+      height: 104
+    spriteID: 058934567056fb343969f41704197706
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 605, y: 155}
+  - name: FISH_BOSS_Frame_6
+    originalName: 
+    pivot: {x: 0.53797466, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 429
+      width: 79
+      height: 104
+    spriteID: e70b6f1d7278cec4fa109656a4953a4b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 429}
+  - name: FISH_BOSS_Frame_7
+    originalName: 
+    pivot: {x: 0.55797106, y: -0.1509434}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 948
+      y: 289
+      width: 69
+      height: 106
+    spriteID: 6626237ae8c0a56429a64143abd858b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 948, y: 289}
+  - name: FISH_BOSS_Frame_8
+    originalName: 
+    pivot: {x: 0.56666666, y: -0.15841584}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 599
+      y: 429
+      width: 75
+      height: 101
+    spriteID: 05a8b0da73a8ea14a8c63db682607a71
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 599, y: 429}
+  - name: FISH_BOSS_Frame_9
+    originalName: 
+    pivot: {x: 0.56329113, y: -0.1553398}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 429
+      width: 79
+      height: 103
+    spriteID: 4ee914f915b962a4aab395b26d224458
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 429}
+  - name: FISH_BOSS_Frame_10
+    originalName: 
+    pivot: {x: 0.55797106, y: -0.1509434}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 541
+      width: 69
+      height: 106
+    spriteID: d97c8a388251bc34abc163573061ecff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 541}
+  - name: FISH_BOSS_Frame_19
+    originalName: 
+    pivot: {x: 0.5290697, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 244
+      y: 155
+      width: 86
+      height: 104
+    spriteID: 3c18a8ece0f87a74e8e36210869041e1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 244, y: 155}
+  - name: FISH_BOSS_Frame_20
+    originalName: 
+    pivot: {x: 0.4959016, y: -0.1495327}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 548
+      y: 289
+      width: 122
+      height: 107
+    spriteID: 0004a73959ea40042bdde3c59fdef5b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 548, y: 289}
+  - name: FISH_BOSS_Frame_21
+    originalName: 
+    pivot: {x: 0.35950416, y: -0.12121212}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 289
+      width: 121
+      height: 132
+    spriteID: a9670707fb690bb41a8bdd33e7f3f0e2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 289}
+  - name: FISH_BOSS_Frame_22
+    originalName: 
+    pivot: {x: 0.375, y: -0.11764706}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 850
+      y: 4
+      width: 124
+      height: 136
+    spriteID: b45f63022ba96e4428ccab65860a5cd1
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 850, y: 4}
+  - name: FISH_BOSS_Frame_23
+    originalName: 
+    pivot: {x: 0.35950416, y: -0.12121212}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 133
+      y: 289
+      width: 121
+      height: 132
+    spriteID: 915e8751c46d8ca458d8baf0a73f9b8b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 133, y: 289}
+  - name: FISH_BOSS_Frame_26
+    originalName: 
+    pivot: {x: 0.57236844, y: -0.15841584}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 434
+      y: 429
+      width: 76
+      height: 101
+    spriteID: f00a9a9d351f3b54780e906c083d3373
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 434, y: 429}
+  - name: FISH_BOSS_Frame_27
+    originalName: 
+    pivot: {x: 0.53797466, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 91
+      y: 429
+      width: 79
+      height: 104
+    spriteID: b32ba6c46d911044f92d23cda70991e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 91, y: 429}
+  - name: FISH_BOSS_Frame_28
+    originalName: 
+    pivot: {x: 0.5792683, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 338
+      y: 155
+      width: 82
+      height: 104
+    spriteID: 9a55802494b021f48b6c45c493d401c9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 338, y: 155}
+  - name: FISH_BOSS_Frame_29
+    originalName: 
+    pivot: {x: 0.47857147, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 682
+      y: 429
+      width: 70
+      height: 104
+    spriteID: 0d5c83846bce9a4409a8e3139869ed0a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 682, y: 429}
+  - name: FISH_BOSS_Frame_30
+    originalName: 
+    pivot: {x: 0.44520548, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 518
+      y: 429
+      width: 73
+      height: 104
+    spriteID: 5e1c298da8a63f74b8abd3e372658c05
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 518, y: 429}
+  - name: FISH_BOSS_Frame_31
+    originalName: 
+    pivot: {x: 0.43918917, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 429
+      width: 74
+      height: 104
+    spriteID: 69a8c0afc0855494987452de25e29241
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 352, y: 429}
+  - name: FISH_BOSS_Frame_32
+    originalName: 
+    pivot: {x: 0.554878, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 428
+      y: 155
+      width: 82
+      height: 104
+    spriteID: aa30d80ae69f6e04cba490ac05677b58
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 428, y: 155}
+  - name: FISH_BOSS_Frame_33
+    originalName: 
+    pivot: {x: 0.67699116, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 678
+      y: 289
+      width: 113
+      height: 104
+    spriteID: d731dbef8f1da1f4ea2802fc47475fb6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 678, y: 289}
+  - name: FISH_BOSS_Frame_34
+    originalName: 
+    pivot: {x: 0.71259844, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 413
+      y: 289
+      width: 127
+      height: 104
+    spriteID: 50a8bb8819572be428372f6cc4e856fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 413, y: 289}
+  - name: FISH_BOSS_Frame_35
+    originalName: 
+    pivot: {x: 0.6075269, y: -0.15384616}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 143
+      y: 155
+      width: 93
+      height: 104
+    spriteID: 693f2bffccb6154409d40629cba059ff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 143, y: 155}
+  - name: FISH_BOSS_Frame_15
+    originalName: 
+    pivot: {x: 0.7027972, y: -0.13761468}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 262
+      y: 289
+      width: 143
+      height: 109
+    spriteID: 130cda3c21508cd4a9d33e3ac11456c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 262, y: 289}
+  - name: FISH_BOSS_Frame_16
+    originalName: 
+    pivot: {x: 0.71276593, y: -0.20833334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 799
+      y: 289
+      width: 141
+      height: 72
+    spriteID: 46049d5fea4e1904cad3a7fb3c06ef05
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 799, y: 289}
+  - name: FISH_BOSS_Frame_17
+    originalName: 
+    pivot: {x: 0.86752135, y: -0.2909091}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 760
+      y: 429
+      width: 117
+      height: 55
+    spriteID: 4e8c4f9eb328c664cac9a07cb3296735
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 760, y: 429}
+  - name: FISH_BOSS_Frame_18
+    originalName: 
+    pivot: {x: 3.35, y: -0.44444448}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 954
+      y: 155
+      width: 30
+      height: 36
+    spriteID: 90698e5e8d5107749b64fc124d76647e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 954, y: 155}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -2026183124
+    name: FISH_BOSS
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: FISH_BOSS_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 57
+        y: 15
+        width: 153
+        height: 122
+      spriteId: 323b12b298f1d1f43b31169ea2c6374d
+    - name: FISH_BOSS_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 44
+        y: 1
+        width: 174
+        height: 143
+      spriteId: d0bcc291527866f43a39539f98a6ca14
+    - name: FISH_BOSS_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 45
+        y: 11
+        width: 174
+        height: 129
+      spriteId: 7f29ff2536775124d8b8f87934fabf04
+    - name: FISH_BOSS_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 33
+        y: 14
+        width: 165
+        height: 139
+      spriteId: b6651fa2bde1a36408f84c5f7b5c0b99
+    - name: FISH_BOSS_Frame_24
+      frameIndex: 24
+      cellRect:
+        x: 74
+        y: 16
+        width: 140
+        height: 137
+      spriteId: 849e38bc0d750714487da431f12c9449
+    - name: FISH_BOSS_Frame_25
+      frameIndex: 25
+      cellRect:
+        x: 20
+        y: 16
+        width: 131
+        height: 126
+      spriteId: d9505f91b5437f34d822e97b43293016
+    - name: FISH_BOSS_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 89
+        y: 16
+        width: 79
+        height: 104
+      spriteId: 25d360bd473fe6c428b9c5734c471461
+    - name: FISH_BOSS_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 89
+        y: 16
+        width: 79
+        height: 102
+      spriteId: a9bc78266339aa742bc56c67d570d465
+    - name: FISH_BOSS_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 89
+        y: 16
+        width: 79
+        height: 106
+      spriteId: 5f4a3669fb4a3f14684846d61950599e
+    - name: FISH_BOSS_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 91
+        y: 16
+        width: 79
+        height: 105
+      spriteId: e3e88f1644038e54eb75cad41dc38569
+    - name: FISH_BOSS_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 89
+        y: 16
+        width: 79
+        height: 104
+      spriteId: e8bfe36090280944988c645dee654bc4
+    - name: FISH_BOSS_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 84
+        y: 16
+        width: 80
+        height: 104
+      spriteId: 058934567056fb343969f41704197706
+    - name: FISH_BOSS_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 89
+        y: 16
+        width: 79
+        height: 104
+      spriteId: e70b6f1d7278cec4fa109656a4953a4b
+    - name: FISH_BOSS_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 93
+        y: 16
+        width: 69
+        height: 106
+      spriteId: 6626237ae8c0a56429a64143abd858b0
+    - name: FISH_BOSS_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 89
+        y: 16
+        width: 75
+        height: 101
+      spriteId: 05a8b0da73a8ea14a8c63db682607a71
+    - name: FISH_BOSS_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 87
+        y: 16
+        width: 79
+        height: 103
+      spriteId: 4ee914f915b962a4aab395b26d224458
+    - name: FISH_BOSS_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 93
+        y: 16
+        width: 69
+        height: 106
+      spriteId: d97c8a388251bc34abc163573061ecff
+    - name: FISH_BOSS_Frame_19
+      frameIndex: 19
+      cellRect:
+        x: 86
+        y: 16
+        width: 86
+        height: 104
+      spriteId: 3c18a8ece0f87a74e8e36210869041e1
+    - name: FISH_BOSS_Frame_20
+      frameIndex: 20
+      cellRect:
+        x: 71
+        y: 16
+        width: 122
+        height: 107
+      spriteId: 0004a73959ea40042bdde3c59fdef5b0
+    - name: FISH_BOSS_Frame_21
+      frameIndex: 21
+      cellRect:
+        x: 88
+        y: 16
+        width: 121
+        height: 132
+      spriteId: a9670707fb690bb41a8bdd33e7f3f0e2
+    - name: FISH_BOSS_Frame_22
+      frameIndex: 22
+      cellRect:
+        x: 85
+        y: 16
+        width: 124
+        height: 136
+      spriteId: b45f63022ba96e4428ccab65860a5cd1
+    - name: FISH_BOSS_Frame_23
+      frameIndex: 23
+      cellRect:
+        x: 88
+        y: 16
+        width: 121
+        height: 132
+      spriteId: 915e8751c46d8ca458d8baf0a73f9b8b
+    - name: FISH_BOSS_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 88
+        y: 16
+        width: 76
+        height: 101
+      spriteId: f00a9a9d351f3b54780e906c083d3373
+    - name: FISH_BOSS_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 89
+        y: 16
+        width: 79
+        height: 104
+      spriteId: b32ba6c46d911044f92d23cda70991e4
+    - name: FISH_BOSS_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 84
+        y: 16
+        width: 82
+        height: 104
+      spriteId: 9a55802494b021f48b6c45c493d401c9
+    - name: FISH_BOSS_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 98
+        y: 16
+        width: 70
+        height: 104
+      spriteId: 0d5c83846bce9a4409a8e3139869ed0a
+    - name: FISH_BOSS_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 99
+        y: 16
+        width: 73
+        height: 104
+      spriteId: 5e1c298da8a63f74b8abd3e372658c05
+    - name: FISH_BOSS_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 99
+        y: 16
+        width: 74
+        height: 104
+      spriteId: 69a8c0afc0855494987452de25e29241
+    - name: FISH_BOSS_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 86
+        y: 16
+        width: 82
+        height: 104
+      spriteId: aa30d80ae69f6e04cba490ac05677b58
+    - name: FISH_BOSS_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 55
+        y: 16
+        width: 113
+        height: 104
+      spriteId: d731dbef8f1da1f4ea2802fc47475fb6
+    - name: FISH_BOSS_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 41
+        y: 16
+        width: 127
+        height: 104
+      spriteId: 50a8bb8819572be428372f6cc4e856fc
+    - name: FISH_BOSS_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 75
+        y: 16
+        width: 93
+        height: 104
+      spriteId: 693f2bffccb6154409d40629cba059ff
+    - name: FISH_BOSS_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 31
+        y: 15
+        width: 143
+        height: 109
+      spriteId: 130cda3c21508cd4a9d33e3ac11456c5
+    - name: FISH_BOSS_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 31
+        y: 15
+        width: 141
+        height: 72
+      spriteId: 46049d5fea4e1904cad3a7fb3c06ef05
+    - name: FISH_BOSS_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 30
+        y: 16
+        width: 117
+        height: 55
+      spriteId: 4e8c4f9eb328c664cac9a07cb3296735
+    - name: FISH_BOSS_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 31
+        y: 16
+        width: 30
+        height: 36
+      spriteId: 90698e5e8d5107749b64fc124d76647e
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 263, y: 187}

@@ -1,3 +1,4 @@
+using StateMachineBehaviourScripts;
 using UnityEngine;
 using Utils;
 using Random = UnityEngine.Random;
@@ -8,13 +9,12 @@ namespace Entities {
         [Header("Script References")]
         [SerializeField] private Animator animator;
         [SerializeField] private EntityMovement entityMovement;
-        [SerializeField] private Hitbox hitbox;
-    
-        public bool canMove = true;
+        
         [Tooltip("Lower number means more agile")]
         [SerializeField] private float agility = 5f;
         [SerializeField] private float attackRange = 1;
-    
+        [SerializeField] private string[] attacks = {"Attack"};
+        
         private Vector3 direction;
         private static readonly int Speed = Animator.StringToHash("Speed");
         private static readonly int Death1 = Animator.StringToHash("Death");
@@ -22,6 +22,10 @@ namespace Entities {
         private void Awake() {
             EntityManager.TestEnemies.Add(this);
             OnDying += Death;
+            
+            foreach (var stateBehaviour in animator.GetBehaviours<Attack>()) {
+                stateBehaviour.damageable = this;
+            }
         }
     
         private void OnDisable() {
@@ -62,7 +66,7 @@ namespace Entities {
         }
     
         private void Attack() {
-            animator.Play("Attack");
+            animator.Play(attacks.GetRandom());
             canMove = false;
         }
     

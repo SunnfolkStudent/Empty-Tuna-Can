@@ -46,7 +46,7 @@ namespace Entities.Player {
         public static void PlayerDead(PlayerScript playerScript) {
             AlivePlayers.Remove(playerScript);
             playerScript.dead = true;
-            playerScript.movementEnabled = false;
+            playerScript.canMove = false;
         }
     
         public static Vector3 GetAvailableSpawnPosition() {

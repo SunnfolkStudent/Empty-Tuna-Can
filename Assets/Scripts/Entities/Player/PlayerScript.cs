@@ -15,10 +15,8 @@ namespace Entities.Player {
     public class PlayerScript : Damageable {
         [Header("Movement")]
         public Vector2 moveVector;
-        public bool movementEnabled = true;
         
         [Header("References")]
-        public Hitbox hitbox;
         [SerializeField] public Animator animator;
         [SerializeField] private ActionManager actionManager;
         public EntityMovement entityMovement;
@@ -58,7 +56,7 @@ namespace Entities.Player {
             PlayerManager.RegisterPlayer(this);
             
             foreach (var stateBehaviour in animator.GetBehaviours<Attack>()) {
-                stateBehaviour.playerScript = this;
+                stateBehaviour.damageable = this;
             }
         }
 
@@ -155,7 +153,7 @@ namespace Entities.Player {
         #endregion
         
         private void Update() {
-            if (!movementEnabled) return;
+            if (!canMove) return;
             animator.SetFloat(SpeedAnimatorParameter, moveVector.magnitude);
             entityMovement.MoveInDirection(moveVector);
             CheckIfFlipObject();
@@ -192,7 +190,7 @@ namespace Entities.Player {
         protected override void Stagger() {
             if (dead) return;
             animator.Play("Stagger");
-            movementEnabled = false;
+            canMove = false;
         }
         
         private DamageInstance GetDamageInstance(AttackAction attackAction) {

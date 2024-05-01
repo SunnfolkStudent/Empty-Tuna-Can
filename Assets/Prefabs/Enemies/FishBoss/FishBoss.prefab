@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -4222762945511582391}
   - component: {fileID: 333398126761817379}
   m_Layer: 3
-  m_Name: FishBasic
+  m_Name: FishBoss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -50,7 +50,7 @@ Animator:
   m_GameObject: {fileID: 3249160653084110874}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 1871e1a904adf214f8a11fb214b2bb97, type: 2}
+  m_Controller: {fileID: 9100000, guid: ca4a75c9f79ff2840918771a8271f221, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -90,10 +90,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health:
     minValue: 0
-    maxValue: 30
-    value: 30
+    maxValue: 200
+    value: 200
   invincibilityFrames: 0.5
-  staggerResistance: 0
+  staggerResistance: 1
   heightIndex: 0
   teamNumber: 0
   hitbox: {fileID: 8006654361158850081}
@@ -102,9 +102,10 @@ MonoBehaviour:
   animator: {fileID: 3924150584749985507}
   entityMovement: {fileID: 2638086155515647267}
   agility: 1
-  attackRange: 1
+  attackRange: 2
   attacks:
-  - Attack
+  - Attack1
+  - Attack2
 --- !u!114 &3246346032263903027
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,7 +156,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.12}
+  m_Offset: {x: -0.17479688, y: 0.120000005}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.49999994, y: -0.04347826}
@@ -165,7 +166,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.88136095, y: 0.23406416}
+  m_Size: {x: 2.36412, y: 0.23406416}
   m_EdgeRadius: 0
 --- !u!50 &333398126761817379
 Rigidbody2D:
@@ -220,7 +221,7 @@ Transform:
   m_GameObject: {fileID: 7670501902665787999}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.29, y: -0.38, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -269,7 +270,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -7557245433883991744, guid: 3d976757b201b0243bd2c354f1431ab0, type: 3}
+  m_Sprite: {fileID: 3150058410946758007, guid: 15fbf46a12484134f99babd2429f295f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -294,7 +295,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5867063138651009096, guid: 1f1dd18c94eca414aa1b8fac9e04030f, type: 3}
       propertyPath: m_Size.x
-      value: 1
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 5867063138651009096, guid: 1f1dd18c94eca414aa1b8fac9e04030f, type: 3}
       propertyPath: m_Size.y
@@ -373,7 +374,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3282161613126948841, guid: 5f8ee42a75fd7744c9be9c4b29aca615, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.019221801
+      value: 0.0192218
       objectReference: {fileID: 0}
     - target: {fileID: 3282161613126948841, guid: 5f8ee42a75fd7744c9be9c4b29aca615, type: 3}
       propertyPath: m_LocalRotation.w
@@ -405,11 +406,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3702054426016257331, guid: 5f8ee42a75fd7744c9be9c4b29aca615, type: 3}
       propertyPath: m_Size.x
-      value: 0.24640502
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3705814252687112322, guid: 5f8ee42a75fd7744c9be9c4b29aca615, type: 3}
       propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 0.24640502
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4363281407748217828, guid: 5f8ee42a75fd7744c9be9c4b29aca615, type: 3}
       propertyPath: m_Name
