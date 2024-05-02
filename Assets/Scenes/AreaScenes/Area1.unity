@@ -249,6 +249,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 304896383735349949, guid: 0002989bf0f70884e92e996f570a76b6, type: 3}
+      propertyPath: m_Intensity
+      value: 0.37
+      objectReference: {fileID: 0}
     - target: {fileID: 3596272426713046055, guid: 0002989bf0f70884e92e996f570a76b6, type: 3}
       propertyPath: m_Name
       value: Street
