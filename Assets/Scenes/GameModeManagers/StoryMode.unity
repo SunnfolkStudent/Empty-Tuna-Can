@@ -2443,11 +2443,11 @@ PrefabInstance:
       objectReference: {fileID: 159320748}
     - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
       propertyPath: areaScenes.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
       propertyPath: areaEnemies.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
       propertyPath: 'areaEnemies.Array.data[0]'
@@ -2456,41 +2456,61 @@ PrefabInstance:
     - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
       propertyPath: 'areaEnemies.Array.data[1]'
       value: 
-      objectReference: {fileID: 357139383}
+      objectReference: {fileID: 0}
     - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
       propertyPath: 'areaEnemies.Array.data[2]'
       value: 
-      objectReference: {fileID: 2068383588}
+      objectReference: {fileID: 357139383}
     - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
       propertyPath: 'areaEnemies.Array.data[3]'
       value: 
-      objectReference: {fileID: 178966182}
+      objectReference: {fileID: 0}
     - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
       propertyPath: 'areaEnemies.Array.data[4]'
       value: 
+      objectReference: {fileID: 178966182}
+    - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
+      propertyPath: 'areaEnemies.Array.data[5]'
+      value: 
       objectReference: {fileID: 1560905976}
     - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
+      propertyPath: areaScenes.Array.data[1].guid
+      value: 9a447d9954295a846b98ef3a5683c5c6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
       propertyPath: areaScenes.Array.data[2].guid
-      value: 5a8a8fe610c7df749acaac1c518a9ff2
+      value: 940e0fea6f820b344ba71b1cfa373a7c
       objectReference: {fileID: 0}
     - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
       propertyPath: areaScenes.Array.data[3].guid
-      value: d9ea87cc217e59b46bf5596808077086
+      value: 5a8a8fe610c7df749acaac1c518a9ff2
       objectReference: {fileID: 0}
     - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
       propertyPath: areaScenes.Array.data[4].guid
       value: d9ea87cc217e59b46bf5596808077086
       objectReference: {fileID: 0}
     - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
+      propertyPath: areaScenes.Array.data[5].guid
+      value: d9ea87cc217e59b46bf5596808077086
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
+      propertyPath: areaScenes.Array.data[1].asset
+      value: 
+      objectReference: {fileID: 102900000, guid: 9a447d9954295a846b98ef3a5683c5c6, type: 3}
+    - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
       propertyPath: areaScenes.Array.data[2].asset
       value: 
-      objectReference: {fileID: 102900000, guid: 5a8a8fe610c7df749acaac1c518a9ff2, type: 3}
+      objectReference: {fileID: 102900000, guid: 940e0fea6f820b344ba71b1cfa373a7c, type: 3}
     - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
       propertyPath: areaScenes.Array.data[3].asset
       value: 
-      objectReference: {fileID: 102900000, guid: d9ea87cc217e59b46bf5596808077086, type: 3}
+      objectReference: {fileID: 102900000, guid: 5a8a8fe610c7df749acaac1c518a9ff2, type: 3}
     - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
       propertyPath: areaScenes.Array.data[4].asset
+      value: 
+      objectReference: {fileID: 102900000, guid: d9ea87cc217e59b46bf5596808077086, type: 3}
+    - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
+      propertyPath: areaScenes.Array.data[5].asset
       value: 
       objectReference: {fileID: 102900000, guid: d9ea87cc217e59b46bf5596808077086, type: 3}
     - target: {fileID: 8392458014875982907, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
