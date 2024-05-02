@@ -390,7 +390,7 @@ GameObject:
   m_Component:
   - component: {fileID: 178966183}
   m_Layer: 0
-  m_Name: Area3
+  m_Name: Area3Enemies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -637,7 +637,7 @@ GameObject:
   m_Component:
   - component: {fileID: 357139384}
   m_Layer: 0
-  m_Name: Area2
+  m_Name: Area2Enemies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1371,7 +1371,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1259824287}
   m_Layer: 0
-  m_Name: Area1
+  m_Name: Area1Enemies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1776,7 +1776,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1560905977}
   m_Layer: 0
-  m_Name: Area4
+  m_Name: BossFight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
