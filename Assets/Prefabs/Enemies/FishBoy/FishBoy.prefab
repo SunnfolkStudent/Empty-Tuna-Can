@@ -96,13 +96,15 @@ MonoBehaviour:
   staggerResistance: 0
   heightIndex: 0
   teamNumber: 0
+  hitbox: {fileID: 8006654361158850081}
+  canMove: 1
   canTakeDamage: 1
   animator: {fileID: 3924150584749985507}
   entityMovement: {fileID: 2638086155515647267}
-  hitbox: {fileID: 8006654361158850081}
-  canMove: 1
   agility: 0.8
   attackRange: 1.5
+  attacks:
+  - Attack
 --- !u!114 &3246346032263903027
 MonoBehaviour:
   m_ObjectHideFlags: 0

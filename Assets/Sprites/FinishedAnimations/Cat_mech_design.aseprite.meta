@@ -123,13 +123,13 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Cat_mech_design_Frame_0
     originalName: 
-    pivot: {x: 0.5243187, y: 0}
+    pivot: {x: 0.43333334, y: -0.21875}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 100
-      y: 4
+      x: 249
+      y: 622
       width: 60
       height: 64
     spriteID: c8c32ff270b0d9b4b99db32264a7d18f
@@ -140,16 +140,16 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 100, y: 4}
+    uvTransform: {x: 249, y: 622}
   - name: Cat_mech_design_Frame_1
     originalName: 
-    pivot: {x: 0.53086954, y: -0.0000002461095}
+    pivot: {x: 0.43333334, y: -0.22580643}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 72
-      y: 153
+      x: 100
+      y: 362
       width: 60
       height: 62
     spriteID: b8f55facdfe986747ab0979e8288a098
@@ -160,16 +160,16 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 72, y: 153}
+    uvTransform: {x: 100, y: 362}
   - name: Cat_mech_design_Frame_2
     originalName: 
-    pivot: {x: 0.54801995, y: -0.003319525}
+    pivot: {x: 0.4666667, y: -0.22580643}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 140
-      y: 153
+      x: 100
+      y: 432
       width: 60
       height: 62
     spriteID: 16594108365eb7547a60a1549997e2c9
@@ -180,16 +180,16 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 140, y: 153}
+    uvTransform: {x: 100, y: 432}
   - name: Cat_mech_design_Frame_3
     originalName: 
-    pivot: {x: 0.53086954, y: -0.0000003633045}
+    pivot: {x: 0.45000002, y: -0.22222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 372
-      y: 4
+      x: 100
+      y: 220
       width: 60
       height: 63
     spriteID: 74171315b3e12904f98569774396ccfb
@@ -200,16 +200,16 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 372, y: 4}
+    uvTransform: {x: 100, y: 220}
   - name: Cat_mech_design_Frame_4
     originalName: 
-    pivot: {x: 0.54, y: 0}
+    pivot: {x: 0.43333334, y: -0.21875}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 168
-      y: 4
+      x: 249
+      y: 694
       width: 60
       height: 64
     spriteID: ba134e92a0909d14a987066e30d36905
@@ -220,16 +220,16 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 168, y: 4}
+    uvTransform: {x: 249, y: 694}
   - name: Cat_mech_design_Frame_5
     originalName: 
-    pivot: {x: 0.54, y: 0}
+    pivot: {x: 0.43333334, y: -0.21875}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 236
-      y: 4
+      x: 249
+      y: 766
       width: 60
       height: 64
     spriteID: e02e09d2a4331644cadf2ea0e6115f03
@@ -240,16 +240,16 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 236, y: 4}
+    uvTransform: {x: 249, y: 766}
   - name: Cat_mech_design_Frame_6
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.43333334, y: -0.25396827}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 440
-      y: 4
+      x: 100
+      y: 291
       width: 60
       height: 63
     spriteID: e9a9a6ee2cfc63d4fab4cb9299c14645
@@ -260,16 +260,16 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 440, y: 4}
+    uvTransform: {x: 100, y: 291}
   - name: Cat_mech_design_Frame_7
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.43333334, y: -0.25}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 304
-      y: 4
+      x: 249
+      y: 838
       width: 60
       height: 64
     spriteID: 3d2ea49218a2f424da3eef02dc7fd0bc
@@ -280,16 +280,16 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 304, y: 4}
+    uvTransform: {x: 249, y: 838}
   - name: Cat_mech_design_Frame_8
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.43333334, y: -0.24615386}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 447
-      y: 76
+      x: 249
+      y: 310
       width: 60
       height: 65
     spriteID: f4294d60d665ac94d9a609ebba30142e
@@ -300,16 +300,16 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 447, y: 76}
+    uvTransform: {x: 249, y: 310}
   - name: Cat_mech_design_Frame_9
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.43333334, y: -0.24615386}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 153
+      x: 249
+      y: 383
       width: 60
       height: 65
     spriteID: 0722ad3d041f0a4449df2eccfad9da50
@@ -320,16 +320,16 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 153}
+    uvTransform: {x: 249, y: 383}
   - name: Cat_mech_design_Frame_10
     originalName: 
-    pivot: {x: 0.5496755, y: -0.00000024220301}
+    pivot: {x: 0.44827583, y: -0.22222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 208
-      y: 153
+      x: 100
+      y: 502
       width: 58
       height: 63
     spriteID: 96e7d19cac7bbb94e85de380e90841cd
@@ -340,16 +340,16 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 208, y: 153}
+    uvTransform: {x: 100, y: 502}
   - name: Cat_mech_design_Frame_11
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.43333334, y: -0.21212122}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 379
-      y: 76
+      x: 249
+      y: 236
       width: 60
       height: 66
     spriteID: d73bae36ffdd10840b9f23dd792bef51
@@ -360,16 +360,16 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 379, y: 76}
+    uvTransform: {x: 249, y: 236}
   - name: Cat_mech_design_Frame_12
     originalName: 
-    pivot: {x: 0.6050886, y: 0.0032150745}
+    pivot: {x: 0.46808517, y: -0.21875}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 122
-      y: 226
+      x: 174
+      y: 73
       width: 47
       height: 64
     spriteID: 6e69d2f1a96e7254eaa4bd80a54da1c6
@@ -380,16 +380,16 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 122, y: 226}
+    uvTransform: {x: 174, y: 73}
   - name: Cat_mech_design_Frame_13
     originalName: 
-    pivot: {x: 0.5342999, y: -0.0032162666}
+    pivot: {x: 0.42424244, y: -0.21875}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 230
-      y: 76
+      x: 4
+      y: 914
       width: 66
       height: 64
     spriteID: b8586a3ed9b756f4fa1454cc493db814
@@ -400,10 +400,10 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 230, y: 76}
+    uvTransform: {x: 4, y: 914}
   - name: Cat_mech_design_Frame_14
     originalName: 
-    pivot: {x: 0.39, y: 0}
+    pivot: {x: 0.3409091, y: -0.21875}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -423,13 +423,13 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: Cat_mech_design_Frame_15
     originalName: 
-    pivot: {x: 0.48121643, y: 0}
+    pivot: {x: 0.3857143, y: -0.21875}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 152
-      y: 76
+      x: 4
+      y: 704
       width: 70
       height: 64
     spriteID: 55e443ef66b8dbd4faea06c8f40e02db
@@ -440,16 +440,16 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 152, y: 76}
+    uvTransform: {x: 4, y: 704}
   - name: Cat_mech_design_Frame_16
     originalName: 
-    pivot: {x: 0.6281387, y: -0.0032160282}
+    pivot: {x: 0.5283019, y: -0.21875}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 340
-      y: 153
+      x: 100
+      y: 644
       width: 53
       height: 64
     spriteID: 8e5936cc43d7ba94699cf413eb77cf38
@@ -460,16 +460,16 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 340, y: 153}
+    uvTransform: {x: 100, y: 644}
   - name: Cat_mech_design_Frame_17
     originalName: 
-    pivot: {x: 0.54115903, y: 0.003215313}
+    pivot: {x: 0.39999998, y: -0.21875}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 177
-      y: 226
+      x: 174
+      y: 217
       width: 35
       height: 64
     spriteID: a202adfc26a10ee4c8754557c9ffc33f
@@ -480,16 +480,16 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 177, y: 226}
+    uvTransform: {x: 174, y: 217}
   - name: Cat_mech_design_Frame_18
     originalName: 
-    pivot: {x: 0.24097627, y: -0.00000024220301}
+    pivot: {x: 0.1724138, y: -0.22222222}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 274
-      y: 153
+      x: 100
+      y: 573
       width: 58
       height: 63
     spriteID: c9dcdc2787d8df840b9ee528f94a3772
@@ -500,16 +500,16 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 274, y: 153}
+    uvTransform: {x: 100, y: 573}
   - name: Cat_mech_design_Frame_19
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.32432437, y: -0.21875}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 466
-      y: 153
+      x: 174
+      y: 145
       width: 37
       height: 64
     spriteID: 3ed678a00f4e4114f92ebdba38e20dd1
@@ -520,16 +520,16 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 466, y: 153}
+    uvTransform: {x: 174, y: 145}
   - name: Cat_mech_design_Frame_20
     originalName: 
-    pivot: {x: 0.54749197, y: 0.0033734431}
+    pivot: {x: 0.4038462, y: -0.22950819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 62
-      y: 226
+      x: 100
+      y: 854
       width: 52
       height: 61
     spriteID: 0ef4fa911754c924292143e9dec17473
@@ -540,18 +540,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 62, y: 226}
+    uvTransform: {x: 100, y: 854}
   - name: Cat_mech_design_Frame_21
     originalName: 
-    pivot: {x: 0.49999893, y: -0.0070974417}
+    pivot: {x: 0.4038462, y: -0.22950819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 401
-      y: 153
-      width: 57
-      height: 58
+      x: 100
+      y: 923
+      width: 52
+      height: 61
     spriteID: 8004917c6773ccf4fa98b4584bdb59ee
     spriteBone: []
     spriteOutline: []
@@ -560,18 +560,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 401, y: 153}
+    uvTransform: {x: 100, y: 923}
   - name: Cat_mech_design_Frame_22
     originalName: 
-    pivot: {x: 0.5, y: 0}
-    alignment: 7
+    pivot: {x: 0.3508772, y: -0.2413793}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 304
-      y: 76
-      width: 67
-      height: 61
+      x: 100
+      y: 716
+      width: 57
+      height: 58
     spriteID: 4be850083d3cfbb47a363ae7338694a2
     spriteBone: []
     spriteOutline: []
@@ -580,18 +580,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 304, y: 76}
+    uvTransform: {x: 100, y: 716}
   - name: Cat_mech_design_Frame_23
     originalName: 
-    pivot: {x: 0.3690368, y: 0.0059651914}
+    pivot: {x: 0.28358212, y: -0.22950819}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 76
-      width: 66
-      height: 69
+      x: 174
+      y: 4
+      width: 67
+      height: 61
     spriteID: 21c9ffeef3040f247a5fff3a234a6ef4
     spriteBone: []
     spriteOutline: []
@@ -600,16 +600,16 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 76}
+    uvTransform: {x: 174, y: 4}
   - name: Cat_mech_design_Frame_24
     originalName: 
-    pivot: {x: 0.35968214, y: 0.0059651914}
+    pivot: {x: 0.25757575, y: -0.20289855}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 78
-      y: 76
+      x: 4
+      y: 422
       width: 66
       height: 69
     spriteID: e21e7700c83a8114190e1139e85e8253
@@ -620,18 +620,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 78, y: 76}
+    uvTransform: {x: 4, y: 422}
   - name: Cat_mech_design_Frame_25
     originalName: 
-    pivot: {x: 0.4012162, y: 0.0032148361}
+    pivot: {x: 0.25757575, y: -0.20289855}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 226
-      width: 50
-      height: 64
+      y: 499
+      width: 66
+      height: 69
     spriteID: ec1b3991e2b288141beac5cb03275a50
     spriteBone: []
     spriteOutline: []
@@ -640,7 +640,407 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 226}
+    uvTransform: {x: 4, y: 499}
+  - name: Cat_mech_design_Frame_26
+    originalName: 
+    pivot: {x: 0.26000005, y: -0.21875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 782
+      width: 50
+      height: 64
+    spriteID: 9aa1ab817418e1d4b8cf93f6794fd610
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 782}
+  - name: Cat_mech_design_Frame_27
+    originalName: 
+    pivot: {x: 0.3939394, y: -0.21875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 4
+      width: 66
+      height: 64
+    spriteID: 995572cb735fd0040a99b686f5069091
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 4}
+  - name: Cat_mech_design_Frame_28
+    originalName: 
+    pivot: {x: 0.4, y: -0.20588236}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 776
+      width: 65
+      height: 68
+    spriteID: c61bbec490a43494781c606cabcb02f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 776}
+  - name: Cat_mech_design_Frame_29
+    originalName: 
+    pivot: {x: 0.5, y: -0.18666665}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 249
+      y: 456
+      width: 52
+      height: 75
+    spriteID: 5441839d437011344ba1847fa12a03e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 249, y: 456}
+  - name: Cat_mech_design_Frame_30
+    originalName: 
+    pivot: {x: 0.5, y: -0.18666665}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 249
+      y: 539
+      width: 52
+      height: 75
+    spriteID: 61e34ce70a95e54428e52acef1c8659b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 249, y: 539}
+  - name: Cat_mech_design_Frame_31
+    originalName: 
+    pivot: {x: 0.43333334, y: -0.21875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 249
+      y: 910
+      width: 60
+      height: 64
+    spriteID: d3cd614bc7a6e3549a9aad3527d69a96
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 249, y: 910}
+  - name: Cat_mech_design_Frame_32
+    originalName: 
+    pivot: {x: 0.39473686, y: -0.22222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 280
+      width: 76
+      height: 63
+    spriteID: a7ffe3ede7bba934bae6e5a909ca5d0d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 280}
+  - name: Cat_mech_design_Frame_33
+    originalName: 
+    pivot: {x: 0.41379312, y: -0.22580643}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 76
+      width: 87
+      height: 62
+    spriteID: 5626f8b90e08d2340add268e890ee9d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 76}
+  - name: Cat_mech_design_Frame_34
+    originalName: 
+    pivot: {x: 0.43333334, y: -0.21875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 76
+      width: 60
+      height: 64
+    spriteID: e4af6e69384fa47488b7144f849860e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 76}
+  - name: Cat_mech_design_Frame_35
+    originalName: 
+    pivot: {x: 0.43333334, y: -0.21875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 148
+      width: 60
+      height: 64
+    spriteID: 05b63002394bdd044a05263d9581128e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 148}
+  - name: Cat_mech_design_Frame_36
+    originalName: 
+    pivot: {x: 0.39473686, y: -0.22222222}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 351
+      width: 76
+      height: 63
+    spriteID: e1ed77acccc0dc148869d77da403b66a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 351}
+  - name: Cat_mech_design_Frame_37
+    originalName: 
+    pivot: {x: 0.41379312, y: -0.22580643}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 146
+      width: 87
+      height: 62
+    spriteID: 1368e0208f39c6b419c3438e27c99a33
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 146}
+  - name: Cat_mech_design_Frame_38
+    originalName: 
+    pivot: {x: 0.5172414, y: -0.25}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 216
+      width: 87
+      height: 56
+    spriteID: dca4adbe53c9a7547898dc0d597d0099
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 216}
+  - name: Cat_mech_design_Frame_39
+    originalName: 
+    pivot: {x: 0.51851857, y: -0.099999994}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 249
+      y: 4
+      width: 81
+      height: 50
+    spriteID: 2232e35b4883d5c4399da03ab466b9f2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 249, y: 4}
+  - name: Cat_mech_design_Frame_40
+    originalName: 
+    pivot: {x: 0.51851857, y: -0.099999994}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 249
+      y: 62
+      width: 81
+      height: 50
+    spriteID: 89e7ce35b4818ae42b51440a1f09c683
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 249, y: 62}
+  - name: Cat_mech_design_Frame_41
+    originalName: 
+    pivot: {x: 0.51851857, y: -0.099999994}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 249
+      y: 120
+      width: 81
+      height: 50
+    spriteID: e0c0290f29d73b541847ef81bd003190
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 249, y: 120}
+  - name: Cat_mech_design_Frame_42
+    originalName: 
+    pivot: {x: 0.51851857, y: -0.09259259}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 852
+      width: 81
+      height: 54
+    spriteID: 1b308b49bce29bd4b8518fd69677fbdd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 852}
+  - name: Cat_mech_design_Frame_43
+    originalName: 
+    pivot: {x: 0.51851857, y: -0.08928572}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 576
+      width: 81
+      height: 56
+    spriteID: 7d7d8b7b496e6e8458a6f78d4c4fc800
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 576}
+  - name: Cat_mech_design_Frame_44
+    originalName: 
+    pivot: {x: 0.51851857, y: -0.08928572}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 640
+      width: 81
+      height: 56
+    spriteID: fa6b3f6d381ab144abbd2e44ef11f8da
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 640}
+  - name: Cat_mech_design_Frame_45
+    originalName: 
+    pivot: {x: 0.51851857, y: -0.099999994}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 249
+      y: 178
+      width: 81
+      height: 50
+    spriteID: 6a89cef6c4c3a7d4d91ac897c9ccd570
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 249, y: 178}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -653,7 +1053,7 @@ ScriptedImporter:
     - name: Cat_mech_design_Frame_0
       frameIndex: 0
       cellRect:
-        x: 22
+        x: 46
         y: 14
         width: 60
         height: 64
@@ -661,7 +1061,7 @@ ScriptedImporter:
     - name: Cat_mech_design_Frame_1
       frameIndex: 1
       cellRect:
-        x: 22
+        x: 46
         y: 14
         width: 60
         height: 62
@@ -669,7 +1069,7 @@ ScriptedImporter:
     - name: Cat_mech_design_Frame_2
       frameIndex: 2
       cellRect:
-        x: 20
+        x: 44
         y: 14
         width: 60
         height: 62
@@ -677,7 +1077,7 @@ ScriptedImporter:
     - name: Cat_mech_design_Frame_3
       frameIndex: 3
       cellRect:
-        x: 21
+        x: 45
         y: 14
         width: 60
         height: 63
@@ -685,7 +1085,7 @@ ScriptedImporter:
     - name: Cat_mech_design_Frame_4
       frameIndex: 4
       cellRect:
-        x: 22
+        x: 46
         y: 14
         width: 60
         height: 64
@@ -693,7 +1093,7 @@ ScriptedImporter:
     - name: Cat_mech_design_Frame_5
       frameIndex: 5
       cellRect:
-        x: 22
+        x: 46
         y: 14
         width: 60
         height: 64
@@ -701,7 +1101,7 @@ ScriptedImporter:
     - name: Cat_mech_design_Frame_6
       frameIndex: 6
       cellRect:
-        x: 22
+        x: 46
         y: 16
         width: 60
         height: 63
@@ -709,7 +1109,7 @@ ScriptedImporter:
     - name: Cat_mech_design_Frame_7
       frameIndex: 7
       cellRect:
-        x: 22
+        x: 46
         y: 16
         width: 60
         height: 64
@@ -717,7 +1117,7 @@ ScriptedImporter:
     - name: Cat_mech_design_Frame_8
       frameIndex: 8
       cellRect:
-        x: 22
+        x: 46
         y: 16
         width: 60
         height: 65
@@ -725,7 +1125,7 @@ ScriptedImporter:
     - name: Cat_mech_design_Frame_9
       frameIndex: 9
       cellRect:
-        x: 22
+        x: 46
         y: 16
         width: 60
         height: 65
@@ -733,7 +1133,7 @@ ScriptedImporter:
     - name: Cat_mech_design_Frame_10
       frameIndex: 10
       cellRect:
-        x: 22
+        x: 46
         y: 14
         width: 58
         height: 63
@@ -741,7 +1141,7 @@ ScriptedImporter:
     - name: Cat_mech_design_Frame_11
       frameIndex: 11
       cellRect:
-        x: 22
+        x: 46
         y: 14
         width: 60
         height: 66
@@ -749,7 +1149,7 @@ ScriptedImporter:
     - name: Cat_mech_design_Frame_12
       frameIndex: 12
       cellRect:
-        x: 26
+        x: 50
         y: 14
         width: 47
         height: 64
@@ -757,7 +1157,7 @@ ScriptedImporter:
     - name: Cat_mech_design_Frame_13
       frameIndex: 13
       cellRect:
-        x: 20
+        x: 44
         y: 14
         width: 66
         height: 64
@@ -765,7 +1165,7 @@ ScriptedImporter:
     - name: Cat_mech_design_Frame_14
       frameIndex: 14
       cellRect:
-        x: 18
+        x: 42
         y: 14
         width: 88
         height: 64
@@ -773,7 +1173,7 @@ ScriptedImporter:
     - name: Cat_mech_design_Frame_15
       frameIndex: 15
       cellRect:
-        x: 21
+        x: 45
         y: 14
         width: 70
         height: 64
@@ -781,7 +1181,7 @@ ScriptedImporter:
     - name: Cat_mech_design_Frame_16
       frameIndex: 16
       cellRect:
-        x: 20
+        x: 44
         y: 14
         width: 53
         height: 64
@@ -789,7 +1189,7 @@ ScriptedImporter:
     - name: Cat_mech_design_Frame_17
       frameIndex: 17
       cellRect:
-        x: 34
+        x: 58
         y: 14
         width: 35
         height: 64
@@ -797,7 +1197,7 @@ ScriptedImporter:
     - name: Cat_mech_design_Frame_18
       frameIndex: 18
       cellRect:
-        x: 38
+        x: 62
         y: 14
         width: 58
         height: 63
@@ -805,7 +1205,7 @@ ScriptedImporter:
     - name: Cat_mech_design_Frame_19
       frameIndex: 19
       cellRect:
-        x: 36
+        x: 60
         y: 14
         width: 37
         height: 64
@@ -813,7 +1213,7 @@ ScriptedImporter:
     - name: Cat_mech_design_Frame_20
       frameIndex: 20
       cellRect:
-        x: 27
+        x: 51
         y: 14
         width: 52
         height: 61
@@ -821,31 +1221,31 @@ ScriptedImporter:
     - name: Cat_mech_design_Frame_21
       frameIndex: 21
       cellRect:
-        x: 28
+        x: 51
         y: 14
-        width: 57
-        height: 58
+        width: 52
+        height: 61
       spriteId: 8004917c6773ccf4fa98b4584bdb59ee
     - name: Cat_mech_design_Frame_22
       frameIndex: 22
       cellRect:
-        x: 29
+        x: 52
         y: 14
-        width: 67
-        height: 61
+        width: 57
+        height: 58
       spriteId: 4be850083d3cfbb47a363ae7338694a2
     - name: Cat_mech_design_Frame_23
       frameIndex: 23
       cellRect:
-        x: 31
+        x: 53
         y: 14
-        width: 66
-        height: 69
+        width: 67
+        height: 61
       spriteId: 21c9ffeef3040f247a5fff3a234a6ef4
     - name: Cat_mech_design_Frame_24
       frameIndex: 24
       cellRect:
-        x: 31
+        x: 55
         y: 14
         width: 66
         height: 69
@@ -853,11 +1253,171 @@ ScriptedImporter:
     - name: Cat_mech_design_Frame_25
       frameIndex: 25
       cellRect:
-        x: 35
+        x: 55
+        y: 14
+        width: 66
+        height: 69
+      spriteId: ec1b3991e2b288141beac5cb03275a50
+    - name: Cat_mech_design_Frame_26
+      frameIndex: 26
+      cellRect:
+        x: 59
         y: 14
         width: 50
         height: 64
-      spriteId: ec1b3991e2b288141beac5cb03275a50
+      spriteId: 9aa1ab817418e1d4b8cf93f6794fd610
+    - name: Cat_mech_design_Frame_27
+      frameIndex: 27
+      cellRect:
+        x: 46
+        y: 14
+        width: 66
+        height: 64
+      spriteId: 995572cb735fd0040a99b686f5069091
+    - name: Cat_mech_design_Frame_28
+      frameIndex: 28
+      cellRect:
+        x: 46
+        y: 14
+        width: 65
+        height: 68
+      spriteId: c61bbec490a43494781c606cabcb02f9
+    - name: Cat_mech_design_Frame_29
+      frameIndex: 29
+      cellRect:
+        x: 46
+        y: 14
+        width: 52
+        height: 75
+      spriteId: 5441839d437011344ba1847fa12a03e9
+    - name: Cat_mech_design_Frame_30
+      frameIndex: 30
+      cellRect:
+        x: 46
+        y: 14
+        width: 52
+        height: 75
+      spriteId: 61e34ce70a95e54428e52acef1c8659b
+    - name: Cat_mech_design_Frame_31
+      frameIndex: 31
+      cellRect:
+        x: 46
+        y: 14
+        width: 60
+        height: 64
+      spriteId: d3cd614bc7a6e3549a9aad3527d69a96
+    - name: Cat_mech_design_Frame_32
+      frameIndex: 32
+      cellRect:
+        x: 42
+        y: 14
+        width: 76
+        height: 63
+      spriteId: a7ffe3ede7bba934bae6e5a909ca5d0d
+    - name: Cat_mech_design_Frame_33
+      frameIndex: 33
+      cellRect:
+        x: 36
+        y: 14
+        width: 87
+        height: 62
+      spriteId: 5626f8b90e08d2340add268e890ee9d6
+    - name: Cat_mech_design_Frame_34
+      frameIndex: 34
+      cellRect:
+        x: 46
+        y: 14
+        width: 60
+        height: 64
+      spriteId: e4af6e69384fa47488b7144f849860e8
+    - name: Cat_mech_design_Frame_35
+      frameIndex: 35
+      cellRect:
+        x: 46
+        y: 14
+        width: 60
+        height: 64
+      spriteId: 05b63002394bdd044a05263d9581128e
+    - name: Cat_mech_design_Frame_36
+      frameIndex: 36
+      cellRect:
+        x: 42
+        y: 14
+        width: 76
+        height: 63
+      spriteId: e1ed77acccc0dc148869d77da403b66a
+    - name: Cat_mech_design_Frame_37
+      frameIndex: 37
+      cellRect:
+        x: 36
+        y: 14
+        width: 87
+        height: 62
+      spriteId: 1368e0208f39c6b419c3438e27c99a33
+    - name: Cat_mech_design_Frame_38
+      frameIndex: 38
+      cellRect:
+        x: 27
+        y: 14
+        width: 87
+        height: 56
+      spriteId: dca4adbe53c9a7547898dc0d597d0099
+    - name: Cat_mech_design_Frame_39
+      frameIndex: 39
+      cellRect:
+        x: 30
+        y: 5
+        width: 81
+        height: 50
+      spriteId: 2232e35b4883d5c4399da03ab466b9f2
+    - name: Cat_mech_design_Frame_40
+      frameIndex: 40
+      cellRect:
+        x: 30
+        y: 5
+        width: 81
+        height: 50
+      spriteId: 89e7ce35b4818ae42b51440a1f09c683
+    - name: Cat_mech_design_Frame_41
+      frameIndex: 41
+      cellRect:
+        x: 30
+        y: 5
+        width: 81
+        height: 50
+      spriteId: e0c0290f29d73b541847ef81bd003190
+    - name: Cat_mech_design_Frame_42
+      frameIndex: 42
+      cellRect:
+        x: 30
+        y: 5
+        width: 81
+        height: 54
+      spriteId: 1b308b49bce29bd4b8518fd69677fbdd
+    - name: Cat_mech_design_Frame_43
+      frameIndex: 43
+      cellRect:
+        x: 30
+        y: 5
+        width: 81
+        height: 56
+      spriteId: 7d7d8b7b496e6e8458a6f78d4c4fc800
+    - name: Cat_mech_design_Frame_44
+      frameIndex: 44
+      cellRect:
+        x: 30
+        y: 5
+        width: 81
+        height: 56
+      spriteId: fa6b3f6d381ab144abbd2e44ef11f8da
+    - name: Cat_mech_design_Frame_45
+      frameIndex: 45
+      cellRect:
+        x: 30
+        y: 5
+        width: 81
+        height: 50
+      spriteId: 6a89cef6c4c3a7d4d91ac897c9ccd570
     linkedCells: []
     parentIndex: -1
   platformSettings:

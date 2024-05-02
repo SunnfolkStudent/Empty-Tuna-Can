@@ -145,12 +145,15 @@ MonoBehaviour:
   staggerResistance: 2
   heightIndex: 0
   teamNumber: 0
-  animator: {fileID: 6817108768438100948}
-  entityMovement: {fileID: 7932202906571011221}
   hitbox: {fileID: 7752067803713698031}
   canMove: 1
+  canTakeDamage: 1
+  animator: {fileID: 6817108768438100948}
+  entityMovement: {fileID: 7932202906571011221}
   agility: 2
   attackRange: 3
+  attacks:
+  - Attack
 --- !u!114 &7932202906571011221
 MonoBehaviour:
   m_ObjectHideFlags: 0
