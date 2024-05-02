@@ -11,6 +11,7 @@ namespace ModeManagers {
         [Header("Scenes")]
         [SerializeField] private SceneReference playerScene;
         [SerializeField] private SceneReference gameOverScene;
+        [SerializeField] private SceneReference winScene;
         
         [Header("Areas")]
         [SerializeField] private SceneReference[] areaScenes;
@@ -82,7 +83,7 @@ namespace ModeManagers {
             currentLevel++;
             
             if (currentLevel == areaScenes.Length) {
-                SceneManager.LoadScene("MainMenu");
+                SceneManager.LoadScene(winScene.Name);
                 return;
             }
             

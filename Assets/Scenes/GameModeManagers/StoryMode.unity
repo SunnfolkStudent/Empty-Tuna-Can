@@ -2380,7 +2380,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: fa3957648770b5844bff97d853566f51, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
@@ -2438,9 +2438,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
+      propertyPath: winScene.guid
+      value: 1cc73ae9fc36bac4cb3035895382fcd8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
       propertyPath: cutsceneCamera
       value: 
       objectReference: {fileID: 159320748}
+    - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
+      propertyPath: winScene.asset
+      value: 
+      objectReference: {fileID: 102900000, guid: 1cc73ae9fc36bac4cb3035895382fcd8, type: 3}
     - target: {fileID: 4100733519395011194, guid: 0e027cdedc1c4204e9c99bb4ad4c8b98, type: 3}
       propertyPath: areaScenes.Array.size
       value: 6
