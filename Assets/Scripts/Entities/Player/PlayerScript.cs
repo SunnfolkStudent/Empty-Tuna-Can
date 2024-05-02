@@ -40,9 +40,19 @@ namespace Entities.Player {
         public List<Upgrade> allUpgrades = new ();
         
         private static Conversation conversation;
-        
-        public static bool Paused;
-        
+
+        private static bool paused;
+
+        public static bool Paused {
+            get => paused;
+            set {
+                paused = value;
+                foreach (var playerScript in PlayerManager.AllPlayers) {
+                    playerScript.ResetMoveVector();
+                }
+            }
+        }
+
         private Rigidbody2D _rigidbody;
         public bool dead;
         
@@ -207,6 +217,10 @@ namespace Entities.Player {
                     attackUpgrade.GetUpgrade(damageInstance);
                     break;
             }
+        }
+        
+        private void ResetMoveVector() {
+            moveVector = Vector2.zero;
         }
     }
 }
