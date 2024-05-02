@@ -82,7 +82,7 @@ namespace Entities.Player {
         public void OnActionOver() {
             playerScript.CheckIfFlipObject();
             _queuedCombatAction = null;
-            playerScript.movementEnabled = true;
+            playerScript.canMove = true;
         }
     }
 

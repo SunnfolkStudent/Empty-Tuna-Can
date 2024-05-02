@@ -47,12 +47,9 @@ public class PauseMenu : MonoBehaviour {
         EventBus<DialogueEvent>.Raise(new DialogueEvent(new EndEvent()));
     }
     
-    public static void Settings() {
-        throw new NotImplementedException();
-    }
-    
     public static void Quit() {
         StoryModeManager.ExitingToMenu = true;
+        Time.timeScale = 1;
         SceneManager.LoadScene("MainMenu");
     }
 }

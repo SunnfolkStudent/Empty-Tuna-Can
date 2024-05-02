@@ -11,6 +11,7 @@ namespace ModeManagers {
         [Header("Scenes")]
         [SerializeField] private SceneReference playerScene;
         [SerializeField] private SceneReference gameOverScene;
+        [SerializeField] private SceneReference winScene;
         
         [Header("Areas")]
         [SerializeField] private SceneReference[] areaScenes;
@@ -21,10 +22,10 @@ namespace ModeManagers {
         
         private static event Action LevelCompleted = () => { };
         
-        private int currentLevel;
-
+        [SerializeField] private int currentLevel;
+        
         public static bool ExitingToMenu;
-
+        
         private void Awake() {
             LevelCompleted += StartNextLevel;
             LevelCompleted += PlayerManager.ReviveAllPlayers;
@@ -34,6 +35,7 @@ namespace ModeManagers {
         
         public void Start() {
             PlayerManager.FriendlyFire = false;
+            currentLevel = 0;
             
             PauseMenu.Pause();
         }
@@ -52,7 +54,10 @@ namespace ModeManagers {
             switch (gameModeEvent.Event) {
                 case PlayerDeathEvent playerDeathEvent:
                     PlayerManager.PlayerDead(playerDeathEvent.PlayerScript);
-                    if (PlayerManager.AlivePlayers.Count == 0) SceneManager.LoadScene(gameOverScene.Name);
+                    if (PlayerManager.AlivePlayers.Count == 0) {
+                        ExitingToMenu = true;
+                        SceneManager.LoadScene(gameOverScene.Name);
+                    }
                     break;
                 case WaveOver:
                     LevelCompleted.Invoke();
@@ -76,6 +81,12 @@ namespace ModeManagers {
         private void StartNextLevel() {
             SceneManager.UnloadSceneAsync(areaScenes[currentLevel].Name);
             currentLevel++;
+            
+            if (currentLevel == areaScenes.Length) {
+                SceneManager.LoadScene(winScene.Name);
+                return;
+            }
+            
             SceneManager.LoadScene(areaScenes[currentLevel].Name, LoadSceneMode.Additive);
             areaEnemies[currentLevel].SetActive(true);
         }

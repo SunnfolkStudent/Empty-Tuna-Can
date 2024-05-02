@@ -1,7 +1,5 @@
 using Entities;
-using Entities.Player;
 using UnityEngine;
-using Utils.Entity;
 
 namespace StateMachineBehaviourScripts {
     public class Attack : StateMachineBehaviour {
@@ -10,23 +8,23 @@ namespace StateMachineBehaviourScripts {
         public AttackAction attackAction;
         public DamageInstance damageInstance;
         
-        [HideInInspector] public PlayerScript playerScript;
+        [HideInInspector] public Damageable damageable;
         
         private void Awake() {
             damageInstance.Initialize();
         }
         
         public override void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
-            playerScript.hitbox.damageInstance = damageInstance;
-            playerScript.staggerResistance += staggerResistanceBonusDuringAttack;
+            damageable.hitbox.damageInstance = damageInstance;
+            damageable.staggerResistance += staggerResistanceBonusDuringAttack;
         }
         
         public override void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
-            playerScript.staggerResistance -= staggerResistanceBonusDuringAttack;
+            damageable.staggerResistance -= staggerResistanceBonusDuringAttack;
         }
         
         public override void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
-            playerScript.movementEnabled = canMoveDuring;
+            damageable.canMove = canMoveDuring;
         }
     }
     

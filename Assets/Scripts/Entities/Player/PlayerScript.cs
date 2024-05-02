@@ -15,10 +15,8 @@ namespace Entities.Player {
     public class PlayerScript : Damageable {
         [Header("Movement")]
         public Vector2 moveVector;
-        public bool movementEnabled = true;
         
         [Header("References")]
-        public Hitbox hitbox;
         [SerializeField] public Animator animator;
         [SerializeField] private ActionManager actionManager;
         public EntityMovement entityMovement;
@@ -43,20 +41,32 @@ namespace Entities.Player {
         
         private static Conversation conversation;
 
-        public static bool Paused;
-        
-        private Rigidbody2D _rigidbody;
-        private static readonly int SpeedAnimatorParameter = Animator.StringToHash("Speed");
-        public bool dead;
+        private static bool paused;
 
+        public static bool Paused {
+            get => paused;
+            set {
+                paused = value;
+                foreach (var playerScript in PlayerManager.AllPlayers) {
+                    playerScript.ResetMoveVector();
+                }
+            }
+        }
+
+        private Rigidbody2D _rigidbody;
+        public bool dead;
+        
+        private static readonly int SpeedAnimatorParameter = Animator.StringToHash("Speed");
+        private static readonly int IsDeadAnimatorParameter = Animator.StringToHash("IsDead");
+        
         private void Awake() {
             transform1 = transform;
             entityMovement = GetComponent<EntityMovement>();
             _rigidbody = GetComponent<Rigidbody2D>();
             PlayerManager.RegisterPlayer(this);
-        
+            
             foreach (var stateBehaviour in animator.GetBehaviours<Attack>()) {
-                stateBehaviour.playerScript = this;
+                stateBehaviour.damageable = this;
             }
         }
 
@@ -153,7 +163,7 @@ namespace Entities.Player {
         #endregion
         
         private void Update() {
-            if (!movementEnabled) return;
+            if (!canMove) return;
             animator.SetFloat(SpeedAnimatorParameter, moveVector.magnitude);
             entityMovement.MoveInDirection(moveVector);
             CheckIfFlipObject();
@@ -170,6 +180,7 @@ namespace Entities.Player {
         
         private void OnDeath() {
             if (dead) return;
+            animator.SetBool(IsDeadAnimatorParameter, true);
             EventBus<GameModeEvent>.Raise(new GameModeEvent(new PlayerDeathEvent(this)));
         }
         
@@ -187,8 +198,9 @@ namespace Entities.Player {
         }
         
         protected override void Stagger() {
+            if (dead) return;
             animator.Play("Stagger");
-            movementEnabled = false;
+            canMove = false;
         }
         
         private DamageInstance GetDamageInstance(AttackAction attackAction) {
@@ -205,6 +217,10 @@ namespace Entities.Player {
                     attackUpgrade.GetUpgrade(damageInstance);
                     break;
             }
+        }
+        
+        private void ResetMoveVector() {
+            moveVector = Vector2.zero;
         }
     }
 }

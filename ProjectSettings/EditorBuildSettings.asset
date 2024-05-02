@@ -47,6 +47,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/OutsideCasinoCutscene.unity
     guid: 5a8a8fe610c7df749acaac1c518a9ff2
+  - enabled: 1
+    path: Assets/Scenes/OutsideCasinoCutscene 1.unity
+    guid: 9a447d9954295a846b98ef3a5683c5c6
+  - enabled: 1
+    path: Assets/Scenes/WinScene.unity
+    guid: 1cc73ae9fc36bac4cb3035895382fcd8
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: ccc24c46258a26d4c89276d7591637f0, type: 2}
   m_UseUCBPForAssetBundles: 0

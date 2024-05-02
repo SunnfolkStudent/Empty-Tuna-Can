@@ -17,6 +17,8 @@ namespace Entities {
         public float staggerResistance;
         public int heightIndex;
         public int teamNumber;
+        public Hitbox hitbox;
+        public bool canMove = true;
         
         [SerializeField] private bool canTakeDamage = true;
         
