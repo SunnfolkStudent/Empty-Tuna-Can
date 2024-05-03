@@ -267,6 +267,13 @@ MonoBehaviour:
     guid: 360489d5148e45e48b4c67d65604bed2
   animator: {fileID: 481058998}
   startMode: {fileID: 7400000, guid: 53f1e77ed7be68d49a44b11ea47c7f06, type: 2}
+  ButtonClick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!1 &442697756
 GameObject:
   m_ObjectHideFlags: 0

@@ -265,7 +265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 65696988}
   - component: {fileID: 65696987}
-  - component: {fileID: 65696986}
+  - component: {fileID: 65696989}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -273,26 +273,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &65696986
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 65696985}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
 --- !u!114 &65696987
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -305,7 +285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
+  m_FirstSelected: {fileID: 658370062}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
 --- !u!4 &65696988
@@ -323,6 +303,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &65696989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65696985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: 3abd078f0f8fea84d96cfab93b6156d8, type: 3}
+  m_PointAction: {fileID: 0}
+  m_MoveAction: {fileID: 1969324830806439704, guid: 3abd078f0f8fea84d96cfab93b6156d8, type: 3}
+  m_SubmitAction: {fileID: 6351544128510476320, guid: 3abd078f0f8fea84d96cfab93b6156d8, type: 3}
+  m_CancelAction: {fileID: 0}
+  m_LeftClickAction: {fileID: 0}
+  m_MiddleClickAction: {fileID: 0}
+  m_RightClickAction: {fileID: 0}
+  m_ScrollWheelAction: {fileID: 0}
+  m_TrackedDevicePositionAction: {fileID: 0}
+  m_TrackedDeviceOrientationAction: {fileID: 0}
+  m_DeselectOnBackgroundClick: 0
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
 --- !u!1 &77010966
 GameObject:
   m_ObjectHideFlags: 0
@@ -912,6 +922,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 280175535}
   m_CullTransparentMesh: 1
+--- !u!1 &658370062 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2617523872564586499, guid: cd0ab1d89422e5145a4d32fa16e10ae7, type: 3}
+  m_PrefabInstance: {fileID: 691131650}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &691131650
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1422,6 +1437,13 @@ MonoBehaviour:
     guid: 00000000000000000000000000000000
   animator: {fileID: 0}
   startMode: {fileID: 0}
+  ButtonClick:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!95 &1462976055
 Animator:
   serializedVersion: 7
