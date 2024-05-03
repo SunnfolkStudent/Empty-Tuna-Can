@@ -1533,11 +1533,11 @@ MonoBehaviour:
   m_text: '
 
 
-    Audio-implementation --- Eirik
+    FMOD --- Eirik
 
 
 
-    Gamplay --- Erlend'
+    Unity --- Erlend'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4ecf1082c0d7c6f49a1484ae4e352013, type: 2}
   m_sharedMaterial: {fileID: -2644475807352887312, guid: 4ecf1082c0d7c6f49a1484ae4e352013, type: 2}
@@ -1673,9 +1673,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You Win
-
-'
+  m_text: Revenge Achieved
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c03d13a7ca664284ab1bdc8b40e088c1, type: 2}
   m_sharedMaterial: {fileID: -2599693584190296839, guid: c03d13a7ca664284ab1bdc8b40e088c1, type: 2}
@@ -1684,8 +1682,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278255402
-  m_fontColor: {r: 0.16591239, g: 1, b: 0, a: 1}
+    rgba: 4278190335
+  m_fontColor: {r: 1, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1702,7 +1700,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 173
+  m_fontSize: 114.95
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
