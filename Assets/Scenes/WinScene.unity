@@ -1689,8 +1689,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Revenge Achieved
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c03d13a7ca664284ab1bdc8b40e088c1, type: 2}
-  m_sharedMaterial: {fileID: -2599693584190296839, guid: c03d13a7ca664284ab1bdc8b40e088c1, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8429341703c1bfa4890296d1041e0b21, type: 2}
+  m_sharedMaterial: {fileID: -6742314123650617096, guid: 8429341703c1bfa4890296d1041e0b21, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1714,7 +1714,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 114.95
+  m_fontSize: 159.75
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1726,7 +1726,7 @@ MonoBehaviour:
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: 29.65
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
