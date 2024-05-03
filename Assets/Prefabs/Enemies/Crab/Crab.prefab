@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 2925038056145660141, guid: 28dced4923501334aa87f0680c7bbd81, type: 3}
+  m_Sprite: {fileID: -5857876012207440871, guid: 3a2630665c5931a428081052eb999707, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -154,6 +154,13 @@ MonoBehaviour:
   attackRange: 3
   attacks:
   - Attack
+  EnemyGetHit:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: 
 --- !u!114 &7932202906571011221
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -240,7 +247,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.12853813, y: 0.16518039}
+  m_Offset: {x: -0.015800476, y: 0.16518039}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.55, y: 0}
@@ -250,7 +257,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.6156693, y: 0.33036077}
+  m_Size: {x: 1.6905098, y: 0.33036077}
   m_EdgeRadius: 0
 --- !u!1001 &4282858123450887517
 PrefabInstance:
