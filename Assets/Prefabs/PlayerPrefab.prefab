@@ -189,6 +189,20 @@ MonoBehaviour:
   - {fileID: 11400000, guid: db6e579619760c14eac4579d161f0b8c, type: 2}
   - {fileID: 11400000, guid: 43ae4cfa5d40a89408d4b74dca94890f, type: 2}
   dead: 0
+  Walk:
+    Guid:
+      Data1: 779514046
+      Data2: 1100766123
+      Data3: -1349487941
+      Data4: 1274020766
+    Path: event:/Player SFX/Walk
+  GetHit:
+    Guid:
+      Data1: 23853316
+      Data2: 1193338681
+      Data3: -691887458
+      Data4: -857454432
+    Path: event:/Player SFX/GetHit
 --- !u!114 &1247287791869132474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -481,6 +495,10 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 7ac56c1c-4ed4-4354-86b9-ef722af8a8da
     m_ActionName: 'UI/Select[/XInputControllerWindows/buttonSouth,/Keyboard/enter]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: cbed3771-387f-4ebe-a8f5-dfaff3d1b7bd
+    m_ActionName: 'Cutscene/Skip[/Keyboard/enter,/Keyboard/j,/Keyboard/space]'
   m_NeverAutoSwitchControlSchemes: 1
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player

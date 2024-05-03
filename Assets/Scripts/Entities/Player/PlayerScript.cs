@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
+using Audio;
 using Dialogue;
+using FMODUnity;
 using Items;
 using ModeManagers;
 using StateMachineBehaviourScripts;
@@ -58,6 +60,10 @@ namespace Entities.Player {
         
         private static readonly int SpeedAnimatorParameter = Animator.StringToHash("Speed");
         private static readonly int IsDeadAnimatorParameter = Animator.StringToHash("IsDead");
+
+        [field: Header("Sound Clips")] 
+        [field: SerializeField] EventReference Walk;
+        [field: SerializeField] private EventReference GetHit;
         
         private void Awake() {
             transform1 = transform;
@@ -200,6 +206,7 @@ namespace Entities.Player {
         protected override void Stagger() {
             if (dead) return;
             animator.Play("Stagger");
+            AudioManager.Instance.PlayOneShot(GetHit, this.transform.position);
             canMove = false;
         }
         
@@ -221,6 +228,11 @@ namespace Entities.Player {
         
         private void ResetMoveVector() {
             moveVector = Vector2.zero;
+        }
+
+        private void _updateSound()
+        {
+            AudioManager.Instance.PlayOneShot(Walk, this.transform.position);
         }
     }
 }
