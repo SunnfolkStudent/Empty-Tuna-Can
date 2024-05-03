@@ -41,6 +41,7 @@ public class MainMenu : Singleton<MainMenu> {
         if (hasSelectedOption) return;
         hasSelectedOption = true;
         AudioManager.Instance.PlayOneShot(ButtonClick, this.transform.position);
+        AudioManager.Instance.StopMenuMusic();
         StartCoroutine(StartStory());
     }
 
@@ -57,6 +58,7 @@ public class MainMenu : Singleton<MainMenu> {
         if (hasSelectedOption) return;
         hasSelectedOption = true;
         AudioManager.Instance.PlayOneShot(ButtonClick, this.transform.position);
+        AudioManager.Instance.StopMenuMusic();
         StartCoroutine(StartVS());
     }
     
@@ -74,6 +76,7 @@ public class MainMenu : Singleton<MainMenu> {
         if (hasSelectedOption) return;
         hasSelectedOption = true;
         AudioManager.Instance.PlayOneShot(ButtonClick, this.transform.position);
+        AudioManager.Instance.StopMenuMusic();
         StartCoroutine(StartEnd());
     }
     
