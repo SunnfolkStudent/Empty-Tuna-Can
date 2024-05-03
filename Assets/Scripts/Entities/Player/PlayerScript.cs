@@ -6,6 +6,7 @@ using FMODUnity;
 using Items;
 using ModeManagers;
 using StateMachineBehaviourScripts;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Upgrades;
@@ -62,8 +63,9 @@ namespace Entities.Player {
         private static readonly int IsDeadAnimatorParameter = Animator.StringToHash("IsDead");
 
         [field: Header("Sound Clips")] 
-        [field: SerializeField] EventReference Walk;
+        [field: SerializeField] private EventReference Walk;
         [field: SerializeField] private EventReference GetHit;
+        [field: SerializeField] private EventReference _throw;
         
         private void Awake() {
             transform1 = transform;
@@ -177,6 +179,7 @@ namespace Entities.Player {
         
         public void ThrowItem(ThrowableItem throwableItem) {
             ThrowableObjectFactory.CreateGameObject(throwableItem, projectileSpawnPosition.position, this);
+            AudioManager.Instance.PlayOneShot(_throw, this.transform.position);
         }
         
         public void CheckIfFlipObject() {

@@ -203,6 +203,13 @@ MonoBehaviour:
       Data3: -691887458
       Data4: -857454432
     Path: event:/Player SFX/GetHit
+  _throw:
+    Guid:
+      Data1: 1212392385
+      Data2: 1320946364
+      Data3: 1009623204
+      Data4: -648633561
+    Path: event:/Item SFX/Throw
 --- !u!114 &1247287791869132474
 MonoBehaviour:
   m_ObjectHideFlags: 0

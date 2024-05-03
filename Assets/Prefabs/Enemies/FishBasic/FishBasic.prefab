@@ -105,6 +105,13 @@ MonoBehaviour:
   attackRange: 1
   attacks:
   - Attack
+  EnemyGetHit:
+    Guid:
+      Data1: 1509632080
+      Data2: 1131532707
+      Data3: -1761000825
+      Data4: -1738109724
+    Path: event:/Enemy SFX/EnemyGetHit
 --- !u!114 &3246346032263903027
 MonoBehaviour:
   m_ObjectHideFlags: 0

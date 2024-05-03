@@ -1,3 +1,5 @@
+using Audio;
+using FMODUnity;
 using StateMachineBehaviourScripts;
 using UnityEngine;
 using Utils;
@@ -18,6 +20,9 @@ namespace Entities {
         private Vector3 direction;
         private static readonly int Speed = Animator.StringToHash("Speed");
         private static readonly int Death1 = Animator.StringToHash("Death");
+
+        [field: Header("Sound Clips")]
+        [field: SerializeField] private EventReference EnemyGetHit;
 
         private void Awake() {
             EntityManager.TestEnemies.Add(this);
@@ -89,6 +94,7 @@ namespace Entities {
         protected override void Stagger() {
             if (animator.GetCurrentAnimationClip().name == "Death") return;
             animator.Play("Hit");
+            AudioManager.Instance.PlayOneShot(EnemyGetHit, this.transform.position);
             canMove = false;
         }
     }
