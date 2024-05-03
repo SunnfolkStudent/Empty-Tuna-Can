@@ -149,6 +149,7 @@ MonoBehaviour:
   staggerResistance: 1
   heightIndex: 0
   teamNumber: 0
+  canTakeDamage: 1
   moveVector: {x: 0, y: 0}
   movementEnabled: 1
   hitbox: {fileID: 2122585974787326767}
@@ -188,6 +189,13 @@ MonoBehaviour:
   - {fileID: 11400000, guid: db6e579619760c14eac4579d161f0b8c, type: 2}
   - {fileID: 11400000, guid: 43ae4cfa5d40a89408d4b74dca94890f, type: 2}
   dead: 0
+  <Walk>k__BackingField:
+    Guid:
+      Data1: 779514046
+      Data2: 1100766123
+      Data3: -1349487941
+      Data4: 1274020766
+    Path: event:/Player SFX/Walk
 --- !u!114 &1247287791869132474
 MonoBehaviour:
   m_ObjectHideFlags: 0

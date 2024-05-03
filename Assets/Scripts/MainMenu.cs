@@ -59,5 +59,5 @@ public class MainMenu : Singleton<MainMenu> {
     public void BackToMenu() {
         SceneManager.LoadScene(menuScene.Name);
         Destroy(gameObject);
-    }
+    }   
 }

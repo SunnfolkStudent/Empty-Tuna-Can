@@ -9,6 +9,8 @@ using UnityEngine.InputSystem;
 using Upgrades;
 using Utils;
 using Utils.EventBus;
+using FMOD.Studio;
+using FMODUnity;
 
 namespace Entities.Player {
     [RequireComponent(typeof(Rigidbody2D))]
@@ -48,6 +50,10 @@ namespace Entities.Player {
         private Rigidbody2D _rigidbody;
         private static readonly int SpeedAnimatorParameter = Animator.StringToHash("Speed");
         public bool dead;
+        
+        //audio
+        [field: Header("PlayerWalk")]
+        [field: SerializeField] public EventReference Walk { get; private set; }
 
         private void Awake() {
             transform1 = transform;
@@ -61,7 +67,7 @@ namespace Entities.Player {
         }
 
         private void OnDisable() {
-            PlayerManager.DeregisterPlayer(this);
+            PlayerManager.DeregisterPlayer(this); 
         }
 
         private void Start() {
@@ -85,7 +91,7 @@ namespace Entities.Player {
         public void OnMove(InputAction.CallbackContext ctx) {
             if (Paused) return;
             moveVector = ctx.ReadValue<Vector2>();
-        
+           
             if (moveVector == Vector2.zero) {
                 _currentDirection = CombatInput.None;
             }
@@ -205,6 +211,27 @@ namespace Entities.Player {
                     attackUpgrade.GetUpgrade(damageInstance);
                     break;
             }
+        }
+
+        private void _updateSound()
+        {
+            //starts footsteps event if the players velocity is moving 
+            AudioManager.Instance.PlayOneShot(Walk, this.transform.position);
+
+            /*if (moveVector.x != 0 || moveVector.y != 0)
+            {
+                //gets the playback state
+                PLAYBACK_STATE playbackState;
+                _walk.getPlaybackState(out playbackState);
+                if (playbackState.Equals(PLAYBACK_STATE.STOPPED))
+                {
+                    _walk.start();
+                }
+            }
+            else
+            {
+                _walk.stop(STOP_MODE.ALLOWFADEOUT);
+            }*/
         }
     }
 }
