@@ -1556,10 +1556,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerUIElement
       objectReference: {fileID: 0}
-    - target: {fileID: 5330334185913007844, guid: 8643546352eb1554f8da7a76f5b30766, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5362527742589376894, guid: 8643546352eb1554f8da7a76f5b30766, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

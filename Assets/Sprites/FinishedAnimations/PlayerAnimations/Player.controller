@@ -1,5 +1,31 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1102 &-9186032844777895303
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HeavyAttack3 0
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 7abaaf7430d30034e8d70d46a5656e57, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1101 &-9098591089474569393
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -33,7 +59,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: HeavyAttack1
-  m_Speed: 0.75
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 318755675054389127}
@@ -50,7 +76,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: b82e0ebea97ee5a4d84fe3475303f252, type: 2}
+  m_Motion: {fileID: 7400000, guid: 0b942e83a1f340840ab39872f74a6f04, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -254,6 +280,15 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: 3078619197844836023}
     m_Position: {x: 200, y: -240, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -4692165705769836536}
+    m_Position: {x: 235, y: -175, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -5195074766296015035}
+    m_Position: {x: 270, y: -110, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -9186032844777895303}
+    m_Position: {x: 305, y: -45, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: -1457159822226423389}
@@ -399,7 +434,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: HeavyAttack2
-  m_Speed: 0.5
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -8848723372945716773}
@@ -416,7 +451,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: c8b4c653847d37640a9151b545e2ac5c, type: 2}
+  m_Motion: {fileID: 7400000, guid: d74e3bfff2906c44e97d28fb9dbb1597, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -435,6 +470,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actionManager: {fileID: 0}
+--- !u!1102 &-5195074766296015035
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HeavyAttack2 0
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: d74e3bfff2906c44e97d28fb9dbb1597, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1101 &-5182959863851024254
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -468,7 +529,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: HeavyAttack3
-  m_Speed: 0.5
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -2458445737222461855}
@@ -483,7 +544,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 8dcf2361d91b892479de60cfdab10b49, type: 2}
+  m_Motion: {fileID: 7400000, guid: 7abaaf7430d30034e8d70d46a5656e57, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -514,6 +575,32 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!1102 &-4692165705769836536
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HeavyAttack1 0
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 0b942e83a1f340840ab39872f74a6f04, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
 --- !u!1101 &-4264108624682991920
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
