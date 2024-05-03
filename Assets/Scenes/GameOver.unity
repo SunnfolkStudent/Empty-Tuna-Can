@@ -232,7 +232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2412176084945581447, guid: cd0ab1d89422e5145a4d32fa16e10ae7, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 250
+      value: 143.75
       objectReference: {fileID: 0}
     - target: {fileID: 2412176084945581447, guid: cd0ab1d89422e5145a4d32fa16e10ae7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -287,16 +287,24 @@ PrefabInstance:
       value: Button (1)
       objectReference: {fileID: 0}
     - target: {fileID: 2959338155937453431, guid: cd0ab1d89422e5145a4d32fa16e10ae7, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2959338155937453431, guid: cd0ab1d89422e5145a4d32fa16e10ae7, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 592413267688598567, guid: 3aa436818e7144d47897f99d00603c62, type: 3}
+    - target: {fileID: 2959338155937453431, guid: cd0ab1d89422e5145a4d32fa16e10ae7, type: 3}
       propertyPath: m_Color.b
-      value: 0.122641504
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2959338155937453431, guid: cd0ab1d89422e5145a4d32fa16e10ae7, type: 3}
       propertyPath: m_Color.g
-      value: 0.122641504
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2959338155937453431, guid: cd0ab1d89422e5145a4d32fa16e10ae7, type: 3}
       propertyPath: m_Color.r
-      value: 0.122641504
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8945082780561616131, guid: cd0ab1d89422e5145a4d32fa16e10ae7, type: 3}
       propertyPath: m_text
@@ -343,7 +351,8 @@ PrefabInstance:
       value: BackToMenu
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 8352206374703990784, guid: cd0ab1d89422e5145a4d32fa16e10ae7, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cd0ab1d89422e5145a4d32fa16e10ae7, type: 3}
