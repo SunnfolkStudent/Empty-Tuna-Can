@@ -1310,7 +1310,7 @@ MonoBehaviour:
   m_ChildAlignment: 1
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 250, y: 150}
+  m_CellSize: {x: 300, y: 160}
   m_Spacing: {x: 150, y: 0}
   m_Constraint: 2
   m_ConstraintCount: 1
@@ -1555,6 +1555,10 @@ PrefabInstance:
     - target: {fileID: 291552966209462916, guid: 8643546352eb1554f8da7a76f5b30766, type: 3}
       propertyPath: m_Name
       value: PlayerUIElement
+      objectReference: {fileID: 0}
+    - target: {fileID: 5330334185913007844, guid: 8643546352eb1554f8da7a76f5b30766, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5362527742589376894, guid: 8643546352eb1554f8da7a76f5b30766, type: 3}
       propertyPath: m_Pivot.x
