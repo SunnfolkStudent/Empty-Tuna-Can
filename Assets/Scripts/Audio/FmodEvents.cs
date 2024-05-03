@@ -1,3 +1,4 @@
+using FMOD.Studio;
 using FMODUnity;
 using UnityEngine;
 using Utils.Singleton;
@@ -5,10 +6,12 @@ using Utils.Singleton;
 namespace Audio {
    public class FmodEvents : PersistentSingleton<FmodEvents>
    {
-      #region OneShotEvents
-      [field: Header("GetHit")]
+     
+      [field: Header("OneShots")]
       [field: SerializeField] public EventReference GetHit { get; private set; }
-      #endregion
+   
+      [field: Header("EventInstances")]
+      [field: SerializeField] public EventReference MenuMusic { get; private set; }
 
       private void Update()
       {
@@ -17,5 +20,7 @@ namespace Audio {
             AudioManager.Instance.PlayOneShot(GetHit, this.transform.position);
          }
       }
+
+      
    }
 }
