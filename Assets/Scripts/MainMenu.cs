@@ -1,4 +1,6 @@
 using System.Collections;
+using Audio;
+using FMODUnity;
 using ModeManagers;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -18,6 +20,9 @@ public class MainMenu : Singleton<MainMenu> {
 
     [SerializeField] private Animator animator;
     [SerializeField] private AnimationClip startMode;
+
+    [field: Header("Sound Clips")] 
+    [field: SerializeField] private EventReference ButtonClick;
     
     private bool hasSelectedOption;
     
@@ -35,6 +40,7 @@ public class MainMenu : Singleton<MainMenu> {
     public void StartStoryMode() {
         if (hasSelectedOption) return;
         hasSelectedOption = true;
+        AudioManager.Instance.PlayOneShot(ButtonClick, this.transform.position);
         StartCoroutine(StartStory());
     }
 
@@ -50,6 +56,7 @@ public class MainMenu : Singleton<MainMenu> {
     public void StartVersusMode() {
         if (hasSelectedOption) return;
         hasSelectedOption = true;
+        AudioManager.Instance.PlayOneShot(ButtonClick, this.transform.position);
         StartCoroutine(StartVS());
     }
     
@@ -66,6 +73,7 @@ public class MainMenu : Singleton<MainMenu> {
     public void StartEndlessMode() {
         if (hasSelectedOption) return;
         hasSelectedOption = true;
+        AudioManager.Instance.PlayOneShot(ButtonClick, this.transform.position);
         StartCoroutine(StartEnd());
     }
     
@@ -82,6 +90,7 @@ public class MainMenu : Singleton<MainMenu> {
     public void SettingsMenu() {
         if (hasSelectedOption) return;
         hasSelectedOption = true;
+        AudioManager.Instance.PlayOneShot(ButtonClick, this.transform.position);
         SceneManager.LoadScene(settingsScene.Name);
         Destroy(gameObject);
     }
@@ -89,15 +98,18 @@ public class MainMenu : Singleton<MainMenu> {
     public void HowToPlayMenu() {
         if (hasSelectedOption) return;
         hasSelectedOption = true;
+        AudioManager.Instance.PlayOneShot(ButtonClick, this.transform.position);
         SceneManager.LoadScene(howToPlayScene.Name);
         Destroy(gameObject);
     }
     
     public void QuitGame() {
+        AudioManager.Instance.PlayOneShot(ButtonClick, this.transform.position);
         Application.Quit();
     }
     
     public void BackToMenu() {
+        AudioManager.Instance.PlayOneShot(ButtonClick, this.transform.position);
         SceneManager.LoadScene(menuScene.Name);
         Destroy(gameObject);
     }   
