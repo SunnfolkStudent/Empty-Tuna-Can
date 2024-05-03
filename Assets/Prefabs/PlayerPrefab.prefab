@@ -188,6 +188,15 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 700112ab264b13c4ea1624fec97d7bcf, type: 2}
   - {fileID: 11400000, guid: db6e579619760c14eac4579d161f0b8c, type: 2}
   - {fileID: 11400000, guid: 43ae4cfa5d40a89408d4b74dca94890f, type: 2}
+  - {fileID: 11400000, guid: 10ebac05158651046be15b6e3a9b7823, type: 2}
+  - {fileID: 11400000, guid: 985836ddac3bb5b40b56f8c423c08ba7, type: 2}
+  - {fileID: 11400000, guid: 6152d0859cfb4c540a0b73f1fb36884d, type: 2}
+  - {fileID: 11400000, guid: 37993d0594d3f7c409a9873b3a54fd94, type: 2}
+  - {fileID: 11400000, guid: d77f8be5a6fb9f0469786aeaebb8f616, type: 2}
+  - {fileID: 11400000, guid: 949e655ea83e45b4da9a4215cea0c4b1, type: 2}
+  - {fileID: 11400000, guid: 6c68c0f7eabab904e9fd2e3f726fc13f, type: 2}
+  - {fileID: 11400000, guid: 7f86c21d96fae4c4c8636f15ec0067c2, type: 2}
+  - {fileID: 11400000, guid: 47be86f6dcc04d64e829596fbd01a446, type: 2}
   dead: 0
   Walk:
     Guid:
