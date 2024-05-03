@@ -136,7 +136,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 291098a0bea3a814b83b506594a1b075, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
@@ -1133,6 +1133,8 @@ PrefabInstance:
     - {fileID: 5101014161056603760, guid: c40eba2c086354d499c3ee03a3a14a86, type: 3}
     m_RemovedGameObjects:
     - {fileID: 1942400575907849298, guid: c40eba2c086354d499c3ee03a3a14a86, type: 3}
+    - {fileID: 856438266887524577, guid: c40eba2c086354d499c3ee03a3a14a86, type: 3}
+    - {fileID: 4738261693966856179, guid: c40eba2c086354d499c3ee03a3a14a86, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 2699501837385414628, guid: c40eba2c086354d499c3ee03a3a14a86, type: 3}
@@ -1236,7 +1238,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 291098a0bea3a814b83b506594a1b075, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
