@@ -159,6 +159,7 @@ MonoBehaviour:
   playerSprite: {fileID: 2448174363510326756}
   projectileSpawnPosition: {fileID: 5438945748069665815}
   input: {fileID: 4492384674172777789}
+  throwAnimationClip: {fileID: 7400000, guid: 03b487167610d744487850a0eac8975d, type: 2}
   inventory:
     inventory:
     - item: {fileID: 11400000, guid: bb99081224f82264d82580f3cd351ed0, type: 2}

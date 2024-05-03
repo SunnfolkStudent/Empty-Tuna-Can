@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Audio;
@@ -6,7 +7,6 @@ using FMODUnity;
 using Items;
 using ModeManagers;
 using StateMachineBehaviourScripts;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using Upgrades;
@@ -26,6 +26,7 @@ namespace Entities.Player {
         [SerializeField] private SpriteRenderer playerSprite;
         [SerializeField] private Transform projectileSpawnPosition;
         public PlayerInput input;
+        [SerializeField] private AnimationClip throwAnimationClip;
         
         public Inventory inventory;
         [HideInInspector] public Transform transform1;
@@ -178,8 +179,14 @@ namespace Entities.Player {
         }
         
         public void ThrowItem(ThrowableItem throwableItem) {
+            StartCoroutine(ThrowItem1(throwAnimationClip.length, throwableItem));
+        }
+        
+        private IEnumerator ThrowItem1(float waitTime, ThrowableItem throwableItem) {
+            animator.Play(throwAnimationClip.name);
+            yield return new WaitForSeconds(waitTime);
             ThrowableObjectFactory.CreateGameObject(throwableItem, projectileSpawnPosition.position, this);
-            AudioManager.Instance.PlayOneShot(_throw, this.transform.position);
+            AudioManager.Instance.PlayOneShot(_throw, transform.position);
         }
         
         public void CheckIfFlipObject() {
