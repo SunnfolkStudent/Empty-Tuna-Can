@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 namespace Upgrades {
     public class UpgradeManager : MonoBehaviour {
@@ -13,10 +12,10 @@ namespace Upgrades {
             }
         }
         
-        private void Update() {
-            if (Keyboard.current.numpad0Key.wasPressedThisFrame) {
-                SetUpgradesUI();
-            }
-        }
+        // private void Update() {
+        //     if (Keyboard.current.numpad0Key.wasPressedThisFrame) {
+        //         SetUpgradesUI();
+        //     }
+        // }
     }
 }
