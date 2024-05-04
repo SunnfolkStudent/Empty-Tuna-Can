@@ -9,9 +9,37 @@ namespace Audio {
     {
         private EventInstance menuMusicInstance;
 
+        [Header("Volume")] 
+        [Range(0, 1)]
+        public float masterVolume = 1;
+        [Range(0, 1)]
+        public float sfxVolume = 1;
+        [Range(0, 1)]
+        public float musicVolume = 1;
+
+        private Bus masterBus;
+        private Bus musicBus;
+        private Bus sfxBus;
+
+
+        protected override void Awake()
+        {
+            base.Awake();
+            masterBus = RuntimeManager.GetBus("bus:/");
+            musicBus = RuntimeManager.GetBus("bus:/Music");
+            sfxBus = RuntimeManager.GetBus("bus:/SFX");
+        }
+
         private void Start()
         {
             StartMenuMusic(FmodEvents.Instance.MenuMusic);
+        }
+
+        private void Update()
+        {
+            masterBus.setVolume(masterVolume);
+            musicBus.setVolume(musicVolume);
+            sfxBus.setVolume(sfxVolume);
         }
 
         public void PlayOneShot(EventReference sound, Vector3 worldpos)
