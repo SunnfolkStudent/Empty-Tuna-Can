@@ -74,7 +74,7 @@ namespace Audio {
             {
                 StartBassCombatMusic(FmodEvents.Instance.BassCombatMusic);
             }
-            else if (SceneManager.GetSceneByName("GameOver").isLoaded || SceneManager.GetSceneByName("WinScene").isLoaded)
+            else if (SceneManager.GetSceneByName("GameOver").isLoaded || SceneManager.GetSceneByName("WinScene").isLoaded || SceneManager.GetSceneByName("MainMenu").isLoaded)
             {
                 StopBassCombatMusic();
             }
