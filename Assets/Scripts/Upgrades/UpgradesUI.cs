@@ -8,6 +8,8 @@ namespace Upgrades {
         [SerializeField] private UpgradeSlot[] upgradeSlots;
         [SerializeField] private MultiplayerEventSystem eventSystem;
         public PlayerScript playerScript;
+
+        public static int CurrentAvailableUpgrades;
         
         private void Awake() {
             UpgradeManager.UpgradesUI.Add(this);
@@ -16,6 +18,8 @@ namespace Upgrades {
             }
             
             eventSystem.gameObject.SetActive(false);
+            
+            CurrentAvailableUpgrades = 0;
         }
         
         private void ShowUpgrades() {
@@ -24,6 +28,8 @@ namespace Upgrades {
             }
             
             eventSystem.gameObject.SetActive(true);
+
+            CurrentAvailableUpgrades++;
         }
         
         private void HideUpgrades() {
@@ -32,6 +38,11 @@ namespace Upgrades {
             }
             
             eventSystem.gameObject.SetActive(false);
+            
+            CurrentAvailableUpgrades--;
+            if (CurrentAvailableUpgrades == 0) {
+                PauseMenu.Unpause();
+            }
         }
         
         public void SetRandomUpgrades() {

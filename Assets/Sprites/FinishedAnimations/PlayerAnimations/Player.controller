@@ -1171,7 +1171,7 @@ MonoBehaviour:
   staggerResistanceBonusDuringAttack: 1
   attackAction: 6
   damageInstance:
-    damage: 20
+    damage: 30
     stagger: 3
     statusEffect: 0
     freezeProperties:

@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 259
-  m_Sprite: {fileID: 3498800903691535, guid: 7ba5b3a72bc3e2b41b2068e7b8aa4293, type: 3}
+  m_Sprite: {fileID: 4040460004904119754, guid: af59e80c7ff1dc34680651e0aec1584e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -135,8 +135,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   teamNumber: 0
   height: 0
-  damage: 0
-  stagger: 0
+  damageInstance:
+    damage: 0
+    stagger: 0
+    statusEffect: 0
+    freezeProperties:
+      duration: 0
+    burnProperties:
+      damage: 0
+      duration: 0
+      damageFrequency: 0
 --- !u!61 &7901080508093800717
 BoxCollider2D:
   m_ObjectHideFlags: 0

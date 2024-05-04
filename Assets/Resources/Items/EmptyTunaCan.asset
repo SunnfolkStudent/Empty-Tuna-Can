@@ -16,7 +16,7 @@ MonoBehaviour:
   getItemsOnUse: []
   itemPrefab: {fileID: 8697755100241596283, guid: e59beeb982b77d44b86bb85efb2a76d1, type: 3}
   damageInstance:
-    damage: 10
+    damage: 20
     stagger: 5
     statusEffect: 0
     freezeProperties:

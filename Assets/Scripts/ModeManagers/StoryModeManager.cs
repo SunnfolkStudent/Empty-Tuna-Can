@@ -1,6 +1,8 @@
 using System;
 using Eflatun.SceneReference;
 using Entities.Player;
+using Unity.Mathematics;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Upgrades;
@@ -26,16 +28,8 @@ namespace ModeManagers {
         
         public static bool ExitingToMenu;
         
-        private void Awake() {
-            LevelCompleted += StartNextLevel;
-            LevelCompleted += PlayerManager.ReviveAllPlayers;
-            LevelCompleted += UpgradeManager.SetUpgradesUI;
-            LevelCompleted += PauseMenu.Pause;
-        }
-        
         public void Start() {
             PlayerManager.FriendlyFire = false;
-            currentLevel = 0;
             
             PauseMenu.Pause();
         }
@@ -43,10 +37,12 @@ namespace ModeManagers {
         private void OnEnable() {
             playerEventBinding = new EventBinding<GameModeEvent>(PlayerEvent);
             EventBus<GameModeEvent>.Register(playerEventBinding);
+            LevelCompleted += StartNextLevel;
         }
         
         private void OnDisable() {
             EventBus<GameModeEvent>.Deregister(playerEventBinding);
+            LevelCompleted -= StartNextLevel;
         }
         
         private void PlayerEvent(GameModeEvent gameModeEvent) {
@@ -69,6 +65,7 @@ namespace ModeManagers {
         }
         
         private void StartLevel1() {
+            currentLevel = 0;
             Time.timeScale = 0;
             PlayerScript.Paused = true;
             
@@ -79,16 +76,28 @@ namespace ModeManagers {
         }
         
         private void StartNextLevel() {
-            SceneManager.UnloadSceneAsync(areaScenes[currentLevel].Name);
             currentLevel++;
+            
+            Debug.Log($"StartNextLevel | {currentLevel}");
+            
+            
             
             if (currentLevel == areaScenes.Length) {
                 SceneManager.LoadScene(winScene.Name);
                 return;
             }
             
+            SceneManager.UnloadSceneAsync(areaScenes[math.max(currentLevel - 1, 0)].Name);
             SceneManager.LoadScene(areaScenes[currentLevel].Name, LoadSceneMode.Additive);
-            areaEnemies[currentLevel].SetActive(true);
+            
+            if (areaEnemies[currentLevel] != null) areaEnemies[currentLevel].SetActive(true);
+
+            if (currentLevel is 1 or 3) return;
+            PlayerManager.ReviveAllPlayers();
+            PlayerManager.SetSpawnForPlayers();
+            UpgradeManager.SetUpgradesUI();
+            PauseMenu.Pause();
+            
         }
         
         public static void CallLevelCompleted() {

@@ -16,4 +16,4 @@ MonoBehaviour:
   getItemsOnUse:
   - item: {fileID: 11400000, guid: a250b1afc26518c4ba109da846c4bc3f, type: 2}
     amount: 1
-  healingAmount: 10
+  healingAmount: 37.5
