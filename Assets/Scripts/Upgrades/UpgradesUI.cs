@@ -9,7 +9,7 @@ namespace Upgrades {
         [SerializeField] private MultiplayerEventSystem eventSystem;
         public PlayerScript playerScript;
 
-        public static int CurrentAvailableUpgrades;
+        private static int currentAvailableUpgrades;
         
         private void Awake() {
             UpgradeManager.UpgradesUI.Add(this);
@@ -19,7 +19,7 @@ namespace Upgrades {
             
             eventSystem.gameObject.SetActive(false);
             
-            CurrentAvailableUpgrades = 0;
+            currentAvailableUpgrades = 0;
         }
         
         private void ShowUpgrades() {
@@ -29,7 +29,7 @@ namespace Upgrades {
             
             eventSystem.gameObject.SetActive(true);
 
-            CurrentAvailableUpgrades++;
+            currentAvailableUpgrades++;
         }
         
         private void HideUpgrades() {
@@ -39,8 +39,8 @@ namespace Upgrades {
             
             eventSystem.gameObject.SetActive(false);
             
-            CurrentAvailableUpgrades--;
-            if (CurrentAvailableUpgrades == 0) {
+            currentAvailableUpgrades--;
+            if (currentAvailableUpgrades == 0) {
                 PauseMenu.Unpause();
             }
         }

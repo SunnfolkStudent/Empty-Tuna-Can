@@ -2,7 +2,6 @@ using System;
 using Eflatun.SceneReference;
 using Entities.Player;
 using Unity.Mathematics;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Upgrades;
@@ -87,17 +86,15 @@ namespace ModeManagers {
                 return;
             }
             
-            SceneManager.UnloadSceneAsync(areaScenes[math.max(currentLevel - 1, 0)].Name);
+            SceneManager.UnloadSceneAsync(areaScenes[currentLevel - 1].Name);
             SceneManager.LoadScene(areaScenes[currentLevel].Name, LoadSceneMode.Additive);
             
-            if (areaEnemies[currentLevel] != null) areaEnemies[currentLevel].SetActive(true);
-
-            if (currentLevel is 1 or 3) return;
+            if (areaEnemies[currentLevel] == null) return;
+            areaEnemies[currentLevel].SetActive(true);
             PlayerManager.ReviveAllPlayers();
             PlayerManager.SetSpawnForPlayers();
             UpgradeManager.SetUpgradesUI();
             PauseMenu.Pause();
-            
         }
         
         public static void CallLevelCompleted() {
