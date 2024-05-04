@@ -46,12 +46,15 @@ public class VolumeSlider : MonoBehaviour
         {
             case volumeType.MASTER:
                 AudioManager.Instance.masterVolume = volumeSlider.value;
+                PlayerPrefs.SetFloat("MasterVolume", AudioManager.Instance.masterVolume);
                 break;
             case volumeType.SFX:
                 AudioManager.Instance.sfxVolume = volumeSlider.value;
+                PlayerPrefs.SetFloat("SFXVolume", AudioManager.Instance.sfxVolume);
                 break;
             case volumeType.MUSIC:
                 AudioManager.Instance.musicVolume = volumeSlider.value;
+                PlayerPrefs.SetFloat("MusicVolume", AudioManager.Instance.musicVolume);
                 break;
         }
     }

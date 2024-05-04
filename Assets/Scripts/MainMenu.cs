@@ -35,6 +35,10 @@ public class MainMenu : Singleton<MainMenu> {
         Cursor.visible = false;
         
         DontDestroyOnLoad(gameObject);
+        if (!AudioManager.Instance.menuMusicPlaying)
+        {
+            AudioManager.Instance.StartMenuMusic(FmodEvents.Instance.MenuMusic);;
+        }
     }
     
     public void StartStoryMode() {

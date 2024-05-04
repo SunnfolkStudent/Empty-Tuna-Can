@@ -21,7 +21,7 @@ namespace Audio {
         private Bus musicBus;
         private Bus sfxBus;
 
-
+        public bool menuMusicPlaying;
         protected override void Awake()
         {
             base.Awake();
@@ -32,7 +32,15 @@ namespace Audio {
 
         private void Start()
         {
-            StartMenuMusic(FmodEvents.Instance.MenuMusic);
+            if (!PlayerPrefs.HasKey("MasterVolume"))
+            {
+                PlayerPrefs.SetFloat("MasterVolume", 1);
+                PlayerPrefs.SetFloat("SFXVolume", 1);
+                PlayerPrefs.SetFloat("MusicVolume", 1);
+            }
+            masterVolume = PlayerPrefs.GetFloat("MasterVolume");
+            sfxVolume = PlayerPrefs.GetFloat("SFXVolume"); 
+            musicVolume = PlayerPrefs.GetFloat("MusicVolume");
         }
 
         private void Update()
@@ -57,10 +65,13 @@ namespace Audio {
         {
             menuMusicInstance = CreateEventInstance(MenuMusic);
             menuMusicInstance.start();
+            menuMusicPlaying = true;
+
         }
         public void StopMenuMusic()
         {
             menuMusicInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            menuMusicPlaying = false;
         }
     }
 }
