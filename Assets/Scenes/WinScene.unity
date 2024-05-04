@@ -442,8 +442,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 122, y: -361}
-  m_SizeDelta: {x: 1504.6, y: 486.1}
+  m_AnchoredPosition: {x: 223.90002, y: -377.3645}
+  m_SizeDelta: {x: 1300.8, y: 453.3709}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &104956274
 MonoBehaviour:
@@ -465,23 +465,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '
-
-
-    Player Character --- Remi
-
-
-
-    Enemy design --- Alvar
-
-
-
-    Backgrounds
-    and cutscenes --- Ghost
-
-
-
-    Music and sfx --- Elisabeth'
+  m_text: "Player character --- Remi\n\nEnemies and Banner --- Alvar \n\nBackground,
+    cutscenes, poster and thumbnail --- Ghost/Nico\n\r\nMusic and SFX - Elisabeth\r\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4ecf1082c0d7c6f49a1484ae4e352013, type: 2}
   m_sharedMaterial: {fileID: -2644475807352887312, guid: 4ecf1082c0d7c6f49a1484ae4e352013, type: 2}
@@ -508,19 +493,19 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 32
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 36
+  m_fontSizeMax: 32
   m_fontStyle: 0
   m_HorizontalAlignment: 4
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: 30
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0

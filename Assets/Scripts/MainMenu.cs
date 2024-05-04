@@ -2,6 +2,9 @@ using System.Collections;
 using Audio;
 using FMODUnity;
 using ModeManagers;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using Utils.Singleton;
@@ -113,6 +116,10 @@ public class MainMenu : Singleton<MainMenu> {
     public void QuitGame() {
         AudioManager.Instance.PlayOneShot(ButtonClick, this.transform.position);
         Application.Quit();
+        
+#if UNITY_EDITOR
+        EditorApplication.ExitPlaymode();
+#endif
     }
     
     public void BackToMenu() {

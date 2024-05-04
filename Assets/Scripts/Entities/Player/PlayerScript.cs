@@ -104,9 +104,10 @@ namespace Entities.Player {
         public void OnMove(InputAction.CallbackContext ctx) {
             if (Paused) return;
             moveVector = ctx.ReadValue<Vector2>();
-        
-            if (moveVector == Vector2.zero) {
+            
+            if (moveVector == Vector2.zero || !canMove) {
                 _currentDirection = CombatInput.None;
+                moveVector = Vector2.zero;
             }
             else {
                 var o = DirectionalInputManager.DirectionFormVector2(moveVector);
