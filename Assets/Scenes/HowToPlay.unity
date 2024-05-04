@@ -863,10 +863,14 @@ PrefabInstance:
     - target: {fileID: 9062066701020958759, guid: cd0ab1d89422e5145a4d32fa16e10ae7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2124754458}
+      objectReference: {fileID: 2124754460}
     - target: {fileID: 9062066701020958759, guid: cd0ab1d89422e5145a4d32fa16e10ae7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: BackToMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 9062066701020958759, guid: cd0ab1d89422e5145a4d32fa16e10ae7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: BackToMainMenu, Assembly-CSharp
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6359,7 +6363,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2124754459}
-  - component: {fileID: 2124754458}
+  - component: {fileID: 2124754460}
   m_Layer: 5
   m_Name: Menu
   m_TagString: Untagged
@@ -6367,41 +6371,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2124754458
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2124754457}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23097d310ad03294780b01e847cbc574, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  settingsScene:
-    asset: {fileID: 0}
-    guid: 00000000000000000000000000000000
-  howToPlayScene:
-    asset: {fileID: 0}
-    guid: 00000000000000000000000000000000
-  menuScene:
-    asset: {fileID: 102900000, guid: 43ecd976835194448ba599c153a89b6d, type: 3}
-    guid: 43ecd976835194448ba599c153a89b6d
-  playerScene:
-    asset: {fileID: 0}
-    guid: 00000000000000000000000000000000
-  storyModeScene:
-    asset: {fileID: 0}
-    guid: 00000000000000000000000000000000
-  versusModeScene:
-    asset: {fileID: 0}
-    guid: 00000000000000000000000000000000
-  endlessModeScene:
-    asset: {fileID: 0}
-    guid: 00000000000000000000000000000000
-  animator: {fileID: 0}
-  startMode: {fileID: 0}
 --- !u!224 &2124754459
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6421,6 +6390,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2124754460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124754457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18577bbccf03bfc42ab64d112436574f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2132271920
 GameObject:
   m_ObjectHideFlags: 0
