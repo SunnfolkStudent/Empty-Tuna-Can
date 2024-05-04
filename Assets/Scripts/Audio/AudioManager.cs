@@ -2,12 +2,14 @@ using System;
 using FMOD.Studio;
 using FMODUnity;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Utils.Singleton;
 
 namespace Audio {
     public class AudioManager : PersistentSingleton<AudioManager>
     {
         private EventInstance menuMusicInstance;
+        private EventInstance combatMusicInstance;
 
         [Header("Volume")] 
         [Range(0, 1)]
@@ -22,6 +24,11 @@ namespace Audio {
         private Bus sfxBus;
 
         public bool menuMusicPlaying;
+        public bool combatMusicPlaying;
+
+        private Scene currentScene;
+        private string currentSceneName;
+        
         protected override void Awake()
         {
             base.Awake();
@@ -41,6 +48,9 @@ namespace Audio {
             masterVolume = PlayerPrefs.GetFloat("MasterVolume");
             sfxVolume = PlayerPrefs.GetFloat("SFXVolume"); 
             musicVolume = PlayerPrefs.GetFloat("MusicVolume");
+
+            currentScene = SceneManager.GetActiveScene();
+            currentSceneName = currentScene.name;
         }
 
         private void Update()
@@ -48,6 +58,15 @@ namespace Audio {
             masterBus.setVolume(masterVolume);
             musicBus.setVolume(musicVolume);
             sfxBus.setVolume(sfxVolume);
+
+            if (!combatMusicPlaying && SceneManager.GetSceneByName("Area1").isLoaded)
+            {
+                StartCombatMusic(FmodEvents.Instance.CombatMusic);
+            }
+            else if (SceneManager.GetSceneByName("GameOver").isLoaded || SceneManager.GetSceneByName("WinScene").isLoaded)
+            {
+                StopCombatMusic();
+            }
         }
 
         public void PlayOneShot(EventReference sound, Vector3 worldpos)
@@ -72,6 +91,19 @@ namespace Audio {
         {
             menuMusicInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
             menuMusicPlaying = false;
+        }
+
+        public void StartCombatMusic(EventReference combatMusic)
+        {
+            combatMusicInstance = CreateEventInstance(combatMusic);
+            combatMusicInstance.start();
+            combatMusicPlaying = true;
+        }
+
+        public void StopCombatMusic()
+        {
+            combatMusicInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            combatMusicPlaying = false;
         }
     }
 }

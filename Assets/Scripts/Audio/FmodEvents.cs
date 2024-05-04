@@ -12,7 +12,7 @@ namespace Audio {
    
       [field: Header("EventInstances")]
       [field: SerializeField] public EventReference MenuMusic { get; private set; }
-
+      [field: SerializeField] public EventReference CombatMusic { get; private set; }
       private void Update()
       {
          if (Input.GetKeyDown("l"))
