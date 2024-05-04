@@ -61,7 +61,7 @@ namespace Audio {
             musicBus.setVolume(musicVolume);
             sfxBus.setVolume(sfxVolume);
 
-            if (!combatMusicPlaying && SceneManager.GetSceneByName("Area1").isLoaded || SceneManager.GetSceneByName("Area2").isLoaded)
+            if (!combatMusicPlaying && SceneManager.GetSceneByName("Area1").isLoaded || !combatMusicPlaying && SceneManager.GetSceneByName("Area2").isLoaded)
             {
                 StartCombatMusic(FmodEvents.Instance.CombatMusic);
             }
