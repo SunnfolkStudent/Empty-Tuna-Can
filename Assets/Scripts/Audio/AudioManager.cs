@@ -10,6 +10,7 @@ namespace Audio {
     {
         private EventInstance menuMusicInstance;
         private EventInstance combatMusicInstance;
+        private EventInstance bassCombatMusicInstance;
 
         [Header("Volume")] 
         [Range(0, 1)]
@@ -25,7 +26,8 @@ namespace Audio {
 
         public bool menuMusicPlaying;
         public bool combatMusicPlaying;
-
+        public bool bassCombatMusicPlaying;
+        
         private Scene currentScene;
         private string currentSceneName;
         
@@ -59,13 +61,31 @@ namespace Audio {
             musicBus.setVolume(musicVolume);
             sfxBus.setVolume(sfxVolume);
 
-            if (!combatMusicPlaying && SceneManager.GetSceneByName("Area1").isLoaded)
+            if (!combatMusicPlaying && SceneManager.GetSceneByName("Area1").isLoaded || SceneManager.GetSceneByName("Area2").isLoaded)
             {
                 StartCombatMusic(FmodEvents.Instance.CombatMusic);
             }
-            else if (SceneManager.GetSceneByName("GameOver").isLoaded || SceneManager.GetSceneByName("WinScene").isLoaded)
+            else if (SceneManager.GetSceneByName("GameOver").isLoaded || SceneManager.GetSceneByName("WinScene").isLoaded || SceneManager.GetSceneByName("Area3").isLoaded || SceneManager.GetSceneByName("MainMenu").isLoaded)
             {
                 StopCombatMusic();
+            }
+            
+            if (!bassCombatMusicPlaying && SceneManager.GetSceneByName("Area3").isLoaded)
+            {
+                StartBassCombatMusic(FmodEvents.Instance.BassCombatMusic);
+            }
+            else if (SceneManager.GetSceneByName("GameOver").isLoaded || SceneManager.GetSceneByName("WinScene").isLoaded)
+            {
+                StopBassCombatMusic();
+            }
+            
+            if (!menuMusicPlaying && SceneManager.GetSceneByName("MainMenu").isLoaded)
+            {
+                StartMenuMusic(FmodEvents.Instance.MenuMusic);;
+            }
+            else if (SceneManager.GetSceneByName("Area1").isLoaded || SceneManager.GetSceneByName("Area2").isLoaded || SceneManager.GetSceneByName("Area3").isLoaded)
+            {
+                StopMenuMusic();
             }
         }
 
@@ -104,6 +124,19 @@ namespace Audio {
         {
             combatMusicInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
             combatMusicPlaying = false;
+        }
+        
+        public void StartBassCombatMusic(EventReference bassCombatMusic)
+        {
+            bassCombatMusicInstance = CreateEventInstance(bassCombatMusic);
+            bassCombatMusicInstance.start();
+            bassCombatMusicPlaying = true;
+        }
+
+        public void StopBassCombatMusic()
+        {
+            bassCombatMusicInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            bassCombatMusicPlaying = false;
         }
     }
 }

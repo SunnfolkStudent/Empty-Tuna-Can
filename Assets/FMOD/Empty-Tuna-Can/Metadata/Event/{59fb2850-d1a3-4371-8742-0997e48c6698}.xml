@@ -5,7 +5,7 @@
 			<value>EnemyGetHit</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{2803fa81-bfa4-4dcc-a02c-e099703f72e7}</destination>
@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{d523857b-3da9-4c37-99a0-bea17c108903}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{627b625f-accf-4f29-87ac-8bf6c6460da9}</destination>
 		</relationship>
@@ -84,7 +87,7 @@
 	</object>
 	<object class="MultiSound" id="{d433c1c1-6a3c-471d-b054-bec56f6fe132}">
 		<relationship name="sounds">
-			<destination>{0d2340d0-b7e3-4e7f-a9ca-f928a1c2fc8e}</destination>
+			<destination>{1a513f17-233c-4440-95d7-8bc08e51387d}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{2ae14a80-2db8-422d-a429-c647d2592fe3}">
@@ -99,9 +102,9 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f89dd0ad-8ee9-4862-9412-89fd709cdcce}" />
-	<object class="SingleSound" id="{0d2340d0-b7e3-4e7f-a9ca-f928a1c2fc8e}">
+	<object class="SingleSound" id="{1a513f17-233c-4440-95d7-8bc08e51387d}">
 		<relationship name="audioFile">
-			<destination>{6f26faba-4ef9-4454-9d86-0482cb98895f}</destination>
+			<destination>{23ca8e65-f6ec-4f0b-a229-cf252e5e3ed2}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{e29c1c01-2160-4ed7-8b08-cb01ae0df49e}" />

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{537886d9-a9ff-4bdd-92fc-3b267fa715cb}">
+		<property name="assetPath">
+			<value>Metal sound ish.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.3333333333333335</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6dde8ff9-0b46-473a-8f29-a92ea7f05990}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -632,6 +632,10 @@ PrefabInstance:
       value: event:/Music/Combat music
       objectReference: {fileID: 0}
     - target: {fileID: 8283515907487821517, guid: 342b4176064db724db73d7708edc48e4, type: 3}
+      propertyPath: <BassCombatMusic>k__BackingField.Path
+      value: event:/Music/BiggBass Music
+      objectReference: {fileID: 0}
+    - target: {fileID: 8283515907487821517, guid: 342b4176064db724db73d7708edc48e4, type: 3}
       propertyPath: <MenuMusic>k__BackingField.Guid.Data1
       value: 1009400144
       objectReference: {fileID: 0}
@@ -662,6 +666,22 @@ PrefabInstance:
     - target: {fileID: 8283515907487821517, guid: 342b4176064db724db73d7708edc48e4, type: 3}
       propertyPath: <CombatMusic>k__BackingField.Guid.Data4
       value: 363223587
+      objectReference: {fileID: 0}
+    - target: {fileID: 8283515907487821517, guid: 342b4176064db724db73d7708edc48e4, type: 3}
+      propertyPath: <BassCombatMusic>k__BackingField.Guid.Data1
+      value: 1569792847
+      objectReference: {fileID: 0}
+    - target: {fileID: 8283515907487821517, guid: 342b4176064db724db73d7708edc48e4, type: 3}
+      propertyPath: <BassCombatMusic>k__BackingField.Guid.Data2
+      value: 1334627335
+      objectReference: {fileID: 0}
+    - target: {fileID: 8283515907487821517, guid: 342b4176064db724db73d7708edc48e4, type: 3}
+      propertyPath: <BassCombatMusic>k__BackingField.Guid.Data3
+      value: 624550319
+      objectReference: {fileID: 0}
+    - target: {fileID: 8283515907487821517, guid: 342b4176064db724db73d7708edc48e4, type: 3}
+      propertyPath: <BassCombatMusic>k__BackingField.Guid.Data4
+      value: -548910363
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

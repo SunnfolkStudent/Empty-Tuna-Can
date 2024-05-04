@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{23ca8e65-f6ec-4f0b-a229-cf252e5e3ed2}">
+		<property name="assetPath">
+			<value>Kort boblelyd.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6dde8ff9-0b46-473a-8f29-a92ea7f05990}</destination>
+		</relationship>
+	</object>
+</objects>

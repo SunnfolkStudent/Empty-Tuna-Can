@@ -168,6 +168,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18577bbccf03bfc42ab64d112436574f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ButtonClick:
+    Guid:
+      Data1: 108271399
+      Data2: 1218099185
+      Data3: 1021506183
+      Data4: 376350811
+    Path: event:/UI/Button Click
 --- !u!1 &267534939
 GameObject:
   m_ObjectHideFlags: 0
