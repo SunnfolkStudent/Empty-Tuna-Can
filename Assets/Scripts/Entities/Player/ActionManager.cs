@@ -26,7 +26,7 @@ namespace Entities.Player {
                 Index = 0;
             }
         }
-    
+        
         [Header("References")]
         [SerializeField] private Animator animator;
         [SerializeField] private PlayerScript playerScript;
@@ -36,8 +36,7 @@ namespace Entities.Player {
         private void Awake() {
             _combatInputTimer = new Timer(inputBuffer, false);
             _combatInputTimer.OnComplete += ResetCombatActions;
-            moveList = ScrubUtils.GetAllScrubsInResourceFolder<CombatAction>("ComboActions/TestPlayer"); // TODO: Comment out
-        
+            
             _availableCombatActions = moveList.Select(combatAction => new CombatActionInstance(combatAction)).ToList();
 
             foreach (var stateBehaviour in animator.GetBehaviours<StateBehaviour>()) {

@@ -9,7 +9,7 @@ namespace Entities {
     public class EntityManager : MonoBehaviour {
         public static readonly List<Enemy> TestEnemies = new ();
     
-        public static (Vector3 targetPos, Vector3 playerPos) GetTargetPosition(Vector3 position, float range = 1f) {
+        public static (Vector3 targetRelativePos, Vector3 playerRelativePos) GetTargetPosition(Vector3 position, float range = 1f) {
             if (PlayerManager.AlivePlayers.Count == 0) return default;
             var closestPlayer = PlayerManager.AlivePlayers[0];
             for (var index = 1; index < PlayerManager.AlivePlayers.Count; index++) {
@@ -18,7 +18,7 @@ namespace Entities {
                 }
             }
         
-            return (closestPlayer.transform1.position.WithOffset(position.x > closestPlayer.transform1.position.x ? range : -range),
+            return (closestPlayer.transform1.position.WithOffset(x: position.x > closestPlayer.transform1.position.x ? range : -range),
                 closestPlayer.transform1.position - position);
         }
 

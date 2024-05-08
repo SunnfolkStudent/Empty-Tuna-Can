@@ -105,6 +105,8 @@ namespace Entities.Player {
             if (Paused) return;
             moveVector = ctx.ReadValue<Vector2>();
             
+            if (!canMove) return;
+            
             if (moveVector == Vector2.zero || !canMove) {
                 _currentDirection = CombatInput.None;
                 moveVector = Vector2.zero;
@@ -146,7 +148,7 @@ namespace Entities.Player {
         
         #region ***---Item---
         public void OnUseItem(InputAction.CallbackContext ctx) {
-            if (Paused) return;
+            if (Paused || dead) return;
             if (!ctx.performed || inventory.selectedItem.Value.item == null) return;
             inventory.UseSelectedItem(this);
         }

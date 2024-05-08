@@ -55,21 +55,23 @@ namespace Entities {
         private void MoveToPosition() {
             var position = EntityManager.GetTargetPosition(transform.position, attackRange);
             if (position == default) return;
-            CheckIfFlipObject(position.playerPos);
-            direction = (position.targetPos - transform.position).normalized;
+            
+            CheckIfFlipObject(position.playerRelativePos);
+            
+            Debug.Log(position.playerRelativePos, gameObject);
+            
+            if (position.playerRelativePos.With(y: 0, z: 0).magnitude < attackRange + 0.4f && position.playerRelativePos.With(x: 0, z: 0).magnitude < 0.1f) {
+                Debug.Log("Attack", gameObject);
+                Attack();
+                return;
+            }
+            
+            direction = (position.targetRelativePos - transform.position).normalized;
             
             entityMovement.MoveInDirection(direction);
             animator.SetFloat(Speed, direction.magnitude);
+        }
         
-            if (ComparePosition(position.targetPos, transform.position, 0.1f)) {
-                Attack();
-            }
-        }
-    
-        private static bool ComparePosition(Vector3 position1, Vector3 position2, float distance) {
-            return Vector3.Distance(position1, position2) < distance;
-        }
-    
         private void Attack() {
             animator.Play(attacks.GetRandom());
             canMove = false;
